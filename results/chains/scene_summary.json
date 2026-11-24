@@ -1,0 +1,32 @@
+{
+  "two": {
+    "scenes": 144,
+    "branches": 3168,
+    "ordered_path_branch_rate": 0.8939393939393939,
+    "ordered_path_any_action": 1.0,
+    "ordered_path_switch": 1.0,
+    "target_effect_mm": 23.582496643066406,
+    "second_oracle_distance_mm": 8.593782578868524,
+    "second_oracle_success": 0.8055555555555556
+  },
+  "three": {
+    "scenes": 192,
+    "branches": 4224,
+    "ordered_path_branch_rate": 0.6676136363636364,
+    "ordered_path_any_action": 0.96875,
+    "ordered_path_switch": 0.96875,
+    "target_effect_mm": 13.604101181030273,
+    "second_oracle_distance_mm": 11.710560901792883,
+    "second_oracle_success": 0.6666666666666666
+  },
+  "physical": {
+    "scenes": 144,
+    "branches": 3168,
+    "ordered_path_branch_rate": 0.9027777777777778,
+    "ordered_path_any_action": 1.0,
+    "ordered_path_switch": 1.0,
+    "target_effect_mm": 18.76471710205078,
+    "second_oracle_distance_mm": 6.472749252766113,
+    "second_oracle_success": 0.9444444444444444
+  }
+}
