@@ -7,7 +7,7 @@ from pathlib import Path
 
 import numpy as np
 import torch
-from .chain_model import Branches,ContactTransfer,LENGTH,wrap
+from .chain_model import Branches,ContactTransfer,wrap
 
 
 def bank(data):
@@ -106,7 +106,7 @@ def summarize(rows):
                       for i,k in enumerate(keys)}
     rng=np.random.default_rng(20261124)
     contrasts={}
-    for split in ("two","three","physical"):
+    for split in dict.fromkeys(row["split"] for row in rows):
         base=split+"/graph/reflect/mean"
         ix=rng.integers(len(matrices[base]),size=(5000,len(matrices[base])))
         for ref in ("dense/reflect/mean","graph/prior/mean","graph/reflect/paired"):
@@ -122,10 +122,12 @@ def main():
     ap.add_argument('--out',type=Path,default=Path('results/chains'))
     ap.add_argument('--seeds',type=int,nargs='+',default=[11,29,47])
     ap.add_argument('--device',default='cpu')
+    ap.add_argument('--splits',nargs='+',default=['two','three','physical'])
+    ap.add_argument('--prefix',default='')
     args=ap.parse_args()
     torch.set_num_threads(2)
     val=Branches(args.data/'val.npz',args.device)
-    splits={k:Branches(args.data/(k+'.npz'),args.device) for k in ('two','three','physical')}
+    splits={k:Branches(args.data/(k+'.npz'),args.device) for k in args.splits}
     rows=[]
     with torch.no_grad():
         for seed in args.seeds:
@@ -137,11 +139,11 @@ def main():
                 scale=calibrate(model,val)
                 for k,data in splits.items():
                     rows.extend(score(model,data,scale,k,seed,gated))
-    with (args.out/'per_scene.csv').open('w',newline='') as f:
+    with (args.out/(args.prefix+'per_scene.csv')).open('w',newline='') as f:
         w=csv.DictWriter(f,fieldnames=rows[0],lineterminator='\n')
         w.writeheader()
         w.writerows(rows)
-    (args.out/'summary.json').write_text(json.dumps(summarize(rows),indent=2)+'\n')
+    (args.out/(args.prefix+'summary.json')).write_text(json.dumps(summarize(rows),indent=2)+'\n')
 
 
 if __name__=='__main__':

@@ -40,6 +40,7 @@ class PushingScene:
                           physicsClientId=self.client)
         self.rest = self.robot.get_latest_full_state()["end_effector_positions"].reshape(3, 3).copy()
         self.active = 1
+        self.push_angle = 0.
         self.neutral = self.robot.get_latest_full_state()["positions"].copy()
         for _ in range(6):
             self.env.step(self.neutral)
@@ -69,6 +70,7 @@ class PushingScene:
 
     def push(self, action, after_step=None):
         x, y, _ = self.state()
+        pivot = np.array([x, y])
         y += action.offset
         start = x + 0.065
         waypoints = [
@@ -80,6 +82,9 @@ class PushingScene:
         peak_force = 0.
         total_reward = 0.
         for tx, ty, tz, ticks in waypoints:
+            if self.push_angle:
+                cs, sn = np.cos(self.push_angle), np.sin(self.push_angle)
+                tx, ty = pivot + np.array([[cs,-sn],[sn,cs]]) @ (np.array([tx,ty])-pivot)
             tips = self.rest.copy()
             tips[self.active] = [tx, ty, tz]
             q = self.robot.get_latest_full_state()["positions"].copy()
@@ -90,8 +95,8 @@ class PushingScene:
                 total_reward += reward
                 hits = pb.getContactPoints(WorldConstants.ROBOT_ID, self.body,
                                            physicsClientId=self.client)
-                # The second finger comprises the links between the first and second tips.
-                lo, hi = self.robot._finger_tip_ids[:2]
+                hi = self.robot._finger_tip_ids[self.active]
+                lo = self.robot._finger_tip_ids[self.active-1] if self.active else -1
                 force = sum(c[9] for c in hits if lo < c[3] <= hi)
                 peak_force = max(peak_force, force)
                 contact |= force > 0.001

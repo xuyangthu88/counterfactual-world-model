@@ -1,6 +1,4 @@
 """Action-conditioned transfer of pose residuals over a variable-size set of objects."""
-from pathlib import Path
-
 import numpy as np
 import torch
 from torch import nn
@@ -24,7 +22,7 @@ class ContactTransfer(nn.Module):
 
     def forward(self, state, mask, tip, command, physics, noise):
         # All leading dimensions may include scene, candidate and particle axes.
-        # command = world x,y of the start of the stroke and commanded travel.
+        # Command gives the start in the push frame and the commanded travel.
         n = state.shape[-2]
         px,py,yaw,vx,vy,omega = state.unbind(-1)
         def per_node(x):
@@ -83,16 +81,30 @@ class Branches:
             return torch.as_tensor(x,dtype=torch.float32,device=device)
         count=f["count"]
         self.mask=tensor(np.arange(self.n)[None,:]<count[:,None]).bool()
-        self.state=tensor(f["states"][:,:,0,0,:self.n,:])
-        self.end=tensor(f["states"][:,:,:,-1,:self.n,:3])
+        states = f["states"]
+        tips = f["tips"]
+        goal = f["goal"]
+        frame = float(f["frame"]) if "frame" in f else 0.
+        if frame:
+            # Row vectors in world coordinates rotate back to the commanded push axis.
+            c, s = np.cos(frame), np.sin(frame)
+            rotation = np.array([[c, -s], [s, c]])
+            states[..., :2] = states[..., :2] @ rotation
+            states[..., 3:5] = states[..., 3:5] @ rotation
+            yaw = states[..., 2] - frame
+            states[..., 2] = np.arctan2(np.sin(yaw), np.cos(yaw))
+            tips[..., :2] = tips[..., :2] @ rotation
+            goal = goal @ rotation
+        self.state=tensor(states[:,:,0,0,:self.n,:])
+        self.end=tensor(states[:,:,:,-1,:self.n,:3])
         edge=f["edges"].any(axis=3)
         self.hand=tensor(edge[:,:,:,0,:self.n])
         self.pair=tensor(edge[:,:,:,1:self.n+1,:self.n])
         self.physics=tensor(f["physics"])
         self.noise=tensor(f["noise"])
-        self.tip=tensor(f["tips"])
+        self.tip=tensor(tips)
         self.actions=tensor(f["actions"])
-        self.goal=tensor(f["goal"])
+        self.goal=tensor(goal)
         self.probe=int(f["probe"])
         self.target=torch.as_tensor(count-1,device=device)
         self.scale=tensor([LENGTH,LENGTH,1.])
@@ -101,8 +113,8 @@ class Branches:
 
     def inputs(self, ids, time, actions, phys, noise):
         state=self.state[ids,time]
-        # Translate the externally specified source-targeted command into world coordinates;
-        # the learned function sees a world-space command with no object ID.
+        # Translate the source-targeted command into the common push frame.
+        # The learned dynamics see its coordinates without a source object ID.
         source=state[...,0,:2]
         cmd=torch.stack((source[...,0]+.065,source[...,1]+actions[...,0],actions[...,1]),dim=-1)
         return state,self.mask[ids],self.tip[ids,time],cmd,phys,noise
