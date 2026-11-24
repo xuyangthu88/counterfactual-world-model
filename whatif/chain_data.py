@@ -10,12 +10,18 @@ from causal_world.configs.world_constants import WorldConstants
 from .collect import ACTIONS, DISTURBANCE, FRICTION, MASS, PROBE
 from .simulator import PushingScene, Push
 
-# Record object states at push onset and at four subsequent phase boundaries.
+# Record object states at push onset and at five subsequent phase boundaries.
 TICKS = (0, 24, 27, 30, 33, 42)
 SPLITS = {"train": (30000, 600), "val": (31000, 96), "two": (32000, 144),
           "three": (33000, 192), "physical": (34000, 144), "frame0": (35000, 128),
           "frameplus": (35000, 128), "frameminus": (35000, 128)}
 FRAME = {"frameplus": 2*np.pi/3, "frameminus": -2*np.pi/3}
+
+
+# Four real first pushes on the same held-out three-cube layouts, with a fresh
+# second-push disturbance shared across all counterfactual second actions.
+FIRST_ACTION = {"probe32": 4, "probe41": PROBE, "probe54": 1, "probe69": 6}
+SPLITS.update({split: (36000, 192) for split in FIRST_ACTION})
 
 
 class Chain(PushingScene):
@@ -88,7 +94,8 @@ class Chain(PushingScene):
 def episode(job):
     split,seed = job
     rng = np.random.default_rng(seed)
-    n = 3 if split=="three" or split.startswith("frame") else (1 if split=="train" and seed%5==0 else 2)
+    n = 3 if split=="three" or split.startswith("frame") or split in FIRST_ACTION else (1 if split=="train" and seed%5==0 else 2)
+    probe = FIRST_ACTION.get(split, PROBE)
     scene = Chain(rng,n,split=="physical",seed,FRAME.get(split,0.))
     noise = rng.choice(DISTURBANCE,2)
     try:
@@ -105,9 +112,9 @@ def episode(job):
                     states[t,i,:,:n]=np.asarray(st)
                     edges[t,i,:,:n+1,:n]=ed
             if t==0:
-                offset,stroke=ACTIONS[PROBE]
+                offset,stroke=ACTIONS[probe]
                 scene.push(Push(offset,stroke+noise[t]))
-                if not np.allclose(scene.nodes(),states[0,PROBE,-1,:n],atol=2e-5):
+                if not np.allclose(scene.nodes(),states[0,probe,-1,:n],atol=2e-5):
                     raise RuntimeError(f"factual branch did not reproduce in scene {seed}")
         return seed,n,states,edges,scene.particle,noise,scene.target,fingertips
     finally:
@@ -127,7 +134,7 @@ def main():
         with ProcessPoolExecutor(args.workers) as pool:
             rows=list(pool.map(episode,[(split,i) for i in range(start,start+count)]))
         names=("seed","count","states","edges","physics","noise","goal","tips")
-        np.savez_compressed(args.out/(split+".npz"),actions=ACTIONS,ticks=TICKS,probe=PROBE,frame=FRAME.get(split,0.),
+        np.savez_compressed(args.out/(split+".npz"),actions=ACTIONS,ticks=TICKS,probe=FIRST_ACTION.get(split,PROBE),frame=FRAME.get(split,0.),
                             **dict(zip(names,map(np.asarray,zip(*rows)))))
         print(split,count,round(monotonic()-tic,1),flush=True)
 
