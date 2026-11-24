@@ -22,6 +22,12 @@ SETS = {
 }
 
 
+BASE_SETS = tuple(SETS)
+for group, start, count in [('fit', 50000, 192), ('val', 51000, 64), ('test', 52000, 192)]:
+    for length, probe in [(32, 4), (41, 5), (54, 1), (69, 6)]:
+        SETS[f'value_{group}_{length}'] = (start, count, 3, probe, 0., False)
+
+
 def collect(job):
     name, seed = job
     _, _, n, probe, angle, physical = SETS[name]
@@ -30,10 +36,13 @@ def collect(job):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument('--sets', nargs='+', default=list(SETS), choices=SETS)
+    ap.add_argument('--sets', nargs='+', choices=SETS)
     ap.add_argument('--workers', type=int, default=12)
     ap.add_argument('--out', type=Path, default=Path('data/pilot'))
+    ap.add_argument('--value', action='store_true', help='Collect four first actions per layout for value learning')
     args = ap.parse_args()
+    if args.sets is None:
+        args.sets = [k for k in SETS if k.startswith('value_')] if args.value else BASE_SETS
     args.out.mkdir(parents=True, exist_ok=True)
     names = ('seed', 'count', 'states', 'edges', 'physics', 'noise', 'goal', 'tips')
     with ProcessPoolExecutor(args.workers) as pool:
