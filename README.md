@@ -19,7 +19,7 @@
 | 训练用一根手指和至多两块，冻结后换指推三块 | [C2 · 三个动作方向](reports/generalization/04-action-frames.md) |
 | 在新布局上连第一推也由目标驱动的控制器选择 | [C3 · 自适应第一推](reports/generalization/05-adaptive-control.md) |
 
-仅用一、二块训练，三块测试的末块效果误差由均匀先验的 9.50 mm 降到一次事实更新后的 4.86 mm。另一组 192 个新三块布局上，图模型按目标选择第一推后，两推终点距离从 17.81 降到 16.37 mm。同预算稠密关系模型对应为 17.12 和 15.44 mm。全部结果使用相同测试场景配对，分别报告 3 个训练种子。
+仅用单块、双块场景训练，三块测试的末块效果误差由均匀先验的 9.50 mm 降到一次事实更新后的 4.86 mm。另一组 192 个新三块布局上，图模型按目标选择第一推后，两推终点距离从 17.81 降到 16.37 mm。同预算稠密关系模型对应为 17.12 和 15.44 mm。全部结果使用相同测试场景配对，分别报告 3 个训练种子。
 
 [可直接使用的分叉数据](data/chains) · [检查点与逐场景结果](results/chains) · [代码](whatif)
 
@@ -31,7 +31,7 @@
 # 仿真环境；已有仓库中的原始数据时可直接运行后面的命令
 OPENBLAS_NUM_THREADS=1 .venv/bin/python -m whatif.chain_data --workers 12
 python -m whatif.chain_scenes
-# PyTorch 环境；每个种子约 20–24 秒/检查点（L40S），共 6 份
+# PyTorch 环境；约 19–23 秒/检查点（L40S），共 6 份
 python -m whatif.chain_train --device cuda
 python -m whatif.chain_eval --device cuda
 python -m whatif.chain_eval --device cuda --splits frame0 frameplus frameminus --prefix frames_
