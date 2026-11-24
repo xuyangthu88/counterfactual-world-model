@@ -1,0 +1,53 @@
+{
+  "graph_11": {
+    "validation_loss": 0.027145184576511383,
+    "likelihood_scale_probe": [
+      0.002,
+      0.002,
+      0.045
+    ],
+    "contact_balanced_accuracy": 0.9678362573099415
+  },
+  "dense_11": {
+    "validation_loss": 0.028756793588399887,
+    "likelihood_scale_probe": [
+      0.002470281462502049,
+      0.002,
+      0.045
+    ]
+  },
+  "graph_29": {
+    "validation_loss": 0.02685827761888504,
+    "likelihood_scale_probe": [
+      0.0025247297920925334,
+      0.002,
+      0.045
+    ],
+    "contact_balanced_accuracy": 0.9678362573099415
+  },
+  "dense_29": {
+    "validation_loss": 0.028192520141601562,
+    "likelihood_scale_probe": [
+      0.0024739238913316836,
+      0.002,
+      0.045
+    ]
+  },
+  "graph_47": {
+    "validation_loss": 0.02629839815199375,
+    "likelihood_scale_probe": [
+      0.0022020972039394704,
+      0.002,
+      0.045
+    ],
+    "contact_balanced_accuracy": 0.9678362573099415
+  },
+  "dense_47": {
+    "validation_loss": 0.031161285936832428,
+    "likelihood_scale_probe": [
+      0.0020847493630995625,
+      0.002,
+      0.045
+    ]
+  }
+}
