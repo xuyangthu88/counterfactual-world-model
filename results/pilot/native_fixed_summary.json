@@ -1,0 +1,44 @@
+{
+  "P1/corrected": {
+    "distance_mm": 74.08136566397854,
+    "fractional_success": 0.16150488589434184,
+    "layouts": 32,
+    "mean_pushes": 5.0,
+    "success": 0.0
+  },
+  "P1/dense": {
+    "distance_mm": 77.1775963238752,
+    "fractional_success": 0.31428704742964564,
+    "layouts": 32,
+    "mean_pushes": 5.0,
+    "success": 0.03125
+  },
+  "P1/transport": {
+    "distance_mm": 43.021342665223855,
+    "fractional_success": 0.5432096248500521,
+    "layouts": 32,
+    "mean_pushes": 5.0,
+    "success": 0.0
+  },
+  "P2/corrected": {
+    "distance_mm": 40.743086452496726,
+    "fractional_success": 0.57438324551439,
+    "layouts": 32,
+    "mean_pushes": 5.0,
+    "success": 0.03125
+  },
+  "P2/dense": {
+    "distance_mm": 44.277619290558675,
+    "fractional_success": 0.49394849988838985,
+    "layouts": 32,
+    "mean_pushes": 5.0,
+    "success": 0.0625
+  },
+  "P2/transport": {
+    "distance_mm": 24.60671217396113,
+    "fractional_success": 0.637642804551376,
+    "layouts": 32,
+    "mean_pushes": 5.0,
+    "success": 0.09375
+  }
+}

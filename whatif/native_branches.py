@@ -33,8 +33,19 @@ def record(scene):
     return np.array(ends)[:, :, None, :], scores
 
 
+def aim(scene, goal):
+    pos = scene.state()[:2]
+    direction = np.asarray(goal) - pos
+    length = np.linalg.norm(direction)
+    direction = direction / length if length > 1e-8 else np.array([0., 1.])
+    scene.push_angle = np.arctan2(-direction[1], -direction[0])
+    approach = pos - .065*direction
+    scene.active = int(np.linalg.norm(scene.rest[:, :2]-approach, axis=1).argmin())
+
+
 def sample(job):
-    protocol_name, seed, history = job
+    protocol_name, seed, history, *mode = job
+    follow = mode == ['reach']
     task = generate_task(task_generator_id='pushing').get_task_params()
     xy = task['tool_block_position'][:2]
     goal = task['goal_block_position'][:2]
@@ -52,17 +63,24 @@ def sample(job):
         scene.active = int(np.linalg.norm(scene.rest[:, :2] - approach, axis=1).argmin())
         scene.push_angle = ANGLE
         for action in history[:-1]:
+            if follow:
+                aim(scene, goal)
             scene.push(Push(*ACTIONS[action]))
         def tip():
             return scene.robot.get_latest_full_state()['end_effector_positions'].reshape(3,3)[scene.active].copy()
+        if follow:
+            aim(scene, goal)
+        first_frame = scene.push_angle
         before = tip()
         past, _ = record(scene)
         factual = scene.push(Push(*ACTIONS[history[-1]]))
         np.testing.assert_allclose(state(scene), past[history[-1], -1, 0], atol=2e-5, rtol=0)
+        if follow:
+            aim(scene, goal)
         after = tip()
         future, score = record(scene)
         return (np.stack([past, future]), [before,after], goal,
-                float(intervention['tool_block']['mass']), score, float(factual['overlap']))
+                float(intervention['tool_block']['mass']), score, float(factual['overlap']), [first_frame, scene.push_angle])
     finally:
         scene.close()
 
@@ -76,9 +94,9 @@ def main():
     jobs = json.loads(args.jobs.read_text())
     with ProcessPoolExecutor(args.workers) as pool:
         rows = list(pool.map(sample, jobs))
-    states, tips, goals, masses, scores, start_scores = zip(*rows)
+    states, tips, goals, masses, scores, start_scores, frames = zip(*rows)
     np.savez_compressed(args.out, states=states, tips=tips, goals=goals, masses=masses,
-                        scores=scores, start_scores=start_scores, actions=ACTIONS, angle=ANGLE)
+                        scores=scores, start_scores=start_scores, actions=ACTIONS, angle=ANGLE, frames=frames)
 
 
 if __name__ == '__main__':
