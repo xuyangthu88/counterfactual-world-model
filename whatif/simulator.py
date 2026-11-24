@@ -67,7 +67,7 @@ class PushingScene:
             restore()
             env._task._remove_pybullet_state(saved["pybullet_state"])
 
-    def push(self, action):
+    def push(self, action, after_step=None):
         x, y, _ = self.state()
         y += action.offset
         start = x + 0.065
@@ -95,6 +95,8 @@ class PushingScene:
                 force = sum(c[9] for c in hits if lo < c[3] <= hi)
                 peak_force = max(peak_force, force)
                 contact |= force > 0.001
+                if after_step is not None:
+                    after_step()
         return dict(end=self.state(), contact=contact, force=peak_force,
                     overlap=info["fractional_success"], reward=total_reward)
 
