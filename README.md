@@ -5,6 +5,36 @@
 - [场景、数据与协议](reports/01-protocol.md)
 - [模型、复现命令与结果](reports/02-results.md)
 
+## ICML 2027 单种子实验
+
+训练随机种子固定为 11，两个比较方法为状态版事实残差复用、稠密关系物理后验。首先检验只用单块和双块训练时向三块的迁移，然后给各方法增加相同的 320 个三块场景，再将冻结模型部署到 CausalWorld 原生 Pushing。报告同时给出效果差分布、真实终点和策略所选动作。
+
+- [前人研究的场景、反事实真值与控制设置，分批方案](reports/pilot/00-survey.md)
+- [同起点反事实预测，两个基线和校正公式](reports/pilot/01-prediction.md)
+- [固定与自适应首推、第二推动作排序](reports/pilot/02-control.md)
+- [原生 Pushing，P1/P2 质量干预下的五推](reports/pilot/03-native.md)
+- [独立批次的重新定向与终止](reports/pilot/04-steering.md)
+- [以两推终局价值选择第一推](reports/pilot/05-first-value.md)
+- [分支面板](data/pilot) · [权重、逐场景决策与结果](results/pilot)
+
+复现使用下文的 CausalWorld 仿真环境，以及含 PyTorch、NumPy、scikit-learn 1.6.1 与 joblib 的训练环境。已有分叉数据和权重时可直接执行评测。
+
+```bash
+# 生成同一训练种子的新分支与检查点
+OPENBLAS_NUM_THREADS=1 .venv/bin/python -m whatif.pilot_scenes
+OPENBLAS_NUM_THREADS=1 .venv/bin/python -m whatif.pilot_scenes --value --out data/pilot/value
+python -m whatif.pilot_train --phase zero --device cuda
+python -m whatif.pilot_train --phase adapt --device cuda
+python -m whatif.pilot_eval --device cuda
+python -m whatif.pilot_first_value --device cuda
+# 三批原生评测；使用已发布分支，移除 --replay 即重新运行模拟器
+for mode in original fixed reach; do
+  python -m whatif.native_pilot --sim-python .venv/bin/python --mode "$mode" --device cuda --replay
+done
+# 只用已发布的首推价值模型复现确认集
+python -m whatif.pilot_first_value --device cuda --replay
+```
+
 ## 组合接触、换指迁移与两推决策
 
 世界模型共享手指–物体、物体–物体的交互函数，复用同一组权重沿不同长度的接触路径推断。在同一物理粒子上计算两个动作对目标物块的位姿效果之差。观察事实动作的后继后更新物理信念，再按目标距离的预测分布在线选动作。

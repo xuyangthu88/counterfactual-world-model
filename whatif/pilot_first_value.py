@@ -69,7 +69,9 @@ def fit_select(train, val):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--device',default='cpu')
-    ap.add_argument('--replay',action='store_true')
+    options = ap.add_mutually_exclusive_group()
+    options.add_argument('--replay',action='store_true')
+    options.add_argument('--fit-only',action='store_true')
     args = ap.parse_args()
     torch.set_num_threads(2)
     planner = Planner('adapt',args.device)
@@ -79,6 +81,8 @@ def main():
         for model in FAMILIES:
             forest,alpha = fit_select(train[model],val[model])
             joblib.dump((forest,alpha),OUT/f'value-{model}.joblib',compress=3)
+    if args.fit_only:
+        return
     ids,test = group_data('test', planner,args.device)
     ix = np.arange(len(ids))
     boot = np.random.default_rng(11).integers(len(ix),size=(3000,len(ix)))
