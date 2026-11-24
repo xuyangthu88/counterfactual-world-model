@@ -36,8 +36,9 @@ class PushingScene:
         self.stage = self.env.get_stage()
         self.client = self.env._pybullet_client_full_id
         self.body = self.stage.get_rigid_objects()["tool_block"].get_block_ids()[0]
-        pb.changeDynamics(WorldConstants.FLOOR_ID, -1, lateralFriction=float(friction),
-                          physicsClientId=self.client)
+        if friction is not None:
+            pb.changeDynamics(WorldConstants.FLOOR_ID, -1, lateralFriction=float(friction),
+                              physicsClientId=self.client)
         self.rest = self.robot.get_latest_full_state()["end_effector_positions"].reshape(3, 3).copy()
         self.active = 1
         self.push_angle = 0.

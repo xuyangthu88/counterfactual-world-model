@@ -97,9 +97,10 @@ class Branches:
             goal = goal @ rotation
         self.state=tensor(states[:,:,0,0,:self.n,:])
         self.end=tensor(states[:,:,:,-1,:self.n,:3])
-        edge=f["edges"].any(axis=3)
-        self.hand=tensor(edge[:,:,:,0,:self.n])
-        self.pair=tensor(edge[:,:,:,1:self.n+1,:self.n])
+        if "edges" in f:
+            edge=f["edges"].any(axis=3)
+            self.hand=tensor(edge[:,:,:,0,:self.n])
+            self.pair=tensor(edge[:,:,:,1:self.n+1,:self.n])
         self.physics=tensor(f["physics"])
         self.noise=tensor(f["noise"])
         self.tip=tensor(tips)

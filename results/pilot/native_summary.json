@@ -1,0 +1,32 @@
+{
+  "P1/corrected": {
+    "distance_mm": 71.44250767439138,
+    "fractional_success": 0.19948957634434403,
+    "layouts": 32
+  },
+  "P1/dense": {
+    "distance_mm": 75.31637941506528,
+    "fractional_success": 0.2799273491326849,
+    "layouts": 32
+  },
+  "P1/transport": {
+    "distance_mm": 44.883917953890496,
+    "fractional_success": 0.5087448324983737,
+    "layouts": 32
+  },
+  "P2/corrected": {
+    "distance_mm": 41.22040365980621,
+    "fractional_success": 0.5660146925183087,
+    "layouts": 32
+  },
+  "P2/dense": {
+    "distance_mm": 45.25469177374195,
+    "fractional_success": 0.49493409008289324,
+    "layouts": 32
+  },
+  "P2/transport": {
+    "distance_mm": 24.486596780876248,
+    "fractional_success": 0.6422538688174315,
+    "layouts": 32
+  }
+}
