@@ -96,7 +96,11 @@ def episode(job):
     rng = np.random.default_rng(seed)
     n = 3 if split=="three" or split.startswith("frame") or split in FIRST_ACTION else (1 if split=="train" and seed%5==0 else 2)
     probe = FIRST_ACTION.get(split, PROBE)
-    scene = Chain(rng,n,split=="physical",seed,FRAME.get(split,0.))
+    return collect_layout(seed, rng, n, split=="physical", FRAME.get(split,0.), probe)
+
+
+def collect_layout(seed, rng, n, physical, frame, probe):
+    scene = Chain(rng, n, physical, seed, frame)
     noise = rng.choice(DISTURBANCE,2)
     try:
         # The same action command refers to the source cube at the start of each push.
