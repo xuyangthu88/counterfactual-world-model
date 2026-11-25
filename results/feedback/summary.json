@@ -1,0 +1,2229 @@
+{
+ "early": {
+  "pusht": {
+   "arms": {
+    "actor": {
+     "success": 37,
+     "n": 192,
+     "peak": 0.8883829339077541,
+     "terminal": 0.7452621989650652,
+     "G": 0.8232153500284767,
+     "vs_actor": {
+      "rescues": 0,
+      "regressions": 0,
+      "gain": 0.0,
+      "interval": [
+       0.0,
+       0.0
+      ]
+     },
+     "vs_population": {
+      "rescues": 22,
+      "regressions": 36,
+      "gain": -0.07291666666666667,
+      "interval": [
+       -0.15104166666666666,
+       0.005208333333333333
+      ]
+     },
+     "vs_marginal": {
+      "rescues": 20,
+      "regressions": 34,
+      "gain": -0.07291666666666667,
+      "interval": [
+       -0.14583333333333334,
+       0.0
+      ]
+     },
+     "vs_mean": {
+      "rescues": 21,
+      "regressions": 38,
+      "gain": -0.08854166666666667,
+      "interval": [
+       -0.16666666666666666,
+       -0.010416666666666666
+      ]
+     },
+     "vs_law": {
+      "rescues": 21,
+      "regressions": 35,
+      "gain": -0.07291666666666667,
+      "interval": [
+       -0.15104166666666666,
+       0.005208333333333333
+      ]
+     },
+     "vs_stage21": {
+      "rescues": 0,
+      "regressions": 0,
+      "gain": 0.0,
+      "interval": [
+       0.0,
+       0.0
+      ]
+     },
+     "counts": [
+      192,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "population": {
+     "success": 51,
+     "n": 192,
+     "peak": 0.886987649515504,
+     "terminal": 0.7340357966992693,
+     "G": 0.8926277739325693,
+     "vs_actor": {
+      "rescues": 36,
+      "regressions": 22,
+      "gain": 0.07291666666666667,
+      "interval": [
+       -0.005208333333333333,
+       0.15104166666666666
+      ]
+     },
+     "vs_population": {
+      "rescues": 0,
+      "regressions": 0,
+      "gain": 0.0,
+      "interval": [
+       0.0,
+       0.0
+      ]
+     },
+     "vs_marginal": {
+      "rescues": 10,
+      "regressions": 10,
+      "gain": 0.0,
+      "interval": [
+       -0.046875,
+       0.046875
+      ]
+     },
+     "vs_mean": {
+      "rescues": 8,
+      "regressions": 11,
+      "gain": -0.015625,
+      "interval": [
+       -0.0625,
+       0.03125
+      ]
+     },
+     "vs_law": {
+      "rescues": 10,
+      "regressions": 10,
+      "gain": 0.0,
+      "interval": [
+       -0.046875,
+       0.046875
+      ]
+     },
+     "vs_stage21": {
+      "rescues": 36,
+      "regressions": 22,
+      "gain": 0.07291666666666667,
+      "interval": [
+       -0.005208333333333333,
+       0.15104166666666666
+      ]
+     },
+     "counts": [
+      0,
+      192,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "marginal": {
+     "success": 51,
+     "n": 192,
+     "peak": 0.9037939757787777,
+     "terminal": 0.7451586977889141,
+     "G": 0.9038116623366174,
+     "vs_actor": {
+      "rescues": 34,
+      "regressions": 20,
+      "gain": 0.07291666666666667,
+      "interval": [
+       0.0,
+       0.14583333333333334
+      ]
+     },
+     "vs_population": {
+      "rescues": 10,
+      "regressions": 10,
+      "gain": 0.0,
+      "interval": [
+       -0.046875,
+       0.046875
+      ]
+     },
+     "vs_marginal": {
+      "rescues": 0,
+      "regressions": 0,
+      "gain": 0.0,
+      "interval": [
+       0.0,
+       0.0
+      ]
+     },
+     "vs_mean": {
+      "rescues": 5,
+      "regressions": 8,
+      "gain": -0.015625,
+      "interval": [
+       -0.052083333333333336,
+       0.020833333333333332
+      ]
+     },
+     "vs_law": {
+      "rescues": 7,
+      "regressions": 7,
+      "gain": 0.0,
+      "interval": [
+       -0.036458333333333336,
+       0.041666666666666664
+      ]
+     },
+     "vs_stage21": {
+      "rescues": 34,
+      "regressions": 20,
+      "gain": 0.07291666666666667,
+      "interval": [
+       0.0,
+       0.14583333333333334
+      ]
+     },
+     "counts": [
+      25,
+      136,
+      0,
+      16,
+      0,
+      15,
+      0
+     ]
+    },
+    "mean": {
+     "success": 54,
+     "n": 192,
+     "peak": 0.9050542038457934,
+     "terminal": 0.7456824799689153,
+     "G": 0.9201977219151255,
+     "vs_actor": {
+      "rescues": 38,
+      "regressions": 21,
+      "gain": 0.08854166666666667,
+      "interval": [
+       0.010416666666666666,
+       0.16666666666666666
+      ]
+     },
+     "vs_population": {
+      "rescues": 11,
+      "regressions": 8,
+      "gain": 0.015625,
+      "interval": [
+       -0.03125,
+       0.0625
+      ]
+     },
+     "vs_marginal": {
+      "rescues": 8,
+      "regressions": 5,
+      "gain": 0.015625,
+      "interval": [
+       -0.020833333333333332,
+       0.052083333333333336
+      ]
+     },
+     "vs_mean": {
+      "rescues": 0,
+      "regressions": 0,
+      "gain": 0.0,
+      "interval": [
+       0.0,
+       0.0
+      ]
+     },
+     "vs_law": {
+      "rescues": 4,
+      "regressions": 1,
+      "gain": 0.015625,
+      "interval": [
+       -0.005208333333333333,
+       0.041666666666666664
+      ]
+     },
+     "vs_stage21": {
+      "rescues": 38,
+      "regressions": 21,
+      "gain": 0.08854166666666667,
+      "interval": [
+       0.010416666666666666,
+       0.16666666666666666
+      ]
+     },
+     "counts": [
+      9,
+      143,
+      0,
+      23,
+      0,
+      17,
+      0
+     ]
+    },
+    "law": {
+     "success": 51,
+     "n": 192,
+     "peak": 0.9033870516868774,
+     "terminal": 0.7424328497921427,
+     "G": 0.9029267382914744,
+     "vs_actor": {
+      "rescues": 35,
+      "regressions": 21,
+      "gain": 0.07291666666666667,
+      "interval": [
+       -0.005208333333333333,
+       0.15104166666666666
+      ]
+     },
+     "vs_population": {
+      "rescues": 10,
+      "regressions": 10,
+      "gain": 0.0,
+      "interval": [
+       -0.046875,
+       0.046875
+      ]
+     },
+     "vs_marginal": {
+      "rescues": 7,
+      "regressions": 7,
+      "gain": 0.0,
+      "interval": [
+       -0.041666666666666664,
+       0.036458333333333336
+      ]
+     },
+     "vs_mean": {
+      "rescues": 1,
+      "regressions": 4,
+      "gain": -0.015625,
+      "interval": [
+       -0.041666666666666664,
+       0.005208333333333333
+      ]
+     },
+     "vs_law": {
+      "rescues": 0,
+      "regressions": 0,
+      "gain": 0.0,
+      "interval": [
+       0.0,
+       0.0
+      ]
+     },
+     "vs_stage21": {
+      "rescues": 35,
+      "regressions": 21,
+      "gain": 0.07291666666666667,
+      "interval": [
+       -0.005208333333333333,
+       0.15104166666666666
+      ]
+     },
+     "counts": [
+      13,
+      138,
+      0,
+      21,
+      0,
+      20,
+      0
+     ]
+    },
+    "kl": {
+     "success": 52,
+     "n": 192,
+     "peak": 0.903943534620339,
+     "terminal": 0.7416411450443169,
+     "G": 0.908215386904582,
+     "vs_actor": {
+      "rescues": 36,
+      "regressions": 21,
+      "gain": 0.078125,
+      "interval": [
+       0.0,
+       0.15625
+      ]
+     },
+     "vs_population": {
+      "rescues": 10,
+      "regressions": 9,
+      "gain": 0.005208333333333333,
+      "interval": [
+       -0.041666666666666664,
+       0.046875
+      ]
+     },
+     "vs_marginal": {
+      "rescues": 7,
+      "regressions": 6,
+      "gain": 0.005208333333333333,
+      "interval": [
+       -0.03125,
+       0.041666666666666664
+      ]
+     },
+     "vs_mean": {
+      "rescues": 1,
+      "regressions": 3,
+      "gain": -0.010416666666666666,
+      "interval": [
+       -0.03125,
+       0.010416666666666666
+      ]
+     },
+     "vs_law": {
+      "rescues": 1,
+      "regressions": 0,
+      "gain": 0.005208333333333333,
+      "interval": [
+       0.0,
+       0.015625
+      ]
+     },
+     "vs_stage21": {
+      "rescues": 36,
+      "regressions": 21,
+      "gain": 0.078125,
+      "interval": [
+       0.0,
+       0.15625
+      ]
+     },
+     "counts": [
+      12,
+      140,
+      0,
+      21,
+      0,
+      19,
+      0
+     ]
+    },
+    "stage21": {
+     "success": 37,
+     "n": 192,
+     "peak": 0.8883829339077541,
+     "terminal": 0.7456533320946619,
+     "G": 0.8233131333108759,
+     "vs_actor": {
+      "rescues": 0,
+      "regressions": 0,
+      "gain": 0.0,
+      "interval": [
+       0.0,
+       0.0
+      ]
+     },
+     "vs_population": {
+      "rescues": 22,
+      "regressions": 36,
+      "gain": -0.07291666666666667,
+      "interval": [
+       -0.15104166666666666,
+       0.005208333333333333
+      ]
+     },
+     "vs_marginal": {
+      "rescues": 20,
+      "regressions": 34,
+      "gain": -0.07291666666666667,
+      "interval": [
+       -0.14583333333333334,
+       0.0
+      ]
+     },
+     "vs_mean": {
+      "rescues": 21,
+      "regressions": 38,
+      "gain": -0.08854166666666667,
+      "interval": [
+       -0.16666666666666666,
+       -0.010416666666666666
+      ]
+     },
+     "vs_law": {
+      "rescues": 21,
+      "regressions": 35,
+      "gain": -0.07291666666666667,
+      "interval": [
+       -0.15104166666666666,
+       0.005208333333333333
+      ]
+     },
+     "vs_stage21": {
+      "rescues": 0,
+      "regressions": 0,
+      "gain": 0.0,
+      "interval": [
+       0.0,
+       0.0
+      ]
+     }
+    },
+    "pets": {
+     "success": 37,
+     "n": 192,
+     "peak": 0.8883829339077541,
+     "terminal": 0.7452621989650652,
+     "G": 0.8232153500284767,
+     "vs_actor": {
+      "rescues": 0,
+      "regressions": 0,
+      "gain": 0.0,
+      "interval": [
+       0.0,
+       0.0
+      ]
+     },
+     "vs_population": {
+      "rescues": 22,
+      "regressions": 36,
+      "gain": -0.07291666666666667,
+      "interval": [
+       -0.15104166666666666,
+       0.005208333333333333
+      ]
+     },
+     "vs_marginal": {
+      "rescues": 20,
+      "regressions": 34,
+      "gain": -0.07291666666666667,
+      "interval": [
+       -0.14583333333333334,
+       0.0
+      ]
+     },
+     "vs_mean": {
+      "rescues": 21,
+      "regressions": 38,
+      "gain": -0.08854166666666667,
+      "interval": [
+       -0.16666666666666666,
+       -0.010416666666666666
+      ]
+     },
+     "vs_law": {
+      "rescues": 21,
+      "regressions": 35,
+      "gain": -0.07291666666666667,
+      "interval": [
+       -0.15104166666666666,
+       0.005208333333333333
+      ]
+     },
+     "vs_stage21": {
+      "rescues": 0,
+      "regressions": 0,
+      "gain": 0.0,
+      "interval": [
+       0.0,
+       0.0
+      ]
+     }
+    }
+   },
+   "distinct_native_episodes": 430,
+   "kl_disagreements": {
+    "law": 2,
+    "mean": 7,
+    "marginal": 34
+   },
+   "live": 192
+  },
+  "causalworld": {
+   "arms": {
+    "actor": {
+     "success": 74,
+     "n": 192,
+     "peak": 0.5728124785916103,
+     "terminal": 0.42540331281876814,
+     "G": 0.7781737341671638,
+     "vs_actor": {
+      "rescues": 0,
+      "regressions": 0,
+      "gain": 0.0,
+      "interval": [
+       0.0,
+       0.0
+      ]
+     },
+     "vs_population": {
+      "rescues": 14,
+      "regressions": 67,
+      "gain": -0.2760416666666667,
+      "interval": [
+       -0.359375,
+       -0.19270833333333334
+      ]
+     },
+     "vs_marginal": {
+      "rescues": 9,
+      "regressions": 85,
+      "gain": -0.3958333333333333,
+      "interval": [
+       -0.4739583333333333,
+       -0.3125
+      ]
+     },
+     "vs_mean": {
+      "rescues": 8,
+      "regressions": 84,
+      "gain": -0.3958333333333333,
+      "interval": [
+       -0.4739583333333333,
+       -0.3125
+      ]
+     },
+     "vs_law": {
+      "rescues": 8,
+      "regressions": 84,
+      "gain": -0.3958333333333333,
+      "interval": [
+       -0.4739583333333333,
+       -0.3125
+      ]
+     },
+     "vs_stage21": {
+      "rescues": 3,
+      "regressions": 76,
+      "gain": -0.3802083333333333,
+      "interval": [
+       -0.453125,
+       -0.3020833333333333
+      ]
+     },
+     "counts": [
+      189,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "population": {
+     "success": 127,
+     "n": 192,
+     "peak": 0.7698907009907998,
+     "terminal": 0.673712027996468,
+     "G": 1.2148316908278503,
+     "vs_actor": {
+      "rescues": 67,
+      "regressions": 14,
+      "gain": 0.2760416666666667,
+      "interval": [
+       0.19270833333333334,
+       0.359375
+      ]
+     },
+     "vs_population": {
+      "rescues": 0,
+      "regressions": 0,
+      "gain": 0.0,
+      "interval": [
+       0.0,
+       0.0
+      ]
+     },
+     "vs_marginal": {
+      "rescues": 4,
+      "regressions": 27,
+      "gain": -0.11979166666666667,
+      "interval": [
+       -0.17708333333333334,
+       -0.06770833333333333
+      ]
+     },
+     "vs_mean": {
+      "rescues": 6,
+      "regressions": 29,
+      "gain": -0.11979166666666667,
+      "interval": [
+       -0.17708333333333334,
+       -0.0625
+      ]
+     },
+     "vs_law": {
+      "rescues": 6,
+      "regressions": 29,
+      "gain": -0.11979166666666667,
+      "interval": [
+       -0.17708333333333334,
+       -0.0625
+      ]
+     },
+     "vs_stage21": {
+      "rescues": 12,
+      "regressions": 32,
+      "gain": -0.10416666666666667,
+      "interval": [
+       -0.171875,
+       -0.036458333333333336
+      ]
+     },
+     "counts": [
+      0,
+      189,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "marginal": {
+     "success": 150,
+     "n": 192,
+     "peak": 0.8031438834150322,
+     "terminal": 0.7561313852784224,
+     "G": 1.3718547880271217,
+     "vs_actor": {
+      "rescues": 85,
+      "regressions": 9,
+      "gain": 0.3958333333333333,
+      "interval": [
+       0.3125,
+       0.4739583333333333
+      ]
+     },
+     "vs_population": {
+      "rescues": 27,
+      "regressions": 4,
+      "gain": 0.11979166666666667,
+      "interval": [
+       0.06770833333333333,
+       0.17708333333333334
+      ]
+     },
+     "vs_marginal": {
+      "rescues": 0,
+      "regressions": 0,
+      "gain": 0.0,
+      "interval": [
+       0.0,
+       0.0
+      ]
+     },
+     "vs_mean": {
+      "rescues": 3,
+      "regressions": 3,
+      "gain": 0.0,
+      "interval": [
+       -0.026041666666666668,
+       0.026041666666666668
+      ]
+     },
+     "vs_law": {
+      "rescues": 3,
+      "regressions": 3,
+      "gain": 0.0,
+      "interval": [
+       -0.026041666666666668,
+       0.026041666666666668
+      ]
+     },
+     "vs_stage21": {
+      "rescues": 12,
+      "regressions": 9,
+      "gain": 0.015625,
+      "interval": [
+       -0.03125,
+       0.0625
+      ]
+     },
+     "counts": [
+      6,
+      58,
+      11,
+      4,
+      100,
+      1,
+      9
+     ]
+    },
+    "mean": {
+     "success": 150,
+     "n": 192,
+     "peak": 0.8020584273011385,
+     "terminal": 0.7562330557654301,
+     "G": 1.3713374775919267,
+     "vs_actor": {
+      "rescues": 84,
+      "regressions": 8,
+      "gain": 0.3958333333333333,
+      "interval": [
+       0.3125,
+       0.4739583333333333
+      ]
+     },
+     "vs_population": {
+      "rescues": 29,
+      "regressions": 6,
+      "gain": 0.11979166666666667,
+      "interval": [
+       0.0625,
+       0.17708333333333334
+      ]
+     },
+     "vs_marginal": {
+      "rescues": 3,
+      "regressions": 3,
+      "gain": 0.0,
+      "interval": [
+       -0.026041666666666668,
+       0.026041666666666668
+      ]
+     },
+     "vs_mean": {
+      "rescues": 0,
+      "regressions": 0,
+      "gain": 0.0,
+      "interval": [
+       0.0,
+       0.0
+      ]
+     },
+     "vs_law": {
+      "rescues": 0,
+      "regressions": 0,
+      "gain": 0.0,
+      "interval": [
+       0.0,
+       0.0
+      ]
+     },
+     "vs_stage21": {
+      "rescues": 12,
+      "regressions": 9,
+      "gain": 0.015625,
+      "interval": [
+       -0.03125,
+       0.0625
+      ]
+     },
+     "counts": [
+      13,
+      50,
+      15,
+      2,
+      100,
+      4,
+      5
+     ]
+    },
+    "law": {
+     "success": 150,
+     "n": 192,
+     "peak": 0.8021558579227227,
+     "terminal": 0.7563304863870144,
+     "G": 1.371410550558115,
+     "vs_actor": {
+      "rescues": 84,
+      "regressions": 8,
+      "gain": 0.3958333333333333,
+      "interval": [
+       0.3125,
+       0.4739583333333333
+      ]
+     },
+     "vs_population": {
+      "rescues": 29,
+      "regressions": 6,
+      "gain": 0.11979166666666667,
+      "interval": [
+       0.0625,
+       0.17708333333333334
+      ]
+     },
+     "vs_marginal": {
+      "rescues": 3,
+      "regressions": 3,
+      "gain": 0.0,
+      "interval": [
+       -0.026041666666666668,
+       0.026041666666666668
+      ]
+     },
+     "vs_mean": {
+      "rescues": 0,
+      "regressions": 0,
+      "gain": 0.0,
+      "interval": [
+       0.0,
+       0.0
+      ]
+     },
+     "vs_law": {
+      "rescues": 0,
+      "regressions": 0,
+      "gain": 0.0,
+      "interval": [
+       0.0,
+       0.0
+      ]
+     },
+     "vs_stage21": {
+      "rescues": 12,
+      "regressions": 9,
+      "gain": 0.015625,
+      "interval": [
+       -0.03125,
+       0.0625
+      ]
+     },
+     "counts": [
+      12,
+      50,
+      15,
+      3,
+      100,
+      4,
+      5
+     ]
+    },
+    "kl": {
+     "success": 150,
+     "n": 192,
+     "peak": 0.8021558579227227,
+     "terminal": 0.7563304863870144,
+     "G": 1.371410550558115,
+     "vs_actor": {
+      "rescues": 84,
+      "regressions": 8,
+      "gain": 0.3958333333333333,
+      "interval": [
+       0.3125,
+       0.4739583333333333
+      ]
+     },
+     "vs_population": {
+      "rescues": 29,
+      "regressions": 6,
+      "gain": 0.11979166666666667,
+      "interval": [
+       0.0625,
+       0.17708333333333334
+      ]
+     },
+     "vs_marginal": {
+      "rescues": 3,
+      "regressions": 3,
+      "gain": 0.0,
+      "interval": [
+       -0.026041666666666668,
+       0.026041666666666668
+      ]
+     },
+     "vs_mean": {
+      "rescues": 0,
+      "regressions": 0,
+      "gain": 0.0,
+      "interval": [
+       0.0,
+       0.0
+      ]
+     },
+     "vs_law": {
+      "rescues": 0,
+      "regressions": 0,
+      "gain": 0.0,
+      "interval": [
+       0.0,
+       0.0
+      ]
+     },
+     "vs_stage21": {
+      "rescues": 12,
+      "regressions": 9,
+      "gain": 0.015625,
+      "interval": [
+       -0.03125,
+       0.0625
+      ]
+     },
+     "counts": [
+      12,
+      50,
+      15,
+      3,
+      100,
+      4,
+      5
+     ]
+    },
+    "stage21": {
+     "success": 147,
+     "n": 192,
+     "peak": 0.7927531818398469,
+     "terminal": 0.7590314397966722,
+     "G": 1.3517594508690916,
+     "vs_actor": {
+      "rescues": 76,
+      "regressions": 3,
+      "gain": 0.3802083333333333,
+      "interval": [
+       0.3020833333333333,
+       0.453125
+      ]
+     },
+     "vs_population": {
+      "rescues": 32,
+      "regressions": 12,
+      "gain": 0.10416666666666667,
+      "interval": [
+       0.036458333333333336,
+       0.171875
+      ]
+     },
+     "vs_marginal": {
+      "rescues": 9,
+      "regressions": 12,
+      "gain": -0.015625,
+      "interval": [
+       -0.0625,
+       0.03125
+      ]
+     },
+     "vs_mean": {
+      "rescues": 9,
+      "regressions": 12,
+      "gain": -0.015625,
+      "interval": [
+       -0.0625,
+       0.03125
+      ]
+     },
+     "vs_law": {
+      "rescues": 9,
+      "regressions": 12,
+      "gain": -0.015625,
+      "interval": [
+       -0.0625,
+       0.03125
+      ]
+     },
+     "vs_stage21": {
+      "rescues": 0,
+      "regressions": 0,
+      "gain": 0.0,
+      "interval": [
+       0.0,
+       0.0
+      ]
+     }
+    },
+    "pets": {
+     "success": 91,
+     "n": 192,
+     "peak": 0.5938059030886507,
+     "terminal": 0.5350778207794065,
+     "G": 0.9046307400725103,
+     "vs_actor": {
+      "rescues": 32,
+      "regressions": 15,
+      "gain": 0.08854166666666667,
+      "interval": [
+       0.020833333333333332,
+       0.15625
+      ]
+     },
+     "vs_population": {
+      "rescues": 16,
+      "regressions": 52,
+      "gain": -0.1875,
+      "interval": [
+       -0.265625,
+       -0.109375
+      ]
+     },
+     "vs_marginal": {
+      "rescues": 8,
+      "regressions": 67,
+      "gain": -0.3072916666666667,
+      "interval": [
+       -0.3854166666666667,
+       -0.22916666666666666
+      ]
+     },
+     "vs_mean": {
+      "rescues": 7,
+      "regressions": 66,
+      "gain": -0.3072916666666667,
+      "interval": [
+       -0.3854166666666667,
+       -0.22916666666666666
+      ]
+     },
+     "vs_law": {
+      "rescues": 7,
+      "regressions": 66,
+      "gain": -0.3072916666666667,
+      "interval": [
+       -0.3854166666666667,
+       -0.22916666666666666
+      ]
+     },
+     "vs_stage21": {
+      "rescues": 6,
+      "regressions": 62,
+      "gain": -0.2916666666666667,
+      "interval": [
+       -0.3645833333333333,
+       -0.21875
+      ]
+     }
+    }
+   },
+   "distinct_native_episodes": 530,
+   "kl_disagreements": {
+    "law": 0,
+    "mean": 1,
+    "marginal": 34
+   },
+   "live": 189
+  }
+ },
+ "late": {
+  "pusht": {
+   "arms": {
+    "actor": {
+     "success": 37,
+     "n": 192,
+     "peak": 0.8883829339077541,
+     "terminal": 0.7452621989650652,
+     "G": 0.8232153500284767,
+     "vs_actor": {
+      "rescues": 0,
+      "regressions": 0,
+      "gain": 0.0,
+      "interval": [
+       0.0,
+       0.0
+      ]
+     },
+     "vs_population": {
+      "rescues": 19,
+      "regressions": 17,
+      "gain": 0.010416666666666666,
+      "interval": [
+       -0.052083333333333336,
+       0.07291666666666667
+      ]
+     },
+     "vs_marginal": {
+      "rescues": 9,
+      "regressions": 22,
+      "gain": -0.06770833333333333,
+      "interval": [
+       -0.125,
+       -0.010416666666666666
+      ]
+     },
+     "vs_mean": {
+      "rescues": 10,
+      "regressions": 21,
+      "gain": -0.057291666666666664,
+      "interval": [
+       -0.11458333333333333,
+       0.0
+      ]
+     },
+     "vs_law": {
+      "rescues": 9,
+      "regressions": 22,
+      "gain": -0.06770833333333333,
+      "interval": [
+       -0.125,
+       -0.010416666666666666
+      ]
+     },
+     "vs_stage21": {
+      "rescues": 0,
+      "regressions": 0,
+      "gain": 0.0,
+      "interval": [
+       0.0,
+       0.0
+      ]
+     },
+     "counts": [
+      181,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "population": {
+     "success": 35,
+     "n": 192,
+     "peak": 0.8836062069652447,
+     "terminal": 0.6661826957909701,
+     "G": 0.7906404440970315,
+     "vs_actor": {
+      "rescues": 17,
+      "regressions": 19,
+      "gain": -0.010416666666666666,
+      "interval": [
+       -0.07291666666666667,
+       0.052083333333333336
+      ]
+     },
+     "vs_population": {
+      "rescues": 0,
+      "regressions": 0,
+      "gain": 0.0,
+      "interval": [
+       0.0,
+       0.0
+      ]
+     },
+     "vs_marginal": {
+      "rescues": 12,
+      "regressions": 27,
+      "gain": -0.078125,
+      "interval": [
+       -0.140625,
+       -0.015625
+      ]
+     },
+     "vs_mean": {
+      "rescues": 11,
+      "regressions": 24,
+      "gain": -0.06770833333333333,
+      "interval": [
+       -0.125,
+       -0.010416666666666666
+      ]
+     },
+     "vs_law": {
+      "rescues": 11,
+      "regressions": 26,
+      "gain": -0.078125,
+      "interval": [
+       -0.13541666666666666,
+       -0.020833333333333332
+      ]
+     },
+     "vs_stage21": {
+      "rescues": 17,
+      "regressions": 19,
+      "gain": -0.010416666666666666,
+      "interval": [
+       -0.07291666666666667,
+       0.052083333333333336
+      ]
+     },
+     "counts": [
+      0,
+      0,
+      0,
+      181,
+      0,
+      0,
+      0
+     ]
+    },
+    "marginal": {
+     "success": 50,
+     "n": 192,
+     "peak": 0.8905645467651387,
+     "terminal": 0.7209525375704592,
+     "G": 0.8859370744418508,
+     "vs_actor": {
+      "rescues": 22,
+      "regressions": 9,
+      "gain": 0.06770833333333333,
+      "interval": [
+       0.010416666666666666,
+       0.125
+      ]
+     },
+     "vs_population": {
+      "rescues": 27,
+      "regressions": 12,
+      "gain": 0.078125,
+      "interval": [
+       0.015625,
+       0.140625
+      ]
+     },
+     "vs_marginal": {
+      "rescues": 0,
+      "regressions": 0,
+      "gain": 0.0,
+      "interval": [
+       0.0,
+       0.0
+      ]
+     },
+     "vs_mean": {
+      "rescues": 7,
+      "regressions": 5,
+      "gain": 0.010416666666666666,
+      "interval": [
+       -0.026041666666666668,
+       0.046875
+      ]
+     },
+     "vs_law": {
+      "rescues": 5,
+      "regressions": 5,
+      "gain": 0.0,
+      "interval": [
+       -0.03125,
+       0.03125
+      ]
+     },
+     "vs_stage21": {
+      "rescues": 22,
+      "regressions": 9,
+      "gain": 0.06770833333333333,
+      "interval": [
+       0.010416666666666666,
+       0.125
+      ]
+     },
+     "counts": [
+      62,
+      24,
+      0,
+      8,
+      6,
+      5,
+      76
+     ]
+    },
+    "mean": {
+     "success": 48,
+     "n": 192,
+     "peak": 0.8973316124950846,
+     "terminal": 0.7168785395042505,
+     "G": 0.8778854411236049,
+     "vs_actor": {
+      "rescues": 21,
+      "regressions": 10,
+      "gain": 0.057291666666666664,
+      "interval": [
+       0.0,
+       0.11458333333333333
+      ]
+     },
+     "vs_population": {
+      "rescues": 24,
+      "regressions": 11,
+      "gain": 0.06770833333333333,
+      "interval": [
+       0.010416666666666666,
+       0.125
+      ]
+     },
+     "vs_marginal": {
+      "rescues": 5,
+      "regressions": 7,
+      "gain": -0.010416666666666666,
+      "interval": [
+       -0.046875,
+       0.026041666666666668
+      ]
+     },
+     "vs_mean": {
+      "rescues": 0,
+      "regressions": 0,
+      "gain": 0.0,
+      "interval": [
+       0.0,
+       0.0
+      ]
+     },
+     "vs_law": {
+      "rescues": 0,
+      "regressions": 2,
+      "gain": -0.010416666666666666,
+      "interval": [
+       -0.026041666666666668,
+       0.0
+      ]
+     },
+     "vs_stage21": {
+      "rescues": 21,
+      "regressions": 10,
+      "gain": 0.057291666666666664,
+      "interval": [
+       0.0,
+       0.11458333333333333
+      ]
+     },
+     "counts": [
+      49,
+      16,
+      2,
+      18,
+      19,
+      6,
+      71
+     ]
+    },
+    "law": {
+     "success": 50,
+     "n": 192,
+     "peak": 0.8956785034388304,
+     "terminal": 0.7212296071714567,
+     "G": 0.888563320178946,
+     "vs_actor": {
+      "rescues": 22,
+      "regressions": 9,
+      "gain": 0.06770833333333333,
+      "interval": [
+       0.010416666666666666,
+       0.125
+      ]
+     },
+     "vs_population": {
+      "rescues": 26,
+      "regressions": 11,
+      "gain": 0.078125,
+      "interval": [
+       0.020833333333333332,
+       0.13541666666666666
+      ]
+     },
+     "vs_marginal": {
+      "rescues": 5,
+      "regressions": 5,
+      "gain": 0.0,
+      "interval": [
+       -0.03125,
+       0.03125
+      ]
+     },
+     "vs_mean": {
+      "rescues": 2,
+      "regressions": 0,
+      "gain": 0.010416666666666666,
+      "interval": [
+       0.0,
+       0.026041666666666668
+      ]
+     },
+     "vs_law": {
+      "rescues": 0,
+      "regressions": 0,
+      "gain": 0.0,
+      "interval": [
+       0.0,
+       0.0
+      ]
+     },
+     "vs_stage21": {
+      "rescues": 22,
+      "regressions": 9,
+      "gain": 0.06770833333333333,
+      "interval": [
+       0.010416666666666666,
+       0.125
+      ]
+     },
+     "counts": [
+      54,
+      21,
+      2,
+      14,
+      15,
+      6,
+      69
+     ]
+    },
+    "kl": {
+     "success": 49,
+     "n": 192,
+     "peak": 0.8953909187888106,
+     "terminal": 0.7206430453128027,
+     "G": 0.8830645540559393,
+     "vs_actor": {
+      "rescues": 21,
+      "regressions": 9,
+      "gain": 0.0625,
+      "interval": [
+       0.005208333333333333,
+       0.11979166666666667
+      ]
+     },
+     "vs_population": {
+      "rescues": 25,
+      "regressions": 11,
+      "gain": 0.07291666666666667,
+      "interval": [
+       0.015625,
+       0.13020833333333334
+      ]
+     },
+     "vs_marginal": {
+      "rescues": 5,
+      "regressions": 6,
+      "gain": -0.005208333333333333,
+      "interval": [
+       -0.041666666666666664,
+       0.026041666666666668
+      ]
+     },
+     "vs_mean": {
+      "rescues": 1,
+      "regressions": 0,
+      "gain": 0.005208333333333333,
+      "interval": [
+       0.0,
+       0.015625
+      ]
+     },
+     "vs_law": {
+      "rescues": 0,
+      "regressions": 1,
+      "gain": -0.005208333333333333,
+      "interval": [
+       -0.015625,
+       0.0
+      ]
+     },
+     "vs_stage21": {
+      "rescues": 21,
+      "regressions": 9,
+      "gain": 0.0625,
+      "interval": [
+       0.005208333333333333,
+       0.11979166666666667
+      ]
+     },
+     "counts": [
+      54,
+      20,
+      2,
+      15,
+      15,
+      6,
+      69
+     ]
+    },
+    "stage21": {
+     "success": 37,
+     "n": 192,
+     "peak": 0.8883829339077541,
+     "terminal": 0.7456533320946619,
+     "G": 0.8233131333108759,
+     "vs_actor": {
+      "rescues": 0,
+      "regressions": 0,
+      "gain": 0.0,
+      "interval": [
+       0.0,
+       0.0
+      ]
+     },
+     "vs_population": {
+      "rescues": 19,
+      "regressions": 17,
+      "gain": 0.010416666666666666,
+      "interval": [
+       -0.052083333333333336,
+       0.07291666666666667
+      ]
+     },
+     "vs_marginal": {
+      "rescues": 9,
+      "regressions": 22,
+      "gain": -0.06770833333333333,
+      "interval": [
+       -0.125,
+       -0.010416666666666666
+      ]
+     },
+     "vs_mean": {
+      "rescues": 10,
+      "regressions": 21,
+      "gain": -0.057291666666666664,
+      "interval": [
+       -0.11458333333333333,
+       0.0
+      ]
+     },
+     "vs_law": {
+      "rescues": 9,
+      "regressions": 22,
+      "gain": -0.06770833333333333,
+      "interval": [
+       -0.125,
+       -0.010416666666666666
+      ]
+     },
+     "vs_stage21": {
+      "rescues": 0,
+      "regressions": 0,
+      "gain": 0.0,
+      "interval": [
+       0.0,
+       0.0
+      ]
+     }
+    },
+    "pets": {
+     "success": 37,
+     "n": 192,
+     "peak": 0.8883829339077541,
+     "terminal": 0.7452621989650652,
+     "G": 0.8232153500284767,
+     "vs_actor": {
+      "rescues": 0,
+      "regressions": 0,
+      "gain": 0.0,
+      "interval": [
+       0.0,
+       0.0
+      ]
+     },
+     "vs_population": {
+      "rescues": 19,
+      "regressions": 17,
+      "gain": 0.010416666666666666,
+      "interval": [
+       -0.052083333333333336,
+       0.07291666666666667
+      ]
+     },
+     "vs_marginal": {
+      "rescues": 9,
+      "regressions": 22,
+      "gain": -0.06770833333333333,
+      "interval": [
+       -0.125,
+       -0.010416666666666666
+      ]
+     },
+     "vs_mean": {
+      "rescues": 10,
+      "regressions": 21,
+      "gain": -0.057291666666666664,
+      "interval": [
+       -0.11458333333333333,
+       0.0
+      ]
+     },
+     "vs_law": {
+      "rescues": 9,
+      "regressions": 22,
+      "gain": -0.06770833333333333,
+      "interval": [
+       -0.125,
+       -0.010416666666666666
+      ]
+     },
+     "vs_stage21": {
+      "rescues": 0,
+      "regressions": 0,
+      "gain": 0.0,
+      "interval": [
+       0.0,
+       0.0
+      ]
+     }
+    }
+   },
+   "distinct_native_episodes": 531,
+   "kl_disagreements": {
+    "law": 2,
+    "mean": 13,
+    "marginal": 47
+   },
+   "live": 181
+  },
+  "causalworld": {
+   "arms": {
+    "actor": {
+     "success": 74,
+     "n": 192,
+     "peak": 0.5728124785916103,
+     "terminal": 0.42540331281876814,
+     "G": 0.7781737341671638,
+     "vs_actor": {
+      "rescues": 0,
+      "regressions": 0,
+      "gain": 0.0,
+      "interval": [
+       0.0,
+       0.0
+      ]
+     },
+     "vs_population": {
+      "rescues": 3,
+      "regressions": 6,
+      "gain": -0.015625,
+      "interval": [
+       -0.046875,
+       0.015625
+      ]
+     },
+     "vs_marginal": {
+      "rescues": 4,
+      "regressions": 16,
+      "gain": -0.0625,
+      "interval": [
+       -0.109375,
+       -0.020833333333333332
+      ]
+     },
+     "vs_mean": {
+      "rescues": 3,
+      "regressions": 18,
+      "gain": -0.078125,
+      "interval": [
+       -0.125,
+       -0.036458333333333336
+      ]
+     },
+     "vs_law": {
+      "rescues": 3,
+      "regressions": 19,
+      "gain": -0.08333333333333333,
+      "interval": [
+       -0.13020833333333334,
+       -0.036458333333333336
+      ]
+     },
+     "vs_stage21": {
+      "rescues": 3,
+      "regressions": 76,
+      "gain": -0.3802083333333333,
+      "interval": [
+       -0.453125,
+       -0.3020833333333333
+      ]
+     },
+     "counts": [
+      128,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    "population": {
+     "success": 77,
+     "n": 192,
+     "peak": 0.5868756208292325,
+     "terminal": 0.43676463691614725,
+     "G": 0.8036706363103198,
+     "vs_actor": {
+      "rescues": 6,
+      "regressions": 3,
+      "gain": 0.015625,
+      "interval": [
+       -0.015625,
+       0.046875
+      ]
+     },
+     "vs_population": {
+      "rescues": 0,
+      "regressions": 0,
+      "gain": 0.0,
+      "interval": [
+       0.0,
+       0.0
+      ]
+     },
+     "vs_marginal": {
+      "rescues": 1,
+      "regressions": 10,
+      "gain": -0.046875,
+      "interval": [
+       -0.08333333333333333,
+       -0.015625
+      ]
+     },
+     "vs_mean": {
+      "rescues": 1,
+      "regressions": 13,
+      "gain": -0.0625,
+      "interval": [
+       -0.09895833333333333,
+       -0.026041666666666668
+      ]
+     },
+     "vs_law": {
+      "rescues": 1,
+      "regressions": 14,
+      "gain": -0.06770833333333333,
+      "interval": [
+       -0.10416666666666667,
+       -0.03125
+      ]
+     },
+     "vs_stage21": {
+      "rescues": 3,
+      "regressions": 73,
+      "gain": -0.3645833333333333,
+      "interval": [
+       -0.4375,
+       -0.2864583333333333
+      ]
+     },
+     "counts": [
+      0,
+      0,
+      0,
+      128,
+      0,
+      0,
+      0
+     ]
+    },
+    "marginal": {
+     "success": 86,
+     "n": 192,
+     "peak": 0.6192090510254881,
+     "terminal": 0.46020456373662455,
+     "G": 0.8725723331135669,
+     "vs_actor": {
+      "rescues": 16,
+      "regressions": 4,
+      "gain": 0.0625,
+      "interval": [
+       0.020833333333333332,
+       0.109375
+      ]
+     },
+     "vs_population": {
+      "rescues": 10,
+      "regressions": 1,
+      "gain": 0.046875,
+      "interval": [
+       0.015625,
+       0.08333333333333333
+      ]
+     },
+     "vs_marginal": {
+      "rescues": 0,
+      "regressions": 0,
+      "gain": 0.0,
+      "interval": [
+       0.0,
+       0.0
+      ]
+     },
+     "vs_mean": {
+      "rescues": 2,
+      "regressions": 5,
+      "gain": -0.015625,
+      "interval": [
+       -0.041666666666666664,
+       0.010416666666666666
+      ]
+     },
+     "vs_law": {
+      "rescues": 1,
+      "regressions": 5,
+      "gain": -0.020833333333333332,
+      "interval": [
+       -0.046875,
+       0.0
+      ]
+     },
+     "vs_stage21": {
+      "rescues": 4,
+      "regressions": 65,
+      "gain": -0.3177083333333333,
+      "interval": [
+       -0.390625,
+       -0.24479166666666666
+      ]
+     },
+     "counts": [
+      4,
+      4,
+      53,
+      3,
+      31,
+      8,
+      25
+     ]
+    },
+    "mean": {
+     "success": 89,
+     "n": 192,
+     "peak": 0.6266501452773809,
+     "terminal": 0.4792669379603467,
+     "G": 0.8966834737954438,
+     "vs_actor": {
+      "rescues": 18,
+      "regressions": 3,
+      "gain": 0.078125,
+      "interval": [
+       0.036458333333333336,
+       0.125
+      ]
+     },
+     "vs_population": {
+      "rescues": 13,
+      "regressions": 1,
+      "gain": 0.0625,
+      "interval": [
+       0.026041666666666668,
+       0.09895833333333333
+      ]
+     },
+     "vs_marginal": {
+      "rescues": 5,
+      "regressions": 2,
+      "gain": 0.015625,
+      "interval": [
+       -0.010416666666666666,
+       0.041666666666666664
+      ]
+     },
+     "vs_mean": {
+      "rescues": 0,
+      "regressions": 0,
+      "gain": 0.0,
+      "interval": [
+       0.0,
+       0.0
+      ]
+     },
+     "vs_law": {
+      "rescues": 0,
+      "regressions": 1,
+      "gain": -0.005208333333333333,
+      "interval": [
+       -0.015625,
+       0.0
+      ]
+     },
+     "vs_stage21": {
+      "rescues": 5,
+      "regressions": 63,
+      "gain": -0.3020833333333333,
+      "interval": [
+       -0.375,
+       -0.22916666666666666
+      ]
+     },
+     "counts": [
+      1,
+      3,
+      84,
+      0,
+      22,
+      8,
+      10
+     ]
+    },
+    "law": {
+     "success": 90,
+     "n": 192,
+     "peak": 0.6265154878298441,
+     "terminal": 0.4843238697333921,
+     "G": 0.9030887113482701,
+     "vs_actor": {
+      "rescues": 19,
+      "regressions": 3,
+      "gain": 0.08333333333333333,
+      "interval": [
+       0.036458333333333336,
+       0.13020833333333334
+      ]
+     },
+     "vs_population": {
+      "rescues": 14,
+      "regressions": 1,
+      "gain": 0.06770833333333333,
+      "interval": [
+       0.03125,
+       0.10416666666666667
+      ]
+     },
+     "vs_marginal": {
+      "rescues": 5,
+      "regressions": 1,
+      "gain": 0.020833333333333332,
+      "interval": [
+       0.0,
+       0.046875
+      ]
+     },
+     "vs_mean": {
+      "rescues": 1,
+      "regressions": 0,
+      "gain": 0.005208333333333333,
+      "interval": [
+       0.0,
+       0.015625
+      ]
+     },
+     "vs_law": {
+      "rescues": 0,
+      "regressions": 0,
+      "gain": 0.0,
+      "interval": [
+       0.0,
+       0.0
+      ]
+     },
+     "vs_stage21": {
+      "rescues": 5,
+      "regressions": 62,
+      "gain": -0.296875,
+      "interval": [
+       -0.3697916666666667,
+       -0.22395833333333334
+      ]
+     },
+     "counts": [
+      3,
+      4,
+      85,
+      0,
+      20,
+      10,
+      6
+     ]
+    },
+    "kl": {
+     "success": 90,
+     "n": 192,
+     "peak": 0.6265154878298441,
+     "terminal": 0.4843238697333921,
+     "G": 0.9030887113482701,
+     "vs_actor": {
+      "rescues": 19,
+      "regressions": 3,
+      "gain": 0.08333333333333333,
+      "interval": [
+       0.036458333333333336,
+       0.13020833333333334
+      ]
+     },
+     "vs_population": {
+      "rescues": 14,
+      "regressions": 1,
+      "gain": 0.06770833333333333,
+      "interval": [
+       0.03125,
+       0.10416666666666667
+      ]
+     },
+     "vs_marginal": {
+      "rescues": 5,
+      "regressions": 1,
+      "gain": 0.020833333333333332,
+      "interval": [
+       0.0,
+       0.046875
+      ]
+     },
+     "vs_mean": {
+      "rescues": 1,
+      "regressions": 0,
+      "gain": 0.005208333333333333,
+      "interval": [
+       0.0,
+       0.015625
+      ]
+     },
+     "vs_law": {
+      "rescues": 0,
+      "regressions": 0,
+      "gain": 0.0,
+      "interval": [
+       0.0,
+       0.0
+      ]
+     },
+     "vs_stage21": {
+      "rescues": 5,
+      "regressions": 62,
+      "gain": -0.296875,
+      "interval": [
+       -0.3697916666666667,
+       -0.22395833333333334
+      ]
+     },
+     "counts": [
+      3,
+      3,
+      86,
+      0,
+      20,
+      9,
+      7
+     ]
+    },
+    "stage21": {
+     "success": 147,
+     "n": 192,
+     "peak": 0.7927531818398469,
+     "terminal": 0.7590314397966722,
+     "G": 1.3517594508690916,
+     "vs_actor": {
+      "rescues": 76,
+      "regressions": 3,
+      "gain": 0.3802083333333333,
+      "interval": [
+       0.3020833333333333,
+       0.453125
+      ]
+     },
+     "vs_population": {
+      "rescues": 73,
+      "regressions": 3,
+      "gain": 0.3645833333333333,
+      "interval": [
+       0.2864583333333333,
+       0.4375
+      ]
+     },
+     "vs_marginal": {
+      "rescues": 65,
+      "regressions": 4,
+      "gain": 0.3177083333333333,
+      "interval": [
+       0.24479166666666666,
+       0.390625
+      ]
+     },
+     "vs_mean": {
+      "rescues": 63,
+      "regressions": 5,
+      "gain": 0.3020833333333333,
+      "interval": [
+       0.22916666666666666,
+       0.375
+      ]
+     },
+     "vs_law": {
+      "rescues": 62,
+      "regressions": 5,
+      "gain": 0.296875,
+      "interval": [
+       0.22395833333333334,
+       0.3697916666666667
+      ]
+     },
+     "vs_stage21": {
+      "rescues": 0,
+      "regressions": 0,
+      "gain": 0.0,
+      "interval": [
+       0.0,
+       0.0
+      ]
+     }
+    },
+    "pets": {
+     "success": 91,
+     "n": 192,
+     "peak": 0.5938059030886507,
+     "terminal": 0.5350778207794065,
+     "G": 0.9046307400725103,
+     "vs_actor": {
+      "rescues": 32,
+      "regressions": 15,
+      "gain": 0.08854166666666667,
+      "interval": [
+       0.020833333333333332,
+       0.15625
+      ]
+     },
+     "vs_population": {
+      "rescues": 31,
+      "regressions": 17,
+      "gain": 0.07291666666666667,
+      "interval": [
+       0.0,
+       0.140625
+      ]
+     },
+     "vs_marginal": {
+      "rescues": 30,
+      "regressions": 25,
+      "gain": 0.026041666666666668,
+      "interval": [
+       -0.052083333333333336,
+       0.10416666666666667
+      ]
+     },
+     "vs_mean": {
+      "rescues": 30,
+      "regressions": 28,
+      "gain": 0.010416666666666666,
+      "interval": [
+       -0.06770833333333333,
+       0.08854166666666667
+      ]
+     },
+     "vs_law": {
+      "rescues": 30,
+      "regressions": 29,
+      "gain": 0.005208333333333333,
+      "interval": [
+       -0.07291666666666667,
+       0.08333333333333333
+      ]
+     },
+     "vs_stage21": {
+      "rescues": 6,
+      "regressions": 62,
+      "gain": -0.2916666666666667,
+      "interval": [
+       -0.3645833333333333,
+       -0.21875
+      ]
+     }
+    }
+   },
+   "distinct_native_episodes": 561,
+   "kl_disagreements": {
+    "law": 2,
+    "mean": 7,
+    "marginal": 53
+   },
+   "live": 128
+  }
+ },
+ "early_pusht_across_cohorts": {
+  "n": 352,
+  "generator": 75,
+  "paired_mean": 93,
+  "rescued": 58,
+  "broken": 40,
+  "interval": [
+   -0.002840909090909091,
+   0.10511363636363637
+  ]
+ }
+}
