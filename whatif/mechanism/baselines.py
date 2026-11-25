@@ -104,4 +104,3 @@ class NCII(nn.Module):
             result['loss'] = (pool((nll(full,logsd)+nll(subset,sd))[...,None],tile(d['role'].sum(-1),k)).mean()*.5
                               +(bce*mask_edges).sum()/mask_edges.sum().clamp_min(1))
         return result
-

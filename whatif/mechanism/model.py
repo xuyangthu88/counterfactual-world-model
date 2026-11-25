@@ -133,4 +133,3 @@ class Mechanism(nn.Module):
             return mean[:,i]-mean[:,j]+.5*(plus-neg),sd
         return (contrast_head(out['y'],out['h'],self.state_pair),
                 contrast_head(out['r'],out['hr'],self.reward_pair))
-

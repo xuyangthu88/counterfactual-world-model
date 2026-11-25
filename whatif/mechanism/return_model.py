@@ -178,4 +178,3 @@ if __name__=='__main__':
     args=p.parse_args()
     torch.set_num_threads(3)
     evaluate() if args.mode=='evaluate' else fit(args.mode)
-

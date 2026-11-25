@@ -39,4 +39,3 @@ def select(model,policy,d,seed,goal_head=1,prior=None):
     score = score.masked_fill(harm>HARM_LIMIT,-torch.inf)
     score[incumbent] = 0
     return score.argmax().item()
-

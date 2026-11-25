@@ -13,4 +13,3 @@ if __name__ == '__main__':
         ids,impact = zip(*rows)
         np.savez_compressed(ROOT/f'data/mechanism/excision-{split}.npz',seed=ids,impact=impact)
         print(split,n,flush=True)
-

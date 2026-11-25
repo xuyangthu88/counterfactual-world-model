@@ -70,4 +70,3 @@ case "${1:-}" in
         ;;
     *) echo "Usage: bash whatif/mechanism/reproduce.sh {15|16|17|18|19|20|21}" >&2; exit 2 ;;
 esac
-

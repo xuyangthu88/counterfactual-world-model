@@ -52,4 +52,3 @@ class Proposal:
             commands[i,node]=np.r_[1,(shift@rotation.T).ravel()]
             prior[i]=logp[m]-logp.max()
         return commands,prior
-

@@ -160,4 +160,3 @@ class Simulator:
 
     def close(self):
         self.env.close()
-
