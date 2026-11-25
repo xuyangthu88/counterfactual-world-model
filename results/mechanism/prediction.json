@@ -1,0 +1,110 @@
+{
+  "cophy": {
+    "mechanism": {
+      "future_position_rmse": 1.1868466138839722,
+      "effect_position_rmse": 1.3498152494430542,
+      "future_pose_mae": 0.25150203704833984,
+      "effect_xyz_crps": 0.36695021390914917,
+      "anchored_position_rmse": 1.351233959197998,
+      "untouched_effect_rmse": 1.3034160137176514
+    },
+    "cophynet": {
+      "future_position_rmse": 1.1875776052474976,
+      "effect_position_rmse": 1.5044156312942505,
+      "future_pose_mae": 0.25443902611732483,
+      "effect_xyz_crps": 0.49079856276512146,
+      "anchored_position_rmse": 1.510901927947998,
+      "untouched_effect_rmse": 1.299032211303711
+    },
+    "pets": {
+      "future_position_rmse": 1.3497945070266724,
+      "effect_position_rmse": 1.671278715133667,
+      "future_pose_mae": 0.29124003648757935,
+      "effect_xyz_crps": 0.5495956540107727,
+      "anchored_position_rmse": 1.6707638502120972,
+      "untouched_effect_rmse": 1.304168462753296
+    }
+  },
+  "causalworld": {
+    "mechanism": {
+      "future_position_rmse": 52.0600700378418,
+      "effect_position_rmse": 66.93551635742188,
+      "future_pose_mae": 0.21370843052864075,
+      "effect_xyz_crps": 19.80811882019043,
+      "anchored_position_rmse": 66.69903564453125,
+      "native_reward_rmse": 0.048685893416404724,
+      "native_reward_effect_rmse": 0.06516929715871811,
+      "native_reward_effect_crps": 0.03419334813952446,
+      "terminal_score_rmse": 0.1182146891951561,
+      "anchored_native_reward_rmse": 0.06722035259008408,
+      "terminal_regret": 0.03333558142185211
+    },
+    "cophynet": {
+      "future_position_rmse": 58.79368209838867,
+      "effect_position_rmse": 77.07308959960938,
+      "future_pose_mae": 0.22538940608501434,
+      "effect_xyz_crps": 26.763303756713867,
+      "anchored_position_rmse": 77.58588409423828,
+      "native_reward_rmse": 0.05024014785885811,
+      "native_reward_effect_rmse": 0.06501518934965134,
+      "native_reward_effect_crps": 0.04418792203068733,
+      "terminal_score_rmse": 0.11600306630134583,
+      "anchored_native_reward_rmse": 0.0669589713215828,
+      "terminal_regret": 0.0509275458753109
+    },
+    "pets": {
+      "future_position_rmse": 64.04415130615234,
+      "effect_position_rmse": 85.68073272705078,
+      "future_pose_mae": 0.23597748577594757,
+      "effect_xyz_crps": 29.35416030883789,
+      "anchored_position_rmse": 86.14146423339844,
+      "native_reward_rmse": 0.04805358871817589,
+      "native_reward_effect_rmse": 0.06493690609931946,
+      "native_reward_effect_crps": 0.03935456648468971,
+      "terminal_score_rmse": 0.11838702112436295,
+      "anchored_native_reward_rmse": 0.06685046851634979,
+      "terminal_regret": 0.059620317071676254
+    }
+  },
+  "pusht": {
+    "mechanism": {
+      "future_position_rmse": 180.56585693359375,
+      "effect_position_rmse": 200.83824157714844,
+      "future_pose_mae": 0.3634381890296936,
+      "effect_xyz_crps": 51.22270584106445,
+      "anchored_position_rmse": 194.82257080078125,
+      "native_reward_rmse": 0.04818222299218178,
+      "native_reward_effect_rmse": 0.04484985023736954,
+      "native_reward_effect_crps": 0.02192666195333004,
+      "terminal_score_rmse": 0.05081018805503845,
+      "anchored_native_reward_rmse": 0.04301558434963226,
+      "terminal_regret": 0.022805672138929367
+    },
+    "cophynet": {
+      "future_position_rmse": 178.9384765625,
+      "effect_position_rmse": 202.8556671142578,
+      "future_pose_mae": 0.3595521152019501,
+      "effect_xyz_crps": 62.13816833496094,
+      "anchored_position_rmse": 197.23892211914062,
+      "native_reward_rmse": 0.05630290508270264,
+      "native_reward_effect_rmse": 0.04520118236541748,
+      "native_reward_effect_crps": 0.015878373757004738,
+      "terminal_score_rmse": 0.06020566448569298,
+      "anchored_native_reward_rmse": 0.04365526884794235,
+      "terminal_regret": 0.02446531318128109
+    },
+    "pets": {
+      "future_position_rmse": 185.15155029296875,
+      "effect_position_rmse": 204.72317504882812,
+      "future_pose_mae": 0.36398398876190186,
+      "effect_xyz_crps": 61.84554672241211,
+      "anchored_position_rmse": 199.1623992919922,
+      "native_reward_rmse": 0.05093365162611008,
+      "native_reward_effect_rmse": 0.0450795479118824,
+      "native_reward_effect_crps": 0.01502273976802826,
+      "terminal_score_rmse": 0.050106294453144073,
+      "anchored_native_reward_rmse": 0.04347221925854683,
+      "terminal_regret": 0.030769797042012215
+    }
+  }
+}
