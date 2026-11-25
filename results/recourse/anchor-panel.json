@@ -1,0 +1,195 @@
+{
+  "val": {
+    "pusht": {
+      "reference": 36,
+      "arms": {
+        "anchor_marginal": {
+          "success": 34,
+          "rescued": 9,
+          "broken": 11,
+          "G": 0.7593775987625122,
+          "original": 1
+        },
+        "anchor_mean": {
+          "success": 38,
+          "rescued": 16,
+          "broken": 14,
+          "G": 0.7788267135620117,
+          "original": 45
+        },
+        "anchor_law": {
+          "success": 36,
+          "rescued": 1,
+          "broken": 1,
+          "G": 0.7576117515563965,
+          "original": 184
+        },
+        "anchor_kl": {
+          "success": 36,
+          "rescued": 1,
+          "broken": 1,
+          "G": 0.7581189870834351,
+          "original": 178
+        }
+      },
+      "return_rmse": 0.6191853880882263,
+      "return_crps": 0.3087092936038971,
+      "events": {
+        "rescue": {
+          "rate": 0.1540178656578064,
+          "ap": 0.17482689983831085,
+          "brier": 0.13028980791568756
+        },
+        "break": {
+          "rate": 0.1145833358168602,
+          "ap": 0.14972205213693962,
+          "brier": 0.10111348330974579
+        }
+      }
+    },
+    "causalworld": {
+      "reference": 102,
+      "arms": {
+        "anchor_marginal": {
+          "success": 176,
+          "rescued": 80,
+          "broken": 6,
+          "G": 1.5970958471298218,
+          "original": 15
+        },
+        "anchor_mean": {
+          "success": 172,
+          "rescued": 77,
+          "broken": 7,
+          "G": 1.5717673301696777,
+          "original": 40
+        },
+        "anchor_law": {
+          "success": 173,
+          "rescued": 71,
+          "broken": 0,
+          "G": 1.5770515203475952,
+          "original": 92
+        },
+        "anchor_kl": {
+          "success": 173,
+          "rescued": 71,
+          "broken": 0,
+          "G": 1.576768398284912,
+          "original": 91
+        }
+      },
+      "return_rmse": 0.7168620228767395,
+      "return_crps": 0.3330094516277313,
+      "events": {
+        "rescue": {
+          "rate": 0.2745535671710968,
+          "ap": 0.6409603778625916,
+          "brier": 0.1324159801006317
+        },
+        "break": {
+          "rate": 0.1086309552192688,
+          "ap": 0.22761898736026748,
+          "brier": 0.09032125025987625
+        }
+      }
+    }
+  },
+  "selected": "anchor_marginal",
+  "test": {
+    "pusht": {
+      "reference": 49,
+      "arms": {
+        "anchor_marginal": {
+          "success": 51,
+          "rescued": 14,
+          "broken": 12,
+          "G": 0.9094824194908142,
+          "original": 2
+        },
+        "anchor_mean": {
+          "success": 59,
+          "rescued": 22,
+          "broken": 12,
+          "G": 0.9530321955680847,
+          "original": 35
+        },
+        "anchor_law": {
+          "success": 48,
+          "rescued": 0,
+          "broken": 1,
+          "G": 0.8870195150375366,
+          "original": 187
+        },
+        "anchor_kl": {
+          "success": 50,
+          "rescued": 2,
+          "broken": 1,
+          "G": 0.8981480002403259,
+          "original": 179
+        }
+      },
+      "return_rmse": 0.627545177936554,
+      "return_crps": 0.3131883144378662,
+      "events": {
+        "rescue": {
+          "rate": 0.1547619104385376,
+          "ap": 0.19104117923030567,
+          "brier": 0.13007678091526031
+        },
+        "break": {
+          "rate": 0.1421131044626236,
+          "ap": 0.18967844762844094,
+          "brier": 0.11940693110227585
+        }
+      }
+    },
+    "causalworld": {
+      "reference": 81,
+      "arms": {
+        "anchor_marginal": {
+          "success": 155,
+          "rescued": 80,
+          "broken": 6,
+          "G": 1.4278028011322021,
+          "original": 27
+        },
+        "anchor_mean": {
+          "success": 148,
+          "rescued": 74,
+          "broken": 7,
+          "G": 1.3589808940887451,
+          "original": 34
+        },
+        "anchor_law": {
+          "success": 145,
+          "rescued": 69,
+          "broken": 5,
+          "G": 1.3467986583709717,
+          "original": 77
+        },
+        "anchor_kl": {
+          "success": 145,
+          "rescued": 69,
+          "broken": 5,
+          "G": 1.345407485961914,
+          "original": 75
+        }
+      },
+      "return_rmse": 0.773459255695343,
+      "return_crps": 0.38253849744796753,
+      "events": {
+        "rescue": {
+          "rate": 0.2834821343421936,
+          "ap": 0.5676326601764274,
+          "brier": 0.16703294217586517
+        },
+        "break": {
+          "rate": 0.0848214328289032,
+          "ap": 0.13243859376149958,
+          "brier": 0.07767213881015778
+        }
+      }
+    }
+  }
+}

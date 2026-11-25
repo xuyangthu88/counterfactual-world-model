@@ -1,0 +1,100 @@
+{
+  "pusht": {
+    "position": 39.781254529953,
+    "position_delta": 48.91620576381683,
+    "position_crps": 10.871072113513947,
+    "native": 0.2613641917705536,
+    "native_delta": 0.3108939230442047,
+    "native_crps": 0.16560687124729156,
+    "return_delta": 0.6968942880630493,
+    "return_crps": 0.37027522921562195,
+    "positive": 0.1743551641702652,
+    "rescue_ap": 0.20334284020472526,
+    "negative": 0.1768353134393692,
+    "break_ap": 0.19058342181932236,
+    "fixed_first_with_recourse": 52,
+    "original_first_with_recourse": 48,
+    "dec": {
+      "backup_marginal": {
+        "success": 54,
+        "rescued": 28,
+        "lost": 26,
+        "G": 0.9197638630867004
+      },
+      "backup_independent": {
+        "success": 52,
+        "rescued": 0,
+        "lost": 0,
+        "G": 0.9070498943328857
+      },
+      "backup_law": {
+        "success": 52,
+        "rescued": 0,
+        "lost": 0,
+        "G": 0.9070498943328857
+      },
+      "backup_mean": {
+        "success": 54,
+        "rescued": 28,
+        "lost": 26,
+        "G": 0.9197638630867004
+      },
+      "backup_kl": {
+        "success": 52,
+        "rescued": 0,
+        "lost": 0,
+        "G": 0.9070498943328857
+      }
+    },
+    "oracle": 155
+  },
+  "causalworld": {
+    "position": 75.4306823015213,
+    "position_delta": 93.74125301837921,
+    "position_crps": 22.654288858175278,
+    "native": 0.09331440180540085,
+    "native_delta": 0.1063283160328865,
+    "native_crps": 0.055778618901968,
+    "return_delta": 0.7777112722396851,
+    "return_crps": 0.38661232590675354,
+    "positive": 0.1639384925365448,
+    "rescue_ap": 0.31409974305871935,
+    "negative": 0.1812995970249176,
+    "break_ap": 0.4399525673976063,
+    "fixed_first_with_recourse": 126,
+    "original_first_with_recourse": 87,
+    "dec": {
+      "backup_marginal": {
+        "success": 155,
+        "rescued": 38,
+        "lost": 9,
+        "G": 1.4201430082321167
+      },
+      "backup_independent": {
+        "success": 155,
+        "rescued": 31,
+        "lost": 2,
+        "G": 1.4229531288146973
+      },
+      "backup_law": {
+        "success": 155,
+        "rescued": 31,
+        "lost": 2,
+        "G": 1.4229531288146973
+      },
+      "backup_mean": {
+        "success": 155,
+        "rescued": 38,
+        "lost": 9,
+        "G": 1.4201430082321167
+      },
+      "backup_kl": {
+        "success": 155,
+        "rescued": 31,
+        "lost": 2,
+        "G": 1.4229531288146973
+      }
+    },
+    "oracle": 176
+  }
+}

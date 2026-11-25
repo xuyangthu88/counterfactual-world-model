@@ -1,0 +1,105 @@
+{
+  "by_domain": {
+    "pusht": {
+      "success_marginal": {
+        "success": 34,
+        "G": 0.7964333295822144
+      },
+      "success_pair": {
+        "success": 34,
+        "G": 0.80265873670578
+      },
+      "marginal": {
+        "success": 37,
+        "G": 0.8130468726158142
+      },
+      "pooled": {
+        "success": 37,
+        "G": 0.8182640075683594
+      },
+      "mean": {
+        "success": 37,
+        "G": 0.8182640075683594
+      },
+      "law": {
+        "success": 25,
+        "G": 0.7214887738227844
+      },
+      "kl": {
+        "success": 26,
+        "G": 0.728463351726532
+      },
+      "backup_marginal": {
+        "success": 27,
+        "G": 0.7467584013938904
+      },
+      "backup_independent": {
+        "success": 27,
+        "G": 0.7494842410087585
+      },
+      "backup_law": {
+        "success": 27,
+        "G": 0.7491753697395325
+      },
+      "backup_mean": {
+        "success": 27,
+        "G": 0.7467584013938904
+      },
+      "backup_kl": {
+        "success": 27,
+        "G": 0.7494842410087585
+      }
+    },
+    "causalworld": {
+      "success_marginal": {
+        "success": 124,
+        "G": 1.3897327184677124
+      },
+      "success_pair": {
+        "success": 128,
+        "G": 1.4225339889526367
+      },
+      "marginal": {
+        "success": 124,
+        "G": 1.3902044296264648
+      },
+      "pooled": {
+        "success": 128,
+        "G": 1.421945571899414
+      },
+      "mean": {
+        "success": 128,
+        "G": 1.421945571899414
+      },
+      "law": {
+        "success": 129,
+        "G": 1.4324028491973877
+      },
+      "kl": {
+        "success": 129,
+        "G": 1.4324028491973877
+      },
+      "backup_marginal": {
+        "success": 129,
+        "G": 1.4373188018798828
+      },
+      "backup_independent": {
+        "success": 126,
+        "G": 1.4104853868484497
+      },
+      "backup_law": {
+        "success": 125,
+        "G": 1.4003876447677612
+      },
+      "backup_mean": {
+        "success": 129,
+        "G": 1.4373188018798828
+      },
+      "backup_kl": {
+        "success": 124,
+        "G": 1.3910061120986938
+      }
+    }
+  },
+  "selected": "pooled"
+}
