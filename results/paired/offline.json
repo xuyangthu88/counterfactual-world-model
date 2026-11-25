@@ -1,0 +1,462 @@
+{
+  "cophy": {
+    "transport": {
+      "contact": {
+        "threshold": 0.6841776967048645,
+        "positive": 0.5107060185185185,
+        "n": 6912,
+        "ap": 0.9607347894065681,
+        "ber": 0.11799763118526177,
+        "precision": 0.9753521126760564,
+        "recall": 0.7847025495750708,
+        "fpr": 0.02069781194559432,
+        "f1": 0.869701726844584,
+        "shd_rate": 0.12008101851851852
+      },
+      "excision": {
+        "threshold": 0.47148412466049194,
+        "positive": 0.35402199074074076,
+        "n": 6912,
+        "ap": 0.9126078957098505,
+        "ber": 0.15723785461183587,
+        "precision": 0.8110501897933361,
+        "recall": 0.7858602370249285,
+        "fpr": 0.10033594624860022,
+        "f1": 0.7982565379825654,
+        "shd_rate": 0.140625
+      },
+      "future_position_rmse": 1.0437763929367065,
+      "effect_position_rmse": 1.1843082904815674,
+      "future_pose_mae": 0.2583528459072113,
+      "effect_xyz_crps": 0.3006221055984497,
+      "anchored_position_rmse": 1.2274069786071777,
+      "untouched_effect_rmse": 1.2171229124069214,
+      "distant_effect_rmse": 1.3577549580578665,
+      "distant_receiver_pairs": 541,
+      "difference_vs_contact_path": [
+        -0.11048011571334704,
+        -0.008059006682029773
+      ],
+      "difference_vs_stage20": [
+        -0.4789058598110917,
+        -0.21845316244655946
+      ]
+    },
+    "contact_path": {
+      "contact": {
+        "threshold": 0.6106687188148499,
+        "positive": 0.5107060185185185,
+        "n": 6912,
+        "ap": 0.9601867369745564,
+        "ber": 0.11307915761329349,
+        "precision": 0.9590741361959074,
+        "recall": 0.809915014164306,
+        "fpr": 0.036073329390892965,
+        "f1": 0.8782061127322992,
+        "shd_rate": 0.11472800925925926
+      },
+      "excision": {
+        "threshold": 0.326968789100647,
+        "positive": 0.35402199074074076,
+        "n": 6912,
+        "ap": 0.9114348075107985,
+        "ber": 0.15327390854079614,
+        "precision": 0.7167438782263402,
+        "recall": 0.8851655087862689,
+        "fpr": 0.19171332586786113,
+        "f1": 0.7921009325287987,
+        "shd_rate": 0.1644965277777778
+      },
+      "future_position_rmse": 1.0684945583343506,
+      "effect_position_rmse": 1.2009974718093872,
+      "future_pose_mae": 0.2603088319301605,
+      "effect_xyz_crps": 0.3050597310066223,
+      "anchored_position_rmse": 1.2346713542938232,
+      "untouched_effect_rmse": 1.2448571920394897,
+      "distant_effect_rmse": 1.4205189764415975,
+      "distant_receiver_pairs": 541
+    },
+    "stage20": {
+      "contact": {
+        "threshold": 0.6198986768722534,
+        "positive": 0.5107060185185185,
+        "n": 6912,
+        "ap": 0.9419254552052985,
+        "ber": 0.14060063023203995,
+        "precision": 0.913664394677053,
+        "recall": 0.7974504249291785,
+        "fpr": 0.07865168539325842,
+        "f1": 0.8516109514445621,
+        "shd_rate": 0.14192708333333334
+      },
+      "excision": {
+        "threshold": 0.41393744945526123,
+        "positive": 0.35402199074074076,
+        "n": 6912,
+        "ap": 0.8859818615626698,
+        "ber": 0.1760290155781859,
+        "precision": 0.7503869969040248,
+        "recall": 0.7923988557417245,
+        "fpr": 0.1444568868980963,
+        "f1": 0.770820910355794,
+        "shd_rate": 0.1668113425925926
+      },
+      "future_position_rmse": 1.253902792930603,
+      "effect_position_rmse": 1.4444541931152344,
+      "future_pose_mae": 0.2566254734992981,
+      "effect_xyz_crps": 0.37892287969589233,
+      "anchored_position_rmse": 1.4588521718978882,
+      "untouched_effect_rmse": 1.442981481552124,
+      "distant_effect_rmse": 1.7057805099145302,
+      "distant_receiver_pairs": 541
+    },
+    "ncii_excision": {
+      "contact": {
+        "threshold": 0.40403488278388977,
+        "positive": 0.5107060185185185,
+        "n": 6912,
+        "ap": 0.9235431958207062,
+        "ber": 0.15596215927347415,
+        "precision": 0.8588166373755126,
+        "recall": 0.8305949008498583,
+        "fpr": 0.14251921939680662,
+        "f1": 0.8444700460829493,
+        "shd_rate": 0.15625
+      },
+      "excision": {
+        "threshold": 0.4144923985004425,
+        "positive": 0.35402199074074076,
+        "n": 6912,
+        "ap": 0.8901253629098378,
+        "ber": 0.1662705573156517,
+        "precision": 0.7663149667839,
+        "recall": 0.8013894564773192,
+        "fpr": 0.1339305711086226,
+        "f1": 0.7834598481821814,
+        "shd_rate": 0.1568287037037037
+      }
+    }
+  },
+  "causalworld": {
+    "transport": {
+      "contact": {
+        "threshold": 0.3774321675300598,
+        "positive": 0.42109375,
+        "n": 5120,
+        "ap": 0.9746935095878816,
+        "ber": 0.08117978512715353,
+        "precision": 0.8441926345609065,
+        "recall": 0.9675324675324676,
+        "fpr": 0.12989203778677463,
+        "f1": 0.9016641452344932,
+        "shd_rate": 0.0888671875
+      },
+      "future_position_rmse": 17.080707550048828,
+      "effect_position_rmse": 13.144144058227539,
+      "future_pose_mae": 0.06878824532032013,
+      "effect_xyz_crps": 4.436432838439941,
+      "anchored_position_rmse": 11.323599815368652,
+      "native_reward_rmse": 0.07846993952989578,
+      "native_reward_effect_rmse": 0.06012513116002083,
+      "native_reward_effect_crps": 0.02727777697145939,
+      "terminal_score_rmse": 0.1377265453338623,
+      "anchored_native_reward_rmse": 0.052385587245225906,
+      "terminal_regret": 0.022584736347198486
+    },
+    "contact_path": {
+      "contact": {
+        "threshold": 0.5007279515266418,
+        "positive": 0.42109375,
+        "n": 5120,
+        "ap": 0.9752822987282107,
+        "ber": 0.07767608331518108,
+        "precision": 0.8904719501335708,
+        "recall": 0.9276437847866419,
+        "fpr": 0.08299595141700405,
+        "f1": 0.9086778736937755,
+        "shd_rate": 0.078515625
+      },
+      "future_position_rmse": 16.024486541748047,
+      "effect_position_rmse": 12.467256546020508,
+      "future_pose_mae": 0.06842844933271408,
+      "effect_xyz_crps": 4.451467514038086,
+      "anchored_position_rmse": 10.486337661743164,
+      "native_reward_rmse": 0.07851682603359222,
+      "native_reward_effect_rmse": 0.0598759762942791,
+      "native_reward_effect_crps": 0.026897668838500977,
+      "terminal_score_rmse": 0.13685715198516846,
+      "anchored_native_reward_rmse": 0.052548088133335114,
+      "terminal_regret": 0.01799856498837471
+    },
+    "mechanism": {
+      "contact": {
+        "threshold": 0.4234044849872589,
+        "positive": 0.42109375,
+        "n": 5120,
+        "ap": 0.9656953514085032,
+        "ber": 0.09981653684661204,
+        "precision": 0.8438425730004232,
+        "recall": 0.924860853432282,
+        "fpr": 0.12449392712550607,
+        "f1": 0.8824961274618278,
+        "shd_rate": 0.1037109375
+      },
+      "future_position_rmse": 18.156082153320312,
+      "effect_position_rmse": 13.377016067504883,
+      "future_pose_mae": 0.06847945600748062,
+      "effect_xyz_crps": 3.805114269256592,
+      "anchored_position_rmse": 11.18918514251709,
+      "native_reward_rmse": 0.08085145801305771,
+      "native_reward_effect_rmse": 0.061336882412433624,
+      "native_reward_effect_crps": 0.02754296362400055,
+      "terminal_score_rmse": 0.14288932085037231,
+      "anchored_native_reward_rmse": 0.05271736532449722,
+      "terminal_regret": 0.01859593205153942
+    },
+    "cophynet": {
+      "future_position_rmse": 17.646909713745117,
+      "effect_position_rmse": 14.946672439575195,
+      "future_pose_mae": 0.0659349337220192,
+      "effect_xyz_crps": 4.065987586975098,
+      "anchored_position_rmse": 12.717406272888184,
+      "native_reward_rmse": 0.07852170616388321,
+      "native_reward_effect_rmse": 0.0633888840675354,
+      "native_reward_effect_crps": 0.0308266282081604,
+      "terminal_score_rmse": 0.14865195751190186,
+      "anchored_native_reward_rmse": 0.05482270196080208,
+      "terminal_regret": 0.02296232245862484
+    },
+    "pets": {
+      "future_position_rmse": 23.958452224731445,
+      "effect_position_rmse": 16.03438949584961,
+      "future_pose_mae": 0.07600034028291702,
+      "effect_xyz_crps": 3.4708778858184814,
+      "anchored_position_rmse": 14.108809471130371,
+      "native_reward_rmse": 0.07481088489294052,
+      "native_reward_effect_rmse": 0.06311210244894028,
+      "native_reward_effect_crps": 0.02556031383574009,
+      "terminal_score_rmse": 0.14213165640830994,
+      "anchored_native_reward_rmse": 0.05338407680392265,
+      "terminal_regret": 0.018622878938913345
+    },
+    "ncii": {
+      "contact": {
+        "threshold": 0.43962666392326355,
+        "positive": 0.42109375,
+        "n": 5120,
+        "ap": 0.5352100044723552,
+        "ber": 0.4725772347952799,
+        "precision": 0.5634095634095634,
+        "recall": 0.12569573283858992,
+        "fpr": 0.0708502024291498,
+        "f1": 0.2055365946150929,
+        "shd_rate": 0.4091796875
+      }
+    },
+    "ncii_contact": {
+      "contact": {
+        "threshold": 0.21431145071983337,
+        "positive": 0.42109375,
+        "n": 5120,
+        "ap": 0.7951724168198757,
+        "ber": 0.20147114789971934,
+        "precision": 0.6875223453700393,
+        "recall": 0.8919294990723562,
+        "fpr": 0.2948717948717949,
+        "f1": 0.7764990914597214,
+        "shd_rate": 0.2162109375
+      }
+    },
+    "return": {
+      "return_effect_rmse": 0.36842477321624756,
+      "return_crps": 0.117812958818543,
+      "rescue": {
+        "ap": 0.17286891895090603,
+        "rate": 0.0302734375,
+        "brier": 0.028429493308067322
+      },
+      "break": {
+        "ap": 0.14932381491971025,
+        "rate": 0.0400390625,
+        "brier": 0.036971479654312134
+      },
+      "marginal": {
+        "gain": -0.012651441618800163,
+        "switched": 0.625
+      },
+      "pair_mean": {
+        "gain": -0.013165117241442204,
+        "switched": 0.67578125
+      },
+      "pair_law": {
+        "gain": -0.013165117241442204,
+        "switched": 0.671875
+      },
+      "pair_kl": {
+        "gain": -0.013104540295898914,
+        "switched": 0.66796875
+      }
+    }
+  },
+  "pusht": {
+    "transport": {
+      "contact": {
+        "threshold": 0.09400197863578796,
+        "positive": 0.1090625,
+        "n": 6400,
+        "ap": 0.806559900846901,
+        "ber": 0.0599518190470543,
+        "precision": 0.5333333333333333,
+        "recall": 0.9856733524355301,
+        "fpr": 0.10557699052963872,
+        "f1": 0.6921529175050302,
+        "shd_rate": 0.095625
+      },
+      "future_position_rmse": 19.880901336669922,
+      "effect_position_rmse": 18.853343963623047,
+      "future_pose_mae": 0.046911630779504776,
+      "effect_xyz_crps": 6.105166435241699,
+      "anchored_position_rmse": 16.238170623779297,
+      "native_reward_rmse": 0.07738925516605377,
+      "native_reward_effect_rmse": 0.062246158719062805,
+      "native_reward_effect_crps": 0.029804885387420654,
+      "terminal_score_rmse": 0.11121778935194016,
+      "anchored_native_reward_rmse": 0.05480027198791504,
+      "terminal_regret": 0.02416001632809639
+    },
+    "contact_path": {
+      "contact": {
+        "threshold": 0.07320825755596161,
+        "positive": 0.1090625,
+        "n": 6400,
+        "ap": 0.7979578501797496,
+        "ber": 0.0635902649148391,
+        "precision": 0.5084621044885945,
+        "recall": 0.9899713467048711,
+        "fpr": 0.11715187653454928,
+        "f1": 0.6718522119591638,
+        "shd_rate": 0.10546875
+      },
+      "future_position_rmse": 18.588489532470703,
+      "effect_position_rmse": 18.836345672607422,
+      "future_pose_mae": 0.047467347234487534,
+      "effect_xyz_crps": 6.093760967254639,
+      "anchored_position_rmse": 16.160877227783203,
+      "native_reward_rmse": 0.08025593310594559,
+      "native_reward_effect_rmse": 0.06445161998271942,
+      "native_reward_effect_crps": 0.030427202582359314,
+      "terminal_score_rmse": 0.11198180168867111,
+      "anchored_native_reward_rmse": 0.05570982024073601,
+      "terminal_regret": 0.022990090772509575
+    },
+    "mechanism": {
+      "contact": {
+        "threshold": 0.07684440910816193,
+        "positive": 0.1090625,
+        "n": 6400,
+        "ap": 0.7687281662593206,
+        "ber": 0.05898724521331176,
+        "precision": 0.5379202501954652,
+        "recall": 0.9856733524355301,
+        "fpr": 0.10364784286215363,
+        "f1": 0.6960040465351542,
+        "shd_rate": 0.09390625
+      },
+      "future_position_rmse": 20.82863426208496,
+      "effect_position_rmse": 20.106414794921875,
+      "future_pose_mae": 0.048150766640901566,
+      "effect_xyz_crps": 5.363819599151611,
+      "anchored_position_rmse": 17.4097843170166,
+      "native_reward_rmse": 0.10532791912555695,
+      "native_reward_effect_rmse": 0.07589459419250488,
+      "native_reward_effect_crps": 0.03357769176363945,
+      "terminal_score_rmse": 0.12107588350772858,
+      "anchored_native_reward_rmse": 0.06456664949655533,
+      "terminal_regret": 0.03435223177075386
+    },
+    "cophynet": {
+      "future_position_rmse": 22.894086837768555,
+      "effect_position_rmse": 21.309207916259766,
+      "future_pose_mae": 0.05611031502485275,
+      "effect_xyz_crps": 5.646012306213379,
+      "anchored_position_rmse": 18.22153091430664,
+      "native_reward_rmse": 0.12879730761051178,
+      "native_reward_effect_rmse": 0.08012612164020538,
+      "native_reward_effect_crps": 0.038646530359983444,
+      "terminal_score_rmse": 0.13237538933753967,
+      "anchored_native_reward_rmse": 0.06808020919561386,
+      "terminal_regret": 0.059732966125011444
+    },
+    "pets": {
+      "future_position_rmse": 24.157024383544922,
+      "effect_position_rmse": 22.284299850463867,
+      "future_pose_mae": 0.05248215049505234,
+      "effect_xyz_crps": 5.003460884094238,
+      "anchored_position_rmse": 19.026851654052734,
+      "native_reward_rmse": 0.13053283095359802,
+      "native_reward_effect_rmse": 0.08171159029006958,
+      "native_reward_effect_crps": 0.03757503256201744,
+      "terminal_score_rmse": 0.12742553651332855,
+      "anchored_native_reward_rmse": 0.0688609629869461,
+      "terminal_regret": 0.04778826981782913
+    },
+    "ncii": {
+      "contact": {
+        "threshold": 0.38764989376068115,
+        "positive": 0.1090625,
+        "n": 6400,
+        "ap": 0.08302391256851151,
+        "ber": 0.4731391689840894,
+        "precision": 0.11524232334443212,
+        "recall": 0.8925501432664756,
+        "fpr": 0.8388284812346545,
+        "f1": 0.20412844036697247,
+        "shd_rate": 0.7590625
+      }
+    },
+    "ncii_contact": {
+      "contact": {
+        "threshold": 0.24429504573345184,
+        "positive": 0.1090625,
+        "n": 6400,
+        "ap": 0.5861584663534942,
+        "ber": 0.25219472582384506,
+        "precision": 0.19803695150115475,
+        "recall": 0.9828080229226361,
+        "fpr": 0.4871974745703262,
+        "f1": 0.3296492071119654,
+        "shd_rate": 0.4359375
+      }
+    },
+    "return": {
+      "return_effect_rmse": 0.44705915451049805,
+      "return_crps": 0.20025834872604426,
+      "rescue": {
+        "ap": 0.07865996771524297,
+        "rate": 0.052734375,
+        "brier": 0.050438374280929565
+      },
+      "break": {
+        "ap": 0.17660467026615567,
+        "rate": 0.0625,
+        "brier": 0.05600744113326073
+      },
+      "marginal": {
+        "gain": 0.025900328531861305,
+        "switched": 0.5546875
+      },
+      "pair_mean": {
+        "gain": 0.015052344650030136,
+        "switched": 0.60546875
+      },
+      "pair_law": {
+        "gain": 0.015052344650030136,
+        "switched": 0.60546875
+      },
+      "pair_kl": {
+        "gain": 0.015052344650030136,
+        "switched": 0.60546875
+      }
+    }
+  }
+}

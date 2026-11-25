@@ -62,7 +62,8 @@ def predictions(name,model,d,i,j):
 
 def metrics(name,model,d,domain):
     unit={'causalworld':65.,'pusht':100.,'cophy':1.}[domain]
-    i,j=torch.triu_indices(4,4,1)
+    k=d['a'].size(1)
+    i,j=torch.triu_indices(k,k,1)
     y,r,mu,sd,rm,rs=predictions(name,model,d,i,j)
     dy=d['y'][:,i]-d['y'][:,j]
     dr=d['r'][:,i]-d['r'][:,j]
@@ -81,8 +82,8 @@ def metrics(name,model,d,domain):
     # Alternate branch zero is revealed as a factual observation; the other three are hidden.
     idx=torch.zeros(len(d['x']),dtype=torch.long)
     retrospective=hindsight(d,torch.ones_like(idx,dtype=torch.bool),idx)
-    choices=torch.arange(1,4)
-    _,_,post,_,post_r,_=predictions(name,model,retrospective,choices,torch.zeros(3,dtype=torch.long))
+    choices=torch.arange(1,k)
+    _,_,post,_,post_r,_=predictions(name,model,retrospective,choices,torch.zeros_like(choices))
     result['anchored_position_rmse']=position(d['y'][:,:1]+post.mean(0)-d['y'][:,1:],move)
     if domain=='cophy':
         # CoPhy do() directly relocates one block. Test transport to untouched blocks separately.

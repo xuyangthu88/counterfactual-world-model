@@ -13,7 +13,7 @@ from .native import Simulator,menu
 ROOT=Path(__file__).resolve().parents[2]
 
 
-def worker(domain,seed,connection,fine,proposal):
+def worker(domain,seed,connection,fine,proposal,menu_builder=None):
     sim=Simulator(domain,seed,'control')
     try:
         f0,goal=sim.observe()
@@ -34,15 +34,20 @@ def worker(domain,seed,connection,fine,proposal):
             # Common random numbers across policies, even when their states diverge.
             key=seed*31+moves
             if proposal:
-                cmd,prior=actor.candidates(x,sim.role,goal,np.random.default_rng(key),24)
+                if menu_builder is not None:
+                    cmd,prior=menu_builder(actor,x,sim.role,goal,np.random.default_rng(key))
+                else:
+                    cmd,prior=actor.candidates(x,sim.role,goal,np.random.default_rng(key),24)
             else:
                 cmd=menu(x,sim.role,np.random.default_rng(key),24,fine)
                 prior=None
             d=dict(f0=f0,fa=fa,f1=x,x=x,role=sim.role,goal=goal,a=cmd,same=np.float32(0))
+            if menu_builder is not None:
+                d['remaining']=np.float32(36-moves)
             connection.send(('select',d,key,prior))
             choice=connection.recv()
             f0=x
-            fa=cmd[choice]
+            fa=cmd[choice] if np.isscalar(choice) else choice
             x,_,r=sim.execute(fa,stop=True,fine=fine,landmarks=proposal)
             last=float(r[1])
             best=max(best,float(r[2]))
@@ -58,7 +63,7 @@ def worker(domain,seed,connection,fine,proposal):
         connection.close()
 
 
-def server(domain,start,n,fine,proposal):
+def server(domain,start,n,fine,proposal,menu_builder=None,external=False):
     """Simulator process uses Python 3.10. A binary local pipe carries one message per action."""
     import pickle,struct
     read=sys.stdin.buffer
@@ -71,10 +76,11 @@ def server(domain,start,n,fine,proposal):
             def send(self,value):
                 send(value)
             def recv(self):
-                return int(read.readline())
+                line=read.readline()
+                return np.asarray(json.loads(line),dtype=np.float32) if external else int(line)
             def close(self):
                 pass
-        worker(domain,seed,Channel(),fine,proposal)
+        worker(domain,seed,Channel(),fine,proposal,menu_builder)
     send(('done',))
 
 

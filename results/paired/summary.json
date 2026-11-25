@@ -1,0 +1,3088 @@
+{
+  "control": {
+    "step": {
+      "causalworld": {
+        "actor": {
+          "n": 128,
+          "success": 46,
+          "terminal": 0.4367382144846488,
+          "peak": 0.595903012950707,
+          "decisions": 3269,
+          "switches": 0,
+          "kl_changes": 0
+        },
+        "marginal": {
+          "n": 128,
+          "success": 76,
+          "terminal": 0.5991292689577676,
+          "peak": 0.7684605391696095,
+          "decisions": 2234,
+          "switches": 1948,
+          "kl_changes": 45
+        },
+        "pair_kl": {
+          "n": 128,
+          "success": 80,
+          "terminal": 0.6177419555315282,
+          "peak": 0.7793418845976703,
+          "decisions": 2260,
+          "switches": 1842,
+          "kl_changes": 27
+        },
+        "pair_law": {
+          "n": 128,
+          "success": 77,
+          "terminal": 0.5954301702731755,
+          "peak": 0.7714821361296345,
+          "decisions": 2278,
+          "switches": 1854,
+          "kl_changes": 32
+        },
+        "pair_mean": {
+          "n": 128,
+          "success": 75,
+          "terminal": 0.5809344452864025,
+          "peak": 0.7655629946675617,
+          "decisions": 2297,
+          "switches": 1886,
+          "kl_changes": 33
+        },
+        "pets": {
+          "n": 128,
+          "success": 64,
+          "terminal": 0.5701735891052522,
+          "peak": 0.6261643885427972,
+          "decisions": 2672,
+          "switches": 119,
+          "kl_changes": 0
+        },
+        "stage21": {
+          "n": 128,
+          "success": 93,
+          "terminal": 0.7481638984172605,
+          "peak": 0.8130446252089811,
+          "decisions": 1585,
+          "switches": 139,
+          "kl_changes": 0
+        }
+      },
+      "pusht": {
+        "actor": {
+          "n": 128,
+          "success": 31,
+          "terminal": 0.7786892132280627,
+          "peak": 0.9014040181064047,
+          "decisions": 4075,
+          "switches": 0,
+          "kl_changes": 0
+        },
+        "marginal": {
+          "n": 128,
+          "success": 5,
+          "terminal": 0.4261775437519546,
+          "peak": 0.7170122395036742,
+          "decisions": 4422,
+          "switches": 3953,
+          "kl_changes": 27
+        },
+        "pair_kl": {
+          "n": 128,
+          "success": 7,
+          "terminal": 0.4309876357401663,
+          "peak": 0.727936097777274,
+          "decisions": 4386,
+          "switches": 3848,
+          "kl_changes": 22
+        },
+        "pair_law": {
+          "n": 128,
+          "success": 7,
+          "terminal": 0.4214517841137422,
+          "peak": 0.725174002473068,
+          "decisions": 4386,
+          "switches": 3858,
+          "kl_changes": 22
+        },
+        "pair_mean": {
+          "n": 128,
+          "success": 7,
+          "terminal": 0.4214517841137422,
+          "peak": 0.725174002473068,
+          "decisions": 4386,
+          "switches": 3858,
+          "kl_changes": 22
+        },
+        "pets": {
+          "n": 128,
+          "success": 31,
+          "terminal": 0.7786892132280627,
+          "peak": 0.9014040181064047,
+          "decisions": 4075,
+          "switches": 0,
+          "kl_changes": 0
+        },
+        "stage21": {
+          "n": 128,
+          "success": 32,
+          "terminal": 0.7817442036612192,
+          "peak": 0.9021183788427152,
+          "decisions": 4074,
+          "switches": 1,
+          "kl_changes": 0
+        }
+      }
+    },
+    "commit": {
+      "causalworld": {
+        "actor": {
+          "n": 128,
+          "success": 44,
+          "terminal": 0.40089396396797383,
+          "peak": 0.5523525620919827,
+          "decisions": 3249,
+          "switches": 0,
+          "kl_changes": 0
+        },
+        "combined_kl": {
+          "n": 128,
+          "success": 93,
+          "terminal": 0.7570794365165057,
+          "peak": 0.8063030170305865,
+          "decisions": 1571,
+          "switches": 183,
+          "kl_changes": 8
+        },
+        "combined_law": {
+          "n": 128,
+          "success": 94,
+          "terminal": 0.7652783753001131,
+          "peak": 0.8168133310973644,
+          "decisions": 1542,
+          "switches": 178,
+          "kl_changes": 8
+        },
+        "marginal": {
+          "n": 128,
+          "success": 95,
+          "terminal": 0.7350544232176617,
+          "peak": 0.7927678891574033,
+          "decisions": 1562,
+          "switches": 83,
+          "kl_changes": 5
+        },
+        "pair_kl": {
+          "n": 128,
+          "success": 92,
+          "terminal": 0.7142611248418689,
+          "peak": 0.786565974354744,
+          "decisions": 1625,
+          "switches": 85,
+          "kl_changes": 7
+        },
+        "pair_law": {
+          "n": 128,
+          "success": 93,
+          "terminal": 0.7197570626158267,
+          "peak": 0.7900008654687554,
+          "decisions": 1604,
+          "switches": 81,
+          "kl_changes": 9
+        },
+        "stage21": {
+          "n": 128,
+          "success": 95,
+          "terminal": 0.769005106354598,
+          "peak": 0.8081532490323298,
+          "decisions": 1522,
+          "switches": 156,
+          "kl_changes": 0
+        }
+      },
+      "pusht": {
+        "actor": {
+          "n": 128,
+          "success": 30,
+          "terminal": 0.7572331294177275,
+          "peak": 0.8842902510186832,
+          "decisions": 4109,
+          "switches": 0,
+          "kl_changes": 0
+        },
+        "combined_kl": {
+          "n": 128,
+          "success": 30,
+          "terminal": 0.7572331294177275,
+          "peak": 0.8842902510186832,
+          "decisions": 4109,
+          "switches": 0,
+          "kl_changes": 0
+        },
+        "combined_law": {
+          "n": 128,
+          "success": 30,
+          "terminal": 0.7572331294177275,
+          "peak": 0.8842902510186832,
+          "decisions": 4109,
+          "switches": 0,
+          "kl_changes": 0
+        },
+        "marginal": {
+          "n": 128,
+          "success": 31,
+          "terminal": 0.7591811256243091,
+          "peak": 0.8852486587820749,
+          "decisions": 4098,
+          "switches": 4,
+          "kl_changes": 0
+        },
+        "pair_kl": {
+          "n": 128,
+          "success": 30,
+          "terminal": 0.7572331294177275,
+          "peak": 0.8842902510186832,
+          "decisions": 4109,
+          "switches": 0,
+          "kl_changes": 0
+        },
+        "pair_law": {
+          "n": 128,
+          "success": 30,
+          "terminal": 0.7572331294177275,
+          "peak": 0.8842902510186832,
+          "decisions": 4109,
+          "switches": 0,
+          "kl_changes": 0
+        },
+        "stage21": {
+          "n": 128,
+          "success": 30,
+          "terminal": 0.7572331294177275,
+          "peak": 0.8842902510186832,
+          "decisions": 4109,
+          "switches": 0,
+          "kl_changes": 0
+        }
+      }
+    },
+    "segment": {
+      "causalworld": {
+        "actor": {
+          "n": 128,
+          "success": 49,
+          "terminal": 0.42951486601668876,
+          "peak": 0.6085566279070918,
+          "decisions": 3067,
+          "switches": 0,
+          "kl_changes": 0
+        },
+        "combined_kl": {
+          "n": 128,
+          "success": 83,
+          "terminal": 0.6592866003265954,
+          "peak": 0.7649682912233402,
+          "decisions": 1957,
+          "switches": 1556,
+          "kl_changes": 7,
+          "options": 920,
+          "retrieved": 494,
+          "locked_steps": 884,
+          "teacher_switches": 153,
+          "kl_disagreements": 7
+        },
+        "combined_law": {
+          "n": 128,
+          "success": 83,
+          "terminal": 0.6606811824531178,
+          "peak": 0.7651658147296985,
+          "decisions": 1957,
+          "switches": 1558,
+          "kl_changes": 7,
+          "options": 917,
+          "retrieved": 493,
+          "locked_steps": 887,
+          "teacher_switches": 153,
+          "kl_disagreements": 7
+        },
+        "combined_marginal": {
+          "n": 128,
+          "success": 80,
+          "terminal": 0.6290331654158763,
+          "peak": 0.7512195087474538,
+          "decisions": 2026,
+          "switches": 1598,
+          "kl_changes": 2,
+          "options": 960,
+          "retrieved": 507,
+          "locked_steps": 912,
+          "teacher_switches": 154,
+          "kl_disagreements": 2
+        },
+        "marginal": {
+          "n": 128,
+          "success": 37,
+          "terminal": 0.32975011988310143,
+          "peak": 0.5489255904794845,
+          "decisions": 3508,
+          "switches": 1663,
+          "kl_changes": 4,
+          "options": 1212,
+          "retrieved": 545,
+          "locked_steps": 2296,
+          "teacher_switches": 0,
+          "kl_disagreements": 4
+        },
+        "pair_kl": {
+          "n": 128,
+          "success": 46,
+          "terminal": 0.3706963268268737,
+          "peak": 0.557374753698241,
+          "decisions": 3206,
+          "switches": 1748,
+          "kl_changes": 6,
+          "options": 1110,
+          "retrieved": 589,
+          "locked_steps": 2096,
+          "teacher_switches": 0,
+          "kl_disagreements": 6
+        },
+        "pair_law": {
+          "n": 128,
+          "success": 46,
+          "terminal": 0.37000218894536374,
+          "peak": 0.5566622952464968,
+          "decisions": 3206,
+          "switches": 1739,
+          "kl_changes": 7,
+          "options": 1110,
+          "retrieved": 586,
+          "locked_steps": 2096,
+          "teacher_switches": 0,
+          "kl_disagreements": 7
+        },
+        "pair_mean": {
+          "n": 128,
+          "success": 36,
+          "terminal": 0.29980394320591586,
+          "peak": 0.5479999122035224,
+          "decisions": 3558,
+          "switches": 2084,
+          "kl_changes": 5,
+          "options": 1228,
+          "retrieved": 700,
+          "locked_steps": 2330,
+          "teacher_switches": 0,
+          "kl_disagreements": 5
+        },
+        "stage21": {
+          "n": 128,
+          "success": 98,
+          "terminal": 0.730654901242815,
+          "peak": 0.8085010454815347,
+          "decisions": 1412,
+          "switches": 151,
+          "kl_changes": 0
+        }
+      },
+      "pusht": {
+        "actor": {
+          "n": 128,
+          "success": 33,
+          "terminal": 0.778324585990049,
+          "peak": 0.923057425650768,
+          "decisions": 4098,
+          "switches": 0,
+          "kl_changes": 0
+        },
+        "combined_kl": {
+          "n": 128,
+          "success": 9,
+          "terminal": 0.40076417150339694,
+          "peak": 0.6645089982603167,
+          "decisions": 4381,
+          "switches": 3320,
+          "kl_changes": 20,
+          "options": 2206,
+          "retrieved": 1138,
+          "locked_steps": 2170,
+          "teacher_switches": 5,
+          "kl_disagreements": 20
+        },
+        "combined_law": {
+          "n": 128,
+          "success": 9,
+          "terminal": 0.4041173125770001,
+          "peak": 0.6567227233290396,
+          "decisions": 4381,
+          "switches": 3341,
+          "kl_changes": 23,
+          "options": 2192,
+          "retrieved": 1145,
+          "locked_steps": 2184,
+          "teacher_switches": 5,
+          "kl_disagreements": 23
+        },
+        "combined_marginal": {
+          "n": 128,
+          "success": 5,
+          "terminal": 0.3960556854653987,
+          "peak": 0.6488469180403627,
+          "decisions": 4433,
+          "switches": 3235,
+          "kl_changes": 28,
+          "options": 2326,
+          "retrieved": 1107,
+          "locked_steps": 2106,
+          "teacher_switches": 1,
+          "kl_disagreements": 28
+        },
+        "marginal": {
+          "n": 128,
+          "success": 13,
+          "terminal": 0.5347551392987953,
+          "peak": 0.7409870490519097,
+          "decisions": 4352,
+          "switches": 2566,
+          "kl_changes": 13,
+          "options": 1494,
+          "retrieved": 870,
+          "locked_steps": 2858,
+          "teacher_switches": 0,
+          "kl_disagreements": 13
+        },
+        "pair_kl": {
+          "n": 128,
+          "success": 22,
+          "terminal": 0.5129855814367779,
+          "peak": 0.7631182106244978,
+          "decisions": 4203,
+          "switches": 2581,
+          "kl_changes": 13,
+          "options": 1444,
+          "retrieved": 886,
+          "locked_steps": 2759,
+          "teacher_switches": 0,
+          "kl_disagreements": 13
+        },
+        "pair_law": {
+          "n": 128,
+          "success": 22,
+          "terminal": 0.5125374725629803,
+          "peak": 0.7591972639468167,
+          "decisions": 4203,
+          "switches": 2575,
+          "kl_changes": 13,
+          "options": 1444,
+          "retrieved": 884,
+          "locked_steps": 2759,
+          "teacher_switches": 0,
+          "kl_disagreements": 13
+        },
+        "pair_mean": {
+          "n": 128,
+          "success": 21,
+          "terminal": 0.5217141626361985,
+          "peak": 0.7591408928540204,
+          "decisions": 4230,
+          "switches": 2624,
+          "kl_changes": 17,
+          "options": 1452,
+          "retrieved": 899,
+          "locked_steps": 2778,
+          "teacher_switches": 0,
+          "kl_disagreements": 17
+        },
+        "stage21": {
+          "n": 128,
+          "success": 33,
+          "terminal": 0.778324585990049,
+          "peak": 0.923057425650768,
+          "decisions": 4098,
+          "switches": 0,
+          "kl_changes": 0
+        }
+      }
+    }
+  },
+  "paired": {
+    "step": {
+      "causalworld": {
+        "actor-pets": {
+          "gain": 10,
+          "loss": 28,
+          "ci": [
+            -0.2265625,
+            -0.046875
+          ]
+        },
+        "actor-stage21": {
+          "gain": 6,
+          "loss": 53,
+          "ci": [
+            -0.4609375,
+            -0.2734375
+          ]
+        },
+        "actor-marginal": {
+          "gain": 17,
+          "loss": 47,
+          "ci": [
+            -0.34394531249999993,
+            -0.1171875
+          ]
+        },
+        "actor-pair_kl": {
+          "gain": 16,
+          "loss": 50,
+          "ci": [
+            -0.3828125,
+            -0.1484375
+          ]
+        },
+        "actor-pair_law": {
+          "gain": 17,
+          "loss": 48,
+          "ci": [
+            -0.359375,
+            -0.125
+          ]
+        },
+        "actor-pair_mean": {
+          "gain": 18,
+          "loss": 47,
+          "ci": [
+            -0.34375,
+            -0.109375
+          ]
+        },
+        "pets-actor": {
+          "gain": 28,
+          "loss": 10,
+          "ci": [
+            0.046875,
+            0.2265625
+          ]
+        },
+        "pets-stage21": {
+          "gain": 11,
+          "loss": 40,
+          "ci": [
+            -0.328125,
+            -0.125
+          ]
+        },
+        "pets-marginal": {
+          "gain": 26,
+          "loss": 38,
+          "ci": [
+            -0.21875,
+            0.02363281250000071
+          ]
+        },
+        "pets-pair_kl": {
+          "gain": 22,
+          "loss": 38,
+          "ci": [
+            -0.2421875,
+            -0.0078125
+          ]
+        },
+        "pets-pair_law": {
+          "gain": 22,
+          "loss": 35,
+          "ci": [
+            -0.21875,
+            0.015625
+          ]
+        },
+        "pets-pair_mean": {
+          "gain": 24,
+          "loss": 35,
+          "ci": [
+            -0.203125,
+            0.03125
+          ]
+        },
+        "stage21-actor": {
+          "gain": 53,
+          "loss": 6,
+          "ci": [
+            0.2734375,
+            0.4609375
+          ]
+        },
+        "stage21-pets": {
+          "gain": 40,
+          "loss": 11,
+          "ci": [
+            0.125,
+            0.328125
+          ]
+        },
+        "stage21-marginal": {
+          "gain": 36,
+          "loss": 19,
+          "ci": [
+            0.0234375,
+            0.25
+          ]
+        },
+        "stage21-pair_kl": {
+          "gain": 30,
+          "loss": 17,
+          "ci": [
+            -0.0001953124999999334,
+            0.203125
+          ]
+        },
+        "stage21-pair_law": {
+          "gain": 32,
+          "loss": 16,
+          "ci": [
+            0.0234375,
+            0.2265625
+          ]
+        },
+        "stage21-pair_mean": {
+          "gain": 34,
+          "loss": 16,
+          "ci": [
+            0.03125,
+            0.25
+          ]
+        },
+        "marginal-actor": {
+          "gain": 47,
+          "loss": 17,
+          "ci": [
+            0.1171875,
+            0.3439453125000007
+          ]
+        },
+        "marginal-pets": {
+          "gain": 38,
+          "loss": 26,
+          "ci": [
+            -0.023632812499999933,
+            0.21875
+          ]
+        },
+        "marginal-stage21": {
+          "gain": 19,
+          "loss": 36,
+          "ci": [
+            -0.25,
+            -0.0234375
+          ]
+        },
+        "marginal-pair_kl": {
+          "gain": 22,
+          "loss": 26,
+          "ci": [
+            -0.140625,
+            0.078125
+          ]
+        },
+        "marginal-pair_law": {
+          "gain": 21,
+          "loss": 22,
+          "ci": [
+            -0.109375,
+            0.09375
+          ]
+        },
+        "marginal-pair_mean": {
+          "gain": 22,
+          "loss": 21,
+          "ci": [
+            -0.09375,
+            0.109375
+          ]
+        },
+        "pair_kl-actor": {
+          "gain": 50,
+          "loss": 16,
+          "ci": [
+            0.1484375,
+            0.3828125
+          ]
+        },
+        "pair_kl-pets": {
+          "gain": 38,
+          "loss": 22,
+          "ci": [
+            0.0078125,
+            0.2421875
+          ]
+        },
+        "pair_kl-stage21": {
+          "gain": 17,
+          "loss": 30,
+          "ci": [
+            -0.203125,
+            0.00019531250000071054
+          ]
+        },
+        "pair_kl-marginal": {
+          "gain": 26,
+          "loss": 22,
+          "ci": [
+            -0.078125,
+            0.140625
+          ]
+        },
+        "pair_kl-pair_law": {
+          "gain": 6,
+          "loss": 3,
+          "ci": [
+            -0.0234375,
+            0.0703125
+          ]
+        },
+        "pair_kl-pair_mean": {
+          "gain": 8,
+          "loss": 3,
+          "ci": [
+            -0.0078125,
+            0.09375
+          ]
+        },
+        "pair_law-actor": {
+          "gain": 48,
+          "loss": 17,
+          "ci": [
+            0.125,
+            0.359375
+          ]
+        },
+        "pair_law-pets": {
+          "gain": 35,
+          "loss": 22,
+          "ci": [
+            -0.015625,
+            0.21875
+          ]
+        },
+        "pair_law-stage21": {
+          "gain": 16,
+          "loss": 32,
+          "ci": [
+            -0.2265625,
+            -0.0234375
+          ]
+        },
+        "pair_law-marginal": {
+          "gain": 22,
+          "loss": 21,
+          "ci": [
+            -0.09375,
+            0.109375
+          ]
+        },
+        "pair_law-pair_kl": {
+          "gain": 3,
+          "loss": 6,
+          "ci": [
+            -0.0703125,
+            0.0234375
+          ]
+        },
+        "pair_law-pair_mean": {
+          "gain": 2,
+          "loss": 0,
+          "ci": [
+            0.0,
+            0.0390625
+          ]
+        },
+        "pair_mean-actor": {
+          "gain": 47,
+          "loss": 18,
+          "ci": [
+            0.109375,
+            0.34375
+          ]
+        },
+        "pair_mean-pets": {
+          "gain": 35,
+          "loss": 24,
+          "ci": [
+            -0.03125,
+            0.203125
+          ]
+        },
+        "pair_mean-stage21": {
+          "gain": 16,
+          "loss": 34,
+          "ci": [
+            -0.25,
+            -0.03125
+          ]
+        },
+        "pair_mean-marginal": {
+          "gain": 21,
+          "loss": 22,
+          "ci": [
+            -0.109375,
+            0.09375
+          ]
+        },
+        "pair_mean-pair_kl": {
+          "gain": 3,
+          "loss": 8,
+          "ci": [
+            -0.09375,
+            0.0078125
+          ]
+        },
+        "pair_mean-pair_law": {
+          "gain": 0,
+          "loss": 2,
+          "ci": [
+            -0.0390625,
+            0.0
+          ]
+        }
+      },
+      "pusht": {
+        "actor-pets": {
+          "gain": 0,
+          "loss": 0,
+          "ci": [
+            0.0,
+            0.0
+          ]
+        },
+        "actor-stage21": {
+          "gain": 0,
+          "loss": 1,
+          "ci": [
+            -0.0234375,
+            0.0
+          ]
+        },
+        "actor-marginal": {
+          "gain": 28,
+          "loss": 2,
+          "ci": [
+            0.125,
+            0.28125
+          ]
+        },
+        "actor-pair_kl": {
+          "gain": 28,
+          "loss": 4,
+          "ci": [
+            0.109375,
+            0.265625
+          ]
+        },
+        "actor-pair_law": {
+          "gain": 28,
+          "loss": 4,
+          "ci": [
+            0.109375,
+            0.265625
+          ]
+        },
+        "actor-pair_mean": {
+          "gain": 28,
+          "loss": 4,
+          "ci": [
+            0.109375,
+            0.265625
+          ]
+        },
+        "pets-actor": {
+          "gain": 0,
+          "loss": 0,
+          "ci": [
+            0.0,
+            0.0
+          ]
+        },
+        "pets-stage21": {
+          "gain": 0,
+          "loss": 1,
+          "ci": [
+            -0.0234375,
+            0.0
+          ]
+        },
+        "pets-marginal": {
+          "gain": 28,
+          "loss": 2,
+          "ci": [
+            0.125,
+            0.28125
+          ]
+        },
+        "pets-pair_kl": {
+          "gain": 28,
+          "loss": 4,
+          "ci": [
+            0.109375,
+            0.265625
+          ]
+        },
+        "pets-pair_law": {
+          "gain": 28,
+          "loss": 4,
+          "ci": [
+            0.109375,
+            0.265625
+          ]
+        },
+        "pets-pair_mean": {
+          "gain": 28,
+          "loss": 4,
+          "ci": [
+            0.109375,
+            0.265625
+          ]
+        },
+        "stage21-actor": {
+          "gain": 1,
+          "loss": 0,
+          "ci": [
+            0.0,
+            0.0234375
+          ]
+        },
+        "stage21-pets": {
+          "gain": 1,
+          "loss": 0,
+          "ci": [
+            0.0,
+            0.0234375
+          ]
+        },
+        "stage21-marginal": {
+          "gain": 29,
+          "loss": 2,
+          "ci": [
+            0.1328125,
+            0.2890625
+          ]
+        },
+        "stage21-pair_kl": {
+          "gain": 29,
+          "loss": 4,
+          "ci": [
+            0.109375,
+            0.2734375
+          ]
+        },
+        "stage21-pair_law": {
+          "gain": 29,
+          "loss": 4,
+          "ci": [
+            0.109375,
+            0.2734375
+          ]
+        },
+        "stage21-pair_mean": {
+          "gain": 29,
+          "loss": 4,
+          "ci": [
+            0.109375,
+            0.2734375
+          ]
+        },
+        "marginal-actor": {
+          "gain": 2,
+          "loss": 28,
+          "ci": [
+            -0.28125,
+            -0.125
+          ]
+        },
+        "marginal-pets": {
+          "gain": 2,
+          "loss": 28,
+          "ci": [
+            -0.28125,
+            -0.125
+          ]
+        },
+        "marginal-stage21": {
+          "gain": 2,
+          "loss": 29,
+          "ci": [
+            -0.2890625,
+            -0.1328125
+          ]
+        },
+        "marginal-pair_kl": {
+          "gain": 4,
+          "loss": 6,
+          "ci": [
+            -0.0625,
+            0.03125
+          ]
+        },
+        "marginal-pair_law": {
+          "gain": 4,
+          "loss": 6,
+          "ci": [
+            -0.0625,
+            0.03125
+          ]
+        },
+        "marginal-pair_mean": {
+          "gain": 4,
+          "loss": 6,
+          "ci": [
+            -0.0625,
+            0.03125
+          ]
+        },
+        "pair_kl-actor": {
+          "gain": 4,
+          "loss": 28,
+          "ci": [
+            -0.265625,
+            -0.109375
+          ]
+        },
+        "pair_kl-pets": {
+          "gain": 4,
+          "loss": 28,
+          "ci": [
+            -0.265625,
+            -0.109375
+          ]
+        },
+        "pair_kl-stage21": {
+          "gain": 4,
+          "loss": 29,
+          "ci": [
+            -0.2734375,
+            -0.109375
+          ]
+        },
+        "pair_kl-marginal": {
+          "gain": 6,
+          "loss": 4,
+          "ci": [
+            -0.03125,
+            0.0625
+          ]
+        },
+        "pair_kl-pair_law": {
+          "gain": 0,
+          "loss": 0,
+          "ci": [
+            0.0,
+            0.0
+          ]
+        },
+        "pair_kl-pair_mean": {
+          "gain": 0,
+          "loss": 0,
+          "ci": [
+            0.0,
+            0.0
+          ]
+        },
+        "pair_law-actor": {
+          "gain": 4,
+          "loss": 28,
+          "ci": [
+            -0.265625,
+            -0.109375
+          ]
+        },
+        "pair_law-pets": {
+          "gain": 4,
+          "loss": 28,
+          "ci": [
+            -0.265625,
+            -0.109375
+          ]
+        },
+        "pair_law-stage21": {
+          "gain": 4,
+          "loss": 29,
+          "ci": [
+            -0.2734375,
+            -0.109375
+          ]
+        },
+        "pair_law-marginal": {
+          "gain": 6,
+          "loss": 4,
+          "ci": [
+            -0.03125,
+            0.0625
+          ]
+        },
+        "pair_law-pair_kl": {
+          "gain": 0,
+          "loss": 0,
+          "ci": [
+            0.0,
+            0.0
+          ]
+        },
+        "pair_law-pair_mean": {
+          "gain": 0,
+          "loss": 0,
+          "ci": [
+            0.0,
+            0.0
+          ]
+        },
+        "pair_mean-actor": {
+          "gain": 4,
+          "loss": 28,
+          "ci": [
+            -0.265625,
+            -0.109375
+          ]
+        },
+        "pair_mean-pets": {
+          "gain": 4,
+          "loss": 28,
+          "ci": [
+            -0.265625,
+            -0.109375
+          ]
+        },
+        "pair_mean-stage21": {
+          "gain": 4,
+          "loss": 29,
+          "ci": [
+            -0.2734375,
+            -0.109375
+          ]
+        },
+        "pair_mean-marginal": {
+          "gain": 6,
+          "loss": 4,
+          "ci": [
+            -0.03125,
+            0.0625
+          ]
+        },
+        "pair_mean-pair_kl": {
+          "gain": 0,
+          "loss": 0,
+          "ci": [
+            0.0,
+            0.0
+          ]
+        },
+        "pair_mean-pair_law": {
+          "gain": 0,
+          "loss": 0,
+          "ci": [
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    "commit": {
+      "causalworld": {
+        "actor-combined_kl": {
+          "gain": 5,
+          "loss": 54,
+          "ci": [
+            -0.4765625,
+            -0.28125
+          ]
+        },
+        "actor-combined_law": {
+          "gain": 5,
+          "loss": 55,
+          "ci": [
+            -0.484375,
+            -0.2890625
+          ]
+        },
+        "actor-marginal": {
+          "gain": 1,
+          "loss": 52,
+          "ci": [
+            -0.484375,
+            -0.3125
+          ]
+        },
+        "actor-pair_kl": {
+          "gain": 2,
+          "loss": 50,
+          "ci": [
+            -0.4609375,
+            -0.2890625
+          ]
+        },
+        "actor-pair_law": {
+          "gain": 2,
+          "loss": 51,
+          "ci": [
+            -0.46875,
+            -0.2890625
+          ]
+        },
+        "actor-stage21": {
+          "gain": 4,
+          "loss": 55,
+          "ci": [
+            -0.4921875,
+            -0.296875
+          ]
+        },
+        "combined_kl-actor": {
+          "gain": 54,
+          "loss": 5,
+          "ci": [
+            0.28125,
+            0.4765625
+          ]
+        },
+        "combined_kl-combined_law": {
+          "gain": 0,
+          "loss": 1,
+          "ci": [
+            -0.0234375,
+            0.0
+          ]
+        },
+        "combined_kl-marginal": {
+          "gain": 4,
+          "loss": 6,
+          "ci": [
+            -0.0703125,
+            0.03125
+          ]
+        },
+        "combined_kl-pair_kl": {
+          "gain": 4,
+          "loss": 3,
+          "ci": [
+            -0.03125,
+            0.046875
+          ]
+        },
+        "combined_kl-pair_law": {
+          "gain": 4,
+          "loss": 4,
+          "ci": [
+            -0.046875,
+            0.046875
+          ]
+        },
+        "combined_kl-stage21": {
+          "gain": 1,
+          "loss": 3,
+          "ci": [
+            -0.046875,
+            0.015625
+          ]
+        },
+        "combined_law-actor": {
+          "gain": 55,
+          "loss": 5,
+          "ci": [
+            0.2890625,
+            0.484375
+          ]
+        },
+        "combined_law-combined_kl": {
+          "gain": 1,
+          "loss": 0,
+          "ci": [
+            0.0,
+            0.0234375
+          ]
+        },
+        "combined_law-marginal": {
+          "gain": 5,
+          "loss": 6,
+          "ci": [
+            -0.0625,
+            0.0390625
+          ]
+        },
+        "combined_law-pair_kl": {
+          "gain": 5,
+          "loss": 3,
+          "ci": [
+            -0.03125,
+            0.0625
+          ]
+        },
+        "combined_law-pair_law": {
+          "gain": 5,
+          "loss": 4,
+          "ci": [
+            -0.0390625,
+            0.0546875
+          ]
+        },
+        "combined_law-stage21": {
+          "gain": 1,
+          "loss": 2,
+          "ci": [
+            -0.03125,
+            0.015625
+          ]
+        },
+        "marginal-actor": {
+          "gain": 52,
+          "loss": 1,
+          "ci": [
+            0.3125,
+            0.484375
+          ]
+        },
+        "marginal-combined_kl": {
+          "gain": 6,
+          "loss": 4,
+          "ci": [
+            -0.03125,
+            0.0703125
+          ]
+        },
+        "marginal-combined_law": {
+          "gain": 6,
+          "loss": 5,
+          "ci": [
+            -0.0390625,
+            0.0625
+          ]
+        },
+        "marginal-pair_kl": {
+          "gain": 3,
+          "loss": 0,
+          "ci": [
+            0.0,
+            0.0546875
+          ]
+        },
+        "marginal-pair_law": {
+          "gain": 2,
+          "loss": 0,
+          "ci": [
+            0.0,
+            0.0390625
+          ]
+        },
+        "marginal-stage21": {
+          "gain": 6,
+          "loss": 6,
+          "ci": [
+            -0.0546875,
+            0.0546875
+          ]
+        },
+        "pair_kl-actor": {
+          "gain": 50,
+          "loss": 2,
+          "ci": [
+            0.2890625,
+            0.4609375
+          ]
+        },
+        "pair_kl-combined_kl": {
+          "gain": 3,
+          "loss": 4,
+          "ci": [
+            -0.046875,
+            0.03125
+          ]
+        },
+        "pair_kl-combined_law": {
+          "gain": 3,
+          "loss": 5,
+          "ci": [
+            -0.0625,
+            0.03125
+          ]
+        },
+        "pair_kl-marginal": {
+          "gain": 0,
+          "loss": 3,
+          "ci": [
+            -0.0546875,
+            0.0
+          ]
+        },
+        "pair_kl-pair_law": {
+          "gain": 0,
+          "loss": 1,
+          "ci": [
+            -0.0234375,
+            0.0
+          ]
+        },
+        "pair_kl-stage21": {
+          "gain": 4,
+          "loss": 7,
+          "ci": [
+            -0.0703125,
+            0.03125
+          ]
+        },
+        "pair_law-actor": {
+          "gain": 51,
+          "loss": 2,
+          "ci": [
+            0.2890625,
+            0.46875
+          ]
+        },
+        "pair_law-combined_kl": {
+          "gain": 4,
+          "loss": 4,
+          "ci": [
+            -0.046875,
+            0.046875
+          ]
+        },
+        "pair_law-combined_law": {
+          "gain": 4,
+          "loss": 5,
+          "ci": [
+            -0.0546875,
+            0.0390625
+          ]
+        },
+        "pair_law-marginal": {
+          "gain": 0,
+          "loss": 2,
+          "ci": [
+            -0.0390625,
+            0.0
+          ]
+        },
+        "pair_law-pair_kl": {
+          "gain": 1,
+          "loss": 0,
+          "ci": [
+            0.0,
+            0.0234375
+          ]
+        },
+        "pair_law-stage21": {
+          "gain": 5,
+          "loss": 7,
+          "ci": [
+            -0.0703125,
+            0.0390625
+          ]
+        },
+        "stage21-actor": {
+          "gain": 55,
+          "loss": 4,
+          "ci": [
+            0.296875,
+            0.4921875
+          ]
+        },
+        "stage21-combined_kl": {
+          "gain": 3,
+          "loss": 1,
+          "ci": [
+            -0.015625,
+            0.046875
+          ]
+        },
+        "stage21-combined_law": {
+          "gain": 2,
+          "loss": 1,
+          "ci": [
+            -0.015625,
+            0.03125
+          ]
+        },
+        "stage21-marginal": {
+          "gain": 6,
+          "loss": 6,
+          "ci": [
+            -0.0546875,
+            0.0546875
+          ]
+        },
+        "stage21-pair_kl": {
+          "gain": 7,
+          "loss": 4,
+          "ci": [
+            -0.03125,
+            0.0703125
+          ]
+        },
+        "stage21-pair_law": {
+          "gain": 7,
+          "loss": 5,
+          "ci": [
+            -0.0390625,
+            0.0703125
+          ]
+        }
+      },
+      "pusht": {
+        "actor-combined_kl": {
+          "gain": 0,
+          "loss": 0,
+          "ci": [
+            0.0,
+            0.0
+          ]
+        },
+        "actor-combined_law": {
+          "gain": 0,
+          "loss": 0,
+          "ci": [
+            0.0,
+            0.0
+          ]
+        },
+        "actor-marginal": {
+          "gain": 0,
+          "loss": 1,
+          "ci": [
+            -0.0234375,
+            0.0
+          ]
+        },
+        "actor-pair_kl": {
+          "gain": 0,
+          "loss": 0,
+          "ci": [
+            0.0,
+            0.0
+          ]
+        },
+        "actor-pair_law": {
+          "gain": 0,
+          "loss": 0,
+          "ci": [
+            0.0,
+            0.0
+          ]
+        },
+        "actor-stage21": {
+          "gain": 0,
+          "loss": 0,
+          "ci": [
+            0.0,
+            0.0
+          ]
+        },
+        "combined_kl-actor": {
+          "gain": 0,
+          "loss": 0,
+          "ci": [
+            0.0,
+            0.0
+          ]
+        },
+        "combined_kl-combined_law": {
+          "gain": 0,
+          "loss": 0,
+          "ci": [
+            0.0,
+            0.0
+          ]
+        },
+        "combined_kl-marginal": {
+          "gain": 0,
+          "loss": 1,
+          "ci": [
+            -0.0234375,
+            0.0
+          ]
+        },
+        "combined_kl-pair_kl": {
+          "gain": 0,
+          "loss": 0,
+          "ci": [
+            0.0,
+            0.0
+          ]
+        },
+        "combined_kl-pair_law": {
+          "gain": 0,
+          "loss": 0,
+          "ci": [
+            0.0,
+            0.0
+          ]
+        },
+        "combined_kl-stage21": {
+          "gain": 0,
+          "loss": 0,
+          "ci": [
+            0.0,
+            0.0
+          ]
+        },
+        "combined_law-actor": {
+          "gain": 0,
+          "loss": 0,
+          "ci": [
+            0.0,
+            0.0
+          ]
+        },
+        "combined_law-combined_kl": {
+          "gain": 0,
+          "loss": 0,
+          "ci": [
+            0.0,
+            0.0
+          ]
+        },
+        "combined_law-marginal": {
+          "gain": 0,
+          "loss": 1,
+          "ci": [
+            -0.0234375,
+            0.0
+          ]
+        },
+        "combined_law-pair_kl": {
+          "gain": 0,
+          "loss": 0,
+          "ci": [
+            0.0,
+            0.0
+          ]
+        },
+        "combined_law-pair_law": {
+          "gain": 0,
+          "loss": 0,
+          "ci": [
+            0.0,
+            0.0
+          ]
+        },
+        "combined_law-stage21": {
+          "gain": 0,
+          "loss": 0,
+          "ci": [
+            0.0,
+            0.0
+          ]
+        },
+        "marginal-actor": {
+          "gain": 1,
+          "loss": 0,
+          "ci": [
+            0.0,
+            0.0234375
+          ]
+        },
+        "marginal-combined_kl": {
+          "gain": 1,
+          "loss": 0,
+          "ci": [
+            0.0,
+            0.0234375
+          ]
+        },
+        "marginal-combined_law": {
+          "gain": 1,
+          "loss": 0,
+          "ci": [
+            0.0,
+            0.0234375
+          ]
+        },
+        "marginal-pair_kl": {
+          "gain": 1,
+          "loss": 0,
+          "ci": [
+            0.0,
+            0.0234375
+          ]
+        },
+        "marginal-pair_law": {
+          "gain": 1,
+          "loss": 0,
+          "ci": [
+            0.0,
+            0.0234375
+          ]
+        },
+        "marginal-stage21": {
+          "gain": 1,
+          "loss": 0,
+          "ci": [
+            0.0,
+            0.0234375
+          ]
+        },
+        "pair_kl-actor": {
+          "gain": 0,
+          "loss": 0,
+          "ci": [
+            0.0,
+            0.0
+          ]
+        },
+        "pair_kl-combined_kl": {
+          "gain": 0,
+          "loss": 0,
+          "ci": [
+            0.0,
+            0.0
+          ]
+        },
+        "pair_kl-combined_law": {
+          "gain": 0,
+          "loss": 0,
+          "ci": [
+            0.0,
+            0.0
+          ]
+        },
+        "pair_kl-marginal": {
+          "gain": 0,
+          "loss": 1,
+          "ci": [
+            -0.0234375,
+            0.0
+          ]
+        },
+        "pair_kl-pair_law": {
+          "gain": 0,
+          "loss": 0,
+          "ci": [
+            0.0,
+            0.0
+          ]
+        },
+        "pair_kl-stage21": {
+          "gain": 0,
+          "loss": 0,
+          "ci": [
+            0.0,
+            0.0
+          ]
+        },
+        "pair_law-actor": {
+          "gain": 0,
+          "loss": 0,
+          "ci": [
+            0.0,
+            0.0
+          ]
+        },
+        "pair_law-combined_kl": {
+          "gain": 0,
+          "loss": 0,
+          "ci": [
+            0.0,
+            0.0
+          ]
+        },
+        "pair_law-combined_law": {
+          "gain": 0,
+          "loss": 0,
+          "ci": [
+            0.0,
+            0.0
+          ]
+        },
+        "pair_law-marginal": {
+          "gain": 0,
+          "loss": 1,
+          "ci": [
+            -0.0234375,
+            0.0
+          ]
+        },
+        "pair_law-pair_kl": {
+          "gain": 0,
+          "loss": 0,
+          "ci": [
+            0.0,
+            0.0
+          ]
+        },
+        "pair_law-stage21": {
+          "gain": 0,
+          "loss": 0,
+          "ci": [
+            0.0,
+            0.0
+          ]
+        },
+        "stage21-actor": {
+          "gain": 0,
+          "loss": 0,
+          "ci": [
+            0.0,
+            0.0
+          ]
+        },
+        "stage21-combined_kl": {
+          "gain": 0,
+          "loss": 0,
+          "ci": [
+            0.0,
+            0.0
+          ]
+        },
+        "stage21-combined_law": {
+          "gain": 0,
+          "loss": 0,
+          "ci": [
+            0.0,
+            0.0
+          ]
+        },
+        "stage21-marginal": {
+          "gain": 0,
+          "loss": 1,
+          "ci": [
+            -0.0234375,
+            0.0
+          ]
+        },
+        "stage21-pair_kl": {
+          "gain": 0,
+          "loss": 0,
+          "ci": [
+            0.0,
+            0.0
+          ]
+        },
+        "stage21-pair_law": {
+          "gain": 0,
+          "loss": 0,
+          "ci": [
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    "segment": {
+      "causalworld": {
+        "actor-combined_kl": {
+          "gain": 16,
+          "loss": 50,
+          "ci": [
+            -0.3828125,
+            -0.1484375
+          ]
+        },
+        "actor-combined_law": {
+          "gain": 16,
+          "loss": 50,
+          "ci": [
+            -0.3828125,
+            -0.1484375
+          ]
+        },
+        "actor-combined_marginal": {
+          "gain": 17,
+          "loss": 48,
+          "ci": [
+            -0.359375,
+            -0.125
+          ]
+        },
+        "actor-marginal": {
+          "gain": 21,
+          "loss": 9,
+          "ci": [
+            0.0078125,
+            0.171875
+          ]
+        },
+        "actor-pair_kl": {
+          "gain": 10,
+          "loss": 7,
+          "ci": [
+            -0.0390625,
+            0.0859375
+          ]
+        },
+        "actor-pair_law": {
+          "gain": 10,
+          "loss": 7,
+          "ci": [
+            -0.0390625,
+            0.0859375
+          ]
+        },
+        "actor-pair_mean": {
+          "gain": 20,
+          "loss": 7,
+          "ci": [
+            0.0234375,
+            0.1796875
+          ]
+        },
+        "actor-stage21": {
+          "gain": 3,
+          "loss": 52,
+          "ci": [
+            -0.4765625,
+            -0.2890625
+          ]
+        },
+        "combined_kl-actor": {
+          "gain": 50,
+          "loss": 16,
+          "ci": [
+            0.1484375,
+            0.3828125
+          ]
+        },
+        "combined_kl-combined_law": {
+          "gain": 0,
+          "loss": 0,
+          "ci": [
+            0.0,
+            0.0
+          ]
+        },
+        "combined_kl-combined_marginal": {
+          "gain": 8,
+          "loss": 5,
+          "ci": [
+            -0.03125,
+            0.078125
+          ]
+        },
+        "combined_kl-marginal": {
+          "gain": 57,
+          "loss": 11,
+          "ci": [
+            0.24980468750000007,
+            0.46875
+          ]
+        },
+        "combined_kl-pair_kl": {
+          "gain": 47,
+          "loss": 10,
+          "ci": [
+            0.1875,
+            0.390625
+          ]
+        },
+        "combined_kl-pair_law": {
+          "gain": 47,
+          "loss": 10,
+          "ci": [
+            0.1875,
+            0.390625
+          ]
+        },
+        "combined_kl-pair_mean": {
+          "gain": 56,
+          "loss": 9,
+          "ci": [
+            0.2578125,
+            0.46875
+          ]
+        },
+        "combined_kl-stage21": {
+          "gain": 5,
+          "loss": 20,
+          "ci": [
+            -0.1953125,
+            -0.046875
+          ]
+        },
+        "combined_law-actor": {
+          "gain": 50,
+          "loss": 16,
+          "ci": [
+            0.1484375,
+            0.3828125
+          ]
+        },
+        "combined_law-combined_kl": {
+          "gain": 0,
+          "loss": 0,
+          "ci": [
+            0.0,
+            0.0
+          ]
+        },
+        "combined_law-combined_marginal": {
+          "gain": 8,
+          "loss": 5,
+          "ci": [
+            -0.03125,
+            0.078125
+          ]
+        },
+        "combined_law-marginal": {
+          "gain": 57,
+          "loss": 11,
+          "ci": [
+            0.24980468750000007,
+            0.46875
+          ]
+        },
+        "combined_law-pair_kl": {
+          "gain": 47,
+          "loss": 10,
+          "ci": [
+            0.1875,
+            0.390625
+          ]
+        },
+        "combined_law-pair_law": {
+          "gain": 47,
+          "loss": 10,
+          "ci": [
+            0.1875,
+            0.390625
+          ]
+        },
+        "combined_law-pair_mean": {
+          "gain": 56,
+          "loss": 9,
+          "ci": [
+            0.2578125,
+            0.46875
+          ]
+        },
+        "combined_law-stage21": {
+          "gain": 5,
+          "loss": 20,
+          "ci": [
+            -0.1953125,
+            -0.046875
+          ]
+        },
+        "combined_marginal-actor": {
+          "gain": 48,
+          "loss": 17,
+          "ci": [
+            0.125,
+            0.359375
+          ]
+        },
+        "combined_marginal-combined_kl": {
+          "gain": 5,
+          "loss": 8,
+          "ci": [
+            -0.078125,
+            0.03125
+          ]
+        },
+        "combined_marginal-combined_law": {
+          "gain": 5,
+          "loss": 8,
+          "ci": [
+            -0.078125,
+            0.03125
+          ]
+        },
+        "combined_marginal-marginal": {
+          "gain": 52,
+          "loss": 9,
+          "ci": [
+            0.2265625,
+            0.4375
+          ]
+        },
+        "combined_marginal-pair_kl": {
+          "gain": 47,
+          "loss": 13,
+          "ci": [
+            0.15625,
+            0.375
+          ]
+        },
+        "combined_marginal-pair_law": {
+          "gain": 47,
+          "loss": 13,
+          "ci": [
+            0.15625,
+            0.375
+          ]
+        },
+        "combined_marginal-pair_mean": {
+          "gain": 55,
+          "loss": 11,
+          "ci": [
+            0.234375,
+            0.453125
+          ]
+        },
+        "combined_marginal-stage21": {
+          "gain": 3,
+          "loss": 21,
+          "ci": [
+            -0.2109375,
+            -0.0703125
+          ]
+        },
+        "marginal-actor": {
+          "gain": 9,
+          "loss": 21,
+          "ci": [
+            -0.171875,
+            -0.0078125
+          ]
+        },
+        "marginal-combined_kl": {
+          "gain": 11,
+          "loss": 57,
+          "ci": [
+            -0.46875,
+            -0.2498046874999993
+          ]
+        },
+        "marginal-combined_law": {
+          "gain": 11,
+          "loss": 57,
+          "ci": [
+            -0.46875,
+            -0.2498046874999993
+          ]
+        },
+        "marginal-combined_marginal": {
+          "gain": 9,
+          "loss": 52,
+          "ci": [
+            -0.4375,
+            -0.2265625
+          ]
+        },
+        "marginal-pair_kl": {
+          "gain": 9,
+          "loss": 18,
+          "ci": [
+            -0.1484375,
+            0.0078125
+          ]
+        },
+        "marginal-pair_law": {
+          "gain": 9,
+          "loss": 18,
+          "ci": [
+            -0.1484375,
+            0.0078125
+          ]
+        },
+        "marginal-pair_mean": {
+          "gain": 11,
+          "loss": 10,
+          "ci": [
+            -0.0625,
+            0.078125
+          ]
+        },
+        "marginal-stage21": {
+          "gain": 6,
+          "loss": 67,
+          "ci": [
+            -0.578125,
+            -0.375
+          ]
+        },
+        "pair_kl-actor": {
+          "gain": 7,
+          "loss": 10,
+          "ci": [
+            -0.0859375,
+            0.0390625
+          ]
+        },
+        "pair_kl-combined_kl": {
+          "gain": 10,
+          "loss": 47,
+          "ci": [
+            -0.390625,
+            -0.1875
+          ]
+        },
+        "pair_kl-combined_law": {
+          "gain": 10,
+          "loss": 47,
+          "ci": [
+            -0.390625,
+            -0.1875
+          ]
+        },
+        "pair_kl-combined_marginal": {
+          "gain": 13,
+          "loss": 47,
+          "ci": [
+            -0.375,
+            -0.15625
+          ]
+        },
+        "pair_kl-marginal": {
+          "gain": 18,
+          "loss": 9,
+          "ci": [
+            -0.0078125,
+            0.1484375
+          ]
+        },
+        "pair_kl-pair_law": {
+          "gain": 0,
+          "loss": 0,
+          "ci": [
+            0.0,
+            0.0
+          ]
+        },
+        "pair_kl-pair_mean": {
+          "gain": 12,
+          "loss": 2,
+          "ci": [
+            0.0234375,
+            0.1328125
+          ]
+        },
+        "pair_kl-stage21": {
+          "gain": 4,
+          "loss": 56,
+          "ci": [
+            -0.5078125,
+            -0.3125
+          ]
+        },
+        "pair_law-actor": {
+          "gain": 7,
+          "loss": 10,
+          "ci": [
+            -0.0859375,
+            0.0390625
+          ]
+        },
+        "pair_law-combined_kl": {
+          "gain": 10,
+          "loss": 47,
+          "ci": [
+            -0.390625,
+            -0.1875
+          ]
+        },
+        "pair_law-combined_law": {
+          "gain": 10,
+          "loss": 47,
+          "ci": [
+            -0.390625,
+            -0.1875
+          ]
+        },
+        "pair_law-combined_marginal": {
+          "gain": 13,
+          "loss": 47,
+          "ci": [
+            -0.375,
+            -0.15625
+          ]
+        },
+        "pair_law-marginal": {
+          "gain": 18,
+          "loss": 9,
+          "ci": [
+            -0.0078125,
+            0.1484375
+          ]
+        },
+        "pair_law-pair_kl": {
+          "gain": 0,
+          "loss": 0,
+          "ci": [
+            0.0,
+            0.0
+          ]
+        },
+        "pair_law-pair_mean": {
+          "gain": 12,
+          "loss": 2,
+          "ci": [
+            0.0234375,
+            0.1328125
+          ]
+        },
+        "pair_law-stage21": {
+          "gain": 4,
+          "loss": 56,
+          "ci": [
+            -0.5078125,
+            -0.3125
+          ]
+        },
+        "pair_mean-actor": {
+          "gain": 7,
+          "loss": 20,
+          "ci": [
+            -0.1796875,
+            -0.0234375
+          ]
+        },
+        "pair_mean-combined_kl": {
+          "gain": 9,
+          "loss": 56,
+          "ci": [
+            -0.46875,
+            -0.2578125
+          ]
+        },
+        "pair_mean-combined_law": {
+          "gain": 9,
+          "loss": 56,
+          "ci": [
+            -0.46875,
+            -0.2578125
+          ]
+        },
+        "pair_mean-combined_marginal": {
+          "gain": 11,
+          "loss": 55,
+          "ci": [
+            -0.453125,
+            -0.234375
+          ]
+        },
+        "pair_mean-marginal": {
+          "gain": 10,
+          "loss": 11,
+          "ci": [
+            -0.078125,
+            0.0625
+          ]
+        },
+        "pair_mean-pair_kl": {
+          "gain": 2,
+          "loss": 12,
+          "ci": [
+            -0.1328125,
+            -0.0234375
+          ]
+        },
+        "pair_mean-pair_law": {
+          "gain": 2,
+          "loss": 12,
+          "ci": [
+            -0.1328125,
+            -0.0234375
+          ]
+        },
+        "pair_mean-stage21": {
+          "gain": 3,
+          "loss": 65,
+          "ci": [
+            -0.578125,
+            -0.390625
+          ]
+        },
+        "stage21-actor": {
+          "gain": 52,
+          "loss": 3,
+          "ci": [
+            0.2890625,
+            0.4765625
+          ]
+        },
+        "stage21-combined_kl": {
+          "gain": 20,
+          "loss": 5,
+          "ci": [
+            0.046875,
+            0.1953125
+          ]
+        },
+        "stage21-combined_law": {
+          "gain": 20,
+          "loss": 5,
+          "ci": [
+            0.046875,
+            0.1953125
+          ]
+        },
+        "stage21-combined_marginal": {
+          "gain": 21,
+          "loss": 3,
+          "ci": [
+            0.0703125,
+            0.2109375
+          ]
+        },
+        "stage21-marginal": {
+          "gain": 67,
+          "loss": 6,
+          "ci": [
+            0.375,
+            0.578125
+          ]
+        },
+        "stage21-pair_kl": {
+          "gain": 56,
+          "loss": 4,
+          "ci": [
+            0.3125,
+            0.5078125
+          ]
+        },
+        "stage21-pair_law": {
+          "gain": 56,
+          "loss": 4,
+          "ci": [
+            0.3125,
+            0.5078125
+          ]
+        },
+        "stage21-pair_mean": {
+          "gain": 65,
+          "loss": 3,
+          "ci": [
+            0.390625,
+            0.578125
+          ]
+        }
+      },
+      "pusht": {
+        "actor-combined_kl": {
+          "gain": 29,
+          "loss": 5,
+          "ci": [
+            0.109375,
+            0.2734375
+          ]
+        },
+        "actor-combined_law": {
+          "gain": 29,
+          "loss": 5,
+          "ci": [
+            0.109375,
+            0.2734375
+          ]
+        },
+        "actor-combined_marginal": {
+          "gain": 30,
+          "loss": 2,
+          "ci": [
+            0.140625,
+            0.3046875
+          ]
+        },
+        "actor-marginal": {
+          "gain": 26,
+          "loss": 6,
+          "ci": [
+            0.078125,
+            0.2421875
+          ]
+        },
+        "actor-pair_kl": {
+          "gain": 25,
+          "loss": 14,
+          "ci": [
+            -0.015625,
+            0.1796875
+          ]
+        },
+        "actor-pair_law": {
+          "gain": 25,
+          "loss": 14,
+          "ci": [
+            -0.015625,
+            0.1796875
+          ]
+        },
+        "actor-pair_mean": {
+          "gain": 27,
+          "loss": 15,
+          "ci": [
+            -0.0078125,
+            0.1953125
+          ]
+        },
+        "actor-stage21": {
+          "gain": 0,
+          "loss": 0,
+          "ci": [
+            0.0,
+            0.0
+          ]
+        },
+        "combined_kl-actor": {
+          "gain": 5,
+          "loss": 29,
+          "ci": [
+            -0.2734375,
+            -0.109375
+          ]
+        },
+        "combined_kl-combined_law": {
+          "gain": 0,
+          "loss": 0,
+          "ci": [
+            0.0,
+            0.0
+          ]
+        },
+        "combined_kl-combined_marginal": {
+          "gain": 9,
+          "loss": 5,
+          "ci": [
+            -0.03125,
+            0.0859375
+          ]
+        },
+        "combined_kl-marginal": {
+          "gain": 9,
+          "loss": 13,
+          "ci": [
+            -0.1015625,
+            0.0390625
+          ]
+        },
+        "combined_kl-pair_kl": {
+          "gain": 5,
+          "loss": 18,
+          "ci": [
+            -0.1796875,
+            -0.03125
+          ]
+        },
+        "combined_kl-pair_law": {
+          "gain": 5,
+          "loss": 18,
+          "ci": [
+            -0.1796875,
+            -0.03125
+          ]
+        },
+        "combined_kl-pair_mean": {
+          "gain": 5,
+          "loss": 17,
+          "ci": [
+            -0.1640625,
+            -0.03125
+          ]
+        },
+        "combined_kl-stage21": {
+          "gain": 5,
+          "loss": 29,
+          "ci": [
+            -0.2734375,
+            -0.109375
+          ]
+        },
+        "combined_law-actor": {
+          "gain": 5,
+          "loss": 29,
+          "ci": [
+            -0.2734375,
+            -0.109375
+          ]
+        },
+        "combined_law-combined_kl": {
+          "gain": 0,
+          "loss": 0,
+          "ci": [
+            0.0,
+            0.0
+          ]
+        },
+        "combined_law-combined_marginal": {
+          "gain": 9,
+          "loss": 5,
+          "ci": [
+            -0.03125,
+            0.0859375
+          ]
+        },
+        "combined_law-marginal": {
+          "gain": 9,
+          "loss": 13,
+          "ci": [
+            -0.1015625,
+            0.0390625
+          ]
+        },
+        "combined_law-pair_kl": {
+          "gain": 5,
+          "loss": 18,
+          "ci": [
+            -0.1796875,
+            -0.03125
+          ]
+        },
+        "combined_law-pair_law": {
+          "gain": 5,
+          "loss": 18,
+          "ci": [
+            -0.1796875,
+            -0.03125
+          ]
+        },
+        "combined_law-pair_mean": {
+          "gain": 5,
+          "loss": 17,
+          "ci": [
+            -0.1640625,
+            -0.03125
+          ]
+        },
+        "combined_law-stage21": {
+          "gain": 5,
+          "loss": 29,
+          "ci": [
+            -0.2734375,
+            -0.109375
+          ]
+        },
+        "combined_marginal-actor": {
+          "gain": 2,
+          "loss": 30,
+          "ci": [
+            -0.3046875,
+            -0.140625
+          ]
+        },
+        "combined_marginal-combined_kl": {
+          "gain": 5,
+          "loss": 9,
+          "ci": [
+            -0.0859375,
+            0.03125
+          ]
+        },
+        "combined_marginal-combined_law": {
+          "gain": 5,
+          "loss": 9,
+          "ci": [
+            -0.0859375,
+            0.03125
+          ]
+        },
+        "combined_marginal-marginal": {
+          "gain": 3,
+          "loss": 11,
+          "ci": [
+            -0.1171875,
+            -0.0078125
+          ]
+        },
+        "combined_marginal-pair_kl": {
+          "gain": 4,
+          "loss": 21,
+          "ci": [
+            -0.20332031249999993,
+            -0.0625
+          ]
+        },
+        "combined_marginal-pair_law": {
+          "gain": 4,
+          "loss": 21,
+          "ci": [
+            -0.20332031249999993,
+            -0.0625
+          ]
+        },
+        "combined_marginal-pair_mean": {
+          "gain": 4,
+          "loss": 20,
+          "ci": [
+            -0.1953125,
+            -0.0546875
+          ]
+        },
+        "combined_marginal-stage21": {
+          "gain": 2,
+          "loss": 30,
+          "ci": [
+            -0.3046875,
+            -0.140625
+          ]
+        },
+        "marginal-actor": {
+          "gain": 6,
+          "loss": 26,
+          "ci": [
+            -0.2421875,
+            -0.078125
+          ]
+        },
+        "marginal-combined_kl": {
+          "gain": 13,
+          "loss": 9,
+          "ci": [
+            -0.0390625,
+            0.1015625
+          ]
+        },
+        "marginal-combined_law": {
+          "gain": 13,
+          "loss": 9,
+          "ci": [
+            -0.0390625,
+            0.1015625
+          ]
+        },
+        "marginal-combined_marginal": {
+          "gain": 11,
+          "loss": 3,
+          "ci": [
+            0.0078125,
+            0.1171875
+          ]
+        },
+        "marginal-pair_kl": {
+          "gain": 9,
+          "loss": 18,
+          "ci": [
+            -0.1484375,
+            0.0078125
+          ]
+        },
+        "marginal-pair_law": {
+          "gain": 9,
+          "loss": 18,
+          "ci": [
+            -0.1484375,
+            0.0078125
+          ]
+        },
+        "marginal-pair_mean": {
+          "gain": 8,
+          "loss": 16,
+          "ci": [
+            -0.140625,
+            0.0078125
+          ]
+        },
+        "marginal-stage21": {
+          "gain": 6,
+          "loss": 26,
+          "ci": [
+            -0.2421875,
+            -0.078125
+          ]
+        },
+        "pair_kl-actor": {
+          "gain": 14,
+          "loss": 25,
+          "ci": [
+            -0.1796875,
+            0.015625
+          ]
+        },
+        "pair_kl-combined_kl": {
+          "gain": 18,
+          "loss": 5,
+          "ci": [
+            0.03125,
+            0.1796875
+          ]
+        },
+        "pair_kl-combined_law": {
+          "gain": 18,
+          "loss": 5,
+          "ci": [
+            0.03125,
+            0.1796875
+          ]
+        },
+        "pair_kl-combined_marginal": {
+          "gain": 21,
+          "loss": 4,
+          "ci": [
+            0.0625,
+            0.2033203125000007
+          ]
+        },
+        "pair_kl-marginal": {
+          "gain": 18,
+          "loss": 9,
+          "ci": [
+            -0.0078125,
+            0.1484375
+          ]
+        },
+        "pair_kl-pair_law": {
+          "gain": 0,
+          "loss": 0,
+          "ci": [
+            0.0,
+            0.0
+          ]
+        },
+        "pair_kl-pair_mean": {
+          "gain": 3,
+          "loss": 2,
+          "ci": [
+            -0.0234375,
+            0.03925781250000071
+          ]
+        },
+        "pair_kl-stage21": {
+          "gain": 14,
+          "loss": 25,
+          "ci": [
+            -0.1796875,
+            0.015625
+          ]
+        },
+        "pair_law-actor": {
+          "gain": 14,
+          "loss": 25,
+          "ci": [
+            -0.1796875,
+            0.015625
+          ]
+        },
+        "pair_law-combined_kl": {
+          "gain": 18,
+          "loss": 5,
+          "ci": [
+            0.03125,
+            0.1796875
+          ]
+        },
+        "pair_law-combined_law": {
+          "gain": 18,
+          "loss": 5,
+          "ci": [
+            0.03125,
+            0.1796875
+          ]
+        },
+        "pair_law-combined_marginal": {
+          "gain": 21,
+          "loss": 4,
+          "ci": [
+            0.0625,
+            0.2033203125000007
+          ]
+        },
+        "pair_law-marginal": {
+          "gain": 18,
+          "loss": 9,
+          "ci": [
+            -0.0078125,
+            0.1484375
+          ]
+        },
+        "pair_law-pair_kl": {
+          "gain": 0,
+          "loss": 0,
+          "ci": [
+            0.0,
+            0.0
+          ]
+        },
+        "pair_law-pair_mean": {
+          "gain": 3,
+          "loss": 2,
+          "ci": [
+            -0.0234375,
+            0.03925781250000071
+          ]
+        },
+        "pair_law-stage21": {
+          "gain": 14,
+          "loss": 25,
+          "ci": [
+            -0.1796875,
+            0.015625
+          ]
+        },
+        "pair_mean-actor": {
+          "gain": 15,
+          "loss": 27,
+          "ci": [
+            -0.1953125,
+            0.0078125
+          ]
+        },
+        "pair_mean-combined_kl": {
+          "gain": 17,
+          "loss": 5,
+          "ci": [
+            0.03125,
+            0.1640625
+          ]
+        },
+        "pair_mean-combined_law": {
+          "gain": 17,
+          "loss": 5,
+          "ci": [
+            0.03125,
+            0.1640625
+          ]
+        },
+        "pair_mean-combined_marginal": {
+          "gain": 20,
+          "loss": 4,
+          "ci": [
+            0.0546875,
+            0.1953125
+          ]
+        },
+        "pair_mean-marginal": {
+          "gain": 16,
+          "loss": 8,
+          "ci": [
+            -0.0078125,
+            0.140625
+          ]
+        },
+        "pair_mean-pair_kl": {
+          "gain": 2,
+          "loss": 3,
+          "ci": [
+            -0.03925781249999993,
+            0.0234375
+          ]
+        },
+        "pair_mean-pair_law": {
+          "gain": 2,
+          "loss": 3,
+          "ci": [
+            -0.03925781249999993,
+            0.0234375
+          ]
+        },
+        "pair_mean-stage21": {
+          "gain": 15,
+          "loss": 27,
+          "ci": [
+            -0.1953125,
+            0.0078125
+          ]
+        },
+        "stage21-actor": {
+          "gain": 0,
+          "loss": 0,
+          "ci": [
+            0.0,
+            0.0
+          ]
+        },
+        "stage21-combined_kl": {
+          "gain": 29,
+          "loss": 5,
+          "ci": [
+            0.109375,
+            0.2734375
+          ]
+        },
+        "stage21-combined_law": {
+          "gain": 29,
+          "loss": 5,
+          "ci": [
+            0.109375,
+            0.2734375
+          ]
+        },
+        "stage21-combined_marginal": {
+          "gain": 30,
+          "loss": 2,
+          "ci": [
+            0.140625,
+            0.3046875
+          ]
+        },
+        "stage21-marginal": {
+          "gain": 26,
+          "loss": 6,
+          "ci": [
+            0.078125,
+            0.2421875
+          ]
+        },
+        "stage21-pair_kl": {
+          "gain": 25,
+          "loss": 14,
+          "ci": [
+            -0.015625,
+            0.1796875
+          ]
+        },
+        "stage21-pair_law": {
+          "gain": 25,
+          "loss": 14,
+          "ci": [
+            -0.015625,
+            0.1796875
+          ]
+        },
+        "stage21-pair_mean": {
+          "gain": 27,
+          "loss": 15,
+          "ci": [
+            -0.0078125,
+            0.1953125
+          ]
+        }
+      }
+    }
+  },
+  "segment_offline": {
+    "causalworld": {
+      "effect_rmse": 0.49397140741348267,
+      "crps": 0.1872769392886342,
+      "rescue": {
+        "ap": 0.11605390341903513,
+        "rate": 0.0455729179084301,
+        "brier": 0.04377930238842964
+      },
+      "break": {
+        "ap": 0.2957759968139969,
+        "rate": 0.0911458358168602,
+        "brier": 0.07425280660390854
+      },
+      "any_retrieval_rescues": 0.109375,
+      "reference_success": 0.3828125,
+      "marginal": {
+        "actual_success_gain": -0.01171875,
+        "switch_rate": 0.59375
+      },
+      "pair_mean": {
+        "actual_success_gain": -0.01171875,
+        "switch_rate": 0.62109375
+      },
+      "pair_law": {
+        "actual_success_gain": -0.00390625,
+        "switch_rate": 0.578125
+      },
+      "pair_kl": {
+        "actual_success_gain": -0.00390625,
+        "switch_rate": 0.578125
+      }
+    },
+    "pusht": {
+      "effect_rmse": 0.3542121946811676,
+      "crps": 0.15377636484003387,
+      "rescue": {
+        "ap": 0.07306522480481631,
+        "rate": 0.0442708320915699,
+        "brier": 0.04175892472267151
+      },
+      "break": {
+        "ap": 0.08928279073679152,
+        "rate": 0.05078125,
+        "brier": 0.04760584235191345
+      },
+      "any_retrieval_rescues": 0.09765625,
+      "reference_success": 0.125,
+      "marginal": {
+        "actual_success_gain": -0.00390625,
+        "switch_rate": 0.625
+      },
+      "pair_mean": {
+        "actual_success_gain": -0.01953125,
+        "switch_rate": 0.65625
+      },
+      "pair_law": {
+        "actual_success_gain": -0.01171875,
+        "switch_rate": 0.6484375
+      },
+      "pair_kl": {
+        "actual_success_gain": -0.01171875,
+        "switch_rate": 0.6484375
+      }
+    }
+  }
+}

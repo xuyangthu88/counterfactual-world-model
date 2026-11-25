@@ -1,0 +1,50 @@
+{
+  "selected": {
+    "cost": 0.16,
+    "hold": 5,
+    "prior": 0.05,
+    "risk": 0.15
+  },
+  "validation": [
+    {
+      "config": {
+        "cost": 0.06,
+        "hold": 5,
+        "prior": 0.05,
+        "risk": 0.15
+      },
+      "success": 48,
+      "terminal": 0.7610724393064933
+    },
+    {
+      "config": {
+        "cost": 0.06,
+        "hold": 11,
+        "prior": 0.05,
+        "risk": 0.15
+      },
+      "success": 48,
+      "terminal": 0.7610724393064933
+    },
+    {
+      "config": {
+        "cost": 0.16,
+        "hold": 5,
+        "prior": 0.05,
+        "risk": 0.15
+      },
+      "success": 48,
+      "terminal": 0.7684336826302266
+    },
+    {
+      "config": {
+        "cost": 0.16,
+        "hold": 11,
+        "prior": 0.05,
+        "risk": 0.15
+      },
+      "success": 48,
+      "terminal": 0.7684336826302266
+    }
+  ]
+}
