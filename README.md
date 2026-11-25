@@ -1,5 +1,7 @@
 # WhatIf · 基于事实交互的反事实世界模型
 
+**Stage 10**　[同状态换动作如何改变接触：共享图、反事实分布与真实闭环](reports/stages/10-contact-switch.md)。
+
 **Stage 09**　[事实试推后的前瞻预测、粒子后验和两个基准的闭环对照](reports/stages/09-prospective-control.md)。
 
 **Stage 08**　[共享接触模型、未知阻尼与多步规划的完整实验报告](reports/stages/08-shared-contact.md)。

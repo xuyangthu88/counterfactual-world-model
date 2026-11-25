@@ -5,20 +5,28 @@ from whatif.shared.planning import menus,mechanical,weighted_state,scale
 from .filter import correct,gain,predict_grid
 
 
-def enumerate_cw(model,s,a,belief,cfg):
+def missed_contact(logits,task):
+    actuators=logits[...,:1] if task=='pusht' else logits
+    return (-actuators).sigmoid().prod(-1)
+
+
+def enumerate_cw(model,s,a,belief,cfg,contact_cost=0.):
     z,e,peak,rank,w=predict_grid(model.graph,s,a,belief,cfg)
     v=.55*task_value(s[:,None,None],z,peak)+.45*rank
+    if contact_cost:v=v-contact_cost*missed_contact(e,'causalworld')
     now=((v+.075*torch.tanh((v-v[:,1:2])/.12))*w[:,None]).sum(-1)
     avg=weighted_state(z,w).reshape(-1,19);candidates=menus(avg,'causalworld')
     j=mechanical(avg[:,None],candidates).argmax(1)
     cmd=candidates[torch.arange(len(j),device=s.device),j][:,None]
     expanded=tuple(x.repeat_interleave(a.shape[1],0) for x in belief)
-    y,_,p,r,second=predict_grid(model.graph,avg,cmd,expanded,cfg)
-    later=((.55*task_value(avg[:,None,None],y,p)+.45*r)[:,0]*second).sum(-1).reshape_as(now)
+    y,edges,p,r,second=predict_grid(model.graph,avg,cmd,expanded,cfg)
+    follow=.55*task_value(avg[:,None,None],y,p)+.45*r
+    if contact_cost:follow=follow-contact_cost*missed_contact(edges,'causalworld')
+    later=(follow[:,0]*second).sum(-1).reshape_as(now)
     return (.65*now+.35*later).argmax(1)
 
 
-def cem(model,s,task,seed,belief=None,correction=None,terminal=False):
+def cem(model,s,task,seed,belief=None,correction=None,terminal=False,contact_cost=0.):
     # Equal 5x3 rollout budget for the graph and the Gaussian ensemble.
     torch.manual_seed(seed)
     eps=torch.randn(3,5,1,16,device=s.device)
@@ -44,6 +52,7 @@ def cem(model,s,task,seed,belief=None,correction=None,terminal=False):
                 z,edge,peak,rank=model.graph(st,a,ks.expand_as(draw),draw)
                 z=correct(st,a,z,edge,gg.expand_as(draw))
                 u=.55*task_value(st,z,peak)+.45*rank
+                if contact_cost:u=u-contact_cost*missed_contact(edge,task)
             instant=.35*u+.65*mechanical(st,a)
             total=total+.85**h*alive*instant
             done=z[...,12]>(.90+.05*st[...,13])
