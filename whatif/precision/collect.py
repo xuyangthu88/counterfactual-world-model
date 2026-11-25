@@ -20,7 +20,7 @@ SIZES = {
 OFFSET = {"pusht": 0, "causalworld": 0, "near": 2000, "wall": 4000, "p9": 6000}
 
 
-def collect(job):
+def collect(job, *, record_coverage=False, reset_scene=None, future_noise=None, record_followups=True):
     from whatif.shared.sim import Scene
     from whatif.shared.returns import physics
 
@@ -40,6 +40,8 @@ def collect(job):
     rng = np.random.default_rng(seed)
 
     def reset():
+        if reset_scene is not None:
+            return reset_scene(task, split, seed)
         env = Scene(sim, seed, mode, near=task == "near")
         if task == "near":
             # Scene near resets inherit the train damping list; override for held-out cohorts.
@@ -65,6 +67,8 @@ def collect(job):
     b = int(rng.choice([0, 1, 2, 4, 7]))
     fact = menu(prev)[b]
     ub, ua = rng.choice([-0.04, 0.0, 0.04], 2)
+    if future_noise is not None:
+        ua = future_noise
     s = env.push(b, noise=ub)[0]
     group = env.env.protocol
     param = env.env.physics
@@ -77,6 +81,8 @@ def collect(job):
     phase_edges = []
     ticks = []
     peak_history = []
+    coverage_paths = []
+    first_passage = []
     ref = int(rng.integers(12))
     future_idx = rng.integers(0, 12, 2)
     for j in range(12):
@@ -87,7 +93,14 @@ def collect(job):
         if j == 0:
             np.testing.assert_allclose(check, s, atol=6e-4, rtol=1e-5)
         flux = []
-        z, e, _, p = env.push(j, noise=ua, phases=flux)
+        path = [] if record_coverage else None
+        z, e, duration, p = env.push(j, noise=ua, phases=flux, coverage_trace=path)
+        if record_coverage:
+            assert len(path) == duration and 0 < duration <= 42
+            threshold = .90 if cw else .95
+            hit = next((tick for tick, value in enumerate(path, 1) if value > threshold), 43)
+            first_passage.append(0 if s[12] > threshold else hit)
+            coverage_paths.append(np.pad(np.asarray(path,dtype=np.float32), (0,42-len(path)),mode="edge"))
         assert len(flux) == 3
         ends.append(z)
         edges.append(e)
@@ -98,10 +111,11 @@ def collect(job):
         peak_history.append([v[3] for v in flux])
         if j == ref:
             future = []
+        if j == ref and record_followups:
             for ix in future_idx:
                 future.append(env.push(int(ix))[0])
         env.close()
-    return dict(
+    result = dict(
         seed=seed,
         state=s,
         previous=prev,
@@ -120,6 +134,10 @@ def collect(job):
         future=future,
         future_idx=future_idx,
     )
+
+    if record_coverage:
+        result.update(coverage_path=coverage_paths,first_passage=first_passage)
+    return result
 
 
 if __name__ == "__main__":

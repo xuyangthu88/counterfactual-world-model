@@ -25,18 +25,22 @@ class Scene:
     def state(self):
         return np.r_[self.env.obs(),self.rho,min(self.samples,6)/6].astype('float32')
 
-    def push(self,index,budget=42,stop=False,noise=0.,null=-1,command=None,phases=None):
+    def push(self,index,budget=42,stop=False,noise=0.,null=-1,command=None,phases=None,coverage_trace=None):
         env=self.env
         self.latest_free=[]
         if self.task=='causalworld':
             env.stop_on_success=stop
             peak_cw = [float(self.state()[12])] if phases is not None else None
             def observe(ticks, contacts, coverage):
+                if coverage_trace is not None:
+                    coverage_trace.append(float(coverage))
+                if phases is None:
+                    return
                 peak_cw[0]=max(peak_cw[0],float(coverage))
                 if ticks in (24,33,42):
                     phases.append((self.state(),contacts.copy(),ticks,peak_cw[0]))
                     contacts[:]=False
-            z,edge=env.run(ACTIONS[index],noise,null,observe if phases is not None else None)
+            z,edge=env.run(ACTIONS[index],noise,null,observe if phases is not None or coverage_trace is not None else None)
             if phases is not None:
                 edge=np.any([v[1] for v in phases]+[edge],axis=0)
                 return self.state(),edge,env.steps,peak_cw[0]
@@ -68,7 +72,10 @@ class Scene:
                     self.rho=ratio if not self.samples else .75*self.rho+.25*ratio
                     self.samples+=1
                     self.latest_free.append(float(ratio))
-            steps+=1;peak=max(peak,float(self.state()[12]) if phases is not None and success else float(reward)*.95)
+            coverage=float(self.state()[12]) if success and (phases is not None or coverage_trace is not None) else float(reward)*.95
+            steps+=1;peak=max(peak,coverage)
+            if coverage_trace is not None:
+                coverage_trace.append(coverage)
         def remaining():
             return steps<budget and not (stop and success)
         # Approach in the frame of the moving body. Use a visibility path around the T.

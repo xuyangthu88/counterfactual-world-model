@@ -1,0 +1,1634 @@
+{
+  "causalworld-test.npz": {
+    "sha256": "2467f2edda113d7fb17aae15a4b93114abe74d719c80c0c12c73b8cc808d206f",
+    "seeds": [
+      731000,
+      731239
+    ],
+    "fields": {
+      "seed": [
+        240
+      ],
+      "state": [
+        240,
+        19
+      ],
+      "previous": [
+        240,
+        19
+      ],
+      "fact": [
+        240,
+        7
+      ],
+      "cmd": [
+        240,
+        12,
+        7
+      ],
+      "end": [
+        240,
+        12,
+        19
+      ],
+      "ref": [
+        240
+      ],
+      "physics": [
+        240
+      ],
+      "protocol": [
+        240
+      ],
+      "phase": [
+        240,
+        12,
+        3,
+        19
+      ],
+      "phase_edges": [
+        240,
+        12,
+        3,
+        3
+      ],
+      "phase_ticks": [
+        240,
+        12,
+        3
+      ],
+      "phase_peak": [
+        240,
+        12,
+        3
+      ],
+      "edge": [
+        240,
+        12,
+        3
+      ],
+      "peak": [
+        240,
+        12
+      ],
+      "future": [
+        240,
+        2,
+        19
+      ],
+      "future_idx": [
+        240,
+        2
+      ],
+      "coverage_path": [
+        240,
+        12,
+        42
+      ],
+      "first_passage": [
+        240,
+        12
+      ]
+    }
+  },
+  "causalworld-val.npz": {
+    "sha256": "86bf30551fdad681662624f914227e485877c58d6f7182578021bd08a6e47426",
+    "seeds": [
+      721000,
+      721159
+    ],
+    "fields": {
+      "seed": [
+        160
+      ],
+      "state": [
+        160,
+        19
+      ],
+      "previous": [
+        160,
+        19
+      ],
+      "fact": [
+        160,
+        7
+      ],
+      "cmd": [
+        160,
+        12,
+        7
+      ],
+      "end": [
+        160,
+        12,
+        19
+      ],
+      "ref": [
+        160
+      ],
+      "physics": [
+        160
+      ],
+      "protocol": [
+        160
+      ],
+      "phase": [
+        160,
+        12,
+        3,
+        19
+      ],
+      "phase_edges": [
+        160,
+        12,
+        3,
+        3
+      ],
+      "phase_ticks": [
+        160,
+        12,
+        3
+      ],
+      "phase_peak": [
+        160,
+        12,
+        3
+      ],
+      "edge": [
+        160,
+        12,
+        3
+      ],
+      "peak": [
+        160,
+        12
+      ],
+      "future": [
+        160,
+        2,
+        19
+      ],
+      "future_idx": [
+        160,
+        2
+      ],
+      "coverage_path": [
+        160,
+        12,
+        42
+      ],
+      "first_passage": [
+        160,
+        12
+      ]
+    }
+  },
+  "finish-test.npz": {
+    "sha256": "ea9a111ae03d7d06a67e65a8c1cff70f54dfc1677fca602f73a514096912c413",
+    "seeds": [
+      739000,
+      739383
+    ],
+    "fields": {
+      "seed": [
+        384
+      ],
+      "state": [
+        384,
+        19
+      ],
+      "previous": [
+        384,
+        19
+      ],
+      "fact": [
+        384,
+        7
+      ],
+      "cmd": [
+        384,
+        12,
+        7
+      ],
+      "end": [
+        384,
+        12,
+        19
+      ],
+      "ref": [
+        384
+      ],
+      "physics": [
+        384
+      ],
+      "protocol": [
+        384
+      ],
+      "phase": [
+        384,
+        12,
+        3,
+        19
+      ],
+      "phase_edges": [
+        384,
+        12,
+        3,
+        3
+      ],
+      "phase_ticks": [
+        384,
+        12,
+        3
+      ],
+      "phase_peak": [
+        384,
+        12,
+        3
+      ],
+      "edge": [
+        384,
+        12,
+        3
+      ],
+      "peak": [
+        384,
+        12
+      ],
+      "future": [
+        384,
+        2,
+        19
+      ],
+      "future_idx": [
+        384,
+        2
+      ],
+      "coverage_path": [
+        384,
+        12,
+        42
+      ],
+      "first_passage": [
+        384,
+        12
+      ]
+    }
+  },
+  "finish-val.npz": {
+    "sha256": "2ebe4c0d3dd11bd1120802072f8f2a1f8eed07296b528755fa33f81667e9eece",
+    "seeds": [
+      729000,
+      729255
+    ],
+    "fields": {
+      "seed": [
+        256
+      ],
+      "state": [
+        256,
+        19
+      ],
+      "previous": [
+        256,
+        19
+      ],
+      "fact": [
+        256,
+        7
+      ],
+      "cmd": [
+        256,
+        12,
+        7
+      ],
+      "end": [
+        256,
+        12,
+        19
+      ],
+      "ref": [
+        256
+      ],
+      "physics": [
+        256
+      ],
+      "protocol": [
+        256
+      ],
+      "phase": [
+        256,
+        12,
+        3,
+        19
+      ],
+      "phase_edges": [
+        256,
+        12,
+        3,
+        3
+      ],
+      "phase_ticks": [
+        256,
+        12,
+        3
+      ],
+      "phase_peak": [
+        256,
+        12,
+        3
+      ],
+      "edge": [
+        256,
+        12,
+        3
+      ],
+      "peak": [
+        256,
+        12
+      ],
+      "future": [
+        256,
+        2,
+        19
+      ],
+      "future_idx": [
+        256,
+        2
+      ],
+      "coverage_path": [
+        256,
+        12,
+        42
+      ],
+      "first_passage": [
+        256,
+        12
+      ]
+    }
+  },
+  "near-test.npz": {
+    "sha256": "df7e9dcaac882cfaf3f0e596452bce743076ec56a244d9fd9c10e829137743a7",
+    "seeds": [
+      733000,
+      733191
+    ],
+    "fields": {
+      "seed": [
+        192
+      ],
+      "state": [
+        192,
+        19
+      ],
+      "previous": [
+        192,
+        19
+      ],
+      "fact": [
+        192,
+        7
+      ],
+      "cmd": [
+        192,
+        12,
+        7
+      ],
+      "end": [
+        192,
+        12,
+        19
+      ],
+      "ref": [
+        192
+      ],
+      "physics": [
+        192
+      ],
+      "protocol": [
+        192
+      ],
+      "phase": [
+        192,
+        12,
+        3,
+        19
+      ],
+      "phase_edges": [
+        192,
+        12,
+        3,
+        3
+      ],
+      "phase_ticks": [
+        192,
+        12,
+        3
+      ],
+      "phase_peak": [
+        192,
+        12,
+        3
+      ],
+      "edge": [
+        192,
+        12,
+        3
+      ],
+      "peak": [
+        192,
+        12
+      ],
+      "future": [
+        192,
+        2,
+        19
+      ],
+      "future_idx": [
+        192,
+        2
+      ],
+      "coverage_path": [
+        192,
+        12,
+        42
+      ],
+      "first_passage": [
+        192,
+        12
+      ]
+    }
+  },
+  "near-val.npz": {
+    "sha256": "4afc7112ab79809568a3f90080b1f862530a7bfbe7299e7c71f43c7efc0fa01a",
+    "seeds": [
+      723000,
+      723159
+    ],
+    "fields": {
+      "seed": [
+        160
+      ],
+      "state": [
+        160,
+        19
+      ],
+      "previous": [
+        160,
+        19
+      ],
+      "fact": [
+        160,
+        7
+      ],
+      "cmd": [
+        160,
+        12,
+        7
+      ],
+      "end": [
+        160,
+        12,
+        19
+      ],
+      "ref": [
+        160
+      ],
+      "physics": [
+        160
+      ],
+      "protocol": [
+        160
+      ],
+      "phase": [
+        160,
+        12,
+        3,
+        19
+      ],
+      "phase_edges": [
+        160,
+        12,
+        3,
+        3
+      ],
+      "phase_ticks": [
+        160,
+        12,
+        3
+      ],
+      "phase_peak": [
+        160,
+        12,
+        3
+      ],
+      "edge": [
+        160,
+        12,
+        3
+      ],
+      "peak": [
+        160,
+        12
+      ],
+      "future": [
+        160,
+        2,
+        19
+      ],
+      "future_idx": [
+        160,
+        2
+      ],
+      "coverage_path": [
+        160,
+        12,
+        42
+      ],
+      "first_passage": [
+        160,
+        12
+      ]
+    }
+  },
+  "p9-test.npz": {
+    "sha256": "dcbe1cef42a9921fde6ee46a91036ffd2e36d2312564dee65f0785b4bde298c0",
+    "seeds": [
+      737000,
+      737127
+    ],
+    "fields": {
+      "seed": [
+        128
+      ],
+      "state": [
+        128,
+        19
+      ],
+      "previous": [
+        128,
+        19
+      ],
+      "fact": [
+        128,
+        7
+      ],
+      "cmd": [
+        128,
+        12,
+        7
+      ],
+      "end": [
+        128,
+        12,
+        19
+      ],
+      "ref": [
+        128
+      ],
+      "physics": [
+        128
+      ],
+      "protocol": [
+        128
+      ],
+      "phase": [
+        128,
+        12,
+        3,
+        19
+      ],
+      "phase_edges": [
+        128,
+        12,
+        3,
+        3
+      ],
+      "phase_ticks": [
+        128,
+        12,
+        3
+      ],
+      "phase_peak": [
+        128,
+        12,
+        3
+      ],
+      "edge": [
+        128,
+        12,
+        3
+      ],
+      "peak": [
+        128,
+        12
+      ],
+      "future": [
+        128,
+        2,
+        19
+      ],
+      "future_idx": [
+        128,
+        2
+      ],
+      "coverage_path": [
+        128,
+        12,
+        42
+      ],
+      "first_passage": [
+        128,
+        12
+      ]
+    }
+  },
+  "pusht-test.npz": {
+    "sha256": "c076e8fa379c19d92781764aab8f1087ba4df3791d71b8f4a5c53a1d6bb3ee4b",
+    "seeds": [
+      731000,
+      731319
+    ],
+    "fields": {
+      "seed": [
+        320
+      ],
+      "state": [
+        320,
+        19
+      ],
+      "previous": [
+        320,
+        19
+      ],
+      "fact": [
+        320,
+        7
+      ],
+      "cmd": [
+        320,
+        12,
+        7
+      ],
+      "end": [
+        320,
+        12,
+        19
+      ],
+      "ref": [
+        320
+      ],
+      "physics": [
+        320
+      ],
+      "protocol": [
+        320
+      ],
+      "phase": [
+        320,
+        12,
+        3,
+        19
+      ],
+      "phase_edges": [
+        320,
+        12,
+        3,
+        3
+      ],
+      "phase_ticks": [
+        320,
+        12,
+        3
+      ],
+      "phase_peak": [
+        320,
+        12,
+        3
+      ],
+      "edge": [
+        320,
+        12,
+        3
+      ],
+      "peak": [
+        320,
+        12
+      ],
+      "future": [
+        320,
+        2,
+        19
+      ],
+      "future_idx": [
+        320,
+        2
+      ],
+      "coverage_path": [
+        320,
+        12,
+        42
+      ],
+      "first_passage": [
+        320,
+        12
+      ]
+    }
+  },
+  "pusht-val.npz": {
+    "sha256": "35bde1dbf396b9e816c1b0e47d547753a5f1ca69c97cb9956190f4626d5b8162",
+    "seeds": [
+      721000,
+      721191
+    ],
+    "fields": {
+      "seed": [
+        192
+      ],
+      "state": [
+        192,
+        19
+      ],
+      "previous": [
+        192,
+        19
+      ],
+      "fact": [
+        192,
+        7
+      ],
+      "cmd": [
+        192,
+        12,
+        7
+      ],
+      "end": [
+        192,
+        12,
+        19
+      ],
+      "ref": [
+        192
+      ],
+      "physics": [
+        192
+      ],
+      "protocol": [
+        192
+      ],
+      "phase": [
+        192,
+        12,
+        3,
+        19
+      ],
+      "phase_edges": [
+        192,
+        12,
+        3,
+        3
+      ],
+      "phase_ticks": [
+        192,
+        12,
+        3
+      ],
+      "phase_peak": [
+        192,
+        12,
+        3
+      ],
+      "edge": [
+        192,
+        12,
+        3
+      ],
+      "peak": [
+        192,
+        12
+      ],
+      "future": [
+        192,
+        2,
+        19
+      ],
+      "future_idx": [
+        192,
+        2
+      ],
+      "coverage_path": [
+        192,
+        12,
+        42
+      ],
+      "first_passage": [
+        192,
+        12
+      ]
+    }
+  },
+  "repeat-causalworld-test.npz": {
+    "sha256": "ab13b8b9ba2158e8a3981027d2c34b6ee7181ca996adfc3e048e61fea2830174",
+    "seeds": [
+      773000,
+      773095
+    ],
+    "fields": {
+      "previous": [
+        96,
+        19
+      ],
+      "fact": [
+        96,
+        7
+      ],
+      "state": [
+        96,
+        19
+      ],
+      "cmd": [
+        96,
+        12,
+        7
+      ],
+      "ref": [
+        96
+      ],
+      "seed": [
+        96
+      ],
+      "physics": [
+        96
+      ],
+      "protocol": [
+        96
+      ],
+      "end": [
+        96,
+        12,
+        3,
+        19
+      ],
+      "edge": [
+        96,
+        12,
+        3,
+        3
+      ],
+      "peak": [
+        96,
+        12,
+        3
+      ],
+      "first_passage": [
+        96,
+        12,
+        3
+      ]
+    }
+  },
+  "repeat-causalworld-val.npz": {
+    "sha256": "777b897cebd2c28e5150021b9aa49bca972b0d328e63b7ce4878518cad163afd",
+    "seeds": [
+      763000,
+      763047
+    ],
+    "fields": {
+      "previous": [
+        48,
+        19
+      ],
+      "fact": [
+        48,
+        7
+      ],
+      "state": [
+        48,
+        19
+      ],
+      "cmd": [
+        48,
+        12,
+        7
+      ],
+      "ref": [
+        48
+      ],
+      "seed": [
+        48
+      ],
+      "physics": [
+        48
+      ],
+      "protocol": [
+        48
+      ],
+      "end": [
+        48,
+        12,
+        3,
+        19
+      ],
+      "edge": [
+        48,
+        12,
+        3,
+        3
+      ],
+      "peak": [
+        48,
+        12,
+        3
+      ],
+      "first_passage": [
+        48,
+        12,
+        3
+      ]
+    }
+  },
+  "repeat-finish-test.npz": {
+    "sha256": "225325f4ca09dbbc8a2a723d4cf194c4b17975beaddaf04e5022323a572056e7",
+    "seeds": [
+      774000,
+      774127
+    ],
+    "fields": {
+      "previous": [
+        128,
+        19
+      ],
+      "fact": [
+        128,
+        7
+      ],
+      "state": [
+        128,
+        19
+      ],
+      "cmd": [
+        128,
+        12,
+        7
+      ],
+      "ref": [
+        128
+      ],
+      "seed": [
+        128
+      ],
+      "physics": [
+        128
+      ],
+      "protocol": [
+        128
+      ],
+      "end": [
+        128,
+        12,
+        3,
+        19
+      ],
+      "edge": [
+        128,
+        12,
+        3,
+        3
+      ],
+      "peak": [
+        128,
+        12,
+        3
+      ],
+      "first_passage": [
+        128,
+        12,
+        3
+      ]
+    }
+  },
+  "repeat-finish-val.npz": {
+    "sha256": "4f818da8f4658f984840157469b8b3cc1aee2ae7d00ad428dd868a9e3239cec1",
+    "seeds": [
+      764000,
+      764063
+    ],
+    "fields": {
+      "previous": [
+        64,
+        19
+      ],
+      "fact": [
+        64,
+        7
+      ],
+      "state": [
+        64,
+        19
+      ],
+      "cmd": [
+        64,
+        12,
+        7
+      ],
+      "ref": [
+        64
+      ],
+      "seed": [
+        64
+      ],
+      "physics": [
+        64
+      ],
+      "protocol": [
+        64
+      ],
+      "end": [
+        64,
+        12,
+        3,
+        19
+      ],
+      "edge": [
+        64,
+        12,
+        3,
+        3
+      ],
+      "peak": [
+        64,
+        12,
+        3
+      ],
+      "first_passage": [
+        64,
+        12,
+        3
+      ]
+    }
+  },
+  "repeat-pusht-test.npz": {
+    "sha256": "cbdd9737e1cb1400ac3a41fdf380d8474b78dd3bb9708fe68b67458e2ab75f2b",
+    "seeds": [
+      772000,
+      772095
+    ],
+    "fields": {
+      "previous": [
+        96,
+        19
+      ],
+      "fact": [
+        96,
+        7
+      ],
+      "state": [
+        96,
+        19
+      ],
+      "cmd": [
+        96,
+        12,
+        7
+      ],
+      "ref": [
+        96
+      ],
+      "seed": [
+        96
+      ],
+      "physics": [
+        96
+      ],
+      "protocol": [
+        96
+      ],
+      "end": [
+        96,
+        12,
+        3,
+        19
+      ],
+      "edge": [
+        96,
+        12,
+        3,
+        3
+      ],
+      "peak": [
+        96,
+        12,
+        3
+      ],
+      "first_passage": [
+        96,
+        12,
+        3
+      ]
+    }
+  },
+  "repeat-pusht-val.npz": {
+    "sha256": "af341e7f447ef25a49e72fdeb61f5bdb0f515e2851b9eb3da3bb2967cf7dcafe",
+    "seeds": [
+      762000,
+      762047
+    ],
+    "fields": {
+      "previous": [
+        48,
+        19
+      ],
+      "fact": [
+        48,
+        7
+      ],
+      "state": [
+        48,
+        19
+      ],
+      "cmd": [
+        48,
+        12,
+        7
+      ],
+      "ref": [
+        48
+      ],
+      "seed": [
+        48
+      ],
+      "physics": [
+        48
+      ],
+      "protocol": [
+        48
+      ],
+      "end": [
+        48,
+        12,
+        3,
+        19
+      ],
+      "edge": [
+        48,
+        12,
+        3,
+        3
+      ],
+      "peak": [
+        48,
+        12,
+        3
+      ],
+      "first_passage": [
+        48,
+        12,
+        3
+      ]
+    }
+  },
+  "return-causalworld-train.npz": {
+    "sha256": "0d51e356d6781aa779a2a9fcd29b776ddae582dd96a2ace616dcb8ed498e51d8",
+    "seeds": [
+      781000,
+      781639
+    ],
+    "fields": {
+      "seed": [
+        640
+      ],
+      "layout": [
+        640
+      ],
+      "near": [
+        640
+      ],
+      "protocol": [
+        640
+      ],
+      "previous": [
+        640,
+        19
+      ],
+      "fact": [
+        640,
+        7
+      ],
+      "state": [
+        640,
+        19
+      ],
+      "cmd": [
+        640,
+        12,
+        7
+      ],
+      "ref": [
+        640
+      ],
+      "end": [
+        640,
+        12,
+        19
+      ],
+      "edge": [
+        640,
+        12,
+        3
+      ],
+      "action_peak": [
+        640,
+        12
+      ],
+      "action_steps": [
+        640,
+        12
+      ],
+      "remaining": [
+        640
+      ],
+      "success": [
+        640,
+        12
+      ],
+      "coverage": [
+        640,
+        12
+      ],
+      "steps": [
+        640,
+        12
+      ],
+      "peak": [
+        640,
+        12
+      ]
+    },
+    "reachable": 636,
+    "action_dependent": 463,
+    "average_remaining": 342.234375,
+    "remaining_range": [
+      84,
+      378
+    ]
+  },
+  "return-causalworld-val.npz": {
+    "sha256": "af21f371fb0e07e1a4eadaa38c697f7bb187e9c1f5e7a2f5dbb621354b29960a",
+    "seeds": [
+      791000,
+      791159
+    ],
+    "fields": {
+      "seed": [
+        160
+      ],
+      "layout": [
+        160
+      ],
+      "near": [
+        160
+      ],
+      "protocol": [
+        160
+      ],
+      "previous": [
+        160,
+        19
+      ],
+      "fact": [
+        160,
+        7
+      ],
+      "state": [
+        160,
+        19
+      ],
+      "cmd": [
+        160,
+        12,
+        7
+      ],
+      "ref": [
+        160
+      ],
+      "end": [
+        160,
+        12,
+        19
+      ],
+      "edge": [
+        160,
+        12,
+        3
+      ],
+      "action_peak": [
+        160,
+        12
+      ],
+      "action_steps": [
+        160,
+        12
+      ],
+      "remaining": [
+        160
+      ],
+      "success": [
+        160,
+        12
+      ],
+      "coverage": [
+        160,
+        12
+      ],
+      "steps": [
+        160,
+        12
+      ],
+      "peak": [
+        160,
+        12
+      ]
+    },
+    "reachable": 154,
+    "action_dependent": 121,
+    "average_remaining": 319.4625,
+    "remaining_range": [
+      84,
+      378
+    ]
+  },
+  "return-pusht-train.npz": {
+    "sha256": "112079d0c20e43aaba2e33af5bfad225b6f931bbc676006b1f9436e562c0cde3",
+    "seeds": [
+      781000,
+      802199
+    ],
+    "fields": {
+      "seed": [
+        1800
+      ],
+      "layout": [
+        1800
+      ],
+      "near": [
+        1800
+      ],
+      "protocol": [
+        1800
+      ],
+      "previous": [
+        1800,
+        19
+      ],
+      "fact": [
+        1800,
+        7
+      ],
+      "state": [
+        1800,
+        19
+      ],
+      "cmd": [
+        1800,
+        12,
+        7
+      ],
+      "ref": [
+        1800
+      ],
+      "end": [
+        1800,
+        12,
+        19
+      ],
+      "edge": [
+        1800,
+        12,
+        3
+      ],
+      "action_peak": [
+        1800,
+        12
+      ],
+      "action_steps": [
+        1800,
+        12
+      ],
+      "remaining": [
+        1800
+      ],
+      "success": [
+        1800,
+        12
+      ],
+      "coverage": [
+        1800,
+        12
+      ],
+      "steps": [
+        1800,
+        12
+      ],
+      "peak": [
+        1800,
+        12
+      ]
+    },
+    "reachable": 1175,
+    "action_dependent": 1087,
+    "average_remaining": 177.52833333333334,
+    "remaining_range": [
+      4,
+      272
+    ]
+  },
+  "return-pusht-val.npz": {
+    "sha256": "9d4d2aec295b073bf9eb63a4e9b47b229db65631fd3c0df9b953042455c1224e",
+    "seeds": [
+      806000,
+      806255
+    ],
+    "fields": {
+      "seed": [
+        256
+      ],
+      "layout": [
+        256
+      ],
+      "near": [
+        256
+      ],
+      "protocol": [
+        256
+      ],
+      "previous": [
+        256,
+        19
+      ],
+      "fact": [
+        256,
+        7
+      ],
+      "state": [
+        256,
+        19
+      ],
+      "cmd": [
+        256,
+        12,
+        7
+      ],
+      "ref": [
+        256
+      ],
+      "end": [
+        256,
+        12,
+        19
+      ],
+      "edge": [
+        256,
+        12,
+        3
+      ],
+      "action_peak": [
+        256,
+        12
+      ],
+      "action_steps": [
+        256,
+        12
+      ],
+      "remaining": [
+        256
+      ],
+      "success": [
+        256,
+        12
+      ],
+      "coverage": [
+        256,
+        12
+      ],
+      "steps": [
+        256,
+        12
+      ],
+      "peak": [
+        256,
+        12
+      ]
+    },
+    "reachable": 231,
+    "action_dependent": 215,
+    "average_remaining": 184.234375,
+    "remaining_range": [
+      3,
+      265
+    ]
+  },
+  "wall-test.npz": {
+    "sha256": "bb8686efb8d88a7e9804fd387b903e5f35ec6657d148a3b24dc2502e6fd5a433",
+    "seeds": [
+      735000,
+      735191
+    ],
+    "fields": {
+      "previous": [
+        192,
+        19
+      ],
+      "fact": [
+        192,
+        7
+      ],
+      "state": [
+        192,
+        19
+      ],
+      "cmd": [
+        192,
+        8,
+        7
+      ],
+      "end": [
+        192,
+        8,
+        19
+      ],
+      "edge": [
+        192,
+        8,
+        3
+      ],
+      "peak": [
+        192,
+        8
+      ],
+      "physics": [
+        192
+      ],
+      "protocol": [
+        192
+      ],
+      "seed": [
+        192
+      ],
+      "ref": [
+        192
+      ]
+    }
+  },
+  "wall-val.npz": {
+    "sha256": "db9b3f4ef3c2bf923a21e9075ab96b2142ff8ae189b014ff83fd2976cc45a943",
+    "seeds": [
+      725000,
+      725159
+    ],
+    "fields": {
+      "previous": [
+        160,
+        19
+      ],
+      "fact": [
+        160,
+        7
+      ],
+      "state": [
+        160,
+        19
+      ],
+      "cmd": [
+        160,
+        8,
+        7
+      ],
+      "end": [
+        160,
+        8,
+        19
+      ],
+      "edge": [
+        160,
+        8,
+        3
+      ],
+      "peak": [
+        160,
+        8
+      ],
+      "physics": [
+        160
+      ],
+      "protocol": [
+        160
+      ],
+      "seed": [
+        160
+      ],
+      "ref": [
+        160
+      ]
+    }
+  }
+}

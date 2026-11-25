@@ -1,5 +1,7 @@
 # WhatIf · 基于事实交互的反事实世界模型
 
+**Stage 13**　[用接触图预测途中命中与整局动作效果：两项基准的三组真实闭环对照](reports/stages/13-passage-and-returns.md)。
+
 **Stage 12**　[分段预测物体运动、精确计算目标覆盖与三项原生控制实测](reports/stages/12-phase-geometry.md)。
 
 **Stage 11**　[用上一推学习物理响应：近墙换边、配对效果分布和未知阻尼闭环](reports/stages/11-factual-physics.md)。

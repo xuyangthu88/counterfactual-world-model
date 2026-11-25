@@ -1,0 +1,203 @@
+{
+  "pusht": {
+    "whatif": {
+      "energy_score": 3.4920115023851395,
+      "energy_distance": 6.56021311879158,
+      "mean_radius_pred": 5.115846544504166,
+      "mean_radius_observed": 0.35729261580854654,
+      "rms_within": 5.815483629703522,
+      "rms_between": 4.113294184207916,
+      "rms_repeated": 0.608947966247797,
+      "event_probability_mse": 0.003834232222288847,
+      "attainable": 1,
+      "selected_hit_probability": 1.0,
+      "hit_frequency_regret": 0.0
+    },
+    "mean_fact": {
+      "energy_score": 3.521299362182617,
+      "energy_distance": 6.618788838386536,
+      "mean_radius_pred": 5.214254930615425,
+      "mean_radius_observed": 0.35729261580854654,
+      "rms_within": 5.939501151442528,
+      "rms_between": 4.003459587693214,
+      "rms_repeated": 0.608947966247797,
+      "event_probability_mse": 0.004515357781201601,
+      "attainable": 1,
+      "selected_hit_probability": 1.0,
+      "hit_frequency_regret": 0.0
+    },
+    "stage12": {
+      "energy_score": 3.6221418529748917,
+      "energy_distance": 6.820472329854965,
+      "mean_radius_pred": 5.467280372977257,
+      "mean_radius_observed": 0.35729261580854654,
+      "rms_within": 5.836241692304611,
+      "rms_between": 4.9884457141160965,
+      "rms_repeated": 0.608947966247797,
+      "event_probability_mse": 0.005677761975675821,
+      "attainable": 1,
+      "selected_hit_probability": 0.0,
+      "hit_frequency_regret": 1.0
+    },
+    "pets": {
+      "energy_score": 2.804018370807171,
+      "energy_distance": 5.184226483106613,
+      "mean_radius_pred": 3.462214022874832,
+      "mean_radius_observed": 0.35729261580854654,
+      "rms_within": 3.117973916232586,
+      "rms_between": 3.8940761238336563,
+      "rms_repeated": 0.608947966247797,
+      "event_probability_mse": 0.0031327158212661743,
+      "attainable": 1,
+      "selected_hit_probability": 1.0,
+      "hit_frequency_regret": 0.0
+    },
+    "cophy": {
+      "energy_score": 11.990275979042053,
+      "energy_distance": 23.556743562221527,
+      "mean_radius_pred": 0.0,
+      "mean_radius_observed": 0.35729261580854654,
+      "rms_within": 0.0,
+      "rms_between": 0.0,
+      "rms_repeated": 0.608947966247797,
+      "event_probability_mse": 0.013888888992369175,
+      "attainable": 1,
+      "selected_hit_probability": 0.0,
+      "hit_frequency_regret": 1.0
+    }
+  },
+  "causalworld": {
+    "whatif": {
+      "energy_score": 24.341247081756592,
+      "energy_distance": 45.743123292922974,
+      "mean_radius_pred": 14.178894087672234,
+      "mean_radius_observed": 2.4529798701405525,
+      "rms_within": 14.033098295331001,
+      "rms_between": 11.267995461821556,
+      "rms_repeated": 3.0659016966819763,
+      "event_probability_mse": 0.0365426279604435,
+      "attainable": 19,
+      "selected_hit_probability": 0.8245614171028137,
+      "hit_frequency_regret": 0.10526315867900848
+    },
+    "mean_fact": {
+      "energy_score": 23.696902245283127,
+      "energy_distance": 44.454433619976044,
+      "mean_radius_pred": 14.48500171303749,
+      "mean_radius_observed": 2.4529798701405525,
+      "rms_within": 13.959234729409218,
+      "rms_between": 11.805404722690582,
+      "rms_repeated": 3.0659016966819763,
+      "event_probability_mse": 0.036697447299957275,
+      "attainable": 19,
+      "selected_hit_probability": 0.8245614171028137,
+      "hit_frequency_regret": 0.10526315867900848
+    },
+    "stage12": {
+      "energy_score": 24.877613186836243,
+      "energy_distance": 46.815859377384186,
+      "mean_radius_pred": 11.150938272476196,
+      "mean_radius_observed": 2.4529798701405525,
+      "rms_within": 10.156696513295174,
+      "rms_between": 10.37047952413559,
+      "rms_repeated": 3.0659016966819763,
+      "event_probability_mse": 0.11713090538978577,
+      "attainable": 19,
+      "selected_hit_probability": 0.4736842215061188,
+      "hit_frequency_regret": 0.45614030957221985
+    },
+    "pets": {
+      "energy_score": 30.226538330316544,
+      "energy_distance": 57.51370579004288,
+      "mean_radius_pred": 9.526937454938889,
+      "mean_radius_observed": 2.4529798701405525,
+      "rms_within": 6.382794231176376,
+      "rms_between": 9.585127532482147,
+      "rms_repeated": 3.0659016966819763,
+      "event_probability_mse": 0.08515993505716324,
+      "attainable": 19,
+      "selected_hit_probability": 0.596491277217865,
+      "hit_frequency_regret": 0.3333333432674408
+    },
+    "cophy": {
+      "energy_score": 33.56745928525925,
+      "energy_distance": 64.19554382562637,
+      "mean_radius_pred": 0.0,
+      "mean_radius_observed": 2.4529798701405525,
+      "rms_within": 0.0,
+      "rms_between": 0.0,
+      "rms_repeated": 3.0659016966819763,
+      "event_probability_mse": 0.12878787517547607,
+      "attainable": 19,
+      "selected_hit_probability": 0.4912281036376953,
+      "hit_frequency_regret": 0.4385964870452881
+    }
+  },
+  "finish": {
+    "whatif": {
+      "energy_score": 1.1704342439770699,
+      "energy_distance": 2.05929521471262,
+      "mean_radius_pred": 1.4392849057912827,
+      "mean_radius_observed": 0.2548552583903074,
+      "rms_within": 1.6927782446146011,
+      "rms_between": 1.115728449076414,
+      "rms_repeated": 0.4842607770115137,
+      "event_probability_mse": 0.03169122710824013,
+      "attainable": 15,
+      "selected_hit_probability": 0.6888889670372009,
+      "hit_frequency_regret": 0.2666666805744171
+    },
+    "mean_fact": {
+      "energy_score": 1.1600881814956665,
+      "energy_distance": 2.038603276014328,
+      "mean_radius_pred": 1.6472255811095238,
+      "mean_radius_observed": 0.2548552583903074,
+      "rms_within": 1.8013829365372658,
+      "rms_between": 1.3620013371109962,
+      "rms_repeated": 0.4842607770115137,
+      "event_probability_mse": 0.03005404584109783,
+      "attainable": 15,
+      "selected_hit_probability": 0.8222222924232483,
+      "hit_frequency_regret": 0.13333334028720856
+    },
+    "stage12": {
+      "energy_score": 1.2509357184171677,
+      "energy_distance": 2.2202983498573303,
+      "mean_radius_pred": 1.8953535705804825,
+      "mean_radius_observed": 0.2548552583903074,
+      "rms_within": 2.4622390046715736,
+      "rms_between": 1.1427443474531174,
+      "rms_repeated": 0.4842607770115137,
+      "event_probability_mse": 0.031584978103637695,
+      "attainable": 15,
+      "selected_hit_probability": 0.5333333611488342,
+      "hit_frequency_regret": 0.42222222685813904
+    },
+    "pets": {
+      "energy_score": 0.7005747407674789,
+      "energy_distance": 1.1195763014256954,
+      "mean_radius_pred": 0.5103399977087975,
+      "mean_radius_observed": 0.2548552583903074,
+      "rms_within": 0.18698519561439753,
+      "rms_between": 0.6762939970940351,
+      "rms_repeated": 0.4842607770115137,
+      "event_probability_mse": 0.04382099211215973,
+      "attainable": 15,
+      "selected_hit_probability": 0.6000000238418579,
+      "hit_frequency_regret": 0.35555556416511536
+    },
+    "cophy": {
+      "energy_score": 2.314043417572975,
+      "energy_distance": 4.346513748168945,
+      "mean_radius_pred": 0.0,
+      "mean_radius_observed": 0.2548552583903074,
+      "rms_within": 0.0,
+      "rms_between": 0.0,
+      "rms_repeated": 0.4842607770115137,
+      "event_probability_mse": 0.226234570145607,
+      "attainable": 15,
+      "selected_hit_probability": 0.0,
+      "hit_frequency_regret": 0.9555556774139404
+    }
+  }
+}

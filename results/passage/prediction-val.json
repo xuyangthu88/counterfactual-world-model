@@ -1,0 +1,1722 @@
+{
+  "pusht": {
+    "whatif": {
+      "pose": {
+        "xy": 0.0677293986082077,
+        "xy_rmse": 0.12214022129774094,
+        "r2": 0.9790111780166626,
+        "yaw_deg": 2.879779100418091,
+        "energy": 0.05465560778975487
+      },
+      "effect": {
+        "xy": 0.06284011900424957,
+        "xy_rmse": 0.12823644280433655,
+        "r2": 0.7583109140396118,
+        "yaw_deg": 2.951228141784668,
+        "energy": 0.052324797958135605
+      },
+      "crossing": {
+        "layouts": 191,
+        "trials": 2292,
+        "hits": 5,
+        "attainable": 4,
+        "selected_hits": 3,
+        "brier": 0.0022574516478925943,
+        "ap": 0.46298701298701295,
+        "peak_mae": 0.01632865145802498
+      },
+      "paired_peak_mae": 0.01832442358136177,
+      "edges": {
+        "balanced_error": 0.04630061189766761,
+        "positive_rate": 0.333175505050505,
+        "precision": 0.9734335839598998,
+        "recall": 0.9199431549028896,
+        "fpr": 0.012544378698224851,
+        "ap": 0.9916914778555265,
+        "auroc": 0.9956489394801533,
+        "edges": 6336,
+        "switch_tp": 82,
+        "switch_predicted": 324,
+        "switch_actual": 132,
+        "switch_precision": 0.25308641975308643,
+        "switch_recall": 0.6212121212121212,
+        "switch_f1": 0.35964912280701755,
+        "birth": {
+          "correct": 31,
+          "actual": 49,
+          "predicted": 186,
+          "precision": 0.16666666666666666,
+          "recall": 0.6326530612244898
+        },
+        "loss": {
+          "correct": 49,
+          "actual": 83,
+          "predicted": 138,
+          "precision": 0.35507246376811596,
+          "recall": 0.5903614457831325
+        },
+        "by_source": [
+          {
+            "correct": 79,
+            "actual": 114,
+            "predicted": 270,
+            "precision": 0.29259259259259257,
+            "recall": 0.6929824561403509
+          },
+          {
+            "correct": 3,
+            "actual": 16,
+            "predicted": 31,
+            "precision": 0.0967741935483871,
+            "recall": 0.1875
+          },
+          {
+            "correct": 0,
+            "actual": 2,
+            "predicted": 23,
+            "precision": 0.0,
+            "recall": 0.0
+          }
+        ]
+      }
+    },
+    "mean_fact": {
+      "pose": {
+        "xy": 0.06963898241519928,
+        "xy_rmse": 0.12158147245645523,
+        "r2": 0.9792028069496155,
+        "yaw_deg": 3.2120158672332764,
+        "energy": 0.05524343252182007
+      },
+      "effect": {
+        "xy": 0.0635698065161705,
+        "xy_rmse": 0.13026897609233856,
+        "r2": 0.7505886554718018,
+        "yaw_deg": 3.022240400314331,
+        "energy": 0.05271822214126587
+      },
+      "crossing": {
+        "layouts": 191,
+        "trials": 2292,
+        "hits": 5,
+        "attainable": 4,
+        "selected_hits": 3,
+        "brier": 0.0019728371407836676,
+        "ap": 0.6782828282828283,
+        "peak_mae": 0.01723790355026722
+      },
+      "paired_peak_mae": 0.01824670098721981
+    },
+    "stage12": {
+      "pose": {
+        "xy": 0.06551729142665863,
+        "xy_rmse": 0.11842016875743866,
+        "r2": 0.980270266532898,
+        "yaw_deg": 2.967545747756958,
+        "energy": 0.0530366450548172
+      },
+      "effect": {
+        "xy": 0.06500913202762604,
+        "xy_rmse": 0.1287381500005722,
+        "r2": 0.7564160227775574,
+        "yaw_deg": 3.1629490852355957,
+        "energy": 0.05415138229727745
+      },
+      "crossing": {
+        "layouts": 191,
+        "trials": 2292,
+        "hits": 5,
+        "attainable": 4,
+        "selected_hits": 4,
+        "brier": 0.001456619007512927,
+        "ap": 0.6901098901098901,
+        "peak_mae": 0.01934552751481533
+      },
+      "paired_peak_mae": 0.020726438611745834,
+      "edges": {
+        "balanced_error": 0.04428507760140599,
+        "positive_rate": 0.333175505050505,
+        "precision": 0.9608610567514677,
+        "recall": 0.9303647560397915,
+        "fpr": 0.01893491124260355,
+        "ap": 0.990644691113525,
+        "auroc": 0.995128251845083,
+        "edges": 6336,
+        "switch_tp": 85,
+        "switch_predicted": 375,
+        "switch_actual": 132,
+        "switch_precision": 0.22666666666666666,
+        "switch_recall": 0.6439393939393939,
+        "switch_f1": 0.33530571992110453,
+        "birth": {
+          "correct": 34,
+          "actual": 49,
+          "predicted": 214,
+          "precision": 0.1588785046728972,
+          "recall": 0.6938775510204082
+        },
+        "loss": {
+          "correct": 49,
+          "actual": 83,
+          "predicted": 161,
+          "precision": 0.30434782608695654,
+          "recall": 0.5903614457831325
+        },
+        "by_source": [
+          {
+            "correct": 80,
+            "actual": 114,
+            "predicted": 267,
+            "precision": 0.299625468164794,
+            "recall": 0.7017543859649122
+          },
+          {
+            "correct": 4,
+            "actual": 16,
+            "predicted": 61,
+            "precision": 0.06557377049180328,
+            "recall": 0.25
+          },
+          {
+            "correct": 1,
+            "actual": 2,
+            "predicted": 47,
+            "precision": 0.02127659574468085,
+            "recall": 0.5
+          }
+        ]
+      }
+    },
+    "pets": {
+      "pose": {
+        "xy": 0.05048198997974396,
+        "xy_rmse": 0.11333879083395004,
+        "r2": 0.9819270968437195,
+        "yaw_deg": 2.338712215423584,
+        "energy": 0.039234377443790436
+      },
+      "effect": {
+        "xy": 0.05695086345076561,
+        "xy_rmse": 0.1284450739622116,
+        "r2": 0.7575238347053528,
+        "yaw_deg": 2.5031495094299316,
+        "energy": 0.045994505286216736
+      },
+      "crossing": {
+        "layouts": 191,
+        "trials": 2292,
+        "hits": 5,
+        "attainable": 4,
+        "selected_hits": 3,
+        "brier": 0.0040352921932935715,
+        "ap": 0.08399562220841839,
+        "peak_mae": 0.04037609323859215
+      },
+      "paired_peak_mae": 0.043053437024354935
+    },
+    "cophy": {
+      "pose": {
+        "xy": 0.12501437962055206,
+        "xy_rmse": 0.17682033777236938,
+        "r2": 0.956011950969696,
+        "yaw_deg": 5.461311340332031,
+        "energy": 0.12501437962055206
+      },
+      "effect": {
+        "xy": 0.13293148577213287,
+        "xy_rmse": 0.1827019453048706,
+        "r2": 0.5094079971313477,
+        "yaw_deg": 6.073063850402832,
+        "energy": 0.13293148577213287
+      },
+      "crossing": {
+        "layouts": 191,
+        "trials": 2292,
+        "hits": 5,
+        "attainable": 4,
+        "selected_hits": 0,
+        "brier": 0.02443281002342701,
+        "ap": 0.002181500872600349,
+        "peak_mae": 0.04708142951130867
+      },
+      "paired_peak_mae": 0.050810158252716064
+    },
+    "ncii": {
+      "edges": {
+        "balanced_error": 0.13476301929313625,
+        "positive_rate": 0.333175505050505,
+        "precision": 0.9485338120885697,
+        "recall": 0.7508289909995263,
+        "fpr": 0.020355029585798816,
+        "ap": 0.9186726160997838,
+        "auroc": 0.9258817296830635,
+        "edges": 6336,
+        "switch_tp": 53,
+        "switch_predicted": 520,
+        "switch_actual": 132,
+        "switch_precision": 0.10192307692307692,
+        "switch_recall": 0.4015151515151515,
+        "switch_f1": 0.16257668711656442,
+        "birth": {
+          "correct": 5,
+          "actual": 49,
+          "predicted": 221,
+          "precision": 0.02262443438914027,
+          "recall": 0.10204081632653061
+        },
+        "loss": {
+          "correct": 20,
+          "actual": 83,
+          "predicted": 299,
+          "precision": 0.06688963210702341,
+          "recall": 0.24096385542168675
+        },
+        "by_source": [
+          {
+            "correct": 53,
+            "actual": 114,
+            "predicted": 414,
+            "precision": 0.1280193236714976,
+            "recall": 0.4649122807017544
+          },
+          {
+            "correct": 0,
+            "actual": 16,
+            "predicted": 46,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          {
+            "correct": 0,
+            "actual": 2,
+            "predicted": 60,
+            "precision": 0.0,
+            "recall": 0.0
+          }
+        ]
+      }
+    },
+    "source": {
+      "edges": {
+        "balanced_error": 0.028534164520026127,
+        "positive_rate": 0.333175505050505,
+        "precision": 0.9616477272727273,
+        "recall": 0.9621032685930838,
+        "fpr": 0.019171597633136094,
+        "ap": 0.9402609108613372,
+        "auroc": 0.9698082459026962,
+        "edges": 6336,
+        "switch_tp": 0,
+        "switch_predicted": 0,
+        "switch_actual": 132,
+        "switch_precision": 0.0,
+        "switch_recall": 0.0,
+        "switch_f1": 0.0,
+        "birth": {
+          "correct": 0,
+          "actual": 49,
+          "predicted": 0,
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "loss": {
+          "correct": 0,
+          "actual": 83,
+          "predicted": 0,
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "by_source": [
+          {
+            "correct": 0,
+            "actual": 114,
+            "predicted": 0,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          {
+            "correct": 0,
+            "actual": 16,
+            "predicted": 0,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          {
+            "correct": 0,
+            "actual": 2,
+            "predicted": 0,
+            "precision": 0.0,
+            "recall": 0.0
+          }
+        ]
+      }
+    },
+    "layouts": 192
+  },
+  "causalworld": {
+    "whatif": {
+      "pose": {
+        "xy": 0.3294551372528076,
+        "xy_rmse": 0.5255844593048096,
+        "r2": 0.8257690668106079,
+        "yaw_deg": 13.138468742370605,
+        "energy": 0.2653173506259918
+      },
+      "effect": {
+        "xy": 0.4163632094860077,
+        "xy_rmse": 0.6251881718635559,
+        "r2": 0.5395572781562805,
+        "yaw_deg": 19.10968017578125,
+        "energy": 0.3385927975177765
+      },
+      "crossing": {
+        "layouts": 149,
+        "trials": 1788,
+        "hits": 218,
+        "attainable": 66,
+        "selected_hits": 56,
+        "brier": 0.04293324053287506,
+        "ap": 0.8210922325543856,
+        "peak_mae": 0.05898422375321388
+      },
+      "paired_peak_mae": 0.08807899802923203,
+      "edges": {
+        "balanced_error": 0.10761466133424098,
+        "positive_rate": 0.3151515151515151,
+        "precision": 0.7670540677109652,
+        "recall": 0.9122596153846154,
+        "fpr": 0.12748893805309736,
+        "ap": 0.9186785277137527,
+        "auroc": 0.9609881895102961,
+        "edges": 5280,
+        "switch_tp": 808,
+        "switch_predicted": 1240,
+        "switch_actual": 1067,
+        "switch_precision": 0.6516129032258065,
+        "switch_recall": 0.7572633552014996,
+        "switch_f1": 0.7004768097095796,
+        "birth": {
+          "correct": 404,
+          "actual": 546,
+          "predicted": 647,
+          "precision": 0.624420401854714,
+          "recall": 0.73992673992674
+        },
+        "loss": {
+          "correct": 385,
+          "actual": 521,
+          "predicted": 593,
+          "precision": 0.6492411467116358,
+          "recall": 0.7389635316698656
+        },
+        "by_source": [
+          {
+            "correct": 133,
+            "actual": 194,
+            "predicted": 246,
+            "precision": 0.540650406504065,
+            "recall": 0.6855670103092784
+          },
+          {
+            "correct": 322,
+            "actual": 416,
+            "predicted": 446,
+            "precision": 0.7219730941704036,
+            "recall": 0.7740384615384616
+          },
+          {
+            "correct": 353,
+            "actual": 457,
+            "predicted": 548,
+            "precision": 0.6441605839416058,
+            "recall": 0.7724288840262582
+          }
+        ]
+      }
+    },
+    "mean_fact": {
+      "pose": {
+        "xy": 0.3271505534648895,
+        "xy_rmse": 0.5206919312477112,
+        "r2": 0.8289976716041565,
+        "yaw_deg": 13.104970932006836,
+        "energy": 0.26195743680000305
+      },
+      "effect": {
+        "xy": 0.41280895471572876,
+        "xy_rmse": 0.6207543611526489,
+        "r2": 0.5460650324821472,
+        "yaw_deg": 18.904096603393555,
+        "energy": 0.3346787095069885
+      },
+      "crossing": {
+        "layouts": 149,
+        "trials": 1788,
+        "hits": 218,
+        "attainable": 66,
+        "selected_hits": 57,
+        "brier": 0.04139017313718796,
+        "ap": 0.83124966603907,
+        "peak_mae": 0.057740744203329086
+      },
+      "paired_peak_mae": 0.08598023653030396
+    },
+    "stage12": {
+      "pose": {
+        "xy": 0.3271876871585846,
+        "xy_rmse": 0.5181118249893188,
+        "r2": 0.8306881785392761,
+        "yaw_deg": 12.9242582321167,
+        "energy": 0.26709648966789246
+      },
+      "effect": {
+        "xy": 0.41896241903305054,
+        "xy_rmse": 0.6219678521156311,
+        "r2": 0.5442885160446167,
+        "yaw_deg": 19.08435821533203,
+        "energy": 0.34747546911239624
+      },
+      "crossing": {
+        "layouts": 149,
+        "trials": 1788,
+        "hits": 218,
+        "attainable": 66,
+        "selected_hits": 31,
+        "brier": 0.10728058964014053,
+        "ap": 0.2523550551178185,
+        "peak_mae": 0.11648475378751755
+      },
+      "paired_peak_mae": 0.14485308527946472,
+      "edges": {
+        "balanced_error": 0.10759072923757658,
+        "positive_rate": 0.3151515151515151,
+        "precision": 0.7663975782038345,
+        "recall": 0.9128605769230769,
+        "fpr": 0.1280420353982301,
+        "ap": 0.9189714561288795,
+        "auroc": 0.9611475706262763,
+        "edges": 5280,
+        "switch_tp": 809,
+        "switch_predicted": 1241,
+        "switch_actual": 1067,
+        "switch_precision": 0.6518936341659952,
+        "switch_recall": 0.7582005623242737,
+        "switch_f1": 0.7010398613518197,
+        "birth": {
+          "correct": 406,
+          "actual": 546,
+          "predicted": 649,
+          "precision": 0.6255778120184899,
+          "recall": 0.7435897435897436
+        },
+        "loss": {
+          "correct": 384,
+          "actual": 521,
+          "predicted": 592,
+          "precision": 0.6486486486486487,
+          "recall": 0.7370441458733206
+        },
+        "by_source": [
+          {
+            "correct": 133,
+            "actual": 194,
+            "predicted": 247,
+            "precision": 0.5384615384615384,
+            "recall": 0.6855670103092784
+          },
+          {
+            "correct": 322,
+            "actual": 416,
+            "predicted": 446,
+            "precision": 0.7219730941704036,
+            "recall": 0.7740384615384616
+          },
+          {
+            "correct": 354,
+            "actual": 457,
+            "predicted": 548,
+            "precision": 0.6459854014598541,
+            "recall": 0.774617067833698
+          }
+        ]
+      }
+    },
+    "pets": {
+      "pose": {
+        "xy": 0.41704681515693665,
+        "xy_rmse": 0.5936243534088135,
+        "r2": 0.7777387499809265,
+        "yaw_deg": 16.638050079345703,
+        "energy": 0.3210795223712921
+      },
+      "effect": {
+        "xy": 0.5687233209609985,
+        "xy_rmse": 0.8169657588005066,
+        "r2": 0.21374797821044922,
+        "yaw_deg": 24.01294708251953,
+        "energy": 0.49473610520362854
+      },
+      "crossing": {
+        "layouts": 149,
+        "trials": 1788,
+        "hits": 218,
+        "attainable": 66,
+        "selected_hits": 44,
+        "brier": 0.08347003906965256,
+        "ap": 0.4370483241971932,
+        "peak_mae": 0.17274145781993866
+      },
+      "paired_peak_mae": 0.13155871629714966
+    },
+    "cophy": {
+      "pose": {
+        "xy": 0.38669633865356445,
+        "xy_rmse": 0.5820931196212769,
+        "r2": 0.7862898111343384,
+        "yaw_deg": 15.240161895751953,
+        "energy": 0.38669633865356445
+      },
+      "effect": {
+        "xy": 0.5140929818153381,
+        "xy_rmse": 0.7660443186759949,
+        "r2": 0.30870747566223145,
+        "yaw_deg": 22.121950149536133,
+        "energy": 0.5140929818153381
+      },
+      "crossing": {
+        "layouts": 149,
+        "trials": 1788,
+        "hits": 218,
+        "attainable": 66,
+        "selected_hits": 42,
+        "brier": 0.10961968451738358,
+        "ap": 0.2966356638970259,
+        "peak_mae": 0.10448085516691208
+      },
+      "paired_peak_mae": 0.1498795598745346
+    },
+    "ncii": {
+      "edges": {
+        "balanced_error": 0.2804230131041525,
+        "positive_rate": 0.3151515151515151,
+        "precision": 0.659106529209622,
+        "recall": 0.5763221153846154,
+        "fpr": 0.13716814159292035,
+        "ap": 0.6810768460593346,
+        "auroc": 0.7590775772208984,
+        "edges": 5280,
+        "switch_tp": 426,
+        "switch_predicted": 1084,
+        "switch_actual": 1067,
+        "switch_precision": 0.3929889298892989,
+        "switch_recall": 0.3992502343017807,
+        "switch_f1": 0.39609483960948394,
+        "birth": {
+          "correct": 224,
+          "actual": 546,
+          "predicted": 549,
+          "precision": 0.4080145719489982,
+          "recall": 0.41025641025641024
+        },
+        "loss": {
+          "correct": 178,
+          "actual": 521,
+          "predicted": 535,
+          "precision": 0.33271028037383177,
+          "recall": 0.3416506717850288
+        },
+        "by_source": [
+          {
+            "correct": 54,
+            "actual": 194,
+            "predicted": 240,
+            "precision": 0.225,
+            "recall": 0.27835051546391754
+          },
+          {
+            "correct": 162,
+            "actual": 416,
+            "predicted": 430,
+            "precision": 0.3767441860465116,
+            "recall": 0.3894230769230769
+          },
+          {
+            "correct": 210,
+            "actual": 457,
+            "predicted": 414,
+            "precision": 0.5072463768115942,
+            "recall": 0.45951859956236324
+          }
+        ]
+      }
+    },
+    "source": {
+      "edges": {
+        "balanced_error": 0.4102014550714772,
+        "positive_rate": 0.3151515151515151,
+        "precision": 0.37329545454545454,
+        "recall": 0.7896634615384616,
+        "fpr": 0.610066371681416,
+        "ap": 0.360395724067599,
+        "auroc": 0.5889210347174949,
+        "edges": 5280,
+        "switch_tp": 0,
+        "switch_predicted": 0,
+        "switch_actual": 1067,
+        "switch_precision": 0.0,
+        "switch_recall": 0.0,
+        "switch_f1": 0.0,
+        "birth": {
+          "correct": 0,
+          "actual": 546,
+          "predicted": 0,
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "loss": {
+          "correct": 0,
+          "actual": 521,
+          "predicted": 0,
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "by_source": [
+          {
+            "correct": 0,
+            "actual": 194,
+            "predicted": 0,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          {
+            "correct": 0,
+            "actual": 416,
+            "predicted": 0,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          {
+            "correct": 0,
+            "actual": 457,
+            "predicted": 0,
+            "precision": 0.0,
+            "recall": 0.0
+          }
+        ]
+      }
+    },
+    "layouts": 160
+  },
+  "near": {
+    "whatif": {
+      "pose": {
+        "xy": 0.03036705031991005,
+        "xy_rmse": 0.045423474162817,
+        "r2": 0.9637408256530762,
+        "yaw_deg": 1.1866718530654907,
+        "energy": 0.023725755512714386
+      },
+      "effect": {
+        "xy": 0.023802222684025764,
+        "xy_rmse": 0.03108029253780842,
+        "r2": 0.9544485211372375,
+        "yaw_deg": 1.1597061157226562,
+        "energy": 0.018865663558244705
+      },
+      "crossing": {
+        "layouts": 158,
+        "trials": 1896,
+        "hits": 15,
+        "attainable": 12,
+        "selected_hits": 11,
+        "brier": 0.005009749438613653,
+        "ap": 0.6392140045944393,
+        "peak_mae": 0.016956064850091934
+      },
+      "paired_peak_mae": 0.020372090861201286,
+      "edges": {
+        "balanced_error": 0.02646743500402037,
+        "positive_rate": 0.3106060606060606,
+        "precision": 0.9848866498740554,
+        "recall": 0.9536585365853658,
+        "fpr": 0.006593406593406593,
+        "ap": 0.9952942626130659,
+        "auroc": 0.9982578397212544,
+        "edges": 5280,
+        "switch_tp": 112,
+        "switch_predicted": 218,
+        "switch_actual": 193,
+        "switch_precision": 0.5137614678899083,
+        "switch_recall": 0.5803108808290155,
+        "switch_f1": 0.5450121654501217,
+        "birth": {
+          "correct": 27,
+          "actual": 97,
+          "predicted": 56,
+          "precision": 0.48214285714285715,
+          "recall": 0.27835051546391754
+        },
+        "loss": {
+          "correct": 75,
+          "actual": 96,
+          "predicted": 162,
+          "precision": 0.46296296296296297,
+          "recall": 0.78125
+        },
+        "by_source": [
+          {
+            "correct": 112,
+            "actual": 193,
+            "predicted": 218,
+            "precision": 0.5137614678899083,
+            "recall": 0.5803108808290155
+          },
+          {
+            "correct": 0,
+            "actual": 0,
+            "predicted": 0,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          {
+            "correct": 0,
+            "actual": 0,
+            "predicted": 0,
+            "precision": 0.0,
+            "recall": 0.0
+          }
+        ]
+      }
+    },
+    "mean_fact": {
+      "pose": {
+        "xy": 0.03417409583926201,
+        "xy_rmse": 0.05132589861750603,
+        "r2": 0.953705370426178,
+        "yaw_deg": 1.516274094581604,
+        "energy": 0.026366587728261948
+      },
+      "effect": {
+        "xy": 0.02497415617108345,
+        "xy_rmse": 0.03309748321771622,
+        "r2": 0.948343813419342,
+        "yaw_deg": 1.239446997642517,
+        "energy": 0.01950385794043541
+      },
+      "crossing": {
+        "layouts": 158,
+        "trials": 1896,
+        "hits": 15,
+        "attainable": 12,
+        "selected_hits": 11,
+        "brier": 0.00537420017644763,
+        "ap": 0.598813920664424,
+        "peak_mae": 0.018334465101361275
+      },
+      "paired_peak_mae": 0.02190253511071205
+    },
+    "stage12": {
+      "pose": {
+        "xy": 0.025493435561656952,
+        "xy_rmse": 0.03493151068687439,
+        "r2": 0.9785566926002502,
+        "yaw_deg": 1.1182771921157837,
+        "energy": 0.020967938005924225
+      },
+      "effect": {
+        "xy": 0.024660561233758926,
+        "xy_rmse": 0.03336670994758606,
+        "r2": 0.9475000500679016,
+        "yaw_deg": 1.2824420928955078,
+        "energy": 0.020134693011641502
+      },
+      "crossing": {
+        "layouts": 158,
+        "trials": 1896,
+        "hits": 15,
+        "attainable": 12,
+        "selected_hits": 11,
+        "brier": 0.005202469415962696,
+        "ap": 0.5533923191817929,
+        "peak_mae": 0.021894413977861404
+      },
+      "paired_peak_mae": 0.023347657173871994,
+      "edges": {
+        "balanced_error": 0.024792280889841867,
+        "positive_rate": 0.3106060606060606,
+        "precision": 0.9788557213930348,
+        "recall": 0.9597560975609756,
+        "fpr": 0.00934065934065934,
+        "ap": 0.995571871391108,
+        "auroc": 0.9982970383275261,
+        "edges": 5280,
+        "switch_tp": 104,
+        "switch_predicted": 189,
+        "switch_actual": 193,
+        "switch_precision": 0.5502645502645502,
+        "switch_recall": 0.538860103626943,
+        "switch_f1": 0.5445026178010471,
+        "birth": {
+          "correct": 27,
+          "actual": 97,
+          "predicted": 46,
+          "precision": 0.5869565217391305,
+          "recall": 0.27835051546391754
+        },
+        "loss": {
+          "correct": 70,
+          "actual": 96,
+          "predicted": 143,
+          "precision": 0.48951048951048953,
+          "recall": 0.7291666666666666
+        },
+        "by_source": [
+          {
+            "correct": 104,
+            "actual": 193,
+            "predicted": 189,
+            "precision": 0.5502645502645502,
+            "recall": 0.538860103626943
+          },
+          {
+            "correct": 0,
+            "actual": 0,
+            "predicted": 0,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          {
+            "correct": 0,
+            "actual": 0,
+            "predicted": 0,
+            "precision": 0.0,
+            "recall": 0.0
+          }
+        ]
+      }
+    },
+    "pets": {
+      "pose": {
+        "xy": 0.01711914874613285,
+        "xy_rmse": 0.029611775651574135,
+        "r2": 0.9845905900001526,
+        "yaw_deg": 0.8485432267189026,
+        "energy": 0.013034576550126076
+      },
+      "effect": {
+        "xy": 0.01883227936923504,
+        "xy_rmse": 0.02888709492981434,
+        "r2": 0.9606504440307617,
+        "yaw_deg": 0.9461777210235596,
+        "energy": 0.014760171994566917
+      },
+      "crossing": {
+        "layouts": 158,
+        "trials": 1896,
+        "hits": 15,
+        "attainable": 12,
+        "selected_hits": 8,
+        "brier": 0.007517581339925528,
+        "ap": 0.2382900695640096,
+        "peak_mae": 0.036183666437864304
+      },
+      "paired_peak_mae": 0.037326496094465256
+    },
+    "cophy": {
+      "pose": {
+        "xy": 0.06683003157377243,
+        "xy_rmse": 0.09069588780403137,
+        "r2": 0.855445146560669,
+        "yaw_deg": 2.8750429153442383,
+        "energy": 0.06683003157377243
+      },
+      "effect": {
+        "xy": 0.07034564018249512,
+        "xy_rmse": 0.0989413633942604,
+        "r2": 0.5383762717247009,
+        "yaw_deg": 3.6188392639160156,
+        "energy": 0.07034564018249512
+      },
+      "crossing": {
+        "layouts": 158,
+        "trials": 1896,
+        "hits": 15,
+        "attainable": 12,
+        "selected_hits": 0,
+        "brier": 0.04957805946469307,
+        "ap": 0.013387937453462399,
+        "peak_mae": 0.058076996356248856
+      },
+      "paired_peak_mae": 0.05677815154194832
+    },
+    "ncii": {
+      "edges": {
+        "balanced_error": 0.14885754489413025,
+        "positive_rate": 0.3106060606060606,
+        "precision": 0.8685874912157414,
+        "recall": 0.7536585365853659,
+        "fpr": 0.05137362637362637,
+        "ap": 0.8957181139639079,
+        "auroc": 0.9306702291610828,
+        "edges": 5280,
+        "switch_tp": 94,
+        "switch_predicted": 655,
+        "switch_actual": 193,
+        "switch_precision": 0.1435114503816794,
+        "switch_recall": 0.48704663212435234,
+        "switch_f1": 0.22169811320754718,
+        "birth": {
+          "correct": 12,
+          "actual": 97,
+          "predicted": 335,
+          "precision": 0.03582089552238806,
+          "recall": 0.12371134020618557
+        },
+        "loss": {
+          "correct": 14,
+          "actual": 96,
+          "predicted": 320,
+          "precision": 0.04375,
+          "recall": 0.14583333333333334
+        },
+        "by_source": [
+          {
+            "correct": 94,
+            "actual": 193,
+            "predicted": 472,
+            "precision": 0.19915254237288135,
+            "recall": 0.48704663212435234
+          },
+          {
+            "correct": 0,
+            "actual": 0,
+            "predicted": 73,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          {
+            "correct": 0,
+            "actual": 0,
+            "predicted": 110,
+            "precision": 0.0,
+            "recall": 0.0
+          }
+        ]
+      }
+    },
+    "source": {
+      "edges": {
+        "balanced_error": 0.016483516483516484,
+        "positive_rate": 0.3106060606060606,
+        "precision": 0.9318181818181818,
+        "recall": 1.0,
+        "fpr": 0.03296703296703297,
+        "ap": 0.9318181818181818,
+        "auroc": 0.9835164835164836,
+        "edges": 5280,
+        "switch_tp": 0,
+        "switch_predicted": 0,
+        "switch_actual": 193,
+        "switch_precision": 0.0,
+        "switch_recall": 0.0,
+        "switch_f1": 0.0,
+        "birth": {
+          "correct": 0,
+          "actual": 97,
+          "predicted": 0,
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "loss": {
+          "correct": 0,
+          "actual": 96,
+          "predicted": 0,
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "by_source": [
+          {
+            "correct": 0,
+            "actual": 193,
+            "predicted": 0,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          {
+            "correct": 0,
+            "actual": 0,
+            "predicted": 0,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          {
+            "correct": 0,
+            "actual": 0,
+            "predicted": 0,
+            "precision": 0.0,
+            "recall": 0.0
+          }
+        ]
+      }
+    },
+    "layouts": 160
+  },
+  "wall": {
+    "whatif": {
+      "pose": {
+        "xy": 0.22480766475200653,
+        "xy_rmse": 0.41149550676345825,
+        "r2": 0.9547454714775085,
+        "yaw_deg": 8.93095588684082,
+        "energy": 0.18641220033168793
+      },
+      "effect": {
+        "xy": 0.31203094124794006,
+        "xy_rmse": 0.5073273181915283,
+        "r2": 0.37760013341903687,
+        "yaw_deg": 12.708700180053711,
+        "energy": 0.256740927696228
+      },
+      "paired_peak_mae": 0.0008943711873143911,
+      "edges": {
+        "balanced_error": 0.16807935916542474,
+        "positive_rate": 0.41904761904761906,
+        "precision": 0.8396591789310612,
+        "recall": 0.7698863636363636,
+        "fpr": 0.10604508196721311,
+        "ap": 0.8973268997176275,
+        "auroc": 0.922639440317623,
+        "edges": 3360,
+        "switch_tp": 512,
+        "switch_predicted": 895,
+        "switch_actual": 1018,
+        "switch_precision": 0.5720670391061452,
+        "switch_recall": 0.5029469548133595,
+        "switch_f1": 0.5352848928384736,
+        "birth": {
+          "correct": 241,
+          "actual": 506,
+          "predicted": 449,
+          "precision": 0.5367483296213809,
+          "recall": 0.4762845849802372
+        },
+        "loss": {
+          "correct": 252,
+          "actual": 512,
+          "predicted": 446,
+          "precision": 0.5650224215246636,
+          "recall": 0.4921875
+        },
+        "by_source": [
+          {
+            "correct": 217,
+            "actual": 453,
+            "predicted": 328,
+            "precision": 0.6615853658536586,
+            "recall": 0.47902869757174393
+          },
+          {
+            "correct": 139,
+            "actual": 281,
+            "predicted": 268,
+            "precision": 0.5186567164179104,
+            "recall": 0.49466192170818507
+          },
+          {
+            "correct": 156,
+            "actual": 284,
+            "predicted": 299,
+            "precision": 0.5217391304347826,
+            "recall": 0.5492957746478874
+          }
+        ]
+      }
+    },
+    "mean_fact": {
+      "pose": {
+        "xy": 0.2283068746328354,
+        "xy_rmse": 0.4133690297603607,
+        "r2": 0.9543324708938599,
+        "yaw_deg": 9.022649765014648,
+        "energy": 0.18926885724067688
+      },
+      "effect": {
+        "xy": 0.3167787790298462,
+        "xy_rmse": 0.5102609992027283,
+        "r2": 0.37038105726242065,
+        "yaw_deg": 13.100676536560059,
+        "energy": 0.2605583071708679
+      },
+      "paired_peak_mae": 0.0008997865952551365
+    },
+    "stage12": {
+      "pose": {
+        "xy": 0.22030465304851532,
+        "xy_rmse": 0.4019286632537842,
+        "r2": 0.9568252563476562,
+        "yaw_deg": 8.834860801696777,
+        "energy": 0.18255992233753204
+      },
+      "effect": {
+        "xy": 0.31118711829185486,
+        "xy_rmse": 0.5023385286331177,
+        "r2": 0.38978058099746704,
+        "yaw_deg": 12.69952392578125,
+        "energy": 0.2571772634983063
+      },
+      "paired_peak_mae": 0.0008097103564068675,
+      "edges": {
+        "balanced_error": 0.16731091654247393,
+        "positive_rate": 0.41904761904761906,
+        "precision": 0.8416149068322981,
+        "recall": 0.7698863636363636,
+        "fpr": 0.10450819672131148,
+        "ap": 0.8989819993407991,
+        "auroc": 0.9234268029293965,
+        "edges": 3360,
+        "switch_tp": 525,
+        "switch_predicted": 912,
+        "switch_actual": 1018,
+        "switch_precision": 0.5756578947368421,
+        "switch_recall": 0.5157170923379175,
+        "switch_f1": 0.5440414507772021,
+        "birth": {
+          "correct": 245,
+          "actual": 506,
+          "predicted": 449,
+          "precision": 0.5456570155902004,
+          "recall": 0.4841897233201581
+        },
+        "loss": {
+          "correct": 261,
+          "actual": 512,
+          "predicted": 463,
+          "precision": 0.5637149028077754,
+          "recall": 0.509765625
+        },
+        "by_source": [
+          {
+            "correct": 224,
+            "actual": 453,
+            "predicted": 337,
+            "precision": 0.6646884272997032,
+            "recall": 0.49448123620309054
+          },
+          {
+            "correct": 143,
+            "actual": 281,
+            "predicted": 273,
+            "precision": 0.5238095238095238,
+            "recall": 0.5088967971530249
+          },
+          {
+            "correct": 158,
+            "actual": 284,
+            "predicted": 302,
+            "precision": 0.5231788079470199,
+            "recall": 0.5563380281690141
+          }
+        ]
+      }
+    },
+    "pets": {
+      "pose": {
+        "xy": 0.22272811830043793,
+        "xy_rmse": 0.4237164855003357,
+        "r2": 0.9520175457000732,
+        "yaw_deg": 8.108049392700195,
+        "energy": 0.17462052404880524
+      },
+      "effect": {
+        "xy": 0.32581326365470886,
+        "xy_rmse": 0.5341674089431763,
+        "r2": 0.31000202894210815,
+        "yaw_deg": 12.165289878845215,
+        "energy": 0.269822359085083
+      },
+      "paired_peak_mae": 0.005172175820916891
+    },
+    "cophy": {
+      "pose": {
+        "xy": 0.3190704882144928,
+        "xy_rmse": 0.46646982431411743,
+        "r2": 0.9418460726737976,
+        "yaw_deg": 11.636067390441895,
+        "energy": 0.3190704882144928
+      },
+      "effect": {
+        "xy": 0.41111651062965393,
+        "xy_rmse": 0.5806201696395874,
+        "r2": 0.18477541208267212,
+        "yaw_deg": 15.964386940002441,
+        "energy": 0.41111651062965393
+      },
+      "paired_peak_mae": 0.0012749516172334552
+    },
+    "ncii": {
+      "edges": {
+        "balanced_error": 0.2871122857675112,
+        "positive_rate": 0.41904761904761906,
+        "precision": 0.8576826196473551,
+        "recall": 0.4836647727272727,
+        "fpr": 0.057889344262295084,
+        "ap": 0.7560905052469754,
+        "auroc": 0.7293641137295082,
+        "edges": 3360,
+        "switch_tp": 270,
+        "switch_predicted": 525,
+        "switch_actual": 1018,
+        "switch_precision": 0.5142857142857142,
+        "switch_recall": 0.26522593320235754,
+        "switch_f1": 0.34996759559300067,
+        "birth": {
+          "correct": 109,
+          "actual": 506,
+          "predicted": 243,
+          "precision": 0.448559670781893,
+          "recall": 0.21541501976284586
+        },
+        "loss": {
+          "correct": 143,
+          "actual": 512,
+          "predicted": 282,
+          "precision": 0.5070921985815603,
+          "recall": 0.279296875
+        },
+        "by_source": [
+          {
+            "correct": 265,
+            "actual": 453,
+            "predicted": 462,
+            "precision": 0.5735930735930735,
+            "recall": 0.5849889624724062
+          },
+          {
+            "correct": 2,
+            "actual": 281,
+            "predicted": 32,
+            "precision": 0.0625,
+            "recall": 0.0071174377224199285
+          },
+          {
+            "correct": 3,
+            "actual": 284,
+            "predicted": 31,
+            "precision": 0.0967741935483871,
+            "recall": 0.01056338028169014
+          }
+        ]
+      }
+    },
+    "source": {
+      "edges": {
+        "balanced_error": 0.2722033345752608,
+        "positive_rate": 0.41904761904761906,
+        "precision": 0.7517857142857143,
+        "recall": 0.5980113636363636,
+        "fpr": 0.14241803278688525,
+        "ap": 0.6356526692708333,
+        "auroc": 0.7302417101341281,
+        "edges": 3360,
+        "switch_tp": 0,
+        "switch_predicted": 0,
+        "switch_actual": 1018,
+        "switch_precision": 0.0,
+        "switch_recall": 0.0,
+        "switch_f1": 0.0,
+        "birth": {
+          "correct": 0,
+          "actual": 506,
+          "predicted": 0,
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "loss": {
+          "correct": 0,
+          "actual": 512,
+          "predicted": 0,
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "by_source": [
+          {
+            "correct": 0,
+            "actual": 453,
+            "predicted": 0,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          {
+            "correct": 0,
+            "actual": 281,
+            "predicted": 0,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          {
+            "correct": 0,
+            "actual": 284,
+            "predicted": 0,
+            "precision": 0.0,
+            "recall": 0.0
+          }
+        ]
+      }
+    },
+    "layouts": 160
+  },
+  "finish": {
+    "whatif": {
+      "pose": {
+        "xy": 0.0158807672560215,
+        "xy_rmse": 0.019116953015327454,
+        "r2": 0.918231725692749,
+        "yaw_deg": 0.7567785978317261,
+        "energy": 0.01365035679191351
+      },
+      "effect": {
+        "xy": 0.014785436913371086,
+        "xy_rmse": 0.01795828528702259,
+        "r2": 0.6015098094940186,
+        "yaw_deg": 0.7653794288635254,
+        "energy": 0.011328347958624363
+      },
+      "crossing": {
+        "layouts": 238,
+        "trials": 2856,
+        "hits": 89,
+        "attainable": 37,
+        "selected_hits": 29,
+        "brier": 0.019880929961800575,
+        "ap": 0.5778615904518799,
+        "peak_mae": 0.008845732547342777
+      },
+      "paired_peak_mae": 0.00974277127534151,
+      "edges": {
+        "balanced_error": 0.03344251672124155,
+        "positive_rate": 0.2960464015151515,
+        "precision": 0.9704433497536946,
+        "recall": 0.9452219112355058,
+        "fpr": 0.012106944677988903,
+        "ap": 0.99044803556169,
+        "auroc": 0.9966641223113917,
+        "edges": 8448,
+        "switch_tp": 392,
+        "switch_predicted": 553,
+        "switch_actual": 519,
+        "switch_precision": 0.7088607594936709,
+        "switch_recall": 0.7552986512524085,
+        "switch_f1": 0.7313432835820896,
+        "birth": {
+          "correct": 198,
+          "actual": 278,
+          "predicted": 246,
+          "precision": 0.8048780487804879,
+          "recall": 0.7122302158273381
+        },
+        "loss": {
+          "correct": 183,
+          "actual": 241,
+          "predicted": 307,
+          "precision": 0.5960912052117264,
+          "recall": 0.7593360995850622
+        },
+        "by_source": [
+          {
+            "correct": 392,
+            "actual": 519,
+            "predicted": 553,
+            "precision": 0.7088607594936709,
+            "recall": 0.7552986512524085
+          },
+          {
+            "correct": 0,
+            "actual": 0,
+            "predicted": 0,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          {
+            "correct": 0,
+            "actual": 0,
+            "predicted": 0,
+            "precision": 0.0,
+            "recall": 0.0
+          }
+        ]
+      }
+    },
+    "mean_fact": {
+      "pose": {
+        "xy": 0.01786317676305771,
+        "xy_rmse": 0.021645575761795044,
+        "r2": 0.8951699733734131,
+        "yaw_deg": 0.9204678535461426,
+        "energy": 0.014648918062448502
+      },
+      "effect": {
+        "xy": 0.014831711538136005,
+        "xy_rmse": 0.01800956018269062,
+        "r2": 0.5992310047149658,
+        "yaw_deg": 0.8200402855873108,
+        "energy": 0.011305772699415684
+      },
+      "crossing": {
+        "layouts": 238,
+        "trials": 2856,
+        "hits": 89,
+        "attainable": 37,
+        "selected_hits": 28,
+        "brier": 0.019529515877366066,
+        "ap": 0.6143487350324265,
+        "peak_mae": 0.008960741572082043
+      },
+      "paired_peak_mae": 0.00976671651005745
+    },
+    "stage12": {
+      "pose": {
+        "xy": 0.015261992812156677,
+        "xy_rmse": 0.018055563792586327,
+        "r2": 0.9270594120025635,
+        "yaw_deg": 0.7302970886230469,
+        "energy": 0.014217968098819256
+      },
+      "effect": {
+        "xy": 0.014775889925658703,
+        "xy_rmse": 0.018242476508021355,
+        "r2": 0.5887976884841919,
+        "yaw_deg": 0.8095988631248474,
+        "energy": 0.012331982143223286
+      },
+      "crossing": {
+        "layouts": 238,
+        "trials": 2856,
+        "hits": 89,
+        "attainable": 37,
+        "selected_hits": 20,
+        "brier": 0.026072317734360695,
+        "ap": 0.2545507133756581,
+        "peak_mae": 0.01030598022043705
+      },
+      "paired_peak_mae": 0.011249752715229988,
+      "edges": {
+        "balanced_error": 0.030148492141734193,
+        "positive_rate": 0.2960464015151515,
+        "precision": 0.9683055668427468,
+        "recall": 0.9528188724510196,
+        "fpr": 0.013115856734487978,
+        "ap": 0.9905512532079238,
+        "auroc": 0.9966700388954894,
+        "edges": 8448,
+        "switch_tp": 387,
+        "switch_predicted": 533,
+        "switch_actual": 519,
+        "switch_precision": 0.726078799249531,
+        "switch_recall": 0.7456647398843931,
+        "switch_f1": 0.7357414448669202,
+        "birth": {
+          "correct": 198,
+          "actual": 278,
+          "predicted": 243,
+          "precision": 0.8148148148148148,
+          "recall": 0.7122302158273381
+        },
+        "loss": {
+          "correct": 178,
+          "actual": 241,
+          "predicted": 290,
+          "precision": 0.6137931034482759,
+          "recall": 0.7385892116182573
+        },
+        "by_source": [
+          {
+            "correct": 387,
+            "actual": 519,
+            "predicted": 533,
+            "precision": 0.726078799249531,
+            "recall": 0.7456647398843931
+          },
+          {
+            "correct": 0,
+            "actual": 0,
+            "predicted": 0,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          {
+            "correct": 0,
+            "actual": 0,
+            "predicted": 0,
+            "precision": 0.0,
+            "recall": 0.0
+          }
+        ]
+      }
+    },
+    "pets": {
+      "pose": {
+        "xy": 0.006910943891853094,
+        "xy_rmse": 0.008677651174366474,
+        "r2": 0.9831518530845642,
+        "yaw_deg": 0.4242963194847107,
+        "energy": 0.005177285522222519
+      },
+      "effect": {
+        "xy": 0.009256039746105671,
+        "xy_rmse": 0.011903180740773678,
+        "r2": 0.8249291181564331,
+        "yaw_deg": 0.5968503355979919,
+        "energy": 0.007437072228640318
+      },
+      "crossing": {
+        "layouts": 238,
+        "trials": 2856,
+        "hits": 89,
+        "attainable": 37,
+        "selected_hits": 29,
+        "brier": 0.024061625823378563,
+        "ap": 0.4731755151561854,
+        "peak_mae": 0.012401164509356022
+      },
+      "paired_peak_mae": 0.013962830416858196
+    },
+    "cophy": {
+      "pose": {
+        "xy": 0.023239929229021072,
+        "xy_rmse": 0.030730538070201874,
+        "r2": 0.7887057662010193,
+        "yaw_deg": 1.2298493385314941,
+        "energy": 0.023239929229021072
+      },
+      "effect": {
+        "xy": 0.02544567920267582,
+        "xy_rmse": 0.03342928737401962,
+        "r2": -0.3808361291885376,
+        "yaw_deg": 1.5797903537750244,
+        "energy": 0.02544567920267582
+      },
+      "crossing": {
+        "layouts": 238,
+        "trials": 2856,
+        "hits": 89,
+        "attainable": 37,
+        "selected_hits": 3,
+        "brier": 0.17016807198524475,
+        "ap": 0.09036073999645972,
+        "peak_mae": 0.037485018372535706
+      },
+      "paired_peak_mae": 0.030486861243844032
+    },
+    "ncii": {
+      "edges": {
+        "balanced_error": 0.22626321927929685,
+        "positive_rate": 0.2960464015151515,
+        "precision": 0.7404333794375288,
+        "recall": 0.6421431427429029,
+        "fpr": 0.09466958130149655,
+        "ap": 0.7744939950890928,
+        "auroc": 0.837175101373609,
+        "edges": 8448,
+        "switch_tp": 255,
+        "switch_predicted": 1682,
+        "switch_actual": 519,
+        "switch_precision": 0.1516052318668252,
+        "switch_recall": 0.4913294797687861,
+        "switch_f1": 0.23171285779191278,
+        "birth": {
+          "correct": 85,
+          "actual": 278,
+          "predicted": 809,
+          "precision": 0.10506798516687268,
+          "recall": 0.3057553956834532
+        },
+        "loss": {
+          "correct": 78,
+          "actual": 241,
+          "predicted": 873,
+          "precision": 0.08934707903780069,
+          "recall": 0.3236514522821577
+        },
+        "by_source": [
+          {
+            "correct": 255,
+            "actual": 519,
+            "predicted": 1073,
+            "precision": 0.23765144454799628,
+            "recall": 0.4913294797687861
+          },
+          {
+            "correct": 0,
+            "actual": 0,
+            "predicted": 203,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          {
+            "correct": 0,
+            "actual": 0,
+            "predicted": 406,
+            "precision": 0.0,
+            "recall": 0.0
+          }
+        ]
+      }
+    },
+    "source": {
+      "edges": {
+        "balanced_error": 0.026483941483100723,
+        "positive_rate": 0.2960464015151515,
+        "precision": 0.8881392045454546,
+        "recall": 1.0,
+        "fpr": 0.052967882966201446,
+        "ap": 0.8881392045454546,
+        "auroc": 0.9735160585168993,
+        "edges": 8448,
+        "switch_tp": 0,
+        "switch_predicted": 0,
+        "switch_actual": 519,
+        "switch_precision": 0.0,
+        "switch_recall": 0.0,
+        "switch_f1": 0.0,
+        "birth": {
+          "correct": 0,
+          "actual": 278,
+          "predicted": 0,
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "loss": {
+          "correct": 0,
+          "actual": 241,
+          "predicted": 0,
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "by_source": [
+          {
+            "correct": 0,
+            "actual": 519,
+            "predicted": 0,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          {
+            "correct": 0,
+            "actual": 0,
+            "predicted": 0,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          {
+            "correct": 0,
+            "actual": 0,
+            "predicted": 0,
+            "precision": 0.0,
+            "recall": 0.0
+          }
+        ]
+      }
+    },
+    "layouts": 256
+  }
+}

@@ -26,7 +26,7 @@ def enumerate_cw(model,s,a,belief,cfg,contact_cost=0.):
     return (.65*now+.35*later).argmax(1)
 
 
-def cem(model,s,task,seed,belief=None,correction=None,terminal=False,contact_cost=0.,readout=None,retain_heads=False):
+def cem(model,s,task,seed,belief=None,correction=None,terminal=False,contact_cost=0.,readout=None,retain_heads=False,event_weight=None,endpoint_ablation=False):
     # Equal 5x3 rollout budget for the graph and the Gaussian ensemble.
     torch.manual_seed(seed)
     eps=torch.randn(3,5,1,16,device=s.device)
@@ -49,8 +49,12 @@ def cem(model,s,task,seed,belief=None,correction=None,terminal=False,contact_cos
                 z,peak=unpack(st,dy.reshape(15,count,16));u=task_value(st,z,peak)
             else:
                 draw=latin[h].repeat(5)[:,None].expand(-1,count)
-                z,edge,peak,rank=model.graph(st,a,ks.expand_as(draw),draw)
+                if event_weight is None:
+                    z,edge,peak,rank=model.graph(st,a,ks.expand_as(draw),draw)
+                else:
+                    z,edge,peak,rank,hit=model.graph.predict_event(st,a,ks.expand_as(draw),draw)
                 z=correct(st,a,z,edge,gg.expand_as(draw))
+                if endpoint_ablation:peak=z[...,12]
                 u=.55*task_value(st,z,peak)+.45*rank
                 if contact_cost:u=u-contact_cost*missed_contact(edge,task)
             if readout is not None:
@@ -58,10 +62,12 @@ def cem(model,s,task,seed,belief=None,correction=None,terminal=False,contact_cos
                 u=task_value(st,z,peak if retain_heads else geometric_peak)
                 if retain_heads and belief is not None:u=.55*u+.45*rank
             instant=.35*u+.65*mechanical(st,a)
+            if event_weight is not None:instant=instant+event_weight*hit
             total=total+.85**h*alive*instant
             done=z[...,12]>(.90+.05*st[...,13])
+            if event_weight is not None:done=hit
             if h<2:total=total+sum(.85**j for j in range(h+1,3))*alive*done*instant
-            alive=alive*(~done);st=z
+            alive=alive*(1.-done.float());st=z
         if terminal:total=total+.60*.85**2*alive*model.value_readout(st)
         return total
     nominal=simulate(torch.ones(1,3,device=s.device,dtype=torch.long)) if belief is not None else None

@@ -65,17 +65,17 @@ def root_score(m, name, s, a, prev, last, w, endpoint_only=False):
 
 
 @torch.no_grad()
-def run(args):
+def run(args, *, output=OUT, start_seeds=START, models=None, selector=None, transform_context=None, tag_prefix="", output_variant=None):
     torch.set_num_threads(2)
-    m = AdaptedModels(args.device)
+    m = AdaptedModels(args.device) if models is None else models
     orig = args.method
     name = "graph" if orig in ("uniform", "static") else orig
-    if args.variant != "stage11" and name != "physics":
+    if models is None and args.variant != "stage11" and name != "physics":
         install(m, args.device, (name,))
     cw = args.task in ("p9", "causalworld")
     task = "causalworld" if cw else "pusht"
     mode = args.variant
-    if mode == "selected":
+    if mode == "selected" and selector is None:
         mode = json.loads((OUT / "freeze.json").read_text())[task][name]
     simsplit = (
         "p9"
@@ -84,9 +84,9 @@ def run(args):
     )
     goal = 0.90 if cw else 0.95
     cap = 420 if cw else 280
-    begin = START[args.split] + OFFSET[args.task] + args.offset
+    begin = start_seeds[args.split] + OFFSET[args.task] + args.offset
     seeds = list(range(begin, begin + args.count))
-    tag = f"{args.split}-{args.task}-{orig}-{args.variant}"
+    tag = f"{tag_prefix}{args.split}-{args.task}-{orig}-{output_variant or args.variant}"
     if args.offset:
         tag += f"-{args.offset}"
     args.tag = "precision-" + tag
@@ -107,6 +107,8 @@ def run(args):
             ss = s[ids]
             a = tensor([menu(z) for z in ss.cpu().numpy()])
             ctx = evidence(prev[ids], last[ids], ss)
+            if transform_context is not None:
+                ctx=transform_context(ctx, task)
             if orig == "uniform":
                 mass = ss.new_full((len(ss), 5), 0.2)
             elif orig == "static":
@@ -115,7 +117,9 @@ def run(args):
             else:
                 mass = m.graph.belief(ctx)
             selected = np.ones(len(ss), int)
-            if step and name in ("physics", "cophy"):
+            if step and selector is not None:
+                selected = selector(m, ss, a, ctx, task, mass, step, np.asarray(seeds)[ids], cap-used[ids], prev[ids], last[ids]).cpu().numpy()
+            elif step and name in ("physics", "cophy"):
                 if name == "cophy" and not cw and mode not in ("raw", "stage11"):
                     selected = (
                         root_score(m, name, ss, a, prev[ids], last[ids], mass, mode == "endonly")
@@ -212,7 +216,7 @@ def run(args):
             traces,
         ),
     ]:
-        with (OUT / f"{tag}{suffix}.csv").open("w", newline="") as f:
+        with (output / f"{tag}{suffix}.csv").open("w", newline="") as f:
             w = csv.writer(f, lineterminator="\n")
             w.writerow(header)
             w.writerows(table)

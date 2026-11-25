@@ -1,0 +1,82 @@
+{
+  "pusht": {
+    "policy": "guided",
+    "validation": {
+      "beam": {
+        "success": 47,
+        "coverage": 0.9293593103066087,
+        "steps": 212.25
+      },
+      "guided": {
+        "success": 50,
+        "coverage": 0.9390718042850494,
+        "steps": 209.953125
+      },
+      "cem": {
+        "success": 42,
+        "coverage": 0.9239581031724811,
+        "steps": 217.296875
+      },
+      "timed": {
+        "success": 50,
+        "coverage": 0.9381679249927402,
+        "steps": 207.8125
+      }
+    }
+  },
+  "causalworld": {
+    "policy": "beam",
+    "validation": {
+      "beam": {
+        "success": 61,
+        "coverage": 0.9029294354841113,
+        "steps": 109.578125
+      },
+      "guided": {
+        "success": 61,
+        "coverage": 0.8911263579502702,
+        "steps": 110.140625
+      },
+      "cem": {
+        "success": 61,
+        "coverage": 0.8924184627830982,
+        "steps": 111.5625
+      }
+    }
+  },
+  "p9": {
+    "policy": "beam",
+    "transfer": "causalworld"
+  },
+  "hashes": {
+    "results/passage/graph.pt": "b2fb2ab77060c94a1d8f71f8c031bb2eb424fe4e95de394433261277547a9e06",
+    "results/passage/duration.pt": "69f1eec6c0f19bd51a13ad3d75a4847f6c3b2f9bb815d5b52e2a5379d93c7d0b",
+    "results/precision/graph.pt": "33828f4736037034a696bbc13c25b51eac255a4de9e5732de11fe86dac00a6fa",
+    "results/precision/pets.pt": "a8c3b73c9a62ec2b074dc8db5619d1be548087176a17b078efe60735c88a1bb0",
+    "results/precision/cophy.pt": "b55d3274a3791b9665f741358348f2998ff82c4d09a51ef1e4e9be546100952b"
+  },
+  "controls": {
+    "pusht": [
+      751000,
+      751159
+    ],
+    "causalworld": [
+      751000,
+      751159
+    ],
+    "p9": [
+      757000,
+      757079
+    ],
+    "primary": [
+      "selected",
+      "pets/raw",
+      "cophy/raw"
+    ],
+    "comparators": [
+      "previous",
+      "averagefact",
+      "noevent"
+    ]
+  }
+}

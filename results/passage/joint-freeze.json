@@ -1,0 +1,31 @@
+{
+  "primary": "graph-joint",
+  "rule": "0.70 scaled full two-step paired graph return + 0.30 scaled full-episode return; fixed before validation and test",
+  "validation": [
+    831000,
+    831063
+  ],
+  "test": [
+    841000,
+    841159
+  ],
+  "P9": [
+    847000,
+    847079
+  ],
+  "comparisons": [
+    "original beam policy",
+    "previous-history averaged",
+    "fixed PETS CEM",
+    "fixed CoPhyNet",
+    "validation-selected same-data baselines"
+  ],
+  "sha256": {
+    "graph.pt": "b2fb2ab77060c94a1d8f71f8c031bb2eb424fe4e95de394433261277547a9e06",
+    "advantage-graph.pt": "8d8d5023c96ad37a262b9ddc4561f56bd99f4b538d48a856106ab22b0db8bd8d",
+    "advantage-pets.pt": "1a37a05e867c1c57ccb3cc08abbf0ae19632f22f50636153e151bbac0443c2c7",
+    "advantage-cophy.pt": "d1d38a4c9b4661a4ea37666b60a26d5104254eb53bc57630c23e79b10fa27aaa",
+    "freeze.json": "ccbae5eb7566d6c4e74eca4d41f8355e0514d9f05aeb6a136bff6338e2fccf0e",
+    "return-freeze.json": "07fcf6cf2dac83160efdb6a7abf3f1032e2cf7eba2a095402e85029f4e0ee0c6"
+  }
+}
