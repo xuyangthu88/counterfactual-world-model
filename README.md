@@ -1,5 +1,7 @@
 # WhatIf · 基于事实交互的反事实世界模型
 
+**最新实验**　[Stage 07 · 跨场景反事实世界模型的选题依据、方法与三项实测](reports/stages/07-crossbench.md)。同一份权重运行于 CausalWorld Pushing 和 PushT，分别与 NCII、CoPhyNet、PETS 比较建图、预测和控制。下方保留前期单块和多物体实验。
+
 原生 TriFinger 在一次真实试推后，从同一起点想象多种短推，选择第二推。隐藏物理条件由单个粒子向量 `P_k=(方块质量, 地面摩擦系数)` 表示。
 
 - [场景、数据与协议](reports/01-protocol.md)
