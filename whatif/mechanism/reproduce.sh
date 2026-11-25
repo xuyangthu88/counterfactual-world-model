@@ -58,6 +58,16 @@ case "${1:-}" in
         nn directed ncii --device "$DEVICE"
         nn directed evaluate
         ;;
-    *) echo "Usage: bash whatif/mechanism/reproduce.sh {15|16|17|18|19|20}" >&2; exit 2 ;;
+    21)
+        for domain in causalworld pusht; do
+            sim continuations "$domain" --workers "$WORKERS"
+        done
+        nn return_model graph
+        nn return_model pets
+        nn return_model evaluate
+        nn control --returns --sim-python "$SIM_PY" --workers "$WORKERS"
+        nn return_results
+        ;;
+    *) echo "Usage: bash whatif/mechanism/reproduce.sh {15|16|17|18|19|20|21}" >&2; exit 2 ;;
 esac
 

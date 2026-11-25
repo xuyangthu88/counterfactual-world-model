@@ -83,7 +83,7 @@ def policy_run(job):
     import torch
     from .planner import select
     from .train import build,OUT
-    domain,policy,start,n,sim_python,fine,proposal=job
+    domain,policy,start,n,sim_python,fine,proposal,continuation=job
     torch.set_num_threads(1)
     name=policy if policy in ('pets','cophynet') else 'mechanism'
     model=build(name,'cpu')
@@ -92,6 +92,10 @@ def policy_run(job):
         model_dir=OUT/'demonstrations'
     model.load_state_dict(torch.load(model_dir/f'{name}.pt',map_location='cpu'))
     model.eval()
+    head=None
+    if continuation and policy not in ('actor','previous'):
+        from .return_model import load_head,features,score
+        head=load_head('pets' if policy=='pets' else 'graph')
     fd,writer=os.pipe()
     env=dict(os.environ,WHATIF_RESPONSE_FD=str(writer),PYTHONPATH=str(ROOT/'work/stage7/upstream/pusht')+':'+str(ROOT),
              OPENBLAS_NUM_THREADS='1',OMP_NUM_THREADS='1',SDL_VIDEODRIVER='dummy',PYGAME_HIDE_SUPPORT_PROMPT='1')
@@ -114,7 +118,11 @@ def policy_run(job):
                 else:
                     d={k:torch.as_tensor(v).float().unsqueeze(0) for k,v in msg[1].items()}
                     prior=None if msg[3] is None else torch.as_tensor(msg[3])
-                    idx=select(model,policy,d,msg[2],2 if fine or proposal else 1,prior)
+                    if head is not None:
+                        idx=score(head,features(model,d),prior[None],policy).item()
+                    else:
+                        selector='delta' if policy=='previous' else policy
+                        idx=select(model,selector,d,msg[2],2 if fine or proposal else 1,prior)
                     proc.stdin.write(f'{idx}\n'.encode())
                     proc.stdin.flush()
         if proc.wait()!=0:
@@ -137,6 +145,7 @@ def main():
     p.add_argument('--workers',type=int,default=8)
     p.add_argument('--fine',action='store_true')
     p.add_argument('--proposal',action='store_true')
+    p.add_argument('--returns',action='store_true')
     args=p.parse_args()
     base,n=(823000,96) if args.fine else (423000,CONTROL_N)
     destination=OUT/'fine' if args.fine else OUT
@@ -145,7 +154,12 @@ def main():
         base,n=1223000,96
         destination=OUT/'demonstrations'
         policies=POLICIES+['actor']
-    jobs=[(domain,policy,base+i,min(8,n-i),args.sim_python,args.fine,args.proposal) for i in range(0,n,8)
+    if args.returns:
+        base,n=1723000,128
+        destination=OUT/'continuations'
+        policies=['actor','previous','value','delta','delta_kl','pets']
+    jobs=[(domain,policy,base+i,min(8,n-i),args.sim_python,args.fine,
+           args.proposal or args.returns,args.returns) for i in range(0,n,8)
           for domain in ['causalworld','pusht'] for policy in policies]
     rows=[]
     with mp.get_context('fork').Pool(args.workers) as pool:

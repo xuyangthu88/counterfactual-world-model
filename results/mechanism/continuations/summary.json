@@ -1,0 +1,188 @@
+{
+  "control": {
+    "causalworld": {
+      "actor": {
+        "terminal": 0.4685711811125657,
+        "peak": 0.6203226954676211,
+        "moves": 24.671875,
+        "n": 128,
+        "success": 51
+      },
+      "delta": {
+        "terminal": 0.7826124380462716,
+        "peak": 0.8228584504686296,
+        "moves": 12.2421875,
+        "n": 128,
+        "success": 98
+      },
+      "delta_kl": {
+        "terminal": 0.7829359236293385,
+        "peak": 0.8222350939176977,
+        "moves": 12.09375,
+        "n": 128,
+        "success": 99
+      },
+      "pets": {
+        "terminal": 0.5350808649345709,
+        "peak": 0.5788334071403369,
+        "moves": 22.5,
+        "n": 128,
+        "success": 59
+      },
+      "previous": {
+        "terminal": 0.44833287820256373,
+        "peak": 0.6450273025038769,
+        "moves": 25.5,
+        "n": 128,
+        "success": 48
+      },
+      "value": {
+        "terminal": 0.7373771357524674,
+        "peak": 0.811619300278835,
+        "moves": 13.9140625,
+        "n": 128,
+        "success": 92
+      }
+    },
+    "pusht": {
+      "actor": {
+        "terminal": 0.7913769590959419,
+        "peak": 0.9090872369488352,
+        "moves": 31.109375,
+        "n": 128,
+        "success": 47
+      },
+      "delta": {
+        "terminal": 0.7913769590959419,
+        "peak": 0.9090943633382267,
+        "moves": 31.109375,
+        "n": 128,
+        "success": 47
+      },
+      "delta_kl": {
+        "terminal": 0.7913769590959419,
+        "peak": 0.9090943633382267,
+        "moves": 31.109375,
+        "n": 128,
+        "success": 47
+      },
+      "pets": {
+        "terminal": 0.7913769590959419,
+        "peak": 0.9090872369488352,
+        "moves": 31.109375,
+        "n": 128,
+        "success": 47
+      },
+      "previous": {
+        "terminal": 0.6445731497814222,
+        "peak": 0.8661781921699685,
+        "moves": 34.4453125,
+        "n": 128,
+        "success": 20
+      },
+      "value": {
+        "terminal": 0.7412296958209481,
+        "peak": 0.8977910922621959,
+        "moves": 32.7109375,
+        "n": 128,
+        "success": 33
+      }
+    }
+  },
+  "paired": {
+    "causalworld": {
+      "delta-actor": {
+        "improved": 50,
+        "lost": 3,
+        "difference": 0.3671875,
+        "interval": [
+          0.2734375,
+          0.4609375
+        ]
+      },
+      "delta-value": {
+        "improved": 10,
+        "lost": 4,
+        "difference": 0.046875,
+        "interval": [
+          -0.0078125,
+          0.1015625
+        ]
+      },
+      "delta_kl-delta": {
+        "improved": 1,
+        "lost": 0,
+        "difference": 0.0078125,
+        "interval": [
+          0.0,
+          0.0234375
+        ]
+      },
+      "delta_kl-pets": {
+        "improved": 45,
+        "lost": 5,
+        "difference": 0.3125,
+        "interval": [
+          0.21875,
+          0.40625
+        ]
+      },
+      "delta-previous": {
+        "improved": 56,
+        "lost": 6,
+        "difference": 0.390625,
+        "interval": [
+          0.2890625,
+          0.484375
+        ]
+      }
+    },
+    "pusht": {
+      "delta-actor": {
+        "improved": 0,
+        "lost": 0,
+        "difference": 0.0,
+        "interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "delta-value": {
+        "improved": 21,
+        "lost": 7,
+        "difference": 0.109375,
+        "interval": [
+          0.03125,
+          0.1875
+        ]
+      },
+      "delta_kl-delta": {
+        "improved": 0,
+        "lost": 0,
+        "difference": 0.0,
+        "interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "delta_kl-pets": {
+        "improved": 0,
+        "lost": 0,
+        "difference": 0.0,
+        "interval": [
+          0.0,
+          0.0
+        ]
+      },
+      "delta-previous": {
+        "improved": 37,
+        "lost": 10,
+        "difference": 0.2109375,
+        "interval": [
+          0.109375,
+          0.3125
+        ]
+      }
+    }
+  }
+}
