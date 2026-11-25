@@ -1,0 +1,181 @@
+{
+  "causalworld-test.npz": {
+    "keys": [
+      "cmd",
+      "edge",
+      "end",
+      "noise",
+      "nullpose",
+      "peak",
+      "physics",
+      "protocol",
+      "ref",
+      "seed",
+      "source",
+      "state",
+      "steps"
+    ],
+    "n": 192,
+    "seed_min": 241000,
+    "seed_max": 241191,
+    "sha256": "faf54868ff3fa5ad851b83c312ed7f7678ad78c93eb2d3c567e447c1062b792d"
+  },
+  "causalworld-train.npz": {
+    "keys": [
+      "cmd",
+      "edge",
+      "end",
+      "noise",
+      "nullpose",
+      "peak",
+      "physics",
+      "protocol",
+      "ref",
+      "seed",
+      "source",
+      "state",
+      "steps"
+    ],
+    "n": 320,
+    "seed_min": 221000,
+    "seed_max": 221319,
+    "sha256": "218db2b581506f5b1efe05a33728b9bfd195346097d997ceca5aa50e5c37d972"
+  },
+  "causalworld-val.npz": {
+    "keys": [
+      "cmd",
+      "edge",
+      "end",
+      "noise",
+      "nullpose",
+      "peak",
+      "physics",
+      "protocol",
+      "ref",
+      "seed",
+      "source",
+      "state",
+      "steps"
+    ],
+    "n": 112,
+    "seed_min": 231000,
+    "seed_max": 231111,
+    "sha256": "0b5a4f78097688063a2a67abfff17fdd7b38e283f01b31bc16552528ea417f73"
+  },
+  "pusht-test.npz": {
+    "keys": [
+      "cmd",
+      "edge",
+      "end",
+      "noise",
+      "nullpose",
+      "peak",
+      "physics",
+      "protocol",
+      "ref",
+      "seed",
+      "source",
+      "state",
+      "steps"
+    ],
+    "n": 256,
+    "seed_min": 241000,
+    "seed_max": 241255,
+    "sha256": "68053cee7e104e9932b5ca4930026eade75e8819bf306ccab91580d662cbbb39"
+  },
+  "pusht-train.npz": {
+    "keys": [
+      "cmd",
+      "edge",
+      "end",
+      "noise",
+      "nullpose",
+      "peak",
+      "physics",
+      "protocol",
+      "ref",
+      "seed",
+      "source",
+      "state",
+      "steps"
+    ],
+    "n": 1680,
+    "seed_min": 221000,
+    "seed_max": 222679,
+    "sha256": "19abd14dbd9e921bc1c6ee9c2054640a01c3756ea434130d947e62bedafea035"
+  },
+  "pusht-val.npz": {
+    "keys": [
+      "cmd",
+      "edge",
+      "end",
+      "noise",
+      "nullpose",
+      "peak",
+      "physics",
+      "protocol",
+      "ref",
+      "seed",
+      "source",
+      "state",
+      "steps"
+    ],
+    "n": 240,
+    "seed_min": 231000,
+    "seed_max": 231239,
+    "sha256": "638c9b042c91b0df69edc04b107c3361172e3d2dd5df6517f3e973adf45b237a"
+  },
+  "return-causalworld-train.npz": {
+    "keys": [
+      "future",
+      "physics",
+      "seed",
+      "state"
+    ],
+    "n": 3200,
+    "seed_min": 271000,
+    "seed_max": 274199,
+    "sha256": "dd9106486431b657b2b1f479c8c583bf11b5fafb6dd08a9667cb2962c90384f8"
+  },
+  "return-causalworld-val.npz": {
+    "keys": [
+      "future",
+      "physics",
+      "seed",
+      "state"
+    ],
+    "n": 480,
+    "seed_min": 281000,
+    "seed_max": 281479,
+    "sha256": "b91226b133ec094772277dc9a96bbbbc4c31c11844c4176c99d6b93578630b03"
+  },
+  "return-pusht-train.npz": {
+    "keys": [
+      "future",
+      "physics",
+      "seed",
+      "state"
+    ],
+    "n": 6400,
+    "seed_min": 271000,
+    "seed_max": 277399,
+    "sha256": "3ca45d6180129423780daeefb6e0e6630aa084bd848db3512b0038d158f83cf3"
+  },
+  "return-pusht-val.npz": {
+    "keys": [
+      "future",
+      "physics",
+      "seed",
+      "state"
+    ],
+    "n": 864,
+    "seed_min": 281000,
+    "seed_max": 281863,
+    "sha256": "f70989c40fc96f979c0a4364a7ef595edb79f30bd825a7b6bb9483766a835692"
+  },
+  "inherited_cw_training": {
+    "path": "data/crossbench/causalworld-train.npz",
+    "snapshots": 1200,
+    "sha256": "85ab79ba1362660df9b423c46242ae55e8982aa00586b0732b8b55bd300f7235"
+  }
+}
