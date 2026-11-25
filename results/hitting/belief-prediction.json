@@ -1,0 +1,44 @@
+{
+  "pusht": {
+    "prior": {
+      "success_brier": 0.13063468039035797,
+      "effect_rmse": 0.4790639579296112,
+      "effect_nll": 0.6945323348045349,
+      "rescued_brier": 0.10290509462356567
+    },
+    "moment": {
+      "success_brier": 0.12996120750904083,
+      "effect_rmse": 0.47883591055870056,
+      "effect_nll": 0.692185640335083,
+      "rescued_brier": 0.10265780985355377
+    },
+    "posterior": {
+      "success_brier": 0.12914340198040009,
+      "effect_rmse": 0.47929349541664124,
+      "effect_nll": 0.6906234622001648,
+      "rescued_brier": 0.10275094211101532
+    },
+    "kl_posterior_prior": 0.43433132767677307
+  },
+  "causalworld": {
+    "prior": {
+      "success_brier": 0.17615342140197754,
+      "effect_rmse": 0.3961547911167145,
+      "effect_nll": 0.558156430721283,
+      "rescued_brier": 0.07245027273893356
+    },
+    "moment": {
+      "success_brier": 0.14819474518299103,
+      "effect_rmse": 0.3959682583808899,
+      "effect_nll": 0.5833647847175598,
+      "rescued_brier": 0.0728219598531723
+    },
+    "posterior": {
+      "success_brier": 0.13083767890930176,
+      "effect_rmse": 0.3956544101238251,
+      "effect_nll": 0.54774010181427,
+      "rescued_brier": 0.07078135758638382
+    },
+    "kl_posterior_prior": 1.2872251272201538
+  }
+}

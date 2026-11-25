@@ -1,0 +1,236 @@
+{
+  "pusht": {
+    "n": 1024,
+    "arms": {
+      "stage25": {
+        "success": 288,
+        "peak": 0.8975968984780138,
+        "terminal": 0.7618355435733974
+      },
+      "prior": {
+        "success": 288,
+        "peak": 0.8961748395997802,
+        "terminal": 0.7613381039736851
+      },
+      "moment": {
+        "success": 287,
+        "peak": 0.8961365207399012,
+        "terminal": 0.7603375276121369
+      },
+      "posterior": {
+        "success": 289,
+        "peak": 0.8960379208040194,
+        "terminal": 0.7610129673594201
+      },
+      "law": {
+        "success": 288,
+        "peak": 0.8967186620177472,
+        "terminal": 0.7607612544270523
+      },
+      "kl": {
+        "success": 289,
+        "peak": 0.896654701810121,
+        "terminal": 0.7609028711631254
+      },
+      "selected": {
+        "success": 289,
+        "peak": 0.896654701810121,
+        "terminal": 0.7609028711631254
+      },
+      "actor": {
+        "success": 262,
+        "peak": 0.8981180940284048,
+        "terminal": 0.7610473577068433
+      }
+    },
+    "contrasts": {
+      "selected-stage25": {
+        "rescued": 4,
+        "broken": 3,
+        "points": 0.09765625,
+        "interval": [
+          -0.390625,
+          0.5859375
+        ],
+        "path_changed": 51
+      },
+      "selected-actor": {
+        "rescued": 138,
+        "broken": 111,
+        "points": 2.63671875,
+        "interval": [
+          -0.29296875,
+          5.6640625
+        ],
+        "path_changed": 724
+      },
+      "posterior-prior": {
+        "rescued": 3,
+        "broken": 2,
+        "points": 0.09765625,
+        "interval": [
+          -0.29296875,
+          0.5859375
+        ],
+        "path_changed": 17
+      },
+      "posterior-moment": {
+        "rescued": 2,
+        "broken": 0,
+        "points": 0.1953125,
+        "interval": [
+          0.0,
+          0.48828125
+        ],
+        "path_changed": 11
+      },
+      "law-posterior": {
+        "rescued": 0,
+        "broken": 1,
+        "points": -0.09765625,
+        "interval": [
+          -0.29296875,
+          0.0
+        ],
+        "path_changed": 8
+      },
+      "kl-law": {
+        "rescued": 1,
+        "broken": 0,
+        "points": 0.09765625,
+        "interval": [
+          0.0,
+          0.29296875
+        ],
+        "path_changed": 2
+      }
+    },
+    "same_stage25_vs_actor": {
+      "n": 1792,
+      "stage25": 507,
+      "actor": 463,
+      "points": 2.455357142857143,
+      "interval": [
+        0.16741071428571427,
+        4.743303571428571
+      ]
+    }
+  },
+  "causalworld": {
+    "n": 1024,
+    "arms": {
+      "stage25": {
+        "success": 770,
+        "peak": 0.8040803848223277,
+        "terminal": 0.7364316666423747
+      },
+      "prior": {
+        "success": 777,
+        "peak": 0.8049932841802274,
+        "terminal": 0.7395708907422431
+      },
+      "moment": {
+        "success": 779,
+        "peak": 0.8054595259288817,
+        "terminal": 0.7396784015143112
+      },
+      "posterior": {
+        "success": 773,
+        "peak": 0.8045902768942597,
+        "terminal": 0.7369439854626307
+      },
+      "law": {
+        "success": 774,
+        "peak": 0.8042402579548025,
+        "terminal": 0.737504868357064
+      },
+      "kl": {
+        "success": 774,
+        "peak": 0.8036955058049671,
+        "terminal": 0.7370334218830976
+      },
+      "selected": {
+        "success": 774,
+        "peak": 0.8036955058049671,
+        "terminal": 0.7370334218830976
+      },
+      "actor": {
+        "success": 354,
+        "peak": 0.5787596049506192,
+        "terminal": 0.41906808036287657
+      }
+    },
+    "contrasts": {
+      "selected-stage25": {
+        "rescued": 7,
+        "broken": 3,
+        "points": 0.390625,
+        "interval": [
+          -0.1953125,
+          0.9765625
+        ],
+        "path_changed": 61
+      },
+      "selected-actor": {
+        "rescued": 460,
+        "broken": 40,
+        "points": 41.015625,
+        "interval": [
+          37.59765625,
+          44.53125
+        ],
+        "path_changed": 860
+      },
+      "posterior-prior": {
+        "rescued": 0,
+        "broken": 4,
+        "points": -0.390625,
+        "interval": [
+          -0.78125,
+          -0.09765625
+        ],
+        "path_changed": 29
+      },
+      "posterior-moment": {
+        "rescued": 0,
+        "broken": 6,
+        "points": -0.5859375,
+        "interval": [
+          -1.07421875,
+          -0.1953125
+        ],
+        "path_changed": 29
+      },
+      "law-posterior": {
+        "rescued": 1,
+        "broken": 0,
+        "points": 0.09765625,
+        "interval": [
+          0.0,
+          0.29296875
+        ],
+        "path_changed": 8
+      },
+      "kl-law": {
+        "rescued": 0,
+        "broken": 0,
+        "points": 0.0,
+        "interval": [
+          0.0,
+          0.0
+        ],
+        "path_changed": 9
+      }
+    },
+    "same_stage25_vs_actor": {
+      "n": 1792,
+      "stage25": 1353,
+      "actor": 631,
+      "points": 40.29017857142857,
+      "interval": [
+        37.723214285714285,
+        42.91294642857143
+      ]
+    }
+  }
+}

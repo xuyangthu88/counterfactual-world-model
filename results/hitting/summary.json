@@ -1,0 +1,1234 @@
+{
+  "pusht": {
+    "arms": {
+      "first_unpaired": {
+        "n": 768,
+        "success": 224,
+        "peak": 0.9054639527591158,
+        "terminal": 0.7753895085177192,
+        "vs_actor": {
+          "rescued": 116,
+          "broken": 93,
+          "points": 2.994791666666667,
+          "interval": [
+            -0.6510416666666667,
+            6.640625
+          ]
+        }
+      },
+      "first_direct": {
+        "n": 768,
+        "success": 219,
+        "peak": 0.893860036603049,
+        "terminal": 0.7609787493105008,
+        "vs_actor": {
+          "rescued": 108,
+          "broken": 90,
+          "points": 2.34375,
+          "interval": [
+            -1.3020833333333335,
+            5.989583333333334
+          ]
+        }
+      },
+      "first_means": {
+        "n": 768,
+        "success": 215,
+        "peak": 0.8956910322097732,
+        "terminal": 0.767108719618894,
+        "vs_actor": {
+          "rescued": 118,
+          "broken": 104,
+          "points": 1.8229166666666667,
+          "interval": [
+            -1.953125,
+            5.598958333333334
+          ]
+        }
+      },
+      "first_independent": {
+        "n": 768,
+        "success": 215,
+        "peak": 0.8959472994307968,
+        "terminal": 0.7656156720646928,
+        "vs_actor": {
+          "rescued": 119,
+          "broken": 105,
+          "points": 1.8229166666666667,
+          "interval": [
+            -1.953125,
+            5.598958333333334
+          ]
+        }
+      },
+      "first_shape": {
+        "n": 768,
+        "success": 215,
+        "peak": 0.8979316490767815,
+        "terminal": 0.7683855611030594,
+        "vs_actor": {
+          "rescued": 122,
+          "broken": 108,
+          "points": 1.8229166666666667,
+          "interval": [
+            -2.083333333333333,
+            5.729166666666666
+          ]
+        }
+      },
+      "first_kl": {
+        "n": 768,
+        "success": 212,
+        "peak": 0.8993288543606468,
+        "terminal": 0.7710115175553559,
+        "vs_actor": {
+          "rescued": 128,
+          "broken": 117,
+          "points": 1.4322916666666665,
+          "interval": [
+            -2.477213541666665,
+            5.46875
+          ]
+        }
+      },
+      "both_unpaired": {
+        "n": 768,
+        "success": 219,
+        "peak": 0.908707146759601,
+        "terminal": 0.7751952396162475,
+        "vs_actor": {
+          "rescued": 112,
+          "broken": 94,
+          "points": 2.34375,
+          "interval": [
+            -1.3020833333333335,
+            6.119791666666666
+          ]
+        }
+      },
+      "both_direct": {
+        "n": 768,
+        "success": 217,
+        "peak": 0.8936037114071951,
+        "terminal": 0.7613486182890483,
+        "vs_actor": {
+          "rescued": 108,
+          "broken": 92,
+          "points": 2.083333333333333,
+          "interval": [
+            -1.5657552083333321,
+            5.729166666666666
+          ]
+        }
+      },
+      "both_means": {
+        "n": 768,
+        "success": 215,
+        "peak": 0.8956910322097732,
+        "terminal": 0.767108719618894,
+        "vs_actor": {
+          "rescued": 118,
+          "broken": 104,
+          "points": 1.8229166666666667,
+          "interval": [
+            -1.953125,
+            5.598958333333334
+          ]
+        }
+      },
+      "both_independent": {
+        "n": 768,
+        "success": 215,
+        "peak": 0.8958719416975024,
+        "terminal": 0.7657057651061526,
+        "vs_actor": {
+          "rescued": 119,
+          "broken": 105,
+          "points": 1.8229166666666667,
+          "interval": [
+            -1.953125,
+            5.598958333333334
+          ]
+        }
+      },
+      "both_shape": {
+        "n": 768,
+        "success": 215,
+        "peak": 0.8978562913434871,
+        "terminal": 0.7684756541445191,
+        "vs_actor": {
+          "rescued": 122,
+          "broken": 108,
+          "points": 1.8229166666666667,
+          "interval": [
+            -2.083333333333333,
+            5.729166666666666
+          ]
+        }
+      },
+      "both_kl": {
+        "n": 768,
+        "success": 212,
+        "peak": 0.8992530303451834,
+        "terminal": 0.7711691872852194,
+        "vs_actor": {
+          "rescued": 128,
+          "broken": 117,
+          "points": 1.4322916666666665,
+          "interval": [
+            -2.477213541666665,
+            5.46875
+          ]
+        }
+      },
+      "late_unpaired": {
+        "n": 768,
+        "success": 210,
+        "peak": 0.8952372364722881,
+        "terminal": 0.7602183319862282,
+        "vs_actor": {
+          "rescued": 101,
+          "broken": 92,
+          "points": 1.171875,
+          "interval": [
+            -2.473958333333333,
+            4.817708333333334
+          ]
+        }
+      },
+      "late_direct": {
+        "n": 768,
+        "success": 217,
+        "peak": 0.8936037114071951,
+        "terminal": 0.7613486182890483,
+        "vs_actor": {
+          "rescued": 108,
+          "broken": 92,
+          "points": 2.083333333333333,
+          "interval": [
+            -1.5657552083333321,
+            5.729166666666666
+          ]
+        }
+      },
+      "late_means": {
+        "n": 768,
+        "success": 219,
+        "peak": 0.893860036603049,
+        "terminal": 0.7609787493105008,
+        "vs_actor": {
+          "rescued": 108,
+          "broken": 90,
+          "points": 2.34375,
+          "interval": [
+            -1.3020833333333335,
+            5.989583333333334
+          ]
+        }
+      },
+      "late_independent": {
+        "n": 768,
+        "success": 219,
+        "peak": 0.8937846788697547,
+        "terminal": 0.7610688423519605,
+        "vs_actor": {
+          "rescued": 108,
+          "broken": 90,
+          "points": 2.34375,
+          "interval": [
+            -1.3020833333333335,
+            5.989583333333334
+          ]
+        }
+      },
+      "late_shape": {
+        "n": 768,
+        "success": 219,
+        "peak": 0.8937846788697547,
+        "terminal": 0.7610688423519605,
+        "vs_actor": {
+          "rescued": 108,
+          "broken": 90,
+          "points": 2.34375,
+          "interval": [
+            -1.3020833333333335,
+            5.989583333333334
+          ]
+        }
+      },
+      "late_kl": {
+        "n": 768,
+        "success": 219,
+        "peak": 0.8937846788697547,
+        "terminal": 0.7610688423519605,
+        "vs_actor": {
+          "rescued": 108,
+          "broken": 90,
+          "points": 2.34375,
+          "interval": [
+            -1.3020833333333335,
+            5.989583333333334
+          ]
+        }
+      },
+      "selected": {
+        "n": 768,
+        "success": 219,
+        "peak": 0.893860036603049,
+        "terminal": 0.7609787493105008,
+        "vs_actor": {
+          "rescued": 108,
+          "broken": 90,
+          "points": 2.34375,
+          "interval": [
+            -1.3020833333333335,
+            5.989583333333334
+          ]
+        }
+      },
+      "stage24": {
+        "n": 768,
+        "success": 194,
+        "peak": 0.8998655936641929,
+        "terminal": 0.7582230108201505,
+        "vs_actor": {
+          "rescued": 47,
+          "broken": 54,
+          "points": -0.9114583333333334,
+          "interval": [
+            -3.515625,
+            1.6927083333333333
+          ]
+        }
+      },
+      "actor": {
+        "n": 768,
+        "success": 201,
+        "peak": 0.8990542517658469,
+        "terminal": 0.7636265771611003,
+        "vs_actor": {
+          "rescued": 0,
+          "broken": 0,
+          "points": 0.0,
+          "interval": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "fixed": {
+        "n": 768,
+        "success": 173,
+        "peak": 0.8990810973185338,
+        "terminal": 0.7504333151882747,
+        "vs_actor": {
+          "rescued": 116,
+          "broken": 144,
+          "points": -3.6458333333333335,
+          "interval": [
+            -7.8125,
+            0.5208333333333333
+          ]
+        }
+      },
+      "stage21": {
+        "n": 768,
+        "success": 201,
+        "peak": 0.8993307265912639,
+        "terminal": 0.7636158884495217,
+        "vs_actor": {
+          "rescued": 1,
+          "broken": 1,
+          "points": 0.0,
+          "interval": [
+            -0.390625,
+            0.390625
+          ]
+        }
+      },
+      "pets": {
+        "n": 768,
+        "success": 201,
+        "peak": 0.8990542517658469,
+        "terminal": 0.7636265771611003,
+        "vs_actor": {
+          "rescued": 0,
+          "broken": 0,
+          "points": 0.0,
+          "interval": [
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    "contrasts": {
+      "selected-actor": {
+        "rescued": 108,
+        "broken": 90,
+        "points": 2.34375,
+        "interval": [
+          -1.3020833333333335,
+          5.989583333333334
+        ],
+        "first_changed": 566,
+        "path_changed": 569
+      },
+      "selected-fixed": {
+        "rescued": 147,
+        "broken": 101,
+        "points": 5.989583333333334,
+        "interval": [
+          2.083333333333333,
+          10.026041666666668
+        ],
+        "first_changed": 612,
+        "path_changed": 760
+      },
+      "selected-stage24": {
+        "rescued": 114,
+        "broken": 89,
+        "points": 3.2552083333333335,
+        "interval": [
+          -0.26041666666666663,
+          6.901041666666667
+        ],
+        "first_changed": 581,
+        "path_changed": 613
+      },
+      "selected-stage21": {
+        "rescued": 109,
+        "broken": 91,
+        "points": 2.34375,
+        "interval": [
+          -1.3020833333333335,
+          5.989583333333334
+        ]
+      },
+      "selected-pets": {
+        "rescued": 108,
+        "broken": 90,
+        "points": 2.34375,
+        "interval": [
+          -1.3020833333333335,
+          5.989583333333334
+        ]
+      },
+      "first_direct-unpaired": {
+        "rescued": 91,
+        "broken": 96,
+        "points": -0.6510416666666667,
+        "interval": [
+          -4.169921874999998,
+          2.864583333333333
+        ],
+        "first_changed": 518,
+        "path_changed": 518
+      },
+      "first_means-direct": {
+        "rescued": 35,
+        "broken": 39,
+        "points": -0.5208333333333333,
+        "interval": [
+          -2.734375,
+          1.8229166666666667
+        ],
+        "first_changed": 227,
+        "path_changed": 228
+      },
+      "first_independent-means": {
+        "rescued": 2,
+        "broken": 2,
+        "points": 0.0,
+        "interval": [
+          -0.5208333333333333,
+          0.5208333333333333
+        ],
+        "first_changed": 19,
+        "path_changed": 19
+      },
+      "first_shape-independent": {
+        "rescued": 7,
+        "broken": 7,
+        "points": 0.0,
+        "interval": [
+          -1.0416666666666665,
+          0.9114583333333334
+        ],
+        "first_changed": 28,
+        "path_changed": 28
+      },
+      "first_shape-means": {
+        "rescued": 8,
+        "broken": 8,
+        "points": 0.0,
+        "interval": [
+          -1.0416666666666665,
+          1.0416666666666665
+        ],
+        "first_changed": 43,
+        "path_changed": 43
+      },
+      "first_kl-shape": {
+        "rescued": 7,
+        "broken": 10,
+        "points": -0.390625,
+        "interval": [
+          -1.4322916666666665,
+          0.6510416666666667
+        ],
+        "first_changed": 33,
+        "path_changed": 33
+      },
+      "late_direct-unpaired": {
+        "rescued": 16,
+        "broken": 9,
+        "points": 0.9114583333333334,
+        "interval": [
+          -0.390625,
+          2.213541666666667
+        ],
+        "first_changed": 0,
+        "path_changed": 100
+      },
+      "late_means-direct": {
+        "rescued": 2,
+        "broken": 0,
+        "points": 0.26041666666666663,
+        "interval": [
+          0.0,
+          0.6510416666666667
+        ],
+        "first_changed": 0,
+        "path_changed": 5
+      },
+      "late_independent-means": {
+        "rescued": 0,
+        "broken": 0,
+        "points": 0.0,
+        "interval": [
+          0.0,
+          0.0
+        ],
+        "first_changed": 0,
+        "path_changed": 1
+      },
+      "late_shape-independent": {
+        "rescued": 0,
+        "broken": 0,
+        "points": 0.0,
+        "interval": [
+          0.0,
+          0.0
+        ],
+        "first_changed": 0,
+        "path_changed": 1
+      },
+      "late_shape-means": {
+        "rescued": 0,
+        "broken": 0,
+        "points": 0.0,
+        "interval": [
+          0.0,
+          0.0
+        ],
+        "first_changed": 0,
+        "path_changed": 2
+      },
+      "late_kl-shape": {
+        "rescued": 0,
+        "broken": 0,
+        "points": 0.0,
+        "interval": [
+          0.0,
+          0.0
+        ],
+        "first_changed": 0,
+        "path_changed": 0
+      },
+      "both_direct-unpaired": {
+        "rescued": 96,
+        "broken": 98,
+        "points": -0.26041666666666663,
+        "interval": [
+          -3.90625,
+          3.2552083333333335
+        ],
+        "first_changed": 518,
+        "path_changed": 548
+      },
+      "both_means-direct": {
+        "rescued": 37,
+        "broken": 39,
+        "points": -0.26041666666666663,
+        "interval": [
+          -2.473958333333333,
+          2.083333333333333
+        ],
+        "first_changed": 227,
+        "path_changed": 230
+      },
+      "both_independent-means": {
+        "rescued": 2,
+        "broken": 2,
+        "points": 0.0,
+        "interval": [
+          -0.5208333333333333,
+          0.5208333333333333
+        ],
+        "first_changed": 19,
+        "path_changed": 20
+      },
+      "both_shape-independent": {
+        "rescued": 7,
+        "broken": 7,
+        "points": 0.0,
+        "interval": [
+          -1.0416666666666665,
+          0.9114583333333334
+        ],
+        "first_changed": 28,
+        "path_changed": 29
+      },
+      "both_shape-means": {
+        "rescued": 8,
+        "broken": 8,
+        "points": 0.0,
+        "interval": [
+          -1.0416666666666665,
+          1.0416666666666665
+        ],
+        "first_changed": 43,
+        "path_changed": 45
+      },
+      "both_kl-shape": {
+        "rescued": 7,
+        "broken": 10,
+        "points": -0.390625,
+        "interval": [
+          -1.4322916666666665,
+          0.6510416666666667
+        ],
+        "first_changed": 33,
+        "path_changed": 34
+      }
+    },
+    "unique_native_paths": 3186
+  },
+  "causalworld": {
+    "arms": {
+      "first_unpaired": {
+        "n": 768,
+        "success": 576,
+        "peak": 0.7930210368393394,
+        "terminal": 0.7266185844440164,
+        "vs_actor": {
+          "rescued": 328,
+          "broken": 29,
+          "points": 38.93229166666667,
+          "interval": [
+            35.02604166666667,
+            42.96875
+          ]
+        }
+      },
+      "first_direct": {
+        "n": 768,
+        "success": 583,
+        "peak": 0.7972306984781122,
+        "terminal": 0.7351690818574449,
+        "vs_actor": {
+          "rescued": 333,
+          "broken": 27,
+          "points": 39.84375,
+          "interval": [
+            36.06770833333333,
+            43.88020833333333
+          ]
+        }
+      },
+      "first_means": {
+        "n": 768,
+        "success": 581,
+        "peak": 0.7927388658420872,
+        "terminal": 0.7357974400868746,
+        "vs_actor": {
+          "rescued": 335,
+          "broken": 31,
+          "points": 39.58333333333333,
+          "interval": [
+            35.67708333333333,
+            43.75
+          ]
+        }
+      },
+      "first_independent": {
+        "n": 768,
+        "success": 582,
+        "peak": 0.7926055765074125,
+        "terminal": 0.7363954792544973,
+        "vs_actor": {
+          "rescued": 336,
+          "broken": 31,
+          "points": 39.71354166666667,
+          "interval": [
+            35.80729166666667,
+            43.753255208333286
+          ]
+        }
+      },
+      "first_shape": {
+        "n": 768,
+        "success": 581,
+        "peak": 0.7934591612762839,
+        "terminal": 0.7353005782127487,
+        "vs_actor": {
+          "rescued": 336,
+          "broken": 32,
+          "points": 39.58333333333333,
+          "interval": [
+            35.67708333333333,
+            43.75
+          ]
+        }
+      },
+      "first_kl": {
+        "n": 768,
+        "success": 583,
+        "peak": 0.7950595034581056,
+        "terminal": 0.7368454425177333,
+        "vs_actor": {
+          "rescued": 338,
+          "broken": 32,
+          "points": 39.84375,
+          "interval": [
+            35.9375,
+            44.01041666666667
+          ]
+        }
+      },
+      "both_unpaired": {
+        "n": 768,
+        "success": 580,
+        "peak": 0.7968569999343345,
+        "terminal": 0.7310281458870426,
+        "vs_actor": {
+          "rescued": 332,
+          "broken": 29,
+          "points": 39.453125,
+          "interval": [
+            35.546875,
+            43.48958333333333
+          ]
+        }
+      },
+      "both_direct": {
+        "n": 768,
+        "success": 583,
+        "peak": 0.7973785744197812,
+        "terminal": 0.7341741548695305,
+        "vs_actor": {
+          "rescued": 333,
+          "broken": 27,
+          "points": 39.84375,
+          "interval": [
+            36.06770833333333,
+            43.88020833333333
+          ]
+        }
+      },
+      "both_means": {
+        "n": 768,
+        "success": 581,
+        "peak": 0.7927388658420872,
+        "terminal": 0.7357974400868746,
+        "vs_actor": {
+          "rescued": 335,
+          "broken": 31,
+          "points": 39.58333333333333,
+          "interval": [
+            35.67708333333333,
+            43.75
+          ]
+        }
+      },
+      "both_independent": {
+        "n": 768,
+        "success": 582,
+        "peak": 0.7926154208198568,
+        "terminal": 0.7364053235669417,
+        "vs_actor": {
+          "rescued": 336,
+          "broken": 31,
+          "points": 39.71354166666667,
+          "interval": [
+            35.80729166666667,
+            43.753255208333286
+          ]
+        }
+      },
+      "both_shape": {
+        "n": 768,
+        "success": 581,
+        "peak": 0.7934690055887282,
+        "terminal": 0.7355822009042944,
+        "vs_actor": {
+          "rescued": 336,
+          "broken": 32,
+          "points": 39.58333333333333,
+          "interval": [
+            35.67708333333333,
+            43.75
+          ]
+        }
+      },
+      "both_kl": {
+        "n": 768,
+        "success": 584,
+        "peak": 0.7951575650507342,
+        "terminal": 0.7378880463044576,
+        "vs_actor": {
+          "rescued": 339,
+          "broken": 32,
+          "points": 39.97395833333333,
+          "interval": [
+            36.06770833333333,
+            44.140625
+          ]
+        }
+      },
+      "late_unpaired": {
+        "n": 768,
+        "success": 584,
+        "peak": 0.7984198591384484,
+        "terminal": 0.7355550532965935,
+        "vs_actor": {
+          "rescued": 335,
+          "broken": 28,
+          "points": 39.97395833333333,
+          "interval": [
+            36.19791666666667,
+            44.01041666666667
+          ]
+        }
+      },
+      "late_direct": {
+        "n": 768,
+        "success": 583,
+        "peak": 0.7973785744197812,
+        "terminal": 0.7341741548695305,
+        "vs_actor": {
+          "rescued": 333,
+          "broken": 27,
+          "points": 39.84375,
+          "interval": [
+            36.06770833333333,
+            43.88020833333333
+          ]
+        }
+      },
+      "late_means": {
+        "n": 768,
+        "success": 583,
+        "peak": 0.7972306984781122,
+        "terminal": 0.7351690818574449,
+        "vs_actor": {
+          "rescued": 333,
+          "broken": 27,
+          "points": 39.84375,
+          "interval": [
+            36.06770833333333,
+            43.88020833333333
+          ]
+        }
+      },
+      "late_independent": {
+        "n": 768,
+        "success": 583,
+        "peak": 0.7972405427905566,
+        "terminal": 0.7351789261698892,
+        "vs_actor": {
+          "rescued": 333,
+          "broken": 27,
+          "points": 39.84375,
+          "interval": [
+            36.06770833333333,
+            43.88020833333333
+          ]
+        }
+      },
+      "late_shape": {
+        "n": 768,
+        "success": 583,
+        "peak": 0.7972405427905566,
+        "terminal": 0.7351789261698892,
+        "vs_actor": {
+          "rescued": 333,
+          "broken": 27,
+          "points": 39.84375,
+          "interval": [
+            36.06770833333333,
+            43.88020833333333
+          ]
+        }
+      },
+      "late_kl": {
+        "n": 768,
+        "success": 583,
+        "peak": 0.7972342444112049,
+        "terminal": 0.7351726277905376,
+        "vs_actor": {
+          "rescued": 333,
+          "broken": 27,
+          "points": 39.84375,
+          "interval": [
+            36.06770833333333,
+            43.88020833333333
+          ]
+        }
+      },
+      "selected": {
+        "n": 768,
+        "success": 583,
+        "peak": 0.7972306984781122,
+        "terminal": 0.7351690818574449,
+        "vs_actor": {
+          "rescued": 333,
+          "broken": 27,
+          "points": 39.84375,
+          "interval": [
+            36.06770833333333,
+            43.88020833333333
+          ]
+        }
+      },
+      "stage24": {
+        "n": 768,
+        "success": 567,
+        "peak": 0.7851092154894795,
+        "terminal": 0.7240440325889116,
+        "vs_actor": {
+          "rescued": 325,
+          "broken": 35,
+          "points": 37.76041666666667,
+          "interval": [
+            33.72395833333333,
+            41.796875
+          ]
+        }
+      },
+      "actor": {
+        "n": 768,
+        "success": 277,
+        "peak": 0.5729279528895859,
+        "terminal": 0.411649066781744,
+        "vs_actor": {
+          "rescued": 0,
+          "broken": 0,
+          "points": 0.0,
+          "interval": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "fixed": {
+        "n": 768,
+        "success": 438,
+        "peak": 0.7508769680989644,
+        "terminal": 0.6139380052336492,
+        "vs_actor": {
+          "rescued": 230,
+          "broken": 69,
+          "points": 20.963541666666664,
+          "interval": [
+            16.927083333333336,
+            25.130208333333332
+          ]
+        }
+      },
+      "stage21": {
+        "n": 768,
+        "success": 577,
+        "peak": 0.7928463927522292,
+        "terminal": 0.7429316039412394,
+        "vs_actor": {
+          "rescued": 319,
+          "broken": 19,
+          "points": 39.0625,
+          "interval": [
+            35.28645833333333,
+            42.96875
+          ]
+        }
+      },
+      "pets": {
+        "n": 768,
+        "success": 343,
+        "peak": 0.5823178668482191,
+        "terminal": 0.5111583291930705,
+        "vs_actor": {
+          "rescued": 112,
+          "broken": 46,
+          "points": 8.59375,
+          "interval": [
+            5.46875,
+            11.848958333333332
+          ]
+        }
+      }
+    },
+    "contrasts": {
+      "selected-actor": {
+        "rescued": 333,
+        "broken": 27,
+        "points": 39.84375,
+        "interval": [
+          36.06770833333333,
+          43.88020833333333
+        ],
+        "first_changed": 606,
+        "path_changed": 636
+      },
+      "selected-fixed": {
+        "rescued": 182,
+        "broken": 37,
+        "points": 18.880208333333336,
+        "interval": [
+          15.234375,
+          22.265625
+        ],
+        "first_changed": 638,
+        "path_changed": 681
+      },
+      "selected-stage24": {
+        "rescued": 42,
+        "broken": 26,
+        "points": 2.083333333333333,
+        "interval": [
+          0.0,
+          4.166666666666666
+        ],
+        "first_changed": 269,
+        "path_changed": 323
+      },
+      "selected-stage21": {
+        "rescued": 49,
+        "broken": 43,
+        "points": 0.78125,
+        "interval": [
+          -1.6927083333333333,
+          3.3854166666666665
+        ]
+      },
+      "selected-pets": {
+        "rescued": 268,
+        "broken": 28,
+        "points": 31.25,
+        "interval": [
+          27.473958333333332,
+          35.02604166666667
+        ]
+      },
+      "first_direct-unpaired": {
+        "rescued": 33,
+        "broken": 26,
+        "points": 0.9114583333333334,
+        "interval": [
+          -1.0416666666666665,
+          2.864583333333333
+        ],
+        "first_changed": 231,
+        "path_changed": 247
+      },
+      "first_means-direct": {
+        "rescued": 16,
+        "broken": 18,
+        "points": -0.26041666666666663,
+        "interval": [
+          -1.6927083333333333,
+          1.171875
+        ],
+        "first_changed": 124,
+        "path_changed": 139
+      },
+      "first_independent-means": {
+        "rescued": 2,
+        "broken": 1,
+        "points": 0.13020833333333331,
+        "interval": [
+          -0.26041666666666663,
+          0.6510416666666667
+        ],
+        "first_changed": 7,
+        "path_changed": 8
+      },
+      "first_shape-independent": {
+        "rescued": 0,
+        "broken": 1,
+        "points": -0.13020833333333331,
+        "interval": [
+          -0.390625,
+          0.0
+        ],
+        "first_changed": 8,
+        "path_changed": 8
+      },
+      "first_shape-means": {
+        "rescued": 1,
+        "broken": 1,
+        "points": 0.0,
+        "interval": [
+          -0.390625,
+          0.390625
+        ],
+        "first_changed": 14,
+        "path_changed": 15
+      },
+      "first_kl-shape": {
+        "rescued": 2,
+        "broken": 0,
+        "points": 0.26041666666666663,
+        "interval": [
+          0.0,
+          0.6510416666666667
+        ],
+        "first_changed": 11,
+        "path_changed": 11
+      },
+      "late_direct-unpaired": {
+        "rescued": 3,
+        "broken": 4,
+        "points": -0.13020833333333331,
+        "interval": [
+          -0.78125,
+          0.5208333333333333
+        ],
+        "first_changed": 0,
+        "path_changed": 44
+      },
+      "late_means-direct": {
+        "rescued": 1,
+        "broken": 1,
+        "points": 0.0,
+        "interval": [
+          -0.390625,
+          0.390625
+        ],
+        "first_changed": 0,
+        "path_changed": 19
+      },
+      "late_independent-means": {
+        "rescued": 0,
+        "broken": 0,
+        "points": 0.0,
+        "interval": [
+          0.0,
+          0.0
+        ],
+        "first_changed": 0,
+        "path_changed": 3
+      },
+      "late_shape-independent": {
+        "rescued": 0,
+        "broken": 0,
+        "points": 0.0,
+        "interval": [
+          0.0,
+          0.0
+        ],
+        "first_changed": 0,
+        "path_changed": 2
+      },
+      "late_shape-means": {
+        "rescued": 0,
+        "broken": 0,
+        "points": 0.0,
+        "interval": [
+          0.0,
+          0.0
+        ],
+        "first_changed": 0,
+        "path_changed": 5
+      },
+      "late_kl-shape": {
+        "rescued": 0,
+        "broken": 0,
+        "points": 0.0,
+        "interval": [
+          0.0,
+          0.0
+        ],
+        "first_changed": 0,
+        "path_changed": 1
+      },
+      "both_direct-unpaired": {
+        "rescued": 33,
+        "broken": 30,
+        "points": 0.390625,
+        "interval": [
+          -1.5625,
+          2.473958333333333
+        ],
+        "first_changed": 231,
+        "path_changed": 258
+      },
+      "both_means-direct": {
+        "rescued": 17,
+        "broken": 19,
+        "points": -0.26041666666666663,
+        "interval": [
+          -1.8229166666666667,
+          1.3020833333333335
+        ],
+        "first_changed": 124,
+        "path_changed": 148
+      },
+      "both_independent-means": {
+        "rescued": 2,
+        "broken": 1,
+        "points": 0.13020833333333331,
+        "interval": [
+          -0.26041666666666663,
+          0.6510416666666667
+        ],
+        "first_changed": 7,
+        "path_changed": 10
+      },
+      "both_shape-independent": {
+        "rescued": 0,
+        "broken": 1,
+        "points": -0.13020833333333331,
+        "interval": [
+          -0.390625,
+          0.0
+        ],
+        "first_changed": 8,
+        "path_changed": 13
+      },
+      "both_shape-means": {
+        "rescued": 1,
+        "broken": 1,
+        "points": 0.0,
+        "interval": [
+          -0.390625,
+          0.390625
+        ],
+        "first_changed": 14,
+        "path_changed": 22
+      },
+      "both_kl-shape": {
+        "rescued": 3,
+        "broken": 0,
+        "points": 0.390625,
+        "interval": [
+          0.0,
+          0.9114583333333334
+        ],
+        "first_changed": 11,
+        "path_changed": 16
+      }
+    },
+    "unique_native_paths": 3439
+  }
+}
