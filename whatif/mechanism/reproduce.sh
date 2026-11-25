@@ -52,6 +52,12 @@ case "${1:-}" in
         nn control --proposal --sim-python "$SIM_PY" --workers "$WORKERS"
         nn fine_results --proposal
         ;;
-    *) echo "Usage: bash whatif/mechanism/reproduce.sh {15|16|17|18|19}" >&2; exit 2 ;;
+    20)
+        sim causal_data
+        nn directed graph --device "$DEVICE"
+        nn directed ncii --device "$DEVICE"
+        nn directed evaluate
+        ;;
+    *) echo "Usage: bash whatif/mechanism/reproduce.sh {15|16|17|18|19|20}" >&2; exit 2 ;;
 esac
 

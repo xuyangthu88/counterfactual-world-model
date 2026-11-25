@@ -36,8 +36,9 @@ def labeled(role):
 
 
 class Mechanism(nn.Module):
-    def __init__(self):
+    def __init__(self,directed=False):
         super().__init__()
+        self.transfer = mlp(2*(H+A)+1,2) if directed else None
         self.fact = mlp(D*2+A+3,H)
         self.prior = mlp(2*(D+A+3),1)
         self.latent = mlp(H+1,K+2*U)
@@ -87,9 +88,16 @@ class Mechanism(nn.Module):
         command = act.flatten(0,1)
         features = tile(base,k)
         mem = tile(fact,k)
-        e = self.edge(torch.cat([pairs(torch.cat([features,command],-1)),mem[...,None]],-1))
+        edge_features = torch.cat([pairs(torch.cat([features,command],-1)),mem[...,None]],-1)
+        e = self.edge(edge_features)
         logits = mem+e[...,0]
         prob = logits.sigmoid()
+        directed = {}
+        if self.transfer is not None:
+            evidence,magnitude = self.transfer(edge_features).unbind(-1)
+            prob = prob*(evidence+1.5).sigmoid()
+            directed = dict(causal=torch.logit(prob.clamp(1.e-6,1-1.e-6)).reshape(b,k,n,n),
+                            impact=F.softplus(magnitude).reshape(b,k,n,n))
         hard = (prob >= .5).to(prob)
         gate = (hard+(prob-prob.detach()))*tile(pairmask(role),k)
         fg,fw = e[...,1:].chunk(2,-1)
@@ -112,7 +120,7 @@ class Mechanism(nn.Module):
         r = self.reward(torch.cat([reward_hidden,g],-1))
         reshape = lambda v:v.reshape(b,k,*v.shape[1:])
         return dict(y=reshape(pred),r=reshape(r),edge=reshape(logits),fact=fact,kl=kl,
-                    h=reshape(hidden),hr=reshape(reward_hidden),sparse=(fp*gate[...,None]).abs().mean())
+                    h=reshape(hidden),hr=reshape(reward_hidden),sparse=(fp*gate[...,None]).abs().mean(),**directed)
 
     def contrast(self,out,i,j):
         def contrast_head(mean,hidden,head):
