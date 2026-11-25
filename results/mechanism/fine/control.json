@@ -1,0 +1,8642 @@
+[
+ {
+  "domain": "causalworld",
+  "policy": "cophynet",
+  "seed": 823000,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "cophynet",
+  "seed": 823001,
+  "success": 1,
+  "terminal": 0.9254273176193237,
+  "peak": 0.9254273176193237,
+  "moves": 3
+ },
+ {
+  "domain": "causalworld",
+  "policy": "cophynet",
+  "seed": 823002,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "cophynet",
+  "seed": 823003,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "cophynet",
+  "seed": 823004,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "cophynet",
+  "seed": 823005,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.8539481163024902,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "cophynet",
+  "seed": 823006,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.8187021613121033,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "cophynet",
+  "seed": 823007,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "cophynet",
+  "seed": 823008,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "cophynet",
+  "seed": 823009,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "cophynet",
+  "seed": 823010,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "cophynet",
+  "seed": 823011,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "cophynet",
+  "seed": 823012,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "cophynet",
+  "seed": 823013,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.7647554278373718,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "cophynet",
+  "seed": 823014,
+  "success": 0,
+  "terminal": 0.06561841070652008,
+  "peak": 0.07834701985120773,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "cophynet",
+  "seed": 823015,
+  "success": 0,
+  "terminal": 0.10739477723836899,
+  "peak": 0.17195956408977509,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "cophynet",
+  "seed": 823016,
+  "success": 0,
+  "terminal": 0.2604203522205353,
+  "peak": 0.7797228097915649,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "cophynet",
+  "seed": 823017,
+  "success": 0,
+  "terminal": 0.45644667744636536,
+  "peak": 0.6597822308540344,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "cophynet",
+  "seed": 823018,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.6251950860023499,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "cophynet",
+  "seed": 823019,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "cophynet",
+  "seed": 823020,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.4336121380329132,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "cophynet",
+  "seed": 823021,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.25599655508995056,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "cophynet",
+  "seed": 823022,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "cophynet",
+  "seed": 823023,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.023188594728708267,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "cophynet",
+  "seed": 823024,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "cophynet",
+  "seed": 823025,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.06980858743190765,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "cophynet",
+  "seed": 823026,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "cophynet",
+  "seed": 823027,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "cophynet",
+  "seed": 823028,
+  "success": 1,
+  "terminal": 0.9099457859992981,
+  "peak": 0.9099457859992981,
+  "moves": 7
+ },
+ {
+  "domain": "causalworld",
+  "policy": "cophynet",
+  "seed": 823029,
+  "success": 1,
+  "terminal": 0.9272065162658691,
+  "peak": 0.9272065162658691,
+  "moves": 4
+ },
+ {
+  "domain": "causalworld",
+  "policy": "cophynet",
+  "seed": 823030,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "cophynet",
+  "seed": 823031,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.1914381980895996,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "cophynet",
+  "seed": 823032,
+  "success": 1,
+  "terminal": 0.9218237400054932,
+  "peak": 0.9218237400054932,
+  "moves": 6
+ },
+ {
+  "domain": "causalworld",
+  "policy": "cophynet",
+  "seed": 823033,
+  "success": 1,
+  "terminal": 0.9108537435531616,
+  "peak": 0.9108537435531616,
+  "moves": 3
+ },
+ {
+  "domain": "causalworld",
+  "policy": "cophynet",
+  "seed": 823034,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.3555297255516052,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "cophynet",
+  "seed": 823035,
+  "success": 1,
+  "terminal": 0.9006228446960449,
+  "peak": 0.9006228446960449,
+  "moves": 9
+ },
+ {
+  "domain": "causalworld",
+  "policy": "cophynet",
+  "seed": 823036,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "cophynet",
+  "seed": 823037,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.22359590232372284,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "cophynet",
+  "seed": 823038,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "cophynet",
+  "seed": 823039,
+  "success": 0,
+  "terminal": 0.3993084728717804,
+  "peak": 0.8208063840866089,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "cophynet",
+  "seed": 823040,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.42210301756858826,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "cophynet",
+  "seed": 823041,
+  "success": 1,
+  "terminal": 0.9338679313659668,
+  "peak": 0.9338679313659668,
+  "moves": 4
+ },
+ {
+  "domain": "causalworld",
+  "policy": "cophynet",
+  "seed": 823042,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "cophynet",
+  "seed": 823043,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.474960058927536,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "cophynet",
+  "seed": 823044,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "cophynet",
+  "seed": 823045,
+  "success": 1,
+  "terminal": 0.9084955453872681,
+  "peak": 0.9084955453872681,
+  "moves": 5
+ },
+ {
+  "domain": "causalworld",
+  "policy": "cophynet",
+  "seed": 823046,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "cophynet",
+  "seed": 823047,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "cophynet",
+  "seed": 823048,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "cophynet",
+  "seed": 823049,
+  "success": 1,
+  "terminal": 0.9399645924568176,
+  "peak": 0.9399645924568176,
+  "moves": 5
+ },
+ {
+  "domain": "causalworld",
+  "policy": "cophynet",
+  "seed": 823050,
+  "success": 1,
+  "terminal": 0.924667477607727,
+  "peak": 0.924667477607727,
+  "moves": 4
+ },
+ {
+  "domain": "causalworld",
+  "policy": "cophynet",
+  "seed": 823051,
+  "success": 1,
+  "terminal": 0.9606518745422363,
+  "peak": 0.9606518745422363,
+  "moves": 1
+ },
+ {
+  "domain": "causalworld",
+  "policy": "cophynet",
+  "seed": 823052,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "cophynet",
+  "seed": 823053,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.5092687010765076,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "cophynet",
+  "seed": 823054,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "cophynet",
+  "seed": 823055,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.5234724879264832,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "cophynet",
+  "seed": 823056,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.81758052110672,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "cophynet",
+  "seed": 823057,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.4058299660682678,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "cophynet",
+  "seed": 823058,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "cophynet",
+  "seed": 823059,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "cophynet",
+  "seed": 823060,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.2917909622192383,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "cophynet",
+  "seed": 823061,
+  "success": 1,
+  "terminal": 0.9199305176734924,
+  "peak": 0.9199305176734924,
+  "moves": 4
+ },
+ {
+  "domain": "causalworld",
+  "policy": "cophynet",
+  "seed": 823062,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "cophynet",
+  "seed": 823063,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "cophynet",
+  "seed": 823064,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "cophynet",
+  "seed": 823065,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "cophynet",
+  "seed": 823066,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "cophynet",
+  "seed": 823067,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.46888619661331177,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "cophynet",
+  "seed": 823068,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "cophynet",
+  "seed": 823069,
+  "success": 0,
+  "terminal": 0.6191329956054688,
+  "peak": 0.6882930994033813,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "cophynet",
+  "seed": 823070,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "cophynet",
+  "seed": 823071,
+  "success": 1,
+  "terminal": 0.9309602379798889,
+  "peak": 0.9309602379798889,
+  "moves": 2
+ },
+ {
+  "domain": "causalworld",
+  "policy": "cophynet",
+  "seed": 823072,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "cophynet",
+  "seed": 823073,
+  "success": 1,
+  "terminal": 0.9188711643218994,
+  "peak": 0.9188711643218994,
+  "moves": 3
+ },
+ {
+  "domain": "causalworld",
+  "policy": "cophynet",
+  "seed": 823074,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "cophynet",
+  "seed": 823075,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "cophynet",
+  "seed": 823076,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.02650504745543003,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "cophynet",
+  "seed": 823077,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.7090606093406677,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "cophynet",
+  "seed": 823078,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "cophynet",
+  "seed": 823079,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "cophynet",
+  "seed": 823080,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "cophynet",
+  "seed": 823081,
+  "success": 0,
+  "terminal": 0.009844382293522358,
+  "peak": 0.7624818086624146,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "cophynet",
+  "seed": 823082,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "cophynet",
+  "seed": 823083,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "cophynet",
+  "seed": 823084,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "cophynet",
+  "seed": 823085,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.8192700147628784,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "cophynet",
+  "seed": 823086,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "cophynet",
+  "seed": 823087,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.14043381810188293,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "cophynet",
+  "seed": 823088,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "cophynet",
+  "seed": 823089,
+  "success": 1,
+  "terminal": 0.9161922335624695,
+  "peak": 0.9161922335624695,
+  "moves": 3
+ },
+ {
+  "domain": "causalworld",
+  "policy": "cophynet",
+  "seed": 823090,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "cophynet",
+  "seed": 823091,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.8605203032493591,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "cophynet",
+  "seed": 823092,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "cophynet",
+  "seed": 823093,
+  "success": 0,
+  "terminal": 0.09832549840211868,
+  "peak": 0.4676225185394287,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "cophynet",
+  "seed": 823094,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "cophynet",
+  "seed": 823095,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta",
+  "seed": 823000,
+  "success": 1,
+  "terminal": 0.9253079891204834,
+  "peak": 0.9253079891204834,
+  "moves": 10
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta",
+  "seed": 823001,
+  "success": 1,
+  "terminal": 0.9826834797859192,
+  "peak": 0.9826834797859192,
+  "moves": 7
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta",
+  "seed": 823002,
+  "success": 1,
+  "terminal": 0.9572812914848328,
+  "peak": 0.9572812914848328,
+  "moves": 10
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta",
+  "seed": 823003,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta",
+  "seed": 823004,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta",
+  "seed": 823005,
+  "success": 1,
+  "terminal": 0.9291296005249023,
+  "peak": 0.9291296005249023,
+  "moves": 3
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta",
+  "seed": 823006,
+  "success": 1,
+  "terminal": 0.917050838470459,
+  "peak": 0.917050838470459,
+  "moves": 3
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta",
+  "seed": 823007,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta",
+  "seed": 823008,
+  "success": 0,
+  "terminal": 0.04034500569105148,
+  "peak": 0.04034500569105148,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta",
+  "seed": 823009,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta",
+  "seed": 823010,
+  "success": 0,
+  "terminal": 0.33815065026283264,
+  "peak": 0.3938749432563782,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta",
+  "seed": 823011,
+  "success": 1,
+  "terminal": 0.9257140755653381,
+  "peak": 0.9257140755653381,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta",
+  "seed": 823012,
+  "success": 0,
+  "terminal": 0.3175717294216156,
+  "peak": 0.3175717294216156,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta",
+  "seed": 823013,
+  "success": 1,
+  "terminal": 0.9650532007217407,
+  "peak": 0.9650532007217407,
+  "moves": 3
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta",
+  "seed": 823014,
+  "success": 0,
+  "terminal": 0.058167241513729095,
+  "peak": 0.15427057445049286,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta",
+  "seed": 823015,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.24216315150260925,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta",
+  "seed": 823016,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta",
+  "seed": 823017,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.4410783052444458,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta",
+  "seed": 823018,
+  "success": 1,
+  "terminal": 0.9576001763343811,
+  "peak": 0.9576001763343811,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta",
+  "seed": 823019,
+  "success": 1,
+  "terminal": 0.908288300037384,
+  "peak": 0.908288300037384,
+  "moves": 8
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta",
+  "seed": 823020,
+  "success": 1,
+  "terminal": 0.9176634550094604,
+  "peak": 0.9176634550094604,
+  "moves": 8
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta",
+  "seed": 823021,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.48203080892562866,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta",
+  "seed": 823022,
+  "success": 0,
+  "terminal": 0.043989893049001694,
+  "peak": 0.04826721176505089,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta",
+  "seed": 823023,
+  "success": 1,
+  "terminal": 0.9273916482925415,
+  "peak": 0.9273916482925415,
+  "moves": 6
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta",
+  "seed": 823024,
+  "success": 1,
+  "terminal": 0.919946551322937,
+  "peak": 0.919946551322937,
+  "moves": 8
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta",
+  "seed": 823025,
+  "success": 1,
+  "terminal": 0.924807608127594,
+  "peak": 0.924807608127594,
+  "moves": 7
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta",
+  "seed": 823026,
+  "success": 1,
+  "terminal": 0.9322839379310608,
+  "peak": 0.9322839379310608,
+  "moves": 7
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta",
+  "seed": 823027,
+  "success": 0,
+  "terminal": 0.41580942273139954,
+  "peak": 0.5203051567077637,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta",
+  "seed": 823028,
+  "success": 1,
+  "terminal": 0.9313805103302002,
+  "peak": 0.9313805103302002,
+  "moves": 8
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta",
+  "seed": 823029,
+  "success": 1,
+  "terminal": 0.944125235080719,
+  "peak": 0.944125235080719,
+  "moves": 4
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta",
+  "seed": 823030,
+  "success": 0,
+  "terminal": 0.43239134550094604,
+  "peak": 0.5618290901184082,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta",
+  "seed": 823031,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.1871916502714157,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta",
+  "seed": 823032,
+  "success": 1,
+  "terminal": 0.9048898816108704,
+  "peak": 0.9048898816108704,
+  "moves": 4
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta",
+  "seed": 823033,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.24244239926338196,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta",
+  "seed": 823034,
+  "success": 1,
+  "terminal": 0.9854775667190552,
+  "peak": 0.9854775667190552,
+  "moves": 3
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta",
+  "seed": 823035,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.3767143487930298,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta",
+  "seed": 823036,
+  "success": 1,
+  "terminal": 0.9757105112075806,
+  "peak": 0.9757105112075806,
+  "moves": 10
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta",
+  "seed": 823037,
+  "success": 1,
+  "terminal": 0.9416629076004028,
+  "peak": 0.9416629076004028,
+  "moves": 6
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta",
+  "seed": 823038,
+  "success": 1,
+  "terminal": 0.9184421300888062,
+  "peak": 0.9184421300888062,
+  "moves": 9
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta",
+  "seed": 823039,
+  "success": 0,
+  "terminal": 0.5667124390602112,
+  "peak": 0.8302611112594604,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta",
+  "seed": 823040,
+  "success": 1,
+  "terminal": 0.9087449908256531,
+  "peak": 0.9087449908256531,
+  "moves": 8
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta",
+  "seed": 823041,
+  "success": 0,
+  "terminal": 0.6598100662231445,
+  "peak": 0.7372556328773499,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta",
+  "seed": 823042,
+  "success": 1,
+  "terminal": 0.9228019714355469,
+  "peak": 0.9228019714355469,
+  "moves": 11
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta",
+  "seed": 823043,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta",
+  "seed": 823044,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta",
+  "seed": 823045,
+  "success": 1,
+  "terminal": 0.9283775091171265,
+  "peak": 0.9283775091171265,
+  "moves": 4
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta",
+  "seed": 823046,
+  "success": 1,
+  "terminal": 0.9001591205596924,
+  "peak": 0.9001591205596924,
+  "moves": 5
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta",
+  "seed": 823047,
+  "success": 0,
+  "terminal": 0.0016950545832514763,
+  "peak": 0.002171828644350171,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta",
+  "seed": 823048,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta",
+  "seed": 823049,
+  "success": 0,
+  "terminal": 0.1781783401966095,
+  "peak": 0.8683763742446899,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta",
+  "seed": 823050,
+  "success": 1,
+  "terminal": 0.958858072757721,
+  "peak": 0.958858072757721,
+  "moves": 3
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta",
+  "seed": 823051,
+  "success": 1,
+  "terminal": 0.9606518745422363,
+  "peak": 0.9606518745422363,
+  "moves": 1
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta",
+  "seed": 823052,
+  "success": 1,
+  "terminal": 0.9020467400550842,
+  "peak": 0.9020467400550842,
+  "moves": 9
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta",
+  "seed": 823053,
+  "success": 1,
+  "terminal": 0.9184697866439819,
+  "peak": 0.9184697866439819,
+  "moves": 4
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta",
+  "seed": 823054,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta",
+  "seed": 823055,
+  "success": 1,
+  "terminal": 0.9121453166007996,
+  "peak": 0.9121453166007996,
+  "moves": 6
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta",
+  "seed": 823056,
+  "success": 0,
+  "terminal": 0.778396487236023,
+  "peak": 0.8447279334068298,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta",
+  "seed": 823057,
+  "success": 1,
+  "terminal": 0.9009737372398376,
+  "peak": 0.9009737372398376,
+  "moves": 6
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta",
+  "seed": 823058,
+  "success": 1,
+  "terminal": 0.9459140300750732,
+  "peak": 0.9459140300750732,
+  "moves": 7
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta",
+  "seed": 823059,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta",
+  "seed": 823060,
+  "success": 0,
+  "terminal": 0.8395688533782959,
+  "peak": 0.8395688533782959,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta",
+  "seed": 823061,
+  "success": 1,
+  "terminal": 0.9244846105575562,
+  "peak": 0.9244846105575562,
+  "moves": 8
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta",
+  "seed": 823062,
+  "success": 0,
+  "terminal": 0.611468493938446,
+  "peak": 0.7628722786903381,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta",
+  "seed": 823063,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta",
+  "seed": 823064,
+  "success": 0,
+  "terminal": 0.8899034857749939,
+  "peak": 0.8992878794670105,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta",
+  "seed": 823065,
+  "success": 1,
+  "terminal": 0.9089956283569336,
+  "peak": 0.9089956283569336,
+  "moves": 6
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta",
+  "seed": 823066,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.008830052800476551,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta",
+  "seed": 823067,
+  "success": 1,
+  "terminal": 0.916755735874176,
+  "peak": 0.916755735874176,
+  "moves": 2
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta",
+  "seed": 823068,
+  "success": 0,
+  "terminal": 0.8231025338172913,
+  "peak": 0.8863229155540466,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta",
+  "seed": 823069,
+  "success": 1,
+  "terminal": 0.9217236638069153,
+  "peak": 0.9217236638069153,
+  "moves": 3
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta",
+  "seed": 823070,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta",
+  "seed": 823071,
+  "success": 1,
+  "terminal": 0.9691522121429443,
+  "peak": 0.9691522121429443,
+  "moves": 2
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta",
+  "seed": 823072,
+  "success": 0,
+  "terminal": 0.687252938747406,
+  "peak": 0.687252938747406,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta",
+  "seed": 823073,
+  "success": 1,
+  "terminal": 0.9411131143569946,
+  "peak": 0.9411131143569946,
+  "moves": 4
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta",
+  "seed": 823074,
+  "success": 1,
+  "terminal": 0.9026440978050232,
+  "peak": 0.9026440978050232,
+  "moves": 7
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta",
+  "seed": 823075,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta",
+  "seed": 823076,
+  "success": 1,
+  "terminal": 0.9079546928405762,
+  "peak": 0.9079546928405762,
+  "moves": 6
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta",
+  "seed": 823077,
+  "success": 0,
+  "terminal": 0.22054298222064972,
+  "peak": 0.5101924538612366,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta",
+  "seed": 823078,
+  "success": 1,
+  "terminal": 0.9932445287704468,
+  "peak": 0.9932445287704468,
+  "moves": 6
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta",
+  "seed": 823079,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta",
+  "seed": 823080,
+  "success": 1,
+  "terminal": 0.9449835419654846,
+  "peak": 0.9449835419654846,
+  "moves": 10
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta",
+  "seed": 823081,
+  "success": 1,
+  "terminal": 0.9500302076339722,
+  "peak": 0.9500302076339722,
+  "moves": 3
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta",
+  "seed": 823082,
+  "success": 0,
+  "terminal": 0.5262315273284912,
+  "peak": 0.5309446454048157,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta",
+  "seed": 823083,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta",
+  "seed": 823084,
+  "success": 1,
+  "terminal": 0.9358633160591125,
+  "peak": 0.9358633160591125,
+  "moves": 7
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta",
+  "seed": 823085,
+  "success": 0,
+  "terminal": 0.22227449715137482,
+  "peak": 0.8579762578010559,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta",
+  "seed": 823086,
+  "success": 1,
+  "terminal": 0.9005586504936218,
+  "peak": 0.9005586504936218,
+  "moves": 11
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta",
+  "seed": 823087,
+  "success": 0,
+  "terminal": 0.3408675789833069,
+  "peak": 0.6895268559455872,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta",
+  "seed": 823088,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta",
+  "seed": 823089,
+  "success": 1,
+  "terminal": 0.9086949825286865,
+  "peak": 0.9086949825286865,
+  "moves": 6
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta",
+  "seed": 823090,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.025432702153921127,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta",
+  "seed": 823091,
+  "success": 0,
+  "terminal": 0.0665425956249237,
+  "peak": 0.8619415760040283,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta",
+  "seed": 823092,
+  "success": 1,
+  "terminal": 0.9477767944335938,
+  "peak": 0.9477767944335938,
+  "moves": 6
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta",
+  "seed": 823093,
+  "success": 1,
+  "terminal": 0.9863063097000122,
+  "peak": 0.9863063097000122,
+  "moves": 6
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta",
+  "seed": 823094,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta",
+  "seed": 823095,
+  "success": 0,
+  "terminal": 0.13265787065029144,
+  "peak": 0.13743455708026886,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta_kl",
+  "seed": 823000,
+  "success": 1,
+  "terminal": 0.9253079891204834,
+  "peak": 0.9253079891204834,
+  "moves": 10
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta_kl",
+  "seed": 823001,
+  "success": 1,
+  "terminal": 0.9826834797859192,
+  "peak": 0.9826834797859192,
+  "moves": 7
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta_kl",
+  "seed": 823002,
+  "success": 1,
+  "terminal": 0.9572812914848328,
+  "peak": 0.9572812914848328,
+  "moves": 10
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta_kl",
+  "seed": 823003,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta_kl",
+  "seed": 823004,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta_kl",
+  "seed": 823005,
+  "success": 1,
+  "terminal": 0.9291296005249023,
+  "peak": 0.9291296005249023,
+  "moves": 3
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta_kl",
+  "seed": 823006,
+  "success": 1,
+  "terminal": 0.917050838470459,
+  "peak": 0.917050838470459,
+  "moves": 3
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta_kl",
+  "seed": 823007,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta_kl",
+  "seed": 823008,
+  "success": 0,
+  "terminal": 0.04034500569105148,
+  "peak": 0.04034500569105148,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta_kl",
+  "seed": 823009,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta_kl",
+  "seed": 823010,
+  "success": 0,
+  "terminal": 0.33815065026283264,
+  "peak": 0.3938749432563782,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta_kl",
+  "seed": 823011,
+  "success": 1,
+  "terminal": 0.9257140755653381,
+  "peak": 0.9257140755653381,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta_kl",
+  "seed": 823012,
+  "success": 0,
+  "terminal": 0.3175717294216156,
+  "peak": 0.3175717294216156,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta_kl",
+  "seed": 823013,
+  "success": 1,
+  "terminal": 0.9650532007217407,
+  "peak": 0.9650532007217407,
+  "moves": 3
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta_kl",
+  "seed": 823014,
+  "success": 0,
+  "terminal": 0.058167241513729095,
+  "peak": 0.15427057445049286,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta_kl",
+  "seed": 823015,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.24216315150260925,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta_kl",
+  "seed": 823016,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta_kl",
+  "seed": 823017,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.4410783052444458,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta_kl",
+  "seed": 823018,
+  "success": 1,
+  "terminal": 0.9576001763343811,
+  "peak": 0.9576001763343811,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta_kl",
+  "seed": 823019,
+  "success": 1,
+  "terminal": 0.908288300037384,
+  "peak": 0.908288300037384,
+  "moves": 8
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta_kl",
+  "seed": 823020,
+  "success": 1,
+  "terminal": 0.9176634550094604,
+  "peak": 0.9176634550094604,
+  "moves": 8
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta_kl",
+  "seed": 823021,
+  "success": 0,
+  "terminal": 0.029879914596676826,
+  "peak": 0.05575304850935936,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta_kl",
+  "seed": 823022,
+  "success": 0,
+  "terminal": 0.043989893049001694,
+  "peak": 0.04826721176505089,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta_kl",
+  "seed": 823023,
+  "success": 1,
+  "terminal": 0.9273916482925415,
+  "peak": 0.9273916482925415,
+  "moves": 6
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta_kl",
+  "seed": 823024,
+  "success": 1,
+  "terminal": 0.919946551322937,
+  "peak": 0.919946551322937,
+  "moves": 8
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta_kl",
+  "seed": 823025,
+  "success": 1,
+  "terminal": 0.924807608127594,
+  "peak": 0.924807608127594,
+  "moves": 7
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta_kl",
+  "seed": 823026,
+  "success": 1,
+  "terminal": 0.9322839379310608,
+  "peak": 0.9322839379310608,
+  "moves": 7
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta_kl",
+  "seed": 823027,
+  "success": 0,
+  "terminal": 0.41580942273139954,
+  "peak": 0.5203051567077637,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta_kl",
+  "seed": 823028,
+  "success": 1,
+  "terminal": 0.9313805103302002,
+  "peak": 0.9313805103302002,
+  "moves": 8
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta_kl",
+  "seed": 823029,
+  "success": 1,
+  "terminal": 0.944125235080719,
+  "peak": 0.944125235080719,
+  "moves": 4
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta_kl",
+  "seed": 823030,
+  "success": 0,
+  "terminal": 0.43239134550094604,
+  "peak": 0.5618290901184082,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta_kl",
+  "seed": 823031,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.1871916502714157,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta_kl",
+  "seed": 823032,
+  "success": 1,
+  "terminal": 0.9048898816108704,
+  "peak": 0.9048898816108704,
+  "moves": 4
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta_kl",
+  "seed": 823033,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.24244239926338196,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta_kl",
+  "seed": 823034,
+  "success": 1,
+  "terminal": 0.9854775667190552,
+  "peak": 0.9854775667190552,
+  "moves": 3
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta_kl",
+  "seed": 823035,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.3767143487930298,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta_kl",
+  "seed": 823036,
+  "success": 1,
+  "terminal": 0.9757105112075806,
+  "peak": 0.9757105112075806,
+  "moves": 10
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta_kl",
+  "seed": 823037,
+  "success": 1,
+  "terminal": 0.9416629076004028,
+  "peak": 0.9416629076004028,
+  "moves": 6
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta_kl",
+  "seed": 823038,
+  "success": 1,
+  "terminal": 0.9184421300888062,
+  "peak": 0.9184421300888062,
+  "moves": 9
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta_kl",
+  "seed": 823039,
+  "success": 0,
+  "terminal": 0.5667124390602112,
+  "peak": 0.8302611112594604,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta_kl",
+  "seed": 823040,
+  "success": 1,
+  "terminal": 0.9087449908256531,
+  "peak": 0.9087449908256531,
+  "moves": 8
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta_kl",
+  "seed": 823041,
+  "success": 0,
+  "terminal": 0.6598100662231445,
+  "peak": 0.7372556328773499,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta_kl",
+  "seed": 823042,
+  "success": 1,
+  "terminal": 0.9228019714355469,
+  "peak": 0.9228019714355469,
+  "moves": 11
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta_kl",
+  "seed": 823043,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta_kl",
+  "seed": 823044,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta_kl",
+  "seed": 823045,
+  "success": 1,
+  "terminal": 0.9283775091171265,
+  "peak": 0.9283775091171265,
+  "moves": 4
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta_kl",
+  "seed": 823046,
+  "success": 1,
+  "terminal": 0.9001591205596924,
+  "peak": 0.9001591205596924,
+  "moves": 5
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta_kl",
+  "seed": 823047,
+  "success": 0,
+  "terminal": 0.0016950545832514763,
+  "peak": 0.002171828644350171,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta_kl",
+  "seed": 823048,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta_kl",
+  "seed": 823049,
+  "success": 0,
+  "terminal": 0.1781783401966095,
+  "peak": 0.8683763742446899,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta_kl",
+  "seed": 823050,
+  "success": 1,
+  "terminal": 0.958858072757721,
+  "peak": 0.958858072757721,
+  "moves": 3
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta_kl",
+  "seed": 823051,
+  "success": 1,
+  "terminal": 0.9606518745422363,
+  "peak": 0.9606518745422363,
+  "moves": 1
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta_kl",
+  "seed": 823052,
+  "success": 1,
+  "terminal": 0.9020467400550842,
+  "peak": 0.9020467400550842,
+  "moves": 9
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta_kl",
+  "seed": 823053,
+  "success": 1,
+  "terminal": 0.9184697866439819,
+  "peak": 0.9184697866439819,
+  "moves": 4
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta_kl",
+  "seed": 823054,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta_kl",
+  "seed": 823055,
+  "success": 1,
+  "terminal": 0.9121453166007996,
+  "peak": 0.9121453166007996,
+  "moves": 6
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta_kl",
+  "seed": 823056,
+  "success": 0,
+  "terminal": 0.778396487236023,
+  "peak": 0.8447279334068298,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta_kl",
+  "seed": 823057,
+  "success": 1,
+  "terminal": 0.9009737372398376,
+  "peak": 0.9009737372398376,
+  "moves": 6
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta_kl",
+  "seed": 823058,
+  "success": 1,
+  "terminal": 0.9459140300750732,
+  "peak": 0.9459140300750732,
+  "moves": 7
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta_kl",
+  "seed": 823059,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta_kl",
+  "seed": 823060,
+  "success": 0,
+  "terminal": 0.8395688533782959,
+  "peak": 0.8395688533782959,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta_kl",
+  "seed": 823061,
+  "success": 1,
+  "terminal": 0.9244846105575562,
+  "peak": 0.9244846105575562,
+  "moves": 8
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta_kl",
+  "seed": 823062,
+  "success": 0,
+  "terminal": 0.611468493938446,
+  "peak": 0.7628722786903381,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta_kl",
+  "seed": 823063,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta_kl",
+  "seed": 823064,
+  "success": 0,
+  "terminal": 0.8899034857749939,
+  "peak": 0.8992878794670105,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta_kl",
+  "seed": 823065,
+  "success": 1,
+  "terminal": 0.9089956283569336,
+  "peak": 0.9089956283569336,
+  "moves": 6
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta_kl",
+  "seed": 823066,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.008830052800476551,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta_kl",
+  "seed": 823067,
+  "success": 1,
+  "terminal": 0.916755735874176,
+  "peak": 0.916755735874176,
+  "moves": 2
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta_kl",
+  "seed": 823068,
+  "success": 0,
+  "terminal": 0.8231025338172913,
+  "peak": 0.8863229155540466,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta_kl",
+  "seed": 823069,
+  "success": 1,
+  "terminal": 0.9217236638069153,
+  "peak": 0.9217236638069153,
+  "moves": 3
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta_kl",
+  "seed": 823070,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta_kl",
+  "seed": 823071,
+  "success": 1,
+  "terminal": 0.9691522121429443,
+  "peak": 0.9691522121429443,
+  "moves": 2
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta_kl",
+  "seed": 823072,
+  "success": 0,
+  "terminal": 0.687252938747406,
+  "peak": 0.687252938747406,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta_kl",
+  "seed": 823073,
+  "success": 1,
+  "terminal": 0.9411131143569946,
+  "peak": 0.9411131143569946,
+  "moves": 4
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta_kl",
+  "seed": 823074,
+  "success": 1,
+  "terminal": 0.9026440978050232,
+  "peak": 0.9026440978050232,
+  "moves": 7
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta_kl",
+  "seed": 823075,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta_kl",
+  "seed": 823076,
+  "success": 1,
+  "terminal": 0.9079546928405762,
+  "peak": 0.9079546928405762,
+  "moves": 6
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta_kl",
+  "seed": 823077,
+  "success": 0,
+  "terminal": 0.22054298222064972,
+  "peak": 0.5101924538612366,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta_kl",
+  "seed": 823078,
+  "success": 1,
+  "terminal": 0.9932445287704468,
+  "peak": 0.9932445287704468,
+  "moves": 6
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta_kl",
+  "seed": 823079,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta_kl",
+  "seed": 823080,
+  "success": 1,
+  "terminal": 0.9449835419654846,
+  "peak": 0.9449835419654846,
+  "moves": 10
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta_kl",
+  "seed": 823081,
+  "success": 1,
+  "terminal": 0.9500302076339722,
+  "peak": 0.9500302076339722,
+  "moves": 3
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta_kl",
+  "seed": 823082,
+  "success": 0,
+  "terminal": 0.5262315273284912,
+  "peak": 0.5309446454048157,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta_kl",
+  "seed": 823083,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta_kl",
+  "seed": 823084,
+  "success": 1,
+  "terminal": 0.9358633160591125,
+  "peak": 0.9358633160591125,
+  "moves": 7
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta_kl",
+  "seed": 823085,
+  "success": 0,
+  "terminal": 0.22227449715137482,
+  "peak": 0.8579762578010559,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta_kl",
+  "seed": 823086,
+  "success": 1,
+  "terminal": 0.9005586504936218,
+  "peak": 0.9005586504936218,
+  "moves": 11
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta_kl",
+  "seed": 823087,
+  "success": 0,
+  "terminal": 0.3408675789833069,
+  "peak": 0.6895268559455872,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta_kl",
+  "seed": 823088,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta_kl",
+  "seed": 823089,
+  "success": 1,
+  "terminal": 0.9086949825286865,
+  "peak": 0.9086949825286865,
+  "moves": 6
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta_kl",
+  "seed": 823090,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.025432702153921127,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta_kl",
+  "seed": 823091,
+  "success": 0,
+  "terminal": 0.0665425956249237,
+  "peak": 0.8619415760040283,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta_kl",
+  "seed": 823092,
+  "success": 1,
+  "terminal": 0.9477767944335938,
+  "peak": 0.9477767944335938,
+  "moves": 6
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta_kl",
+  "seed": 823093,
+  "success": 1,
+  "terminal": 0.9863063097000122,
+  "peak": 0.9863063097000122,
+  "moves": 6
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta_kl",
+  "seed": 823094,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "delta_kl",
+  "seed": 823095,
+  "success": 0,
+  "terminal": 0.13265787065029144,
+  "peak": 0.13743455708026886,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "pets",
+  "seed": 823000,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "pets",
+  "seed": 823001,
+  "success": 0,
+  "terminal": 0.42808908224105835,
+  "peak": 0.7500333189964294,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "pets",
+  "seed": 823002,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "pets",
+  "seed": 823003,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "pets",
+  "seed": 823004,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "pets",
+  "seed": 823005,
+  "success": 0,
+  "terminal": 0.6997724175453186,
+  "peak": 0.7413415312767029,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "pets",
+  "seed": 823006,
+  "success": 1,
+  "terminal": 0.9388903975486755,
+  "peak": 0.9388903975486755,
+  "moves": 3
+ },
+ {
+  "domain": "causalworld",
+  "policy": "pets",
+  "seed": 823007,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "pets",
+  "seed": 823008,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "pets",
+  "seed": 823009,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "pets",
+  "seed": 823010,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "pets",
+  "seed": 823011,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "pets",
+  "seed": 823012,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "pets",
+  "seed": 823013,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.7647554278373718,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "pets",
+  "seed": 823014,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.10020668804645538,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "pets",
+  "seed": 823015,
+  "success": 0,
+  "terminal": 0.10773053020238876,
+  "peak": 0.17195956408977509,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "pets",
+  "seed": 823016,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "pets",
+  "seed": 823017,
+  "success": 1,
+  "terminal": 0.9081777930259705,
+  "peak": 0.9081777930259705,
+  "moves": 6
+ },
+ {
+  "domain": "causalworld",
+  "policy": "pets",
+  "seed": 823018,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "pets",
+  "seed": 823019,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "pets",
+  "seed": 823020,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.16518260538578033,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "pets",
+  "seed": 823021,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "pets",
+  "seed": 823022,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "pets",
+  "seed": 823023,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.25277063250541687,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "pets",
+  "seed": 823024,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "pets",
+  "seed": 823025,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.6849334239959717,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "pets",
+  "seed": 823026,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "pets",
+  "seed": 823027,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "pets",
+  "seed": 823028,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "pets",
+  "seed": 823029,
+  "success": 0,
+  "terminal": 0.771239697933197,
+  "peak": 0.8610378503799438,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "pets",
+  "seed": 823030,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "pets",
+  "seed": 823031,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "pets",
+  "seed": 823032,
+  "success": 1,
+  "terminal": 0.9032377004623413,
+  "peak": 0.9032377004623413,
+  "moves": 5
+ },
+ {
+  "domain": "causalworld",
+  "policy": "pets",
+  "seed": 823033,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.24244239926338196,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "pets",
+  "seed": 823034,
+  "success": 1,
+  "terminal": 0.9432575702667236,
+  "peak": 0.9432575702667236,
+  "moves": 3
+ },
+ {
+  "domain": "causalworld",
+  "policy": "pets",
+  "seed": 823035,
+  "success": 0,
+  "terminal": 0.05689374729990959,
+  "peak": 0.3767143487930298,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "pets",
+  "seed": 823036,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "pets",
+  "seed": 823037,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.21471713483333588,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "pets",
+  "seed": 823038,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "pets",
+  "seed": 823039,
+  "success": 1,
+  "terminal": 0.9147368669509888,
+  "peak": 0.9147368669509888,
+  "moves": 7
+ },
+ {
+  "domain": "causalworld",
+  "policy": "pets",
+  "seed": 823040,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "pets",
+  "seed": 823041,
+  "success": 1,
+  "terminal": 0.9338679313659668,
+  "peak": 0.9338679313659668,
+  "moves": 4
+ },
+ {
+  "domain": "causalworld",
+  "policy": "pets",
+  "seed": 823042,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "pets",
+  "seed": 823043,
+  "success": 1,
+  "terminal": 0.9112056493759155,
+  "peak": 0.9112056493759155,
+  "moves": 8
+ },
+ {
+  "domain": "causalworld",
+  "policy": "pets",
+  "seed": 823044,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "pets",
+  "seed": 823045,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.025485295802354813,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "pets",
+  "seed": 823046,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "pets",
+  "seed": 823047,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "pets",
+  "seed": 823048,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "pets",
+  "seed": 823049,
+  "success": 0,
+  "terminal": 0.5978516936302185,
+  "peak": 0.8073128461837769,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "pets",
+  "seed": 823050,
+  "success": 1,
+  "terminal": 0.9059085845947266,
+  "peak": 0.9059085845947266,
+  "moves": 5
+ },
+ {
+  "domain": "causalworld",
+  "policy": "pets",
+  "seed": 823051,
+  "success": 1,
+  "terminal": 0.9606518745422363,
+  "peak": 0.9606518745422363,
+  "moves": 1
+ },
+ {
+  "domain": "causalworld",
+  "policy": "pets",
+  "seed": 823052,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "pets",
+  "seed": 823053,
+  "success": 1,
+  "terminal": 0.9005126953125,
+  "peak": 0.9005126953125,
+  "moves": 6
+ },
+ {
+  "domain": "causalworld",
+  "policy": "pets",
+  "seed": 823054,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "pets",
+  "seed": 823055,
+  "success": 0,
+  "terminal": 0.4068078100681305,
+  "peak": 0.5356183648109436,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "pets",
+  "seed": 823056,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "pets",
+  "seed": 823057,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.04052181541919708,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "pets",
+  "seed": 823058,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "pets",
+  "seed": 823059,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "pets",
+  "seed": 823060,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.3409869372844696,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "pets",
+  "seed": 823061,
+  "success": 0,
+  "terminal": 0.3209591209888458,
+  "peak": 0.5628617405891418,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "pets",
+  "seed": 823062,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "pets",
+  "seed": 823063,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "pets",
+  "seed": 823064,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "pets",
+  "seed": 823065,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "pets",
+  "seed": 823066,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "pets",
+  "seed": 823067,
+  "success": 0,
+  "terminal": 0.4609915316104889,
+  "peak": 0.46981674432754517,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "pets",
+  "seed": 823068,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "pets",
+  "seed": 823069,
+  "success": 1,
+  "terminal": 0.9084010124206543,
+  "peak": 0.9084010124206543,
+  "moves": 3
+ },
+ {
+  "domain": "causalworld",
+  "policy": "pets",
+  "seed": 823070,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "pets",
+  "seed": 823071,
+  "success": 0,
+  "terminal": 0.32976335287094116,
+  "peak": 0.6542052626609802,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "pets",
+  "seed": 823072,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "pets",
+  "seed": 823073,
+  "success": 1,
+  "terminal": 0.9232203960418701,
+  "peak": 0.9232203960418701,
+  "moves": 3
+ },
+ {
+  "domain": "causalworld",
+  "policy": "pets",
+  "seed": 823074,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "pets",
+  "seed": 823075,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "pets",
+  "seed": 823076,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "pets",
+  "seed": 823077,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.6825356483459473,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "pets",
+  "seed": 823078,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "pets",
+  "seed": 823079,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "pets",
+  "seed": 823080,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "pets",
+  "seed": 823081,
+  "success": 1,
+  "terminal": 0.9500302076339722,
+  "peak": 0.9500302076339722,
+  "moves": 3
+ },
+ {
+  "domain": "causalworld",
+  "policy": "pets",
+  "seed": 823082,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "pets",
+  "seed": 823083,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "pets",
+  "seed": 823084,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "pets",
+  "seed": 823085,
+  "success": 0,
+  "terminal": 0.11870688199996948,
+  "peak": 0.8247568011283875,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "pets",
+  "seed": 823086,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "pets",
+  "seed": 823087,
+  "success": 0,
+  "terminal": 0.2701987326145172,
+  "peak": 0.6895268559455872,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "pets",
+  "seed": 823088,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "pets",
+  "seed": 823089,
+  "success": 0,
+  "terminal": 0.015665419399738312,
+  "peak": 0.4859157204627991,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "pets",
+  "seed": 823090,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "pets",
+  "seed": 823091,
+  "success": 0,
+  "terminal": 0.4487583637237549,
+  "peak": 0.8725805282592773,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "pets",
+  "seed": 823092,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "pets",
+  "seed": 823093,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.4676225185394287,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "pets",
+  "seed": 823094,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "pets",
+  "seed": 823095,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "value",
+  "seed": 823000,
+  "success": 1,
+  "terminal": 0.925675630569458,
+  "peak": 0.925675630569458,
+  "moves": 6
+ },
+ {
+  "domain": "causalworld",
+  "policy": "value",
+  "seed": 823001,
+  "success": 1,
+  "terminal": 0.9826834797859192,
+  "peak": 0.9826834797859192,
+  "moves": 7
+ },
+ {
+  "domain": "causalworld",
+  "policy": "value",
+  "seed": 823002,
+  "success": 1,
+  "terminal": 0.9572812914848328,
+  "peak": 0.9572812914848328,
+  "moves": 10
+ },
+ {
+  "domain": "causalworld",
+  "policy": "value",
+  "seed": 823003,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "value",
+  "seed": 823004,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "value",
+  "seed": 823005,
+  "success": 1,
+  "terminal": 0.9291296005249023,
+  "peak": 0.9291296005249023,
+  "moves": 3
+ },
+ {
+  "domain": "causalworld",
+  "policy": "value",
+  "seed": 823006,
+  "success": 1,
+  "terminal": 0.917050838470459,
+  "peak": 0.917050838470459,
+  "moves": 3
+ },
+ {
+  "domain": "causalworld",
+  "policy": "value",
+  "seed": 823007,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "value",
+  "seed": 823008,
+  "success": 0,
+  "terminal": 0.04034500569105148,
+  "peak": 0.04034500569105148,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "value",
+  "seed": 823009,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.10649780184030533,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "value",
+  "seed": 823010,
+  "success": 0,
+  "terminal": 0.20919717848300934,
+  "peak": 0.24192014336585999,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "value",
+  "seed": 823011,
+  "success": 0,
+  "terminal": 0.012933376245200634,
+  "peak": 0.013515415601432323,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "value",
+  "seed": 823012,
+  "success": 0,
+  "terminal": 0.43366020917892456,
+  "peak": 0.43366020917892456,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "value",
+  "seed": 823013,
+  "success": 1,
+  "terminal": 0.9650532007217407,
+  "peak": 0.9650532007217407,
+  "moves": 3
+ },
+ {
+  "domain": "causalworld",
+  "policy": "value",
+  "seed": 823014,
+  "success": 0,
+  "terminal": 0.2671324908733368,
+  "peak": 0.39862313866615295,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "value",
+  "seed": 823015,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.24216315150260925,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "value",
+  "seed": 823016,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "value",
+  "seed": 823017,
+  "success": 1,
+  "terminal": 0.9145649075508118,
+  "peak": 0.9145649075508118,
+  "moves": 5
+ },
+ {
+  "domain": "causalworld",
+  "policy": "value",
+  "seed": 823018,
+  "success": 1,
+  "terminal": 0.9576001763343811,
+  "peak": 0.9576001763343811,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "value",
+  "seed": 823019,
+  "success": 1,
+  "terminal": 0.9003539681434631,
+  "peak": 0.9003539681434631,
+  "moves": 8
+ },
+ {
+  "domain": "causalworld",
+  "policy": "value",
+  "seed": 823020,
+  "success": 1,
+  "terminal": 0.9176634550094604,
+  "peak": 0.9176634550094604,
+  "moves": 8
+ },
+ {
+  "domain": "causalworld",
+  "policy": "value",
+  "seed": 823021,
+  "success": 1,
+  "terminal": 0.9098002910614014,
+  "peak": 0.9098002910614014,
+  "moves": 7
+ },
+ {
+  "domain": "causalworld",
+  "policy": "value",
+  "seed": 823022,
+  "success": 0,
+  "terminal": 0.6788657307624817,
+  "peak": 0.6788657307624817,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "value",
+  "seed": 823023,
+  "success": 1,
+  "terminal": 0.9273916482925415,
+  "peak": 0.9273916482925415,
+  "moves": 6
+ },
+ {
+  "domain": "causalworld",
+  "policy": "value",
+  "seed": 823024,
+  "success": 1,
+  "terminal": 0.9514357447624207,
+  "peak": 0.9514357447624207,
+  "moves": 9
+ },
+ {
+  "domain": "causalworld",
+  "policy": "value",
+  "seed": 823025,
+  "success": 1,
+  "terminal": 0.9036610722541809,
+  "peak": 0.9036610722541809,
+  "moves": 5
+ },
+ {
+  "domain": "causalworld",
+  "policy": "value",
+  "seed": 823026,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "value",
+  "seed": 823027,
+  "success": 0,
+  "terminal": 0.41580942273139954,
+  "peak": 0.5203051567077637,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "value",
+  "seed": 823028,
+  "success": 1,
+  "terminal": 0.9313805103302002,
+  "peak": 0.9313805103302002,
+  "moves": 8
+ },
+ {
+  "domain": "causalworld",
+  "policy": "value",
+  "seed": 823029,
+  "success": 1,
+  "terminal": 0.910687267780304,
+  "peak": 0.910687267780304,
+  "moves": 4
+ },
+ {
+  "domain": "causalworld",
+  "policy": "value",
+  "seed": 823030,
+  "success": 0,
+  "terminal": 0.6572877764701843,
+  "peak": 0.7191694378852844,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "value",
+  "seed": 823031,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.1871916502714157,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "value",
+  "seed": 823032,
+  "success": 1,
+  "terminal": 0.9048898816108704,
+  "peak": 0.9048898816108704,
+  "moves": 4
+ },
+ {
+  "domain": "causalworld",
+  "policy": "value",
+  "seed": 823033,
+  "success": 1,
+  "terminal": 0.9224796891212463,
+  "peak": 0.9224796891212463,
+  "moves": 7
+ },
+ {
+  "domain": "causalworld",
+  "policy": "value",
+  "seed": 823034,
+  "success": 1,
+  "terminal": 0.9854775667190552,
+  "peak": 0.9854775667190552,
+  "moves": 3
+ },
+ {
+  "domain": "causalworld",
+  "policy": "value",
+  "seed": 823035,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.3767143487930298,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "value",
+  "seed": 823036,
+  "success": 1,
+  "terminal": 0.9757105112075806,
+  "peak": 0.9757105112075806,
+  "moves": 10
+ },
+ {
+  "domain": "causalworld",
+  "policy": "value",
+  "seed": 823037,
+  "success": 1,
+  "terminal": 0.9416629076004028,
+  "peak": 0.9416629076004028,
+  "moves": 6
+ },
+ {
+  "domain": "causalworld",
+  "policy": "value",
+  "seed": 823038,
+  "success": 1,
+  "terminal": 0.9184421300888062,
+  "peak": 0.9184421300888062,
+  "moves": 9
+ },
+ {
+  "domain": "causalworld",
+  "policy": "value",
+  "seed": 823039,
+  "success": 0,
+  "terminal": 0.590475857257843,
+  "peak": 0.8302611112594604,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "value",
+  "seed": 823040,
+  "success": 1,
+  "terminal": 0.9304906725883484,
+  "peak": 0.9304906725883484,
+  "moves": 7
+ },
+ {
+  "domain": "causalworld",
+  "policy": "value",
+  "seed": 823041,
+  "success": 0,
+  "terminal": 0.6598100662231445,
+  "peak": 0.7372556328773499,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "value",
+  "seed": 823042,
+  "success": 1,
+  "terminal": 0.9001381397247314,
+  "peak": 0.9001381397247314,
+  "moves": 9
+ },
+ {
+  "domain": "causalworld",
+  "policy": "value",
+  "seed": 823043,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "value",
+  "seed": 823044,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "value",
+  "seed": 823045,
+  "success": 1,
+  "terminal": 0.9283775091171265,
+  "peak": 0.9283775091171265,
+  "moves": 4
+ },
+ {
+  "domain": "causalworld",
+  "policy": "value",
+  "seed": 823046,
+  "success": 1,
+  "terminal": 0.9001591205596924,
+  "peak": 0.9001591205596924,
+  "moves": 5
+ },
+ {
+  "domain": "causalworld",
+  "policy": "value",
+  "seed": 823047,
+  "success": 0,
+  "terminal": 0.0016950545832514763,
+  "peak": 0.002171828644350171,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "value",
+  "seed": 823048,
+  "success": 1,
+  "terminal": 0.9394752383232117,
+  "peak": 0.9394752383232117,
+  "moves": 11
+ },
+ {
+  "domain": "causalworld",
+  "policy": "value",
+  "seed": 823049,
+  "success": 0,
+  "terminal": 0.1781783401966095,
+  "peak": 0.8683763742446899,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "value",
+  "seed": 823050,
+  "success": 1,
+  "terminal": 0.958858072757721,
+  "peak": 0.958858072757721,
+  "moves": 3
+ },
+ {
+  "domain": "causalworld",
+  "policy": "value",
+  "seed": 823051,
+  "success": 1,
+  "terminal": 0.9606518745422363,
+  "peak": 0.9606518745422363,
+  "moves": 1
+ },
+ {
+  "domain": "causalworld",
+  "policy": "value",
+  "seed": 823052,
+  "success": 1,
+  "terminal": 0.9020467400550842,
+  "peak": 0.9020467400550842,
+  "moves": 9
+ },
+ {
+  "domain": "causalworld",
+  "policy": "value",
+  "seed": 823053,
+  "success": 0,
+  "terminal": 0.7539575695991516,
+  "peak": 0.8400439620018005,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "value",
+  "seed": 823054,
+  "success": 1,
+  "terminal": 0.9318444728851318,
+  "peak": 0.9318444728851318,
+  "moves": 7
+ },
+ {
+  "domain": "causalworld",
+  "policy": "value",
+  "seed": 823055,
+  "success": 1,
+  "terminal": 0.9121453166007996,
+  "peak": 0.9121453166007996,
+  "moves": 6
+ },
+ {
+  "domain": "causalworld",
+  "policy": "value",
+  "seed": 823056,
+  "success": 1,
+  "terminal": 0.9002161026000977,
+  "peak": 0.9002161026000977,
+  "moves": 6
+ },
+ {
+  "domain": "causalworld",
+  "policy": "value",
+  "seed": 823057,
+  "success": 1,
+  "terminal": 0.9009737372398376,
+  "peak": 0.9009737372398376,
+  "moves": 6
+ },
+ {
+  "domain": "causalworld",
+  "policy": "value",
+  "seed": 823058,
+  "success": 1,
+  "terminal": 0.9690762162208557,
+  "peak": 0.9690762162208557,
+  "moves": 8
+ },
+ {
+  "domain": "causalworld",
+  "policy": "value",
+  "seed": 823059,
+  "success": 0,
+  "terminal": 0.09976387023925781,
+  "peak": 0.10170774906873703,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "value",
+  "seed": 823060,
+  "success": 1,
+  "terminal": 0.9140540361404419,
+  "peak": 0.9140540361404419,
+  "moves": 5
+ },
+ {
+  "domain": "causalworld",
+  "policy": "value",
+  "seed": 823061,
+  "success": 1,
+  "terminal": 0.9177234768867493,
+  "peak": 0.9177234768867493,
+  "moves": 8
+ },
+ {
+  "domain": "causalworld",
+  "policy": "value",
+  "seed": 823062,
+  "success": 1,
+  "terminal": 0.9273609519004822,
+  "peak": 0.9273609519004822,
+  "moves": 10
+ },
+ {
+  "domain": "causalworld",
+  "policy": "value",
+  "seed": 823063,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "value",
+  "seed": 823064,
+  "success": 1,
+  "terminal": 0.9119505286216736,
+  "peak": 0.9119505286216736,
+  "moves": 8
+ },
+ {
+  "domain": "causalworld",
+  "policy": "value",
+  "seed": 823065,
+  "success": 1,
+  "terminal": 0.9089956283569336,
+  "peak": 0.9089956283569336,
+  "moves": 6
+ },
+ {
+  "domain": "causalworld",
+  "policy": "value",
+  "seed": 823066,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "value",
+  "seed": 823067,
+  "success": 1,
+  "terminal": 0.916755735874176,
+  "peak": 0.916755735874176,
+  "moves": 2
+ },
+ {
+  "domain": "causalworld",
+  "policy": "value",
+  "seed": 823068,
+  "success": 0,
+  "terminal": 0.8231025338172913,
+  "peak": 0.8863229155540466,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "value",
+  "seed": 823069,
+  "success": 1,
+  "terminal": 0.9217236638069153,
+  "peak": 0.9217236638069153,
+  "moves": 3
+ },
+ {
+  "domain": "causalworld",
+  "policy": "value",
+  "seed": 823070,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "value",
+  "seed": 823071,
+  "success": 1,
+  "terminal": 0.9691522121429443,
+  "peak": 0.9691522121429443,
+  "moves": 2
+ },
+ {
+  "domain": "causalworld",
+  "policy": "value",
+  "seed": 823072,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.03520461916923523,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "value",
+  "seed": 823073,
+  "success": 1,
+  "terminal": 0.9411131143569946,
+  "peak": 0.9411131143569946,
+  "moves": 4
+ },
+ {
+  "domain": "causalworld",
+  "policy": "value",
+  "seed": 823074,
+  "success": 0,
+  "terminal": 0.30190619826316833,
+  "peak": 0.7460513114929199,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "value",
+  "seed": 823075,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "value",
+  "seed": 823076,
+  "success": 1,
+  "terminal": 0.9079546928405762,
+  "peak": 0.9079546928405762,
+  "moves": 6
+ },
+ {
+  "domain": "causalworld",
+  "policy": "value",
+  "seed": 823077,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.5386574864387512,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "value",
+  "seed": 823078,
+  "success": 1,
+  "terminal": 0.9932445287704468,
+  "peak": 0.9932445287704468,
+  "moves": 6
+ },
+ {
+  "domain": "causalworld",
+  "policy": "value",
+  "seed": 823079,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "value",
+  "seed": 823080,
+  "success": 1,
+  "terminal": 0.9449835419654846,
+  "peak": 0.9449835419654846,
+  "moves": 10
+ },
+ {
+  "domain": "causalworld",
+  "policy": "value",
+  "seed": 823081,
+  "success": 1,
+  "terminal": 0.9500302076339722,
+  "peak": 0.9500302076339722,
+  "moves": 3
+ },
+ {
+  "domain": "causalworld",
+  "policy": "value",
+  "seed": 823082,
+  "success": 0,
+  "terminal": 0.5262315273284912,
+  "peak": 0.5309446454048157,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "value",
+  "seed": 823083,
+  "success": 0,
+  "terminal": 0.42418646812438965,
+  "peak": 0.7802307605743408,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "value",
+  "seed": 823084,
+  "success": 1,
+  "terminal": 0.9358633160591125,
+  "peak": 0.9358633160591125,
+  "moves": 7
+ },
+ {
+  "domain": "causalworld",
+  "policy": "value",
+  "seed": 823085,
+  "success": 1,
+  "terminal": 0.9489114284515381,
+  "peak": 0.9489114284515381,
+  "moves": 3
+ },
+ {
+  "domain": "causalworld",
+  "policy": "value",
+  "seed": 823086,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "value",
+  "seed": 823087,
+  "success": 0,
+  "terminal": 0.5749202370643616,
+  "peak": 0.6895268559455872,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "value",
+  "seed": 823088,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "value",
+  "seed": 823089,
+  "success": 0,
+  "terminal": 0.09493615478277206,
+  "peak": 0.7766876220703125,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "value",
+  "seed": 823090,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "value",
+  "seed": 823091,
+  "success": 0,
+  "terminal": 0.0665425956249237,
+  "peak": 0.8619415760040283,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "value",
+  "seed": 823092,
+  "success": 1,
+  "terminal": 0.9477767944335938,
+  "peak": 0.9477767944335938,
+  "moves": 6
+ },
+ {
+  "domain": "causalworld",
+  "policy": "value",
+  "seed": 823093,
+  "success": 1,
+  "terminal": 0.9863063097000122,
+  "peak": 0.9863063097000122,
+  "moves": 6
+ },
+ {
+  "domain": "causalworld",
+  "policy": "value",
+  "seed": 823094,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "causalworld",
+  "policy": "value",
+  "seed": 823095,
+  "success": 1,
+  "terminal": 0.9441439509391785,
+  "peak": 0.9441439509391785,
+  "moves": 9
+ },
+ {
+  "domain": "pusht",
+  "policy": "cophynet",
+  "seed": 823000,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.10358216613531113,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "cophynet",
+  "seed": 823001,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.22953003644943237,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "cophynet",
+  "seed": 823002,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.3840715289115906,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "cophynet",
+  "seed": 823003,
+  "success": 0,
+  "terminal": 0.10495083779096603,
+  "peak": 0.3658309578895569,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "cophynet",
+  "seed": 823004,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "cophynet",
+  "seed": 823005,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "cophynet",
+  "seed": 823006,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.000379893317585811,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "cophynet",
+  "seed": 823007,
+  "success": 0,
+  "terminal": 0.015936626121401787,
+  "peak": 0.015936626121401787,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "cophynet",
+  "seed": 823008,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "cophynet",
+  "seed": 823009,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "cophynet",
+  "seed": 823010,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "cophynet",
+  "seed": 823011,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "cophynet",
+  "seed": 823012,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "cophynet",
+  "seed": 823013,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0018403894500806928,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "cophynet",
+  "seed": 823014,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.3624654710292816,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "cophynet",
+  "seed": 823015,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.3566834330558777,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "cophynet",
+  "seed": 823016,
+  "success": 0,
+  "terminal": 0.17625486850738525,
+  "peak": 0.4975855052471161,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "cophynet",
+  "seed": 823017,
+  "success": 0,
+  "terminal": 0.22792242467403412,
+  "peak": 0.49791836738586426,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "cophynet",
+  "seed": 823018,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "cophynet",
+  "seed": 823019,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "cophynet",
+  "seed": 823020,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "cophynet",
+  "seed": 823021,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "cophynet",
+  "seed": 823022,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.003739519976079464,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "cophynet",
+  "seed": 823023,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0017289856914430857,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "cophynet",
+  "seed": 823024,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.19505861401557922,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "cophynet",
+  "seed": 823025,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "cophynet",
+  "seed": 823026,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "cophynet",
+  "seed": 823027,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.36048972606658936,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "cophynet",
+  "seed": 823028,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "cophynet",
+  "seed": 823029,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "cophynet",
+  "seed": 823030,
+  "success": 0,
+  "terminal": 0.05504452809691429,
+  "peak": 0.5271303057670593,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "cophynet",
+  "seed": 823031,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "cophynet",
+  "seed": 823032,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.40628737211227417,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "cophynet",
+  "seed": 823033,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "cophynet",
+  "seed": 823034,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "cophynet",
+  "seed": 823035,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "cophynet",
+  "seed": 823036,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0009032638045027852,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "cophynet",
+  "seed": 823037,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.29650720953941345,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "cophynet",
+  "seed": 823038,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0738222524523735,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "cophynet",
+  "seed": 823039,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "cophynet",
+  "seed": 823040,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "cophynet",
+  "seed": 823041,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.08601302653551102,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "cophynet",
+  "seed": 823042,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.4072704613208771,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "cophynet",
+  "seed": 823043,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "cophynet",
+  "seed": 823044,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "cophynet",
+  "seed": 823045,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.4061398208141327,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "cophynet",
+  "seed": 823046,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "cophynet",
+  "seed": 823047,
+  "success": 0,
+  "terminal": 0.1509489119052887,
+  "peak": 0.46575310826301575,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "cophynet",
+  "seed": 823048,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "cophynet",
+  "seed": 823049,
+  "success": 0,
+  "terminal": 0.4473389685153961,
+  "peak": 0.4473389685153961,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "cophynet",
+  "seed": 823050,
+  "success": 0,
+  "terminal": 0.04871651902794838,
+  "peak": 0.12663616240024567,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "cophynet",
+  "seed": 823051,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "cophynet",
+  "seed": 823052,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0004540440859273076,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "cophynet",
+  "seed": 823053,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.08886023610830307,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "cophynet",
+  "seed": 823054,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.24781928956508636,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "cophynet",
+  "seed": 823055,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.028500020503997803,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "cophynet",
+  "seed": 823056,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.19272400438785553,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "cophynet",
+  "seed": 823057,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "cophynet",
+  "seed": 823058,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "cophynet",
+  "seed": 823059,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "cophynet",
+  "seed": 823060,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.1996317207813263,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "cophynet",
+  "seed": 823061,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "cophynet",
+  "seed": 823062,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.007966112345457077,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "cophynet",
+  "seed": 823063,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.00046708047739230096,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "cophynet",
+  "seed": 823064,
+  "success": 0,
+  "terminal": 0.43262818455696106,
+  "peak": 0.4608989357948303,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "cophynet",
+  "seed": 823065,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "cophynet",
+  "seed": 823066,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.16948866844177246,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "cophynet",
+  "seed": 823067,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "cophynet",
+  "seed": 823068,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "cophynet",
+  "seed": 823069,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0037811899092048407,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "cophynet",
+  "seed": 823070,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "cophynet",
+  "seed": 823071,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "cophynet",
+  "seed": 823072,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "cophynet",
+  "seed": 823073,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.11842362582683563,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "cophynet",
+  "seed": 823074,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "cophynet",
+  "seed": 823075,
+  "success": 0,
+  "terminal": 0.11405554413795471,
+  "peak": 0.1367417573928833,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "cophynet",
+  "seed": 823076,
+  "success": 0,
+  "terminal": 0.18893232941627502,
+  "peak": 0.18893232941627502,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "cophynet",
+  "seed": 823077,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "cophynet",
+  "seed": 823078,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "cophynet",
+  "seed": 823079,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.3664105534553528,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "cophynet",
+  "seed": 823080,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "cophynet",
+  "seed": 823081,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.059125859290361404,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "cophynet",
+  "seed": 823082,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.03351866826415062,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "cophynet",
+  "seed": 823083,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.45523664355278015,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "cophynet",
+  "seed": 823084,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "cophynet",
+  "seed": 823085,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "cophynet",
+  "seed": 823086,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "cophynet",
+  "seed": 823087,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.028816791251301765,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "cophynet",
+  "seed": 823088,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "cophynet",
+  "seed": 823089,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "cophynet",
+  "seed": 823090,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "cophynet",
+  "seed": 823091,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "cophynet",
+  "seed": 823092,
+  "success": 0,
+  "terminal": 0.02269107848405838,
+  "peak": 0.023580554872751236,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "cophynet",
+  "seed": 823093,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "cophynet",
+  "seed": 823094,
+  "success": 0,
+  "terminal": 0.04905072972178459,
+  "peak": 0.11056006699800491,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "cophynet",
+  "seed": 823095,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.16365519165992737,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta",
+  "seed": 823000,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.10358216613531113,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta",
+  "seed": 823001,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.22953003644943237,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta",
+  "seed": 823002,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.3840715289115906,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta",
+  "seed": 823003,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.3658309578895569,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta",
+  "seed": 823004,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta",
+  "seed": 823005,
+  "success": 0,
+  "terminal": 0.1268102526664734,
+  "peak": 0.16561827063560486,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta",
+  "seed": 823006,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.000379893317585811,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta",
+  "seed": 823007,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta",
+  "seed": 823008,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta",
+  "seed": 823009,
+  "success": 0,
+  "terminal": 0.03448231890797615,
+  "peak": 0.06943970918655396,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta",
+  "seed": 823010,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta",
+  "seed": 823011,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 8.839611837174743e-06,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta",
+  "seed": 823012,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0630919337272644,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta",
+  "seed": 823013,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0018403894500806928,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta",
+  "seed": 823014,
+  "success": 0,
+  "terminal": 0.1416143923997879,
+  "peak": 0.3624654710292816,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta",
+  "seed": 823015,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta",
+  "seed": 823016,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.4975855052471161,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta",
+  "seed": 823017,
+  "success": 0,
+  "terminal": 0.29167112708091736,
+  "peak": 0.4909529983997345,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta",
+  "seed": 823018,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta",
+  "seed": 823019,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta",
+  "seed": 823020,
+  "success": 0,
+  "terminal": 0.04203347861766815,
+  "peak": 0.282087117433548,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta",
+  "seed": 823021,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.5736662149429321,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta",
+  "seed": 823022,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.003739519976079464,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta",
+  "seed": 823023,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.4383459985256195,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta",
+  "seed": 823024,
+  "success": 0,
+  "terminal": 0.19207271933555603,
+  "peak": 0.4806121289730072,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta",
+  "seed": 823025,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta",
+  "seed": 823026,
+  "success": 0,
+  "terminal": 0.23504020273685455,
+  "peak": 0.23504020273685455,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta",
+  "seed": 823027,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.023271508514881134,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta",
+  "seed": 823028,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta",
+  "seed": 823029,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.13897033035755157,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta",
+  "seed": 823030,
+  "success": 0,
+  "terminal": 0.16794471442699432,
+  "peak": 0.5675128102302551,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta",
+  "seed": 823031,
+  "success": 0,
+  "terminal": 0.1153094694018364,
+  "peak": 0.3991142511367798,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta",
+  "seed": 823032,
+  "success": 0,
+  "terminal": 0.03999650478363037,
+  "peak": 0.2211957424879074,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta",
+  "seed": 823033,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta",
+  "seed": 823034,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta",
+  "seed": 823035,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta",
+  "seed": 823036,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.005509963259100914,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta",
+  "seed": 823037,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.29650720953941345,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta",
+  "seed": 823038,
+  "success": 0,
+  "terminal": 0.015156141482293606,
+  "peak": 0.0738222524523735,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta",
+  "seed": 823039,
+  "success": 0,
+  "terminal": 0.02564811147749424,
+  "peak": 0.31946778297424316,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta",
+  "seed": 823040,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta",
+  "seed": 823041,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.08601302653551102,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta",
+  "seed": 823042,
+  "success": 0,
+  "terminal": 0.13225345313549042,
+  "peak": 0.616115391254425,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta",
+  "seed": 823043,
+  "success": 0,
+  "terminal": 0.002085910178720951,
+  "peak": 0.1032874658703804,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta",
+  "seed": 823044,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta",
+  "seed": 823045,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.4061398208141327,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta",
+  "seed": 823046,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta",
+  "seed": 823047,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.45549023151397705,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta",
+  "seed": 823048,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta",
+  "seed": 823049,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.4473389685153961,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta",
+  "seed": 823050,
+  "success": 0,
+  "terminal": 0.04873794689774513,
+  "peak": 0.12663616240024567,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta",
+  "seed": 823051,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.08867011219263077,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta",
+  "seed": 823052,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0004540440859273076,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta",
+  "seed": 823053,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.11819618940353394,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta",
+  "seed": 823054,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.21466220915317535,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta",
+  "seed": 823055,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.028500020503997803,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta",
+  "seed": 823056,
+  "success": 0,
+  "terminal": 0.21438951790332794,
+  "peak": 0.5370092988014221,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta",
+  "seed": 823057,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta",
+  "seed": 823058,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta",
+  "seed": 823059,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta",
+  "seed": 823060,
+  "success": 0,
+  "terminal": 0.33526578545570374,
+  "peak": 0.38682547211647034,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta",
+  "seed": 823061,
+  "success": 0,
+  "terminal": 0.15150578320026398,
+  "peak": 0.17795296013355255,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta",
+  "seed": 823062,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.3600357174873352,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta",
+  "seed": 823063,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.00046708047739230096,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta",
+  "seed": 823064,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.4608989357948303,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta",
+  "seed": 823065,
+  "success": 0,
+  "terminal": 0.043802350759506226,
+  "peak": 0.043802350759506226,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta",
+  "seed": 823066,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.16948866844177246,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta",
+  "seed": 823067,
+  "success": 0,
+  "terminal": 0.19794221222400665,
+  "peak": 0.39845147728919983,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta",
+  "seed": 823068,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta",
+  "seed": 823069,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0037811899092048407,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta",
+  "seed": 823070,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta",
+  "seed": 823071,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.5925630331039429,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta",
+  "seed": 823072,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta",
+  "seed": 823073,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.11842362582683563,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta",
+  "seed": 823074,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta",
+  "seed": 823075,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta",
+  "seed": 823076,
+  "success": 0,
+  "terminal": 1.9773951862589456e-05,
+  "peak": 0.18893232941627502,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta",
+  "seed": 823077,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.059149120002985,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta",
+  "seed": 823078,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta",
+  "seed": 823079,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.3664105534553528,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta",
+  "seed": 823080,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.04486878588795662,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta",
+  "seed": 823081,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.08564788103103638,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta",
+  "seed": 823082,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.03351866826415062,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta",
+  "seed": 823083,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.45523664355278015,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta",
+  "seed": 823084,
+  "success": 0,
+  "terminal": 0.5127323269844055,
+  "peak": 0.5127323269844055,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta",
+  "seed": 823085,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta",
+  "seed": 823086,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta",
+  "seed": 823087,
+  "success": 0,
+  "terminal": 0.03936303034424782,
+  "peak": 0.03936303034424782,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta",
+  "seed": 823088,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.02855824865400791,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta",
+  "seed": 823089,
+  "success": 0,
+  "terminal": 0.0048080612905323505,
+  "peak": 0.0048080612905323505,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta",
+  "seed": 823090,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.032764606177806854,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta",
+  "seed": 823091,
+  "success": 0,
+  "terminal": 0.14739659428596497,
+  "peak": 0.4156734049320221,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta",
+  "seed": 823092,
+  "success": 0,
+  "terminal": 0.009191603399813175,
+  "peak": 0.023580554872751236,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta",
+  "seed": 823093,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta",
+  "seed": 823094,
+  "success": 0,
+  "terminal": 0.17268803715705872,
+  "peak": 0.17268803715705872,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta",
+  "seed": 823095,
+  "success": 0,
+  "terminal": 0.02026187628507614,
+  "peak": 0.16365519165992737,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta_kl",
+  "seed": 823000,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.10358216613531113,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta_kl",
+  "seed": 823001,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.22953003644943237,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta_kl",
+  "seed": 823002,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.3840715289115906,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta_kl",
+  "seed": 823003,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.3658309578895569,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta_kl",
+  "seed": 823004,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta_kl",
+  "seed": 823005,
+  "success": 0,
+  "terminal": 0.1268102526664734,
+  "peak": 0.16561827063560486,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta_kl",
+  "seed": 823006,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.000379893317585811,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta_kl",
+  "seed": 823007,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta_kl",
+  "seed": 823008,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta_kl",
+  "seed": 823009,
+  "success": 0,
+  "terminal": 0.03448231890797615,
+  "peak": 0.06943970918655396,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta_kl",
+  "seed": 823010,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta_kl",
+  "seed": 823011,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 8.839611837174743e-06,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta_kl",
+  "seed": 823012,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0630919337272644,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta_kl",
+  "seed": 823013,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0018403894500806928,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta_kl",
+  "seed": 823014,
+  "success": 0,
+  "terminal": 0.1416143923997879,
+  "peak": 0.3624654710292816,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta_kl",
+  "seed": 823015,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta_kl",
+  "seed": 823016,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.4975855052471161,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta_kl",
+  "seed": 823017,
+  "success": 0,
+  "terminal": 0.29167112708091736,
+  "peak": 0.4909529983997345,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta_kl",
+  "seed": 823018,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta_kl",
+  "seed": 823019,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta_kl",
+  "seed": 823020,
+  "success": 0,
+  "terminal": 0.04203347861766815,
+  "peak": 0.282087117433548,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta_kl",
+  "seed": 823021,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.5736662149429321,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta_kl",
+  "seed": 823022,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.003739519976079464,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta_kl",
+  "seed": 823023,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.4383459985256195,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta_kl",
+  "seed": 823024,
+  "success": 0,
+  "terminal": 0.19207271933555603,
+  "peak": 0.4806121289730072,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta_kl",
+  "seed": 823025,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta_kl",
+  "seed": 823026,
+  "success": 0,
+  "terminal": 0.23504020273685455,
+  "peak": 0.23504020273685455,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta_kl",
+  "seed": 823027,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.023271508514881134,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta_kl",
+  "seed": 823028,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta_kl",
+  "seed": 823029,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.13897033035755157,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta_kl",
+  "seed": 823030,
+  "success": 0,
+  "terminal": 0.16794471442699432,
+  "peak": 0.5675128102302551,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta_kl",
+  "seed": 823031,
+  "success": 0,
+  "terminal": 0.1153094694018364,
+  "peak": 0.3991142511367798,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta_kl",
+  "seed": 823032,
+  "success": 0,
+  "terminal": 0.03999650478363037,
+  "peak": 0.2211957424879074,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta_kl",
+  "seed": 823033,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta_kl",
+  "seed": 823034,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta_kl",
+  "seed": 823035,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta_kl",
+  "seed": 823036,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.005509963259100914,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta_kl",
+  "seed": 823037,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.29650720953941345,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta_kl",
+  "seed": 823038,
+  "success": 0,
+  "terminal": 0.015156141482293606,
+  "peak": 0.0738222524523735,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta_kl",
+  "seed": 823039,
+  "success": 0,
+  "terminal": 0.02564811147749424,
+  "peak": 0.31946778297424316,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta_kl",
+  "seed": 823040,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta_kl",
+  "seed": 823041,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.08601302653551102,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta_kl",
+  "seed": 823042,
+  "success": 0,
+  "terminal": 0.13225345313549042,
+  "peak": 0.616115391254425,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta_kl",
+  "seed": 823043,
+  "success": 0,
+  "terminal": 0.002085910178720951,
+  "peak": 0.1032874658703804,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta_kl",
+  "seed": 823044,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta_kl",
+  "seed": 823045,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.4061398208141327,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta_kl",
+  "seed": 823046,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta_kl",
+  "seed": 823047,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.45549023151397705,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta_kl",
+  "seed": 823048,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta_kl",
+  "seed": 823049,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.4473389685153961,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta_kl",
+  "seed": 823050,
+  "success": 0,
+  "terminal": 0.04873794689774513,
+  "peak": 0.12663616240024567,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta_kl",
+  "seed": 823051,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.08867011219263077,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta_kl",
+  "seed": 823052,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0004540440859273076,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta_kl",
+  "seed": 823053,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.11819618940353394,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta_kl",
+  "seed": 823054,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.21466220915317535,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta_kl",
+  "seed": 823055,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.028500020503997803,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta_kl",
+  "seed": 823056,
+  "success": 0,
+  "terminal": 0.21438951790332794,
+  "peak": 0.5370092988014221,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta_kl",
+  "seed": 823057,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta_kl",
+  "seed": 823058,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta_kl",
+  "seed": 823059,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta_kl",
+  "seed": 823060,
+  "success": 0,
+  "terminal": 0.33526578545570374,
+  "peak": 0.38682547211647034,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta_kl",
+  "seed": 823061,
+  "success": 0,
+  "terminal": 0.15150578320026398,
+  "peak": 0.17795296013355255,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta_kl",
+  "seed": 823062,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.3600357174873352,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta_kl",
+  "seed": 823063,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.00046708047739230096,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta_kl",
+  "seed": 823064,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.4608989357948303,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta_kl",
+  "seed": 823065,
+  "success": 0,
+  "terminal": 0.043802350759506226,
+  "peak": 0.043802350759506226,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta_kl",
+  "seed": 823066,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.16948866844177246,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta_kl",
+  "seed": 823067,
+  "success": 0,
+  "terminal": 0.19794221222400665,
+  "peak": 0.39845147728919983,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta_kl",
+  "seed": 823068,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta_kl",
+  "seed": 823069,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0037811899092048407,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta_kl",
+  "seed": 823070,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta_kl",
+  "seed": 823071,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.5925630331039429,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta_kl",
+  "seed": 823072,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta_kl",
+  "seed": 823073,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.11842362582683563,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta_kl",
+  "seed": 823074,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta_kl",
+  "seed": 823075,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta_kl",
+  "seed": 823076,
+  "success": 0,
+  "terminal": 1.9773951862589456e-05,
+  "peak": 0.18893232941627502,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta_kl",
+  "seed": 823077,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.059149120002985,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta_kl",
+  "seed": 823078,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta_kl",
+  "seed": 823079,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.3664105534553528,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta_kl",
+  "seed": 823080,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.04486878588795662,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta_kl",
+  "seed": 823081,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.08564788103103638,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta_kl",
+  "seed": 823082,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.03351866826415062,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta_kl",
+  "seed": 823083,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.45523664355278015,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta_kl",
+  "seed": 823084,
+  "success": 0,
+  "terminal": 0.5127323269844055,
+  "peak": 0.5127323269844055,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta_kl",
+  "seed": 823085,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta_kl",
+  "seed": 823086,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta_kl",
+  "seed": 823087,
+  "success": 0,
+  "terminal": 0.03936303034424782,
+  "peak": 0.03936303034424782,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta_kl",
+  "seed": 823088,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.02855824865400791,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta_kl",
+  "seed": 823089,
+  "success": 0,
+  "terminal": 0.0048080612905323505,
+  "peak": 0.0048080612905323505,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta_kl",
+  "seed": 823090,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.032764606177806854,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta_kl",
+  "seed": 823091,
+  "success": 0,
+  "terminal": 0.14739659428596497,
+  "peak": 0.4156734049320221,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta_kl",
+  "seed": 823092,
+  "success": 0,
+  "terminal": 0.009191603399813175,
+  "peak": 0.023580554872751236,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta_kl",
+  "seed": 823093,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta_kl",
+  "seed": 823094,
+  "success": 0,
+  "terminal": 0.17268803715705872,
+  "peak": 0.17268803715705872,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "delta_kl",
+  "seed": 823095,
+  "success": 0,
+  "terminal": 0.02026187628507614,
+  "peak": 0.16365519165992737,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "pets",
+  "seed": 823000,
+  "success": 0,
+  "terminal": 0.08444035798311234,
+  "peak": 0.10358216613531113,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "pets",
+  "seed": 823001,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.22953003644943237,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "pets",
+  "seed": 823002,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.3840715289115906,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "pets",
+  "seed": 823003,
+  "success": 0,
+  "terminal": 0.257870078086853,
+  "peak": 0.3658309578895569,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "pets",
+  "seed": 823004,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "pets",
+  "seed": 823005,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "pets",
+  "seed": 823006,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0009496303973719478,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "pets",
+  "seed": 823007,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "pets",
+  "seed": 823008,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "pets",
+  "seed": 823009,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0016187133733183146,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "pets",
+  "seed": 823010,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "pets",
+  "seed": 823011,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "pets",
+  "seed": 823012,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "pets",
+  "seed": 823013,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.2654708921909332,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "pets",
+  "seed": 823014,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.3624654710292816,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "pets",
+  "seed": 823015,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.28146907687187195,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "pets",
+  "seed": 823016,
+  "success": 0,
+  "terminal": 0.35034725069999695,
+  "peak": 0.4106859564781189,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "pets",
+  "seed": 823017,
+  "success": 0,
+  "terminal": 0.22792242467403412,
+  "peak": 0.49791836738586426,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "pets",
+  "seed": 823018,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "pets",
+  "seed": 823019,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "pets",
+  "seed": 823020,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "pets",
+  "seed": 823021,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "pets",
+  "seed": 823022,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.003739519976079464,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "pets",
+  "seed": 823023,
+  "success": 0,
+  "terminal": 0.0027856617234647274,
+  "peak": 0.4387419521808624,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "pets",
+  "seed": 823024,
+  "success": 0,
+  "terminal": 0.18901202082633972,
+  "peak": 0.19505861401557922,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "pets",
+  "seed": 823025,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "pets",
+  "seed": 823026,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "pets",
+  "seed": 823027,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.5187909007072449,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "pets",
+  "seed": 823028,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "pets",
+  "seed": 823029,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.17350365221500397,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "pets",
+  "seed": 823030,
+  "success": 0,
+  "terminal": 0.16464097797870636,
+  "peak": 0.5271303057670593,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "pets",
+  "seed": 823031,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "pets",
+  "seed": 823032,
+  "success": 0,
+  "terminal": 0.18102698028087616,
+  "peak": 0.2211957424879074,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "pets",
+  "seed": 823033,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "pets",
+  "seed": 823034,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "pets",
+  "seed": 823035,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "pets",
+  "seed": 823036,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "pets",
+  "seed": 823037,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.29650720953941345,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "pets",
+  "seed": 823038,
+  "success": 0,
+  "terminal": 0.04874859377741814,
+  "peak": 0.0738222524523735,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "pets",
+  "seed": 823039,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.3305111527442932,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "pets",
+  "seed": 823040,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "pets",
+  "seed": 823041,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.08601302653551102,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "pets",
+  "seed": 823042,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.6180647611618042,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "pets",
+  "seed": 823043,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "pets",
+  "seed": 823044,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "pets",
+  "seed": 823045,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.4061398208141327,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "pets",
+  "seed": 823046,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "pets",
+  "seed": 823047,
+  "success": 0,
+  "terminal": 0.1509489119052887,
+  "peak": 0.46575310826301575,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "pets",
+  "seed": 823048,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "pets",
+  "seed": 823049,
+  "success": 0,
+  "terminal": 0.4473389685153961,
+  "peak": 0.4473389685153961,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "pets",
+  "seed": 823050,
+  "success": 0,
+  "terminal": 0.04871651902794838,
+  "peak": 0.12663616240024567,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "pets",
+  "seed": 823051,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "pets",
+  "seed": 823052,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0004540440859273076,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "pets",
+  "seed": 823053,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.11392045021057129,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "pets",
+  "seed": 823054,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.24928757548332214,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "pets",
+  "seed": 823055,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.028500020503997803,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "pets",
+  "seed": 823056,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.19272400438785553,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "pets",
+  "seed": 823057,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "pets",
+  "seed": 823058,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "pets",
+  "seed": 823059,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "pets",
+  "seed": 823060,
+  "success": 0,
+  "terminal": 0.1674431413412094,
+  "peak": 0.3868251442909241,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "pets",
+  "seed": 823061,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "pets",
+  "seed": 823062,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.014996086247265339,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "pets",
+  "seed": 823063,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.00046708047739230096,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "pets",
+  "seed": 823064,
+  "success": 0,
+  "terminal": 0.2995791733264923,
+  "peak": 0.4608989357948303,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "pets",
+  "seed": 823065,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "pets",
+  "seed": 823066,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.16948866844177246,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "pets",
+  "seed": 823067,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "pets",
+  "seed": 823068,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "pets",
+  "seed": 823069,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0037811899092048407,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "pets",
+  "seed": 823070,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "pets",
+  "seed": 823071,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "pets",
+  "seed": 823072,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "pets",
+  "seed": 823073,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.11842362582683563,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "pets",
+  "seed": 823074,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "pets",
+  "seed": 823075,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "pets",
+  "seed": 823076,
+  "success": 0,
+  "terminal": 0.18893232941627502,
+  "peak": 0.18893232941627502,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "pets",
+  "seed": 823077,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "pets",
+  "seed": 823078,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "pets",
+  "seed": 823079,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.3664105534553528,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "pets",
+  "seed": 823080,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.012292956002056599,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "pets",
+  "seed": 823081,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.059125859290361404,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "pets",
+  "seed": 823082,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.03351866826415062,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "pets",
+  "seed": 823083,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.45523664355278015,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "pets",
+  "seed": 823084,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "pets",
+  "seed": 823085,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "pets",
+  "seed": 823086,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "pets",
+  "seed": 823087,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.028816791251301765,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "pets",
+  "seed": 823088,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "pets",
+  "seed": 823089,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "pets",
+  "seed": 823090,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "pets",
+  "seed": 823091,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "pets",
+  "seed": 823092,
+  "success": 0,
+  "terminal": 0.023580554872751236,
+  "peak": 0.023580554872751236,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "pets",
+  "seed": 823093,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "pets",
+  "seed": 823094,
+  "success": 0,
+  "terminal": 0.10735996067523956,
+  "peak": 0.11056006699800491,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "pets",
+  "seed": 823095,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.16365519165992737,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "value",
+  "seed": 823000,
+  "success": 0,
+  "terminal": 0.1221376359462738,
+  "peak": 0.24793560802936554,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "value",
+  "seed": 823001,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.22953003644943237,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "value",
+  "seed": 823002,
+  "success": 0,
+  "terminal": 0.27414536476135254,
+  "peak": 0.3840715289115906,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "value",
+  "seed": 823003,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.3658309578895569,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "value",
+  "seed": 823004,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "value",
+  "seed": 823005,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.014407864771783352,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "value",
+  "seed": 823006,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.000379893317585811,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "value",
+  "seed": 823007,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "value",
+  "seed": 823008,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "value",
+  "seed": 823009,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "value",
+  "seed": 823010,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "value",
+  "seed": 823011,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "value",
+  "seed": 823012,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0630919337272644,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "value",
+  "seed": 823013,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0018403894500806928,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "value",
+  "seed": 823014,
+  "success": 0,
+  "terminal": 0.1416143923997879,
+  "peak": 0.3624654710292816,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "value",
+  "seed": 823015,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "value",
+  "seed": 823016,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.4975855052471161,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "value",
+  "seed": 823017,
+  "success": 0,
+  "terminal": 0.2637375295162201,
+  "peak": 0.4909529983997345,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "value",
+  "seed": 823018,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "value",
+  "seed": 823019,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "value",
+  "seed": 823020,
+  "success": 0,
+  "terminal": 0.2676357328891754,
+  "peak": 0.282087117433548,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "value",
+  "seed": 823021,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.5736662149429321,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "value",
+  "seed": 823022,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.003739519976079464,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "value",
+  "seed": 823023,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.4383459985256195,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "value",
+  "seed": 823024,
+  "success": 0,
+  "terminal": 0.19207271933555603,
+  "peak": 0.4806121289730072,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "value",
+  "seed": 823025,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "value",
+  "seed": 823026,
+  "success": 0,
+  "terminal": 0.23504020273685455,
+  "peak": 0.23504020273685455,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "value",
+  "seed": 823027,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.023271508514881134,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "value",
+  "seed": 823028,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "value",
+  "seed": 823029,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.13897033035755157,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "value",
+  "seed": 823030,
+  "success": 0,
+  "terminal": 0.16794471442699432,
+  "peak": 0.5675128102302551,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "value",
+  "seed": 823031,
+  "success": 0,
+  "terminal": 0.005975623149424791,
+  "peak": 0.32180359959602356,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "value",
+  "seed": 823032,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.2211957424879074,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "value",
+  "seed": 823033,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "value",
+  "seed": 823034,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "value",
+  "seed": 823035,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "value",
+  "seed": 823036,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.005509963259100914,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "value",
+  "seed": 823037,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.29650720953941345,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "value",
+  "seed": 823038,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0738222524523735,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "value",
+  "seed": 823039,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "value",
+  "seed": 823040,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "value",
+  "seed": 823041,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.08601302653551102,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "value",
+  "seed": 823042,
+  "success": 0,
+  "terminal": 0.02543974481523037,
+  "peak": 0.616115391254425,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "value",
+  "seed": 823043,
+  "success": 0,
+  "terminal": 0.002085910178720951,
+  "peak": 0.1032874658703804,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "value",
+  "seed": 823044,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "value",
+  "seed": 823045,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.4061398208141327,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "value",
+  "seed": 823046,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "value",
+  "seed": 823047,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.45549023151397705,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "value",
+  "seed": 823048,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "value",
+  "seed": 823049,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.4473389685153961,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "value",
+  "seed": 823050,
+  "success": 0,
+  "terminal": 0.04873794689774513,
+  "peak": 0.12663616240024567,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "value",
+  "seed": 823051,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.08867011219263077,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "value",
+  "seed": 823052,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0004540440859273076,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "value",
+  "seed": 823053,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.11819618940353394,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "value",
+  "seed": 823054,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.21466220915317535,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "value",
+  "seed": 823055,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.028500020503997803,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "value",
+  "seed": 823056,
+  "success": 0,
+  "terminal": 0.21438951790332794,
+  "peak": 0.5370092988014221,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "value",
+  "seed": 823057,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "value",
+  "seed": 823058,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "value",
+  "seed": 823059,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "value",
+  "seed": 823060,
+  "success": 0,
+  "terminal": 0.33526578545570374,
+  "peak": 0.38682547211647034,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "value",
+  "seed": 823061,
+  "success": 0,
+  "terminal": 0.15150578320026398,
+  "peak": 0.17795296013355255,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "value",
+  "seed": 823062,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.3600357174873352,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "value",
+  "seed": 823063,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.00046708047739230096,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "value",
+  "seed": 823064,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.4608989357948303,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "value",
+  "seed": 823065,
+  "success": 0,
+  "terminal": 0.043802350759506226,
+  "peak": 0.043802350759506226,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "value",
+  "seed": 823066,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.16948866844177246,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "value",
+  "seed": 823067,
+  "success": 0,
+  "terminal": 0.19794221222400665,
+  "peak": 0.39845147728919983,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "value",
+  "seed": 823068,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "value",
+  "seed": 823069,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0037811899092048407,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "value",
+  "seed": 823070,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "value",
+  "seed": 823071,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.5925630331039429,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "value",
+  "seed": 823072,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "value",
+  "seed": 823073,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.11842362582683563,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "value",
+  "seed": 823074,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.014121392741799355,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "value",
+  "seed": 823075,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "value",
+  "seed": 823076,
+  "success": 0,
+  "terminal": 0.06317019462585449,
+  "peak": 0.18893232941627502,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "value",
+  "seed": 823077,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0893867015838623,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "value",
+  "seed": 823078,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "value",
+  "seed": 823079,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.3664105534553528,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "value",
+  "seed": 823080,
+  "success": 0,
+  "terminal": 0.17307807505130768,
+  "peak": 0.32281917333602905,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "value",
+  "seed": 823081,
+  "success": 0,
+  "terminal": 0.03490976244211197,
+  "peak": 0.08564788103103638,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "value",
+  "seed": 823082,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.03351866826415062,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "value",
+  "seed": 823083,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.45523664355278015,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "value",
+  "seed": 823084,
+  "success": 0,
+  "terminal": 0.4061412215232849,
+  "peak": 0.4061412215232849,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "value",
+  "seed": 823085,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "value",
+  "seed": 823086,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "value",
+  "seed": 823087,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.028816791251301765,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "value",
+  "seed": 823088,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "value",
+  "seed": 823089,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.0,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "value",
+  "seed": 823090,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.032764606177806854,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "value",
+  "seed": 823091,
+  "success": 0,
+  "terminal": 0.14739659428596497,
+  "peak": 0.4156734049320221,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "value",
+  "seed": 823092,
+  "success": 0,
+  "terminal": 0.0,
+  "peak": 0.023580554872751236,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "value",
+  "seed": 823093,
+  "success": 0,
+  "terminal": 0.014295512810349464,
+  "peak": 0.014295512810349464,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "value",
+  "seed": 823094,
+  "success": 0,
+  "terminal": 0.17268803715705872,
+  "peak": 0.17268803715705872,
+  "moves": 12
+ },
+ {
+  "domain": "pusht",
+  "policy": "value",
+  "seed": 823095,
+  "success": 0,
+  "terminal": 0.02026187628507614,
+  "peak": 0.16365519165992737,
+  "moves": 12
+ }
+]
