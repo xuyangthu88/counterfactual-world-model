@@ -103,7 +103,7 @@ class Simulator:
             goal = planar((g[:2]-256)/100, g[2])
         return x, goal.astype(np.float32)
 
-    def execute(self, action, stop=False, fine=False):
+    def execute(self, action, stop=False, fine=False, landmarks=False):
         x, _ = self.observe()
         node = action[:,0].argmax()
         self.edge.fill(0)
@@ -118,10 +118,14 @@ class Simulator:
                 command = np.clip(command.ravel(),self.env.action_space.low,self.env.action_space.high)
             else:
                 command = np.clip(waypoint[:2]*100+256,0,512)
-            for _ in range(TICKS):
-                if fine:
+            segment=planned.copy()
+            for tick in range(4 if landmarks else TICKS):
+                if fine or landmarks:
                     step = waypoint-planned
-                    planned = planned+step*min(1., .12/max(1e-9,np.linalg.norm(step)))
+                    if landmarks:
+                        planned = segment+(waypoint-segment)*((tick+1)/4)
+                    else:
+                        planned = planned+step*min(1., .12/max(1e-9,np.linalg.norm(step)))
                     if self.domain=='causalworld':
                         command = command.reshape(3,3)
                         command[node-1] = planned*.065

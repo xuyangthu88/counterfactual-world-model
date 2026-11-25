@@ -95,8 +95,15 @@ def tower(seed, deletion=False):
                 goal=np.zeros(D),a=actions,y=ys,e=edges,r=np.zeros((BRANCHES,3)),seed=seed)
 
 
-def pushing(domain,seed,split,fine=False):
+def pushing(domain,seed,split,fine=False,proposal=False):
     rng = np.random.default_rng(seed)
+    if proposal:
+        from .proposals import Proposal
+        proposer = Proposal()
+    def get_actions(state,role,goal,count):
+        if proposal:
+            return proposer.candidates(state,role,goal,rng,count)[0]
+        return menu(state,role,rng,count,fine)
     commands = []
     ys, edges, rewards = [], [], []
     for i in range(BRANCHES):
@@ -104,20 +111,27 @@ def pushing(domain,seed,split,fine=False):
         try:
             if i == 0:
                 # Sample varied factual histories using exactly the controller's proposal law.
-                for _ in range(1+seed%4):
+                for _ in range(1+seed%(12 if proposal else 4)):
                     f0, goal = sim.observe()
-                    fa = menu(f0,sim.role,rng,1,fine)[0]
+                    if proposal:
+                        candidates=get_actions(f0,sim.role,goal,4)
+                        fa=candidates[rng.choice(4,p=[.7,.1,.1,.1])]
+                    else:
+                        fa=get_actions(f0,sim.role,goal,1)[0]
                     commands.append(fa)
-                    f1, fe, _ = sim.execute(fa,fine=fine)
+                    f1, fe, _ = sim.execute(fa,fine=fine,landmarks=proposal)
                 x = f1
                 role = sim.role
-                actions = menu(x,role,rng,BRANCHES,fine)
+                actions = get_actions(x,role,goal,24 if proposal else BRANCHES)
+                if proposal:
+                    chosen=np.r_[0,rng.choice(np.arange(1,24),3,replace=False)]
+                    actions=actions[chosen]
             else:
                 for command in commands:
-                    replay,_,_ = sim.execute(command,fine=fine)
+                    replay,_,_ = sim.execute(command,fine=fine,landmarks=proposal)
                 if not np.allclose(replay,x,atol=1.e-5):
                     raise RuntimeError(f'{domain} factual replay diverged at {seed}')
-            y,e,r = sim.execute(actions[i],fine=fine)
+            y,e,r = sim.execute(actions[i],fine=fine,landmarks=proposal)
             ys.append(y)
             edges.append(e)
             rewards.append(r)
@@ -128,8 +142,8 @@ def pushing(domain,seed,split,fine=False):
 
 
 def sample(item):
-    domain,seed,split,fine = item
-    return tower(seed) if domain == 'cophy' else pushing(domain,seed,split,fine)
+    domain,seed,split,fine,proposal = item
+    return tower(seed) if domain == 'cophy' else pushing(domain,seed,split,fine,proposal)
 
 
 def main():
@@ -138,14 +152,21 @@ def main():
     parser.add_argument('--workers',type=int,default=12)
     parser.add_argument('--count',type=int)
     parser.add_argument('--fine',action='store_true')
-    parser.add_argument('--output',type=Path,default=ROOT/'data/mechanism')
+    parser.add_argument('--proposal',action='store_true')
+    parser.add_argument('--output',type=Path)
     args = parser.parse_args()
+    if args.output is None:
+        args.output=ROOT/'data/mechanism'
+        if args.fine or args.proposal:
+            args.output=args.output/('demonstrations' if args.proposal else 'fine')
     args.output.mkdir(parents=True,exist_ok=True)
     splits = {'train':(523000,1536), 'val':(623000,144),'test':(723000,160)} if args.fine else SPLITS
+    if args.proposal:
+        splits={'train':(923000,1536),'val':(1023000,144),'test':(1123000,160)}
     for split,(base,n) in splits.items():
         n = args.count or n
         with mp.Pool(args.workers,maxtasksperchild=32) as pool:
-            rows = list(pool.imap(sample,[(args.domain,base+i,split,args.fine) for i in range(n)]))
+            rows = list(pool.imap(sample,[(args.domain,base+i,split,args.fine,args.proposal) for i in range(n)]))
         dest = args.output/f'{args.domain}-{split}.npz'
         np.savez_compressed(dest,**{k:np.asarray([row[k] for row in rows],
                            dtype=np.int64 if k=='seed' else np.float32) for k in rows[0]})

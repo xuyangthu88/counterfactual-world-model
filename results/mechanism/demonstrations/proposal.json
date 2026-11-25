@@ -1,0 +1,10 @@
+{
+  "train": 30902,
+  "val": 3148,
+  "epoch": 45,
+  "val_loss": 2.9675161838531494,
+  "seed": 271,
+  "epochs": 110,
+  "batch": 256,
+  "components": 6
+}

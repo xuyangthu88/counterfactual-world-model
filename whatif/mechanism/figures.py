@@ -12,7 +12,7 @@ if font.is_file():
 from .train import OUT,ROOT
 
 FIG=ROOT/'reports/stages/assets'
-colors=['#176D72','#DB9553','#6874A8','#BC6482','#74827D']
+colors=['#176D72','#DB9553','#6874A8','#BC6482','#74827D','#477B9E']
 plt.rcParams.update({'font.family':['Noto Sans CJK SC','DejaVu Sans'],'axes.spines.top':False,
                      'axes.spines.right':False,'font.size':10,'axes.unicode_minus':False})
 
@@ -50,9 +50,9 @@ def control_summary(rows):
 def controls(rows,file):
     summary=control_summary(rows)
     policies=['value','delta','delta_kl','pets','cophynet']
-    if 'inverse' in summary['pusht']:
-        policies=['value','delta','delta_kl','pets','inverse']
-    names={'value':'边际','delta':'配对','delta_kl':'配对+KL','pets':'PETS','cophynet':'CoPhyNet','inverse':'逆模型'}
+    if 'actor' in summary['pusht']:
+        policies=policies+['actor']
+    names={'value':'边际','delta':'配对','delta_kl':'配对+KL','pets':'PETS','cophynet':'CoPhyNet','actor':'生成器'}
     fig,axes=plt.subplots(2,2,figsize=(9,5.7))
     for side,(d,table) in enumerate(summary.items()):
         dom={'causalworld':'CausalWorld','pusht':'Push-T'}[d]
@@ -61,6 +61,24 @@ def controls(rows,file):
         bars(axes[side,1],[names[p] for p in policies],[table[p]['peak'] for p in policies],f'{dom}  回合最高任务分')
     save(fig,file)
     return summary
+
+
+def trajectories(rows):
+    fig,axes=plt.subplots(1,2,figsize=(9,3.8))
+    for ax,domain in zip(axes,['causalworld','pusht']):
+        for idx,(policy,label) in enumerate([('actor','生成器'),('value','边际'),('delta_kl','配对+KL')]):
+            row=next(r for r in rows if r['domain']==domain and r['policy']==policy and 'trace' in r)
+            trace=row['trace']
+            x=np.asarray(trace['poses'])
+            ax.plot(x[:,0],x[:,1],'.-',color=colors[idx],label=label,alpha=.75,markersize=3)
+            ax.scatter(x[-1,0],x[-1,1],marker='s',color=colors[idx],s=25)
+        ax.scatter(*trace['goal'][:2],s=130,c='#222222',marker='*',label='目标中心')
+        ax.set_title(domain+' · 首个测试布局')
+        ax.set_aspect('equal',adjustable='datalim')
+        ax.set_xlabel('x（物体长度）')
+        ax.set_ylabel('y（物体长度）')
+        ax.legend(fontsize=8)
+    save(fig,'19-native-paths.png')
 
 
 def main():

@@ -16,10 +16,12 @@ NAMES = ['mechanism','cophynet','pets','ncii','ncii_contact']
 SEED, EPOCHS, BATCH, LR = 271,60,64,.0015
 
 
-def read(split,device,domains=DOMAINS,fine=False):
+def read(split,device,domains=DOMAINS,fine=False,proposal=False):
     rows=[]
     for name in domains:
         archive=DATA/'fine' if fine and name!='cophy' else DATA
+        if proposal and name!='cophy':
+            archive=DATA/'demonstrations'
         with np.load(archive/f'{name}-{split}.npz') as f:
             d={k:f[k] for k in f}
         d['reward_mask']=np.full(len(d['x']),name!='cophy')
@@ -73,8 +75,8 @@ def goal_training(d,augment):
     return d
 
 
-def cost(name,m,d,training):
-    out=m(d)
+def cost(name,m,d,training,output=None):
+    out=m(d) if output is None else output
     target=d['y']
     movable=d['role'][:,None,:,0:1]
     observed=d['role'].sum(-1)[:,None,:,None]
@@ -99,8 +101,10 @@ def cost(name,m,d,training):
                 3*avg(loss[...,9:],boot*movable*rw.unsqueeze(-2)))
     state=avg(F.smooth_l1_loss(out['y'],target,reduction='none',beta=.18),observed+3*movable)
     rerr=out['r']-d['r']
+    importance_index=1 if 'reward_valid' in d else 2
+    importance=1+3*d['r'][...,importance_index:importance_index+1]
     reward=avg(F.smooth_l1_loss(rerr,torch.zeros_like(rerr),reduction='none',beta=.09),
-               rw*(1+3*d['r'][:,:,(1 if 'reward_valid' in d else 2):][:,:,:1]))
+               rw*importance)
     if name=='cophynet':
         stable=((target-d['x'][:,None]).norm(dim=-1)<.05).float()
         return state+2*reward+.12*bce(out['stable'],stable,observed[...,0])
@@ -125,12 +129,15 @@ def main():
     p.add_argument('name',choices=NAMES)
     p.add_argument('--device',default='cpu')
     p.add_argument('--fine',action='store_true')
+    p.add_argument('--proposal',action='store_true')
     args=p.parse_args()
     torch.set_num_threads(3)
     torch.manual_seed(SEED)
     device=args.device
-    train,val=read('train',device,fine=args.fine),read('val',device,fine=args.fine)
+    train,val=read('train',device,fine=args.fine,proposal=args.proposal),read('val',device,fine=args.fine,proposal=args.proposal)
     outdir=OUT/'fine' if args.fine else OUT
+    if args.proposal:
+        outdir=OUT/'demonstrations'
     model=build(args.name,device)
     opt=torch.optim.AdamW(model.parameters(),lr=LR)
     sched=torch.optim.lr_scheduler.CosineAnnealingLR(opt,EPOCHS,eta_min=.00015)
@@ -143,7 +150,7 @@ def main():
             d=sub(train,ix)
             ref=torch.randint(4,(len(ix),),device=device)
             d=hindsight(d,torch.rand(len(ix),device=device)<.35,ref)
-            if args.fine:
+            if args.fine or args.proposal:
                 d=goal_training(d,True)
             loss=cost(args.name,model,d,True)
             opt.zero_grad()
@@ -157,7 +164,7 @@ def main():
                 vals=[]
                 for ix in torch.arange(len(val['x']),device=device).split(BATCH):
                     d=sub(val,ix)
-                    if args.fine:
+                    if args.fine or args.proposal:
                         d=goal_training(d,False)
                     v=cost(args.name,model,d,False).item()
                     vals.append(v*len(ix))

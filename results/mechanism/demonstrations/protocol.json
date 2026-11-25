@@ -1,0 +1,52 @@
+{
+  "source": "https://diffusion-policy.cs.columbia.edu/data/training/pusht.zip",
+  "sha256": "63d52a114a3f010861f0181309d165b7d69133ccae426ece2fc94caed147bdf9",
+  "demo_episodes": 206,
+  "demo_frames": 25650,
+  "episode_split": "Zero-based episode index modulo 10 equals 9 is validation. All remaining episodes are training.",
+  "native": {
+    "causal_world": "1.2",
+    "pybullet": "3.2.7",
+    "gym": "0.23.1",
+    "pymunk": "6.6.0",
+    "numpy": "1.23.5"
+  },
+  "train_torch": "2.13.0+cu130",
+  "upstream": {
+    "pusht": "5ba07ac6661db573af695b419a7947ecb704690f",
+    "cophy": "170fe463c9e80ddf0978110438a710cabb4997e2",
+    "mbrl": "3f93cccfc8d635f74e335a2f07aab6e9a48fc021"
+  },
+  "seed": 271,
+  "pushing": {
+    "train": [
+      923000,
+      1536
+    ],
+    "val": [
+      1023000,
+      144
+    ],
+    "test": [
+      1123000,
+      160
+    ],
+    "closed_loop": [
+      1223000,
+      96
+    ]
+  },
+  "model_epochs": 60,
+  "model_batch_layouts": 64,
+  "proposal_epochs": 110,
+  "proposal_batch": 256,
+  "candidates": 24,
+  "macro_native_ticks": 8,
+  "max_macros": 36,
+  "noise_scenarios": 4,
+  "actor_log_weight": 0.075,
+  "actor_log_floor": -6,
+  "kl_weight": 0.12,
+  "harm_margin": 0.04,
+  "harm_limit": 0.4
+}
