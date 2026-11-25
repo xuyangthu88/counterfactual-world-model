@@ -36,8 +36,8 @@ class NativeBatch:
             if not line:raise RuntimeError('Native worker stopped. See work/stage8/worker logs.')
             for i,*row in json.loads(line): result[i]=row
         return result
-    def reset(self,task,seeds,split):
-        return self.call([dict(op='reset',task=task,split=split,seeds=seeds[i::len(self.workers)])
+    def reset(self,task,seeds,split,fixed_coast=None):
+        return self.call([dict(op='reset',task=task,split=split,seeds=seeds[i::len(self.workers)],fixed_coast=fixed_coast)
                           for i in range(len(self.workers))])
     def step(self,moves,measure=False):
         groups=[[] for _ in self.workers]

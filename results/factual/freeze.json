@@ -1,0 +1,30 @@
+{
+  "causalworld": {
+    "ours": "enumerate",
+    "terminal": false,
+    "cophy": 0.25,
+    "validation": {
+      "cem": 0.8750168489341047,
+      "enumerate": 0.8877753144622381,
+      "root": 0.8762276043711851,
+      "pets": 0.8697794628684364,
+      "pets_plain": 0.8841432615285295,
+      "cophy": 0.9146627832541153,
+      "cophy_high": 0.8505347522818262
+    }
+  },
+  "pusht": {
+    "ours": "cem",
+    "terminal": true,
+    "cophy": 0.7,
+    "validation": {
+      "cem": 0.6659409651120326,
+      "enumerate": 0.6481455706838252,
+      "root": 0.6366351645958742,
+      "pets": 0.6757568504960675,
+      "pets_plain": 0.6956344080523454,
+      "cophy": 0.5476872172479385,
+      "cophy_high": 0.5818950767376061
+    }
+  }
+}

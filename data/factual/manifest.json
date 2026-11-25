@@ -1,0 +1,132 @@
+{
+  "causalworld-history.npz": {
+    "n": 96,
+    "axis1": "consecutive strokes",
+    "actions": 5,
+    "seeds": [
+      561000,
+      561095
+    ],
+    "sha256": "055203118284fc1e7ea96844dc2191a9b718b85219b3510fc4070b416b123a94"
+  },
+  "causalworld-test.npz": {
+    "n": 192,
+    "axis1": "alternative actions",
+    "actions": 12,
+    "seeds": [
+      531000,
+      531191
+    ],
+    "sha256": "b2fe7360c88177aa350a7c12bec4819f5bcfe880215094294d0a1c62d8ee87eb"
+  },
+  "causalworld-train.npz": {
+    "n": 384,
+    "axis1": "alternative actions",
+    "actions": 12,
+    "seeds": [
+      511000,
+      511383
+    ],
+    "sha256": "1a504d7bc1999d0ecbbc65ad84fa8230f48863254f5e6d467d3ff6bb4b578c55"
+  },
+  "causalworld-val.npz": {
+    "n": 160,
+    "axis1": "alternative actions",
+    "actions": 12,
+    "seeds": [
+      521000,
+      521159
+    ],
+    "sha256": "44e7fbd20cf22cc080ad481bacc4a4ce129229bcbc85849def5ca35654659834"
+  },
+  "pusht-history.npz": {
+    "n": 96,
+    "axis1": "consecutive strokes",
+    "actions": 5,
+    "seeds": [
+      561000,
+      561095
+    ],
+    "sha256": "2124c5c360310fe472eddc5390dd8f65ec3fb90f82284858344f373810ac0770"
+  },
+  "pusht-test.npz": {
+    "n": 256,
+    "axis1": "alternative actions",
+    "actions": 12,
+    "seeds": [
+      531000,
+      531255
+    ],
+    "sha256": "c6413388eb4bbb8b6d9d7dd7c0ecf3512a3e1f468074222c5a81e9f437221d26"
+  },
+  "pusht-train.npz": {
+    "n": 768,
+    "axis1": "alternative actions",
+    "actions": 12,
+    "seeds": [
+      511000,
+      511767
+    ],
+    "sha256": "892674747facb4d8a6ec94364a6b850c6cc9ce1ffa60bd23e0345c6a87cf8e93"
+  },
+  "pusht-val.npz": {
+    "n": 192,
+    "axis1": "alternative actions",
+    "actions": 12,
+    "seeds": [
+      521000,
+      521191
+    ],
+    "sha256": "5da87b6a8ebcd161f1f2f1f2e78ea4a7afeab11e775ddb98957ad34a928a7dd9"
+  },
+  "wall-test.npz": {
+    "n": 192,
+    "axis1": "alternative actions",
+    "actions": 8,
+    "seeds": [
+      535000,
+      535191
+    ],
+    "sha256": "7433c370d94250276019546d1f56e873813577f4e9cc54e989d47006a1093ac8"
+  },
+  "wall-train.npz": {
+    "n": 640,
+    "axis1": "alternative actions",
+    "actions": 8,
+    "seeds": [
+      515000,
+      515639
+    ],
+    "sha256": "ac9acaffb226e404dae9c09b14aa62c09fc8ecc6b7fd8301156954c9b8082017"
+  },
+  "wall-val.npz": {
+    "n": 160,
+    "axis1": "alternative actions",
+    "actions": 8,
+    "seeds": [
+      525000,
+      525159
+    ],
+    "sha256": "a7df2a098ac7faa5f37d2ccde919afb1b450d6683cfe69d1c8105071b682ca29"
+  },
+  "wall_crossed-test.npz": {
+    "n": 192,
+    "axis1": "alternative actions",
+    "actions": 8,
+    "seeds": [
+      537000,
+      537191
+    ],
+    "sha256": "4b684f04c08145aee573656a5a8b77fab4b2f97b20a09ea06ba8682e180eb8b9"
+  },
+  "wall_crossed-val.npz": {
+    "n": 160,
+    "axis1": "alternative actions",
+    "actions": 8,
+    "seeds": [
+      527000,
+      527159
+    ],
+    "sha256": "0f53ea129495cbd42e8d48fcc57b54f9c1b2257b784bd3d21c20592a4697c33a"
+  }
+}

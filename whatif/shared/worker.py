@@ -19,6 +19,7 @@ def main():
                 scenes.clear()
                 for seed in job['seeds']:
                     e=Scene(job['task'],seed,job['split'])
+                    e.fixed_coast=job.get('fixed_coast')
                     scenes[seed]=e
                     responses.append([seed,e.state().tolist(),e.env.protocol])
             else:

@@ -20,11 +20,12 @@ class Scene:
         self.rho=.45
         self.samples=0
         self.null=-1
+        self.fixed_coast=None
 
     def state(self):
         return np.r_[self.env.obs(),self.rho,min(self.samples,6)/6].astype('float32')
 
-    def push(self,index,budget=42,stop=False,noise=0.,null=-1):
+    def push(self,index,budget=42,stop=False,noise=0.,null=-1,command=None):
         env=self.env
         self.latest_free=[]
         if self.task=='causalworld':
@@ -32,7 +33,7 @@ class Scene:
             z,edge=env.run(ACTIONS[index],noise,null)
             return self.state(),edge,env.steps,float(z[12])
         e=env.env
-        initial=self.state();cmd=menu(initial)[index]
+        initial=self.state();cmd=menu(initial)[index] if command is None else command
         site=(cmd[:2]+[0.,.45])*100
         inward=cmd[2:4]
         dest=site-17*inward
@@ -79,10 +80,11 @@ class Scene:
         torque=cmd[5]/.47
         denom=1+torque*torque
         for _ in range(12):
-            if not remaining():break
+            if not remaining() or cmd[4]<=0:break
             r=rot(e.block.angle);c=np.asarray(e.block.position)+r@np.array([0.,45.])
             v=np.asarray(e.block.velocity);w=e.block.angular_velocity
-            time=.1*self.rho/max(.10,1-self.rho)
+            coasting=self.rho if self.fixed_coast is None else self.fixed_coast
+            time=.1*coasting/max(.10,1-coasting)
             achieved=((c-center)@axis+torque*47*wrap(e.block.angle-theta))/denom
             coast=time*(v@axis+torque*47*w)/denom
             left=length-achieved-coast
