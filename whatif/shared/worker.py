@@ -24,7 +24,11 @@ def main():
             else:
                 for seed,i,budget in job['moves']:
                     z,g,n,peak=scenes[seed].push(i,budget,stop=True)
-                    responses.append([seed,z.tolist(),int(n),float(peak)])
+                    row=[seed,z.tolist(),int(n),float(peak)]
+                    if job.get('measure'):
+                        v=scenes[seed].latest_free
+                        row.extend([len(v),sum(v)/len(v) if v else 0.])
+                    responses.append(row)
             output.write(json.dumps(responses)+'\n')
     finally:
         for env in scenes.values():env.close()

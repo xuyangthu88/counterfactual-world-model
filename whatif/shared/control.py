@@ -39,10 +39,10 @@ class NativeBatch:
     def reset(self,task,seeds,split):
         return self.call([dict(op='reset',task=task,split=split,seeds=seeds[i::len(self.workers)])
                           for i in range(len(self.workers))])
-    def step(self,moves):
+    def step(self,moves,measure=False):
         groups=[[] for _ in self.workers]
         for seed,idx,budget in moves:groups[(seed-self.start)%len(groups)].append([seed,int(idx),int(budget)])
-        return self.call([dict(op='step',moves=g) for g in groups])
+        return self.call([dict(op='step',moves=g,measure=measure) for g in groups])
 
 
 @torch.no_grad()

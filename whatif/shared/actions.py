@@ -8,7 +8,7 @@ OUT=Path('results/shared')
 START={'train':221000,'val':231000,'test':241000,'controlval':251000,'transfer_val':255000,'control':261000}
 # Body-local candidate sites, boundary of the two rectangles in PushT.
 corners=np.array([[-60.,0],[60.,0],[60.,30],[15.,30],[15.,120],[-15.,120],[-15.,30],[-60.,30]])
-sites=[]; natives=[]
+sites=[]
 for i,(a,b) in enumerate(zip(corners,np.roll(corners,-1,axis=0))):
     v=(b-a)/np.linalg.norm(b-a)
     outward=v[[1,0]]*np.array([1,-1])
@@ -23,8 +23,6 @@ for i,(a,b) in enumerate(zip(corners,np.roll(corners,-1,axis=0))):
 SITES=np.array(sites)
 L=.47
 FACTORS=np.array([.35,.80,1.35])
-N_TEE=12
-N_ACTIONS=12
 
 
 def rotate(x,theta):

@@ -4,7 +4,11 @@ from .actions import OUT
 
 
 def pack(path, groups):
-    with path.open('w',newline='') as dst:
+    if not any(groups.values()):
+        if path.is_file():return
+        raise FileNotFoundError(f'No run shards for {path}')
+    temp=path.with_suffix('.tmp.csv')
+    with temp.open('w',newline='') as dst:
         writer=None
         for kind,files in groups.items():
             for f in files:
@@ -14,6 +18,7 @@ def pack(path, groups):
                         if writer is None:
                             writer=csv.DictWriter(dst,fieldnames=row,lineterminator='\n');writer.writeheader()
                         writer.writerow(row)
+    temp.replace(path)
 
 
 if __name__=='__main__':

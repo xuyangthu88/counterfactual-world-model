@@ -1,0 +1,128 @@
+{
+  "causalworld-fit.npz": {
+    "n": 450,
+    "seed_min": 311000,
+    "seed_max": 311449,
+    "keys": [
+      "b",
+      "cmd",
+      "edge",
+      "end",
+      "measurement",
+      "peak",
+      "physics",
+      "previous",
+      "previous_actions",
+      "protocol",
+      "ref",
+      "seed",
+      "state"
+    ],
+    "sha256": "28e990ec896edb1221044b186d8c02a1bad666e5458708c1ef116ee3d188c759"
+  },
+  "causalworld-test.npz": {
+    "n": 192,
+    "seed_min": 331000,
+    "seed_max": 331191,
+    "keys": [
+      "b",
+      "cmd",
+      "edge",
+      "end",
+      "measurement",
+      "peak",
+      "physics",
+      "previous",
+      "previous_actions",
+      "protocol",
+      "ref",
+      "seed",
+      "state"
+    ],
+    "sha256": "0d86271b4da9c94fde560e677d6ab62ecf1d8f0277f5cdeb384df49fa451e8c8"
+  },
+  "causalworld-val.npz": {
+    "n": 144,
+    "seed_min": 321000,
+    "seed_max": 321143,
+    "keys": [
+      "b",
+      "cmd",
+      "edge",
+      "end",
+      "measurement",
+      "peak",
+      "physics",
+      "previous",
+      "previous_actions",
+      "protocol",
+      "ref",
+      "seed",
+      "state"
+    ],
+    "sha256": "5c734282ade21ccd306f77068eb0dee4bfc6b58b66ceca46ba49bd2ff1358069"
+  },
+  "pusht-fit.npz": {
+    "n": 1100,
+    "seed_min": 311000,
+    "seed_max": 312099,
+    "keys": [
+      "b",
+      "cmd",
+      "edge",
+      "end",
+      "measurement",
+      "peak",
+      "physics",
+      "previous",
+      "previous_actions",
+      "protocol",
+      "ref",
+      "seed",
+      "state"
+    ],
+    "sha256": "b2fc734e28b9c6216652af163da727c6553625e96f38789f83662dfd87f39eb0"
+  },
+  "pusht-test.npz": {
+    "n": 256,
+    "seed_min": 331000,
+    "seed_max": 331255,
+    "keys": [
+      "b",
+      "cmd",
+      "edge",
+      "end",
+      "measurement",
+      "peak",
+      "physics",
+      "previous",
+      "previous_actions",
+      "protocol",
+      "ref",
+      "seed",
+      "state"
+    ],
+    "sha256": "40f5cf77237b8fe5a17f7d7b9d027bfdf8e28aef48b56eb6e102b7760bc97ce1"
+  },
+  "pusht-val.npz": {
+    "n": 192,
+    "seed_min": 321000,
+    "seed_max": 321191,
+    "keys": [
+      "b",
+      "cmd",
+      "edge",
+      "end",
+      "measurement",
+      "peak",
+      "physics",
+      "previous",
+      "previous_actions",
+      "protocol",
+      "ref",
+      "seed",
+      "state"
+    ],
+    "sha256": "63c47668843b11b5190366b1180ef71c8e4844d3bd41cec9e6ab6be51f3ea733"
+  }
+}

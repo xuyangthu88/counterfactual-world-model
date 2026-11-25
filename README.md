@@ -1,5 +1,7 @@
 # WhatIf · 基于事实交互的反事实世界模型
 
+**Stage 09**　[事实试推后的前瞻预测、粒子后验和两个基准的闭环对照](reports/stages/09-prospective-control.md)。
+
 **Stage 08**　[共享接触模型、未知阻尼与多步规划的完整实验报告](reports/stages/08-shared-contact.md)。
 
 **Stage 07**　[Stage 07 · 跨场景反事实世界模型的选题依据、方法与三项实测](reports/stages/07-crossbench.md)。同一份权重运行于 CausalWorld Pushing 和 PushT，分别与 NCII、CoPhyNet、PETS 比较建图、预测和控制。下方保留前期单块和多物体实验。

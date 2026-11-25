@@ -2,7 +2,7 @@
 import numpy as np
 from shapely.geometry import Point
 from whatif.crossbench.tasks import ACTIONS,create
-from whatif.crossbench.surface import POLY,rot,visible,waypoints,DEST,SITES as OLD
+from whatif.crossbench.surface import POLY,rot,visible,waypoints,DEST
 from .actions import menu,rotate,wrap
 
 
@@ -26,6 +26,7 @@ class Scene:
 
     def push(self,index,budget=42,stop=False,noise=0.,null=-1):
         env=self.env
+        self.latest_free=[]
         if self.task=='causalworld':
             env.stop_on_success=stop
             z,edge=env.run(ACTIONS[index],noise,null)
@@ -56,6 +57,7 @@ class Scene:
                 if np.linalg.norm(vp-ratio*v)<max(1.,.05*np.linalg.norm(v)):
                     self.rho=ratio if not self.samples else .75*self.rho+.25*ratio
                     self.samples+=1
+                    self.latest_free.append(float(ratio))
             steps+=1;peak=max(peak,float(reward)*.95)
         def remaining():
             return steps<budget and not (stop and success)
