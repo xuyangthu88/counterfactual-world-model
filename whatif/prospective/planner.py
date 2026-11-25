@@ -26,7 +26,7 @@ def enumerate_cw(model,s,a,belief,cfg,contact_cost=0.):
     return (.65*now+.35*later).argmax(1)
 
 
-def cem(model,s,task,seed,belief=None,correction=None,terminal=False,contact_cost=0.):
+def cem(model,s,task,seed,belief=None,correction=None,terminal=False,contact_cost=0.,readout=None,retain_heads=False):
     # Equal 5x3 rollout budget for the graph and the Gaussian ensemble.
     torch.manual_seed(seed)
     eps=torch.randn(3,5,1,16,device=s.device)
@@ -53,6 +53,10 @@ def cem(model,s,task,seed,belief=None,correction=None,terminal=False,contact_cos
                 z=correct(st,a,z,edge,gg.expand_as(draw))
                 u=.55*task_value(st,z,peak)+.45*rank
                 if contact_cost:u=u-contact_cost*missed_contact(edge,task)
+            if readout is not None:
+                z,geometric_peak=readout(st,z)
+                u=task_value(st,z,peak if retain_heads else geometric_peak)
+                if retain_heads and belief is not None:u=.55*u+.45*rank
             instant=.35*u+.65*mechanical(st,a)
             total=total+.85**h*alive*instant
             done=z[...,12]>(.90+.05*st[...,13])

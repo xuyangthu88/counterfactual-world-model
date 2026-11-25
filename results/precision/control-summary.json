@@ -1,0 +1,544 @@
+{
+  "pusht": {
+    "cophy-raw": {
+      "all": {
+        "n": 160,
+        "success": 62,
+        "coverage": 0.875176796130836,
+        "steps": 248.95625
+      },
+      "0": {
+        "n": 80,
+        "success": 37,
+        "coverage": 0.8987190149724483,
+        "steps": 246.4625
+      },
+      "1": {
+        "n": 80,
+        "success": 25,
+        "coverage": 0.8516345772892236,
+        "steps": 251.45
+      }
+    },
+    "cophy-selected": {
+      "all": {
+        "n": 160,
+        "success": 57,
+        "coverage": 0.874323072656989,
+        "steps": 252.44375
+      },
+      "0": {
+        "n": 80,
+        "success": 30,
+        "coverage": 0.9001970630139112,
+        "steps": 252.2625
+      },
+      "1": {
+        "n": 80,
+        "success": 27,
+        "coverage": 0.848449082300067,
+        "steps": 252.625
+      }
+    },
+    "graph-endonly": {
+      "all": {
+        "n": 160,
+        "success": 102,
+        "coverage": 0.9153971388936043,
+        "steps": 225.91875
+      },
+      "0": {
+        "n": 80,
+        "success": 63,
+        "coverage": 0.9405218660831451,
+        "steps": 211.025
+      },
+      "1": {
+        "n": 80,
+        "success": 39,
+        "coverage": 0.8902724117040635,
+        "steps": 240.8125
+      }
+    },
+    "graph-raw": {
+      "all": {
+        "n": 160,
+        "success": 79,
+        "coverage": 0.9037102058529853,
+        "steps": 238.1375
+      },
+      "0": {
+        "n": 80,
+        "success": 51,
+        "coverage": 0.938709630817175,
+        "steps": 223.4375
+      },
+      "1": {
+        "n": 80,
+        "success": 28,
+        "coverage": 0.8687107808887958,
+        "steps": 252.8375
+      }
+    },
+    "graph-selected": {
+      "all": {
+        "n": 160,
+        "success": 96,
+        "coverage": 0.9055113278329372,
+        "steps": 228.44375
+      },
+      "0": {
+        "n": 80,
+        "success": 60,
+        "coverage": 0.9426885738968849,
+        "steps": 217.05
+      },
+      "1": {
+        "n": 80,
+        "success": 36,
+        "coverage": 0.8683340817689895,
+        "steps": 239.8375
+      }
+    },
+    "graph-stage11": {
+      "all": {
+        "n": 160,
+        "success": 87,
+        "coverage": 0.89988564979285,
+        "steps": 235.7125
+      },
+      "0": {
+        "n": 80,
+        "success": 58,
+        "coverage": 0.9396428145468235,
+        "steps": 219.025
+      },
+      "1": {
+        "n": 80,
+        "success": 29,
+        "coverage": 0.8601284850388765,
+        "steps": 252.4
+      }
+    },
+    "pets-endonly": {
+      "all": {
+        "n": 160,
+        "success": 79,
+        "coverage": 0.9076928071677685,
+        "steps": 241.29375
+      },
+      "0": {
+        "n": 80,
+        "success": 32,
+        "coverage": 0.9283973589539528,
+        "steps": 247.6375
+      },
+      "1": {
+        "n": 80,
+        "success": 47,
+        "coverage": 0.8869882553815842,
+        "steps": 234.95
+      }
+    },
+    "pets-raw": {
+      "all": {
+        "n": 160,
+        "success": 103,
+        "coverage": 0.8967538085766137,
+        "steps": 227.9625
+      },
+      "0": {
+        "n": 80,
+        "success": 58,
+        "coverage": 0.9344722419977188,
+        "steps": 221.6625
+      },
+      "1": {
+        "n": 80,
+        "success": 45,
+        "coverage": 0.8590353751555085,
+        "steps": 234.2625
+      }
+    },
+    "pets-selected": {
+      "all": {
+        "n": 160,
+        "success": 85,
+        "coverage": 0.9034386292099953,
+        "steps": 239.00625
+      },
+      "0": {
+        "n": 80,
+        "success": 43,
+        "coverage": 0.935053677111864,
+        "steps": 235.8
+      },
+      "1": {
+        "n": 80,
+        "success": 42,
+        "coverage": 0.8718235813081264,
+        "steps": 242.2125
+      }
+    },
+    "physics-raw": {
+      "all": {
+        "n": 160,
+        "success": 74,
+        "coverage": 0.8924831517972052,
+        "steps": 247.01875
+      },
+      "0": {
+        "n": 80,
+        "success": 38,
+        "coverage": 0.9154801487922668,
+        "steps": 245.1375
+      },
+      "1": {
+        "n": 80,
+        "success": 36,
+        "coverage": 0.8694861548021435,
+        "steps": 248.9
+      }
+    },
+    "static-selected": {
+      "all": {
+        "n": 160,
+        "success": 99,
+        "coverage": 0.9114058263599872,
+        "steps": 228.6
+      },
+      "0": {
+        "n": 80,
+        "success": 60,
+        "coverage": 0.9450515866279602,
+        "steps": 215.925
+      },
+      "1": {
+        "n": 80,
+        "success": 39,
+        "coverage": 0.8777600660920143,
+        "steps": 241.275
+      }
+    },
+    "uniform-selected": {
+      "all": {
+        "n": 160,
+        "success": 89,
+        "coverage": 0.9021386593580246,
+        "steps": 231.96875
+      },
+      "0": {
+        "n": 80,
+        "success": 58,
+        "coverage": 0.9428974844515323,
+        "steps": 217.5375
+      },
+      "1": {
+        "n": 80,
+        "success": 31,
+        "coverage": 0.8613798342645168,
+        "steps": 246.4
+      }
+    },
+    "cophy-endonly": {
+      "all": {
+        "n": 160,
+        "success": 57,
+        "coverage": 0.874323072656989,
+        "steps": 252.44375
+      },
+      "0": {
+        "n": 80,
+        "success": 30,
+        "coverage": 0.9001970630139112,
+        "steps": 252.2625
+      },
+      "1": {
+        "n": 80,
+        "success": 27,
+        "coverage": 0.848449082300067,
+        "steps": 252.625
+      }
+    }
+  },
+  "causalworld": {
+    "cophy-selected": {
+      "all": {
+        "n": 160,
+        "success": 145,
+        "coverage": 0.8565285802120343,
+        "steps": 127.44375
+      },
+      "1": {
+        "n": 40,
+        "success": 40,
+        "coverage": 0.9377418622374535,
+        "steps": 79.125
+      },
+      "2": {
+        "n": 40,
+        "success": 40,
+        "coverage": 0.9155666902661324,
+        "steps": 108.825
+      },
+      "7": {
+        "n": 40,
+        "success": 40,
+        "coverage": 0.9436417683959007,
+        "steps": 50.05
+      },
+      "8": {
+        "n": 40,
+        "success": 25,
+        "coverage": 0.6291639999486506,
+        "steps": 271.775
+      }
+    },
+    "graph-selected": {
+      "all": {
+        "n": 160,
+        "success": 146,
+        "coverage": 0.863016394735314,
+        "steps": 129.71875
+      },
+      "1": {
+        "n": 40,
+        "success": 40,
+        "coverage": 0.9387769564986229,
+        "steps": 81.2
+      },
+      "2": {
+        "n": 40,
+        "success": 39,
+        "coverage": 0.9119518354535103,
+        "steps": 121.025
+      },
+      "7": {
+        "n": 40,
+        "success": 40,
+        "coverage": 0.945564004778862,
+        "steps": 50.9
+      },
+      "8": {
+        "n": 40,
+        "success": 27,
+        "coverage": 0.6557727822102606,
+        "steps": 265.75
+      }
+    },
+    "pets-selected": {
+      "all": {
+        "n": 160,
+        "success": 144,
+        "coverage": 0.8590039377333596,
+        "steps": 129.24375
+      },
+      "1": {
+        "n": 40,
+        "success": 40,
+        "coverage": 0.9377418622374535,
+        "steps": 79.125
+      },
+      "2": {
+        "n": 40,
+        "success": 40,
+        "coverage": 0.9154223874211311,
+        "steps": 108.65
+      },
+      "7": {
+        "n": 40,
+        "success": 40,
+        "coverage": 0.9437948793172837,
+        "steps": 50.075
+      },
+      "8": {
+        "n": 40,
+        "success": 24,
+        "coverage": 0.6390566219575703,
+        "steps": 279.125
+      }
+    },
+    "physics-raw": {
+      "all": {
+        "n": 160,
+        "success": 141,
+        "coverage": 0.8393092747312039,
+        "steps": 133.48125
+      },
+      "1": {
+        "n": 40,
+        "success": 40,
+        "coverage": 0.9393081903457642,
+        "steps": 78.15
+      },
+      "2": {
+        "n": 40,
+        "success": 40,
+        "coverage": 0.9155666902661324,
+        "steps": 108.825
+      },
+      "7": {
+        "n": 40,
+        "success": 38,
+        "coverage": 0.9255878016352653,
+        "steps": 70.65
+      },
+      "8": {
+        "n": 40,
+        "success": 23,
+        "coverage": 0.5767744166776538,
+        "steps": 276.3
+      }
+    },
+    "static-selected": {
+      "all": {
+        "n": 160,
+        "success": 147,
+        "coverage": 0.8669985369080677,
+        "steps": 125.3125
+      },
+      "1": {
+        "n": 40,
+        "success": 40,
+        "coverage": 0.9387769564986229,
+        "steps": 81.2
+      },
+      "2": {
+        "n": 40,
+        "success": 40,
+        "coverage": 0.922301922738552,
+        "steps": 106.925
+      },
+      "7": {
+        "n": 40,
+        "success": 40,
+        "coverage": 0.945564004778862,
+        "steps": 50.9
+      },
+      "8": {
+        "n": 40,
+        "success": 27,
+        "coverage": 0.6613512636162341,
+        "steps": 262.225
+      }
+    },
+    "uniform-selected": {
+      "all": {
+        "n": 160,
+        "success": 145,
+        "coverage": 0.8602098264032975,
+        "steps": 126.75625
+      },
+      "1": {
+        "n": 40,
+        "success": 40,
+        "coverage": 0.9387769564986229,
+        "steps": 81.2
+      },
+      "2": {
+        "n": 40,
+        "success": 40,
+        "coverage": 0.922301922738552,
+        "steps": 106.925
+      },
+      "7": {
+        "n": 40,
+        "success": 40,
+        "coverage": 0.945564004778862,
+        "steps": 50.9
+      },
+      "8": {
+        "n": 40,
+        "success": 25,
+        "coverage": 0.634196421597153,
+        "steps": 268.0
+      }
+    }
+  },
+  "p9": {
+    "cophy-selected": {
+      "all": {
+        "n": 80,
+        "success": 57,
+        "coverage": 0.6994444956071675,
+        "steps": 241.45
+      },
+      "9": {
+        "n": 80,
+        "success": 57,
+        "coverage": 0.6994444956071675,
+        "steps": 241.45
+      }
+    },
+    "graph-selected": {
+      "all": {
+        "n": 80,
+        "success": 53,
+        "coverage": 0.6968201342970133,
+        "steps": 253.0
+      },
+      "9": {
+        "n": 80,
+        "success": 53,
+        "coverage": 0.6968201342970133,
+        "steps": 253.0
+      }
+    },
+    "pets-selected": {
+      "all": {
+        "n": 80,
+        "success": 55,
+        "coverage": 0.6927418556064368,
+        "steps": 253.35
+      },
+      "9": {
+        "n": 80,
+        "success": 55,
+        "coverage": 0.6927418556064368,
+        "steps": 253.35
+      }
+    },
+    "physics-raw": {
+      "all": {
+        "n": 80,
+        "success": 52,
+        "coverage": 0.6811897804960608,
+        "steps": 254.1625
+      },
+      "9": {
+        "n": 80,
+        "success": 52,
+        "coverage": 0.6811897804960608,
+        "steps": 254.1625
+      }
+    },
+    "static-selected": {
+      "all": {
+        "n": 80,
+        "success": 57,
+        "coverage": 0.7204627975821495,
+        "steps": 245.85
+      },
+      "9": {
+        "n": 80,
+        "success": 57,
+        "coverage": 0.7204627975821495,
+        "steps": 245.85
+      }
+    },
+    "uniform-selected": {
+      "all": {
+        "n": 80,
+        "success": 57,
+        "coverage": 0.7193712085485459,
+        "steps": 245.775
+      },
+      "9": {
+        "n": 80,
+        "success": 57,
+        "coverage": 0.7193712085485459,
+        "steps": 245.775
+      }
+    }
+  }
+}

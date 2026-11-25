@@ -1,0 +1,93 @@
+{
+  "causalworld": {
+    "graph": "raw",
+    "pets": "raw",
+    "cophy": "raw"
+  },
+  "pusht": {
+    "graph": "exact",
+    "pets": "exact",
+    "cophy": "endonly"
+  },
+  "validation": {
+    "graph": {
+      "raw": [
+        41,
+        0.9320013951510191,
+        217.765625
+      ],
+      "endonly": [
+        41,
+        0.9163721352815628,
+        221.609375
+      ],
+      "exact": [
+        44,
+        0.9169131815433502,
+        218.171875
+      ],
+      "local": [
+        39,
+        0.9133030325174332,
+        221.4375
+      ]
+    },
+    "pets": {
+      "raw": [
+        44,
+        0.9116418249905109,
+        219.59375
+      ],
+      "endonly": [
+        37,
+        0.9241320611909032,
+        227.046875
+      ],
+      "exact": [
+        46,
+        0.930517977103591,
+        214.84375
+      ],
+      "local": [
+        43,
+        0.9209482176229358,
+        212.03125
+      ]
+    },
+    "cophy": {
+      "raw": [
+        29,
+        0.894329983741045,
+        244.625
+      ],
+      "endonly": [
+        32,
+        0.8931207372806966,
+        237.953125
+      ],
+      "exact": [
+        31,
+        0.8942847643047571,
+        238.875
+      ]
+    }
+  },
+  "checkpoints": {
+    "graph": "33828f4736037034a696bbc13c25b51eac255a4de9e5732de11fe86dac00a6fa",
+    "pets": "a8c3b73c9a62ec2b074dc8db5619d1be548087176a17b078efe60735c88a1bb0",
+    "cophy": "b55d3274a3791b9665f741358348f2998ff82c4d09a51ef1e4e9be546100952b"
+  },
+  "primary_seeds": [
+    651000,
+    651159
+  ],
+  "p9_seeds": [
+    657000,
+    657079
+  ],
+  "test_comparisons": {
+    "pusht": "three selected policies, physics, old graph and planner, per-model raw/endonly, graph uniform/static",
+    "causalworld": "three selected policies, physics, graph static/uniform",
+    "p9": "three transferred policies, physics, graph static/uniform"
+  }
+}

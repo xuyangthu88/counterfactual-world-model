@@ -33,7 +33,7 @@ class World:
         self.scene = s = PushingScene([0,-.08], 0, .02, None, [0,.08], seed)
         # Default configurations with mass variation, and joint layout/mass interventions.
         ab = 1 if split in ('test', 'control') and seed % 4 >= 2 else 0
-        self.protocol = (1 if seed % 2 == 0 else 7) + ab
+        self.protocol = 9 if split == 'p9' else (1 if seed % 2 == 0 else 7) + ab
         protocol = next(p for p in PUSHING_BENCHMARK['evaluation_protocols']
                         if p.get_name() == f'P{self.protocol}')
         protocol.init_protocol(s.env,None)
@@ -63,7 +63,7 @@ class World:
         return np.r_[pos[:2]/self.scale,pos[2],tips.ravel()/self.scale,self.goal/self.scale,
                      0.,cover,0.,np.array(v[:2])*.1/self.scale,w[2]*.1]
 
-    def run(self, action, noise=0., null=-1):
+    def run(self, action, noise=0., null=-1, observe=None):
         from whatif.simulator import Push
         s = self.scene
         f, _ = directions(s.state()[:2], self.goal, action)
@@ -82,6 +82,8 @@ class World:
             for hit in self.pb.getContactPoints(self.robot_id,s.body,physicsClientId=s.client):
                 if hit[9] > .001 and 0 <= hit[3] <= self.links[-1]:
                     edge[np.searchsorted(self.links,hit[3])] = True
+            if observe is not None:
+                observe(self.steps,edge,s.env._task._current_goal_reward)
             if getattr(self,"stop_on_success",False) and s.env._task._current_goal_reward > .90:
                 raise GoalReached
         toggle(0)

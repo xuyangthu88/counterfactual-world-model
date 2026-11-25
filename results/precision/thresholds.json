@@ -1,0 +1,22 @@
+{
+  "pusht": {
+    "graph": 0.375,
+    "ncii": 0.39999999999999997,
+    "source_only": 0.025
+  },
+  "near": {
+    "graph": 0.375,
+    "ncii": 0.45,
+    "source_only": 0.025
+  },
+  "causalworld": {
+    "graph": 0.45,
+    "ncii": 0.475,
+    "source_only": 0.24999999999999997
+  },
+  "wall": {
+    "graph": 0.475,
+    "ncii": 0.375,
+    "source_only": 0.325
+  }
+}

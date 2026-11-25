@@ -25,12 +25,21 @@ class Scene:
     def state(self):
         return np.r_[self.env.obs(),self.rho,min(self.samples,6)/6].astype('float32')
 
-    def push(self,index,budget=42,stop=False,noise=0.,null=-1,command=None):
+    def push(self,index,budget=42,stop=False,noise=0.,null=-1,command=None,phases=None):
         env=self.env
         self.latest_free=[]
         if self.task=='causalworld':
             env.stop_on_success=stop
-            z,edge=env.run(ACTIONS[index],noise,null)
+            peak_cw = [float(self.state()[12])] if phases is not None else None
+            def observe(ticks, contacts, coverage):
+                peak_cw[0]=max(peak_cw[0],float(coverage))
+                if ticks in (24,33,42):
+                    phases.append((self.state(),contacts.copy(),ticks,peak_cw[0]))
+                    contacts[:]=False
+            z,edge=env.run(ACTIONS[index],noise,null,observe if phases is not None else None)
+            if phases is not None:
+                edge=np.any([v[1] for v in phases]+[edge],axis=0)
+                return self.state(),edge,env.steps,peak_cw[0]
             return self.state(),edge,env.steps,float(z[12])
         e=env.env
         initial=self.state();cmd=menu(initial)[index] if command is None else command
@@ -59,7 +68,7 @@ class Scene:
                     self.rho=ratio if not self.samples else .75*self.rho+.25*ratio
                     self.samples+=1
                     self.latest_free.append(float(ratio))
-            steps+=1;peak=max(peak,float(reward)*.95)
+            steps+=1;peak=max(peak,float(self.state()[12]) if phases is not None and success else float(reward)*.95)
         def remaining():
             return steps<budget and not (stop and success)
         # Approach in the frame of the moving body. Use a visibility path around the T.
@@ -73,6 +82,9 @@ class Scene:
                 target=via
             for _ in range(2):
                 if remaining():tick(target,30.)
+        if phases is not None:
+            phases.append((self.state(),env.edge.copy(),steps,peak))
+            env.edge[:]=False
         # Feedback stroke. Estimate where the free body will coast from observed velocity.
         p=np.asarray(e.block.position);R=rot(e.block.angle)
         axis=R@inward;center=p+R@np.array([0.,45.]);theta=e.block.angle
@@ -92,6 +104,9 @@ class Scene:
             step=np.clip(left*.65,2.,15.)
             contact=np.asarray(e.block.position)+r@dest
             tick(contact+axis*(2.+step),np.clip(step,3.,14.))
+        if phases is not None:
+            phases.append((self.state(),env.edge.copy(),steps,peak))
+            env.edge[:]=False
         # Let the object coast while releasing the contact. All native ticks count.
         for _ in range(3):
             if not remaining():break
@@ -100,6 +115,9 @@ class Scene:
         if null>=0:
             for sh in env.sources[null]:sh.filter=env.py.ShapeFilter(categories=1<<null)
         z=self.state()
+        if phases is not None:
+            phases.append((z,env.edge.copy(),steps,max(peak,float(z[12]))))
+            return z,np.any([v[1] for v in phases],axis=0),steps,max(peak,float(z[12]))
         return z,env.edge.copy(),steps,max(peak,float(z[12]))
 
     def close(self):

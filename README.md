@@ -1,5 +1,7 @@
 # WhatIf · 基于事实交互的反事实世界模型
 
+**Stage 12**　[分段预测物体运动、精确计算目标覆盖与三项原生控制实测](reports/stages/12-phase-geometry.md)。
+
 **Stage 11**　[用上一推学习物理响应：近墙换边、配对效果分布和未知阻尼闭环](reports/stages/11-factual-physics.md)。
 
 **Stage 10**　[同状态换动作如何改变接触：共享图、反事实分布与真实闭环](reports/stages/10-contact-switch.md)。

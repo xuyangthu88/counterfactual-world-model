@@ -1,0 +1,1262 @@
+{
+  "pusht": {
+    "graph": {
+      "effect": {
+        "xy": 0.06506313383579254,
+        "xy_rmse": 0.1342926025390625,
+        "r2": 0.6708171963691711,
+        "yaw_deg": 3.731353282928467,
+        "energy": 0.05249966308474541
+      },
+      "pose": {
+        "xy": 0.061816148459911346,
+        "xy_rmse": 0.11101702600717545,
+        "r2": 0.9766703248023987,
+        "yaw_deg": 3.1077990531921387,
+        "energy": 0.04846799373626709
+      },
+      "readout": {
+        "learned": {
+          "mae": 0.05770845338702202,
+          "regret": 0.0357431098818779
+        },
+        "exact": {
+          "mae": 0.02543257176876068,
+          "regret": 0.011853514239192009
+        },
+        "learned_peak": {
+          "mae": 0.04722438380122185,
+          "regret": 0.03291735798120499
+        },
+        "endpoint_as_peak": {
+          "mae": 0.03586235269904137,
+          "regret": 0.011384502053260803
+        }
+      },
+      "rollout": [
+        {
+          "open_px": 6.474096328020096,
+          "teacher_px": 6.474096328020096
+        },
+        {
+          "open_px": 13.748076558113098,
+          "teacher_px": 5.127106234431267
+        },
+        {
+          "open_px": 19.273197650909424,
+          "teacher_px": 4.781382158398628
+        }
+      ],
+      "edges": {
+        "balanced_error": 0.038464724464724466,
+        "positive_rate": 0.3255208333333333,
+        "precision": 0.9210434782608695,
+        "recall": 0.9629090909090909,
+        "fpr": 0.03983853983853984,
+        "ap": 0.9900897149732795,
+        "auroc": 0.9951523022432114,
+        "edges": 8448,
+        "switch_tp": 112,
+        "switch_predicted": 456,
+        "switch_actual": 181,
+        "switch_precision": 0.24561403508771928,
+        "switch_recall": 0.6187845303867403,
+        "switch_f1": 0.3516483516483517,
+        "birth": {
+          "correct": 38,
+          "actual": 74,
+          "predicted": 208,
+          "precision": 0.18269230769230768,
+          "recall": 0.5135135135135135
+        },
+        "loss": {
+          "correct": 70,
+          "actual": 107,
+          "predicted": 248,
+          "precision": 0.28225806451612906,
+          "recall": 0.6542056074766355
+        },
+        "by_source": [
+          {
+            "correct": 101,
+            "actual": 157,
+            "predicted": 248,
+            "precision": 0.40725806451612906,
+            "recall": 0.643312101910828
+          },
+          {
+            "correct": 8,
+            "actual": 20,
+            "predicted": 106,
+            "precision": 0.07547169811320754,
+            "recall": 0.4
+          },
+          {
+            "correct": 3,
+            "actual": 4,
+            "predicted": 102,
+            "precision": 0.029411764705882353,
+            "recall": 0.75
+          }
+        ]
+      }
+    },
+    "pets": {
+      "effect": {
+        "xy": 0.05480584502220154,
+        "xy_rmse": 0.12864390015602112,
+        "r2": 0.6979273557662964,
+        "yaw_deg": 2.8439245223999023,
+        "energy": 0.04423947259783745
+      },
+      "pose": {
+        "xy": 0.04753798246383667,
+        "xy_rmse": 0.10541253536939621,
+        "r2": 0.9789663553237915,
+        "yaw_deg": 2.2743334770202637,
+        "energy": 0.037141457200050354
+      },
+      "readout": {
+        "learned": {
+          "mae": 0.05042486637830734,
+          "regret": 0.05113782361149788
+        },
+        "exact": {
+          "mae": 0.019878488034009933,
+          "regret": 0.00890449620783329
+        },
+        "learned_peak": {
+          "mae": 0.04061449319124222,
+          "regret": 0.033810392022132874
+        },
+        "endpoint_as_peak": {
+          "mae": 0.029859593138098717,
+          "regret": 0.008664150722324848
+        }
+      }
+    },
+    "cophy": {
+      "effect": {
+        "xy": 0.13335421681404114,
+        "xy_rmse": 0.196610689163208,
+        "r2": 0.2944183945655823,
+        "yaw_deg": 6.703269004821777,
+        "energy": 0.13335421681404114
+      },
+      "pose": {
+        "xy": 0.11944727599620819,
+        "xy_rmse": 0.16483600437641144,
+        "r2": 0.9485679268836975,
+        "yaw_deg": 5.364999294281006,
+        "energy": 0.11944727599620819
+      },
+      "readout": {
+        "learned": {
+          "mae": 0.056733351200819016,
+          "regret": 0.06462877988815308
+        },
+        "exact": {
+          "mae": 0.05497695133090019,
+          "regret": 0.05664309859275818
+        },
+        "learned_peak": {
+          "mae": 0.05546744912862778,
+          "regret": 0.05917229503393173
+        },
+        "endpoint_as_peak": {
+          "mae": 0.053710948675870895,
+          "regret": 0.05099981278181076
+        }
+      }
+    },
+    "ncii": {
+      "edges": {
+        "balanced_error": 0.11742435942435941,
+        "positive_rate": 0.3255208333333333,
+        "precision": 0.9127016963177492,
+        "recall": 0.8021818181818182,
+        "fpr": 0.037030537030537033,
+        "ap": 0.9251217098731076,
+        "auroc": 0.9398943808034718,
+        "edges": 8448,
+        "switch_tp": 86,
+        "switch_predicted": 791,
+        "switch_actual": 181,
+        "switch_precision": 0.10872313527180784,
+        "switch_recall": 0.47513812154696133,
+        "switch_f1": 0.17695473251028807,
+        "birth": {
+          "correct": 17,
+          "actual": 74,
+          "predicted": 383,
+          "precision": 0.044386422976501305,
+          "recall": 0.22972972972972974
+        },
+        "loss": {
+          "correct": 31,
+          "actual": 107,
+          "predicted": 408,
+          "precision": 0.07598039215686274,
+          "recall": 0.2897196261682243
+        },
+        "by_source": [
+          {
+            "correct": 86,
+            "actual": 157,
+            "predicted": 569,
+            "precision": 0.15114235500878734,
+            "recall": 0.5477707006369427
+          },
+          {
+            "correct": 0,
+            "actual": 20,
+            "predicted": 103,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          {
+            "correct": 0,
+            "actual": 4,
+            "predicted": 119,
+            "precision": 0.0,
+            "recall": 0.0
+          }
+        ]
+      }
+    },
+    "source_only": {
+      "edges": {
+        "balanced_error": 0.01953948753948754,
+        "positive_rate": 0.3255208333333333,
+        "precision": 0.9584517045454546,
+        "recall": 0.9814545454545455,
+        "fpr": 0.020533520533520533,
+        "ap": 0.9490527289944904,
+        "auroc": 0.983066339066339,
+        "edges": 8448,
+        "switch_tp": 0,
+        "switch_predicted": 0,
+        "switch_actual": 181,
+        "switch_precision": 0.0,
+        "switch_recall": 0.0,
+        "switch_f1": 0.0,
+        "birth": {
+          "correct": 0,
+          "actual": 74,
+          "predicted": 0,
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "loss": {
+          "correct": 0,
+          "actual": 107,
+          "predicted": 0,
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "by_source": [
+          {
+            "correct": 0,
+            "actual": 157,
+            "predicted": 0,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          {
+            "correct": 0,
+            "actual": 20,
+            "predicted": 0,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          {
+            "correct": 0,
+            "actual": 4,
+            "predicted": 0,
+            "precision": 0.0,
+            "recall": 0.0
+          }
+        ]
+      }
+    },
+    "layouts": 256
+  },
+  "near": {
+    "graph": {
+      "effect": {
+        "xy": 0.02684391848742962,
+        "xy_rmse": 0.037892844527959824,
+        "r2": 0.9213972687721252,
+        "yaw_deg": 1.535534381866455,
+        "energy": 0.021375907585024834
+      },
+      "pose": {
+        "xy": 0.028746817260980606,
+        "xy_rmse": 0.03955797106027603,
+        "r2": 0.9769945740699768,
+        "yaw_deg": 1.3588783740997314,
+        "energy": 0.021831262856721878
+      },
+      "readout": {
+        "learned": {
+          "mae": 0.05245843157172203,
+          "regret": 0.037016402930021286
+        },
+        "exact": {
+          "mae": 0.02773244120180607,
+          "regret": 0.011670651845633984
+        },
+        "learned_peak": {
+          "mae": 0.0392848439514637,
+          "regret": 0.02747366391122341
+        },
+        "endpoint_as_peak": {
+          "mae": 0.0372612364590168,
+          "regret": 0.012358704581856728
+        }
+      },
+      "rollout": [
+        {
+          "open_px": 2.879423275589943,
+          "teacher_px": 2.879423275589943
+        },
+        {
+          "open_px": 6.170433387160301,
+          "teacher_px": 2.66271959990263
+        },
+        {
+          "open_px": 9.756231307983398,
+          "teacher_px": 2.3759182542562485
+        }
+      ],
+      "edges": {
+        "balanced_error": 0.013839140345164442,
+        "positive_rate": 0.30833333333333335,
+        "precision": 0.9726941747572816,
+        "recall": 0.9846437346437347,
+        "fpr": 0.012322015334063527,
+        "ap": 0.9969578279484645,
+        "auroc": 0.9987274315039923,
+        "edges": 5280,
+        "switch_tp": 124,
+        "switch_predicted": 194,
+        "switch_actual": 182,
+        "switch_precision": 0.6391752577319587,
+        "switch_recall": 0.6813186813186813,
+        "switch_f1": 0.6595744680851063,
+        "birth": {
+          "correct": 49,
+          "actual": 69,
+          "predicted": 96,
+          "precision": 0.5104166666666666,
+          "recall": 0.7101449275362319
+        },
+        "loss": {
+          "correct": 75,
+          "actual": 113,
+          "predicted": 98,
+          "precision": 0.7653061224489796,
+          "recall": 0.6637168141592921
+        },
+        "by_source": [
+          {
+            "correct": 124,
+            "actual": 182,
+            "predicted": 194,
+            "precision": 0.6391752577319587,
+            "recall": 0.6813186813186813
+          },
+          {
+            "correct": 0,
+            "actual": 0,
+            "predicted": 0,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          {
+            "correct": 0,
+            "actual": 0,
+            "predicted": 0,
+            "precision": 0.0,
+            "recall": 0.0
+          }
+        ]
+      }
+    },
+    "pets": {
+      "effect": {
+        "xy": 0.02109137363731861,
+        "xy_rmse": 0.0328281968832016,
+        "r2": 0.9410046935081482,
+        "yaw_deg": 1.2061712741851807,
+        "energy": 0.016345065087080002
+      },
+      "pose": {
+        "xy": 0.020180685445666313,
+        "xy_rmse": 0.03656592220067978,
+        "r2": 0.9803431034088135,
+        "yaw_deg": 0.9855438470840454,
+        "energy": 0.01557354349642992
+      },
+      "readout": {
+        "learned": {
+          "mae": 0.046179551631212234,
+          "regret": 0.035817649215459824
+        },
+        "exact": {
+          "mae": 0.02082793042063713,
+          "regret": 0.00868814904242754
+        },
+        "learned_peak": {
+          "mae": 0.0345614068210125,
+          "regret": 0.026198506355285645
+        },
+        "endpoint_as_peak": {
+          "mae": 0.030045058578252792,
+          "regret": 0.009472438134253025
+        }
+      }
+    },
+    "cophy": {
+      "effect": {
+        "xy": 0.07161276042461395,
+        "xy_rmse": 0.10081810504198074,
+        "r2": 0.44358307123184204,
+        "yaw_deg": 3.633030891418457,
+        "energy": 0.07161276042461395
+      },
+      "pose": {
+        "xy": 0.07451390475034714,
+        "xy_rmse": 0.10171205550432205,
+        "r2": 0.8479077816009521,
+        "yaw_deg": 3.115715742111206,
+        "energy": 0.07451390475034714
+      },
+      "readout": {
+        "learned": {
+          "mae": 0.07066089659929276,
+          "regret": 0.08414386957883835
+        },
+        "exact": {
+          "mae": 0.06495626270771027,
+          "regret": 0.06790085881948471
+        },
+        "learned_peak": {
+          "mae": 0.06578847765922546,
+          "regret": 0.07889316231012344
+        },
+        "endpoint_as_peak": {
+          "mae": 0.05989807844161987,
+          "regret": 0.06239015981554985
+        }
+      }
+    },
+    "ncii": {
+      "edges": {
+        "balanced_error": 0.16894482105325478,
+        "positive_rate": 0.30833333333333335,
+        "precision": 0.9461077844311377,
+        "recall": 0.6793611793611793,
+        "fpr": 0.01725082146768894,
+        "ap": 0.9069075369537128,
+        "auroc": 0.9378003974800251,
+        "edges": 5280,
+        "switch_tp": 53,
+        "switch_predicted": 515,
+        "switch_actual": 182,
+        "switch_precision": 0.1029126213592233,
+        "switch_recall": 0.29120879120879123,
+        "switch_f1": 0.15208034433285508,
+        "birth": {
+          "correct": 20,
+          "actual": 69,
+          "predicted": 270,
+          "precision": 0.07407407407407407,
+          "recall": 0.2898550724637681
+        },
+        "loss": {
+          "correct": 19,
+          "actual": 113,
+          "predicted": 245,
+          "precision": 0.07755102040816327,
+          "recall": 0.168141592920354
+        },
+        "by_source": [
+          {
+            "correct": 53,
+            "actual": 182,
+            "predicted": 460,
+            "precision": 0.11521739130434783,
+            "recall": 0.29120879120879123
+          },
+          {
+            "correct": 0,
+            "actual": 0,
+            "predicted": 20,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          {
+            "correct": 0,
+            "actual": 0,
+            "predicted": 35,
+            "precision": 0.0,
+            "recall": 0.0
+          }
+        ]
+      }
+    },
+    "source_only": {
+      "edges": {
+        "balanced_error": 0.018072289156626505,
+        "positive_rate": 0.30833333333333335,
+        "precision": 0.925,
+        "recall": 1.0,
+        "fpr": 0.03614457831325301,
+        "ap": 0.925,
+        "auroc": 0.9819277108433735,
+        "edges": 5280,
+        "switch_tp": 0,
+        "switch_predicted": 0,
+        "switch_actual": 182,
+        "switch_precision": 0.0,
+        "switch_recall": 0.0,
+        "switch_f1": 0.0,
+        "birth": {
+          "correct": 0,
+          "actual": 69,
+          "predicted": 0,
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "loss": {
+          "correct": 0,
+          "actual": 113,
+          "predicted": 0,
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "by_source": [
+          {
+            "correct": 0,
+            "actual": 182,
+            "predicted": 0,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          {
+            "correct": 0,
+            "actual": 0,
+            "predicted": 0,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          {
+            "correct": 0,
+            "actual": 0,
+            "predicted": 0,
+            "precision": 0.0,
+            "recall": 0.0
+          }
+        ]
+      }
+    },
+    "layouts": 160
+  },
+  "causalworld": {
+    "graph": {
+      "effect": {
+        "xy": 0.43228089809417725,
+        "xy_rmse": 0.5922983884811401,
+        "r2": 0.5686440467834473,
+        "yaw_deg": 20.511919021606445,
+        "energy": 0.3583223223686218
+      },
+      "pose": {
+        "xy": 0.3369938135147095,
+        "xy_rmse": 0.5177304744720459,
+        "r2": 0.8526530265808105,
+        "yaw_deg": 14.231986045837402,
+        "energy": 0.2797906994819641
+      },
+      "edges": {
+        "balanced_error": 0.11171939298529704,
+        "positive_rate": 0.3161300505050505,
+        "precision": 0.8380765456329735,
+        "recall": 0.8527209186220669,
+        "fpr": 0.07615970459266097,
+        "ap": 0.9219192474852991,
+        "auroc": 0.9622152278160189,
+        "edges": 6336,
+        "switch_tp": 780,
+        "switch_predicted": 1314,
+        "switch_actual": 1076,
+        "switch_precision": 0.593607305936073,
+        "switch_recall": 0.724907063197026,
+        "switch_f1": 0.6527196652719666,
+        "birth": {
+          "correct": 335,
+          "actual": 500,
+          "predicted": 521,
+          "precision": 0.6429942418426103,
+          "recall": 0.67
+        },
+        "loss": {
+          "correct": 427,
+          "actual": 576,
+          "predicted": 793,
+          "precision": 0.5384615384615384,
+          "recall": 0.7413194444444444
+        },
+        "by_source": [
+          {
+            "correct": 147,
+            "actual": 244,
+            "predicted": 279,
+            "precision": 0.5268817204301075,
+            "recall": 0.6024590163934426
+          },
+          {
+            "correct": 288,
+            "actual": 362,
+            "predicted": 461,
+            "precision": 0.6247288503253796,
+            "recall": 0.7955801104972375
+          },
+          {
+            "correct": 345,
+            "actual": 470,
+            "predicted": 574,
+            "precision": 0.6010452961672473,
+            "recall": 0.7340425531914894
+          }
+        ]
+      }
+    },
+    "pets": {
+      "effect": {
+        "xy": 0.5515257120132446,
+        "xy_rmse": 0.7325060963630676,
+        "r2": 0.34025341272354126,
+        "yaw_deg": 23.604042053222656,
+        "energy": 0.47295305132865906
+      },
+      "pose": {
+        "xy": 0.4289661943912506,
+        "xy_rmse": 0.5998175740242004,
+        "r2": 0.8022247552871704,
+        "yaw_deg": 17.99690818786621,
+        "energy": 0.3280540704727173
+      }
+    },
+    "cophy": {
+      "effect": {
+        "xy": 0.4918206036090851,
+        "xy_rmse": 0.6719383001327515,
+        "r2": 0.444845974445343,
+        "yaw_deg": 22.154300689697266,
+        "energy": 0.4918206036090851
+      },
+      "pose": {
+        "xy": 0.40376123785972595,
+        "xy_rmse": 0.5826610922813416,
+        "r2": 0.813376784324646,
+        "yaw_deg": 16.544279098510742,
+        "energy": 0.40376123785972595
+      }
+    },
+    "ncii": {
+      "edges": {
+        "balanced_error": 0.28172649864344956,
+        "positive_rate": 0.3161300505050505,
+        "precision": 0.5846430175123485,
+        "recall": 0.6500249625561657,
+        "fpr": 0.21347795984306486,
+        "ap": 0.6720651556062851,
+        "auroc": 0.757006539579046,
+        "edges": 6336,
+        "switch_tp": 421,
+        "switch_predicted": 1510,
+        "switch_actual": 1076,
+        "switch_precision": 0.27880794701986755,
+        "switch_recall": 0.3912639405204461,
+        "switch_f1": 0.32559938128383603,
+        "birth": {
+          "correct": 159,
+          "actual": 500,
+          "predicted": 719,
+          "precision": 0.2211404728789986,
+          "recall": 0.318
+        },
+        "loss": {
+          "correct": 197,
+          "actual": 576,
+          "predicted": 791,
+          "precision": 0.24905183312262957,
+          "recall": 0.3420138888888889
+        },
+        "by_source": [
+          {
+            "correct": 72,
+            "actual": 244,
+            "predicted": 418,
+            "precision": 0.1722488038277512,
+            "recall": 0.29508196721311475
+          },
+          {
+            "correct": 147,
+            "actual": 362,
+            "predicted": 538,
+            "precision": 0.2732342007434944,
+            "recall": 0.40607734806629836
+          },
+          {
+            "correct": 202,
+            "actual": 470,
+            "predicted": 554,
+            "precision": 0.36462093862815886,
+            "recall": 0.4297872340425532
+          }
+        ]
+      }
+    },
+    "source_only": {
+      "edges": {
+        "balanced_error": 0.3957262237269529,
+        "positive_rate": 0.3161300505050505,
+        "precision": 0.3837594696969697,
+        "recall": 0.8092860708936596,
+        "fpr": 0.6007385183475652,
+        "ap": 0.3846478546069785,
+        "auroc": 0.62045628764331,
+        "edges": 6336,
+        "switch_tp": 0,
+        "switch_predicted": 0,
+        "switch_actual": 1076,
+        "switch_precision": 0.0,
+        "switch_recall": 0.0,
+        "switch_f1": 0.0,
+        "birth": {
+          "correct": 0,
+          "actual": 500,
+          "predicted": 0,
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "loss": {
+          "correct": 0,
+          "actual": 576,
+          "predicted": 0,
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "by_source": [
+          {
+            "correct": 0,
+            "actual": 244,
+            "predicted": 0,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          {
+            "correct": 0,
+            "actual": 362,
+            "predicted": 0,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          {
+            "correct": 0,
+            "actual": 470,
+            "predicted": 0,
+            "precision": 0.0,
+            "recall": 0.0
+          }
+        ]
+      }
+    },
+    "layouts": 192
+  },
+  "wall": {
+    "graph": {
+      "effect": {
+        "xy": 0.3497530519962311,
+        "xy_rmse": 0.5746495723724365,
+        "r2": 0.3320249319076538,
+        "yaw_deg": 13.160150527954102,
+        "energy": 0.291266530752182
+      },
+      "pose": {
+        "xy": 0.25128504633903503,
+        "xy_rmse": 0.4640157222747803,
+        "r2": 0.9440497159957886,
+        "yaw_deg": 9.450241088867188,
+        "energy": 0.21036481857299805
+      },
+      "readout": {
+        "learned": {
+          "mae": 0.012709018774330616,
+          "regret": 0.0008230597013607621
+        },
+        "exact": {
+          "mae": 0.0006326242000795901,
+          "regret": 0.00014882635150570422
+        },
+        "learned_peak": {
+          "mae": 0.013133357279002666,
+          "regret": 0.0006415456300601363
+        },
+        "endpoint_as_peak": {
+          "mae": 0.0006300564273260534,
+          "regret": 0.0001610489998711273
+        }
+      },
+      "edges": {
+        "balanced_error": 0.1607510380935187,
+        "positive_rate": 0.43154761904761907,
+        "precision": 0.8172413793103448,
+        "recall": 0.8172413793103448,
+        "fpr": 0.1387434554973822,
+        "ap": 0.9131599386063828,
+        "auroc": 0.9233377866040803,
+        "edges": 3360,
+        "switch_tp": 578,
+        "switch_predicted": 1008,
+        "switch_actual": 1039,
+        "switch_precision": 0.5734126984126984,
+        "switch_recall": 0.5563041385948027,
+        "switch_f1": 0.5647288715192965,
+        "birth": {
+          "correct": 269,
+          "actual": 534,
+          "predicted": 494,
+          "precision": 0.5445344129554656,
+          "recall": 0.5037453183520599
+        },
+        "loss": {
+          "correct": 292,
+          "actual": 505,
+          "predicted": 514,
+          "precision": 0.5680933852140078,
+          "recall": 0.5782178217821782
+        },
+        "by_source": [
+          {
+            "correct": 237,
+            "actual": 476,
+            "predicted": 314,
+            "precision": 0.7547770700636943,
+            "recall": 0.49789915966386555
+          },
+          {
+            "correct": 171,
+            "actual": 286,
+            "predicted": 346,
+            "precision": 0.49421965317919075,
+            "recall": 0.5979020979020979
+          },
+          {
+            "correct": 170,
+            "actual": 277,
+            "predicted": 348,
+            "precision": 0.4885057471264368,
+            "recall": 0.6137184115523465
+          }
+        ]
+      }
+    },
+    "pets": {
+      "effect": {
+        "xy": 0.37622854113578796,
+        "xy_rmse": 0.6016505360603333,
+        "r2": 0.267778217792511,
+        "yaw_deg": 13.401285171508789,
+        "energy": 0.312105655670166
+      },
+      "pose": {
+        "xy": 0.2601913511753082,
+        "xy_rmse": 0.48938584327697754,
+        "r2": 0.9377642869949341,
+        "yaw_deg": 8.973235130310059,
+        "energy": 0.20557978749275208
+      },
+      "readout": {
+        "learned": {
+          "mae": 0.002455789363011718,
+          "regret": 0.001173091121017933
+        },
+        "exact": {
+          "mae": 0.000654961506370455,
+          "regret": 6.21296203462407e-05
+        },
+        "learned_peak": {
+          "mae": 0.007816413417458534,
+          "regret": 0.0011853137984871864
+        },
+        "endpoint_as_peak": {
+          "mae": 0.0006636842153966427,
+          "regret": 4.2942883737850934e-05
+        }
+      }
+    },
+    "cophy": {
+      "effect": {
+        "xy": 0.43849584460258484,
+        "xy_rmse": 0.6224305033683777,
+        "r2": 0.21632534265518188,
+        "yaw_deg": 17.499794006347656,
+        "energy": 0.43849584460258484
+      },
+      "pose": {
+        "xy": 0.3272189795970917,
+        "xy_rmse": 0.4960114657878876,
+        "r2": 0.9360677003860474,
+        "yaw_deg": 12.340780258178711,
+        "energy": 0.3272189795970917
+      },
+      "readout": {
+        "learned": {
+          "mae": 0.00047276687109842896,
+          "regret": 0.0008971484494395554
+        },
+        "exact": {
+          "mae": 0.0004959118086844683,
+          "regret": 0.0002677637676242739
+        },
+        "learned_peak": {
+          "mae": 0.000496000109706074,
+          "regret": 0.0008992833900265396
+        },
+        "endpoint_as_peak": {
+          "mae": 0.0005108459736220539,
+          "regret": 0.0002998161071445793
+        }
+      }
+    },
+    "ncii": {
+      "edges": {
+        "balanced_error": 0.2872486008304748,
+        "positive_rate": 0.43154761904761907,
+        "precision": 0.8173817381738174,
+        "recall": 0.5124137931034483,
+        "fpr": 0.08691099476439791,
+        "ap": 0.7537471092622109,
+        "auroc": 0.7126297165553349,
+        "edges": 3360,
+        "switch_tp": 280,
+        "switch_predicted": 532,
+        "switch_actual": 1039,
+        "switch_precision": 0.5263157894736842,
+        "switch_recall": 0.2694898941289702,
+        "switch_f1": 0.35646085295989816,
+        "birth": {
+          "correct": 126,
+          "actual": 534,
+          "predicted": 276,
+          "precision": 0.45652173913043476,
+          "recall": 0.23595505617977527
+        },
+        "loss": {
+          "correct": 124,
+          "actual": 505,
+          "predicted": 256,
+          "precision": 0.484375,
+          "recall": 0.24554455445544554
+        },
+        "by_source": [
+          {
+            "correct": 261,
+            "actual": 476,
+            "predicted": 434,
+            "precision": 0.6013824884792627,
+            "recall": 0.5483193277310925
+          },
+          {
+            "correct": 14,
+            "actual": 286,
+            "predicted": 61,
+            "precision": 0.22950819672131148,
+            "recall": 0.04895104895104895
+          },
+          {
+            "correct": 5,
+            "actual": 277,
+            "predicted": 37,
+            "precision": 0.13513513513513514,
+            "recall": 0.018050541516245487
+          }
+        ]
+      }
+    },
+    "source_only": {
+      "edges": {
+        "balanced_error": 0.2812168261419029,
+        "positive_rate": 0.43154761904761907,
+        "precision": 0.7535714285714286,
+        "recall": 0.5820689655172414,
+        "fpr": 0.14450261780104712,
+        "ap": 0.6332318349753694,
+        "auroc": 0.7115038815670698,
+        "edges": 3360,
+        "switch_tp": 0,
+        "switch_predicted": 0,
+        "switch_actual": 1039,
+        "switch_precision": 0.0,
+        "switch_recall": 0.0,
+        "switch_f1": 0.0,
+        "birth": {
+          "correct": 0,
+          "actual": 534,
+          "predicted": 0,
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "loss": {
+          "correct": 0,
+          "actual": 505,
+          "predicted": 0,
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "by_source": [
+          {
+            "correct": 0,
+            "actual": 476,
+            "predicted": 0,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          {
+            "correct": 0,
+            "actual": 286,
+            "predicted": 0,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          {
+            "correct": 0,
+            "actual": 277,
+            "predicted": 0,
+            "precision": 0.0,
+            "recall": 0.0
+          }
+        ]
+      }
+    },
+    "layouts": 160
+  },
+  "p9": {
+    "graph": {
+      "effect": {
+        "xy": 0.5933862924575806,
+        "xy_rmse": 0.7499226331710815,
+        "r2": -0.031746745109558105,
+        "yaw_deg": 35.1353645324707,
+        "energy": 0.5036256909370422
+      },
+      "pose": {
+        "xy": 0.5323532819747925,
+        "xy_rmse": 0.6860283613204956,
+        "r2": 0.8763376474380493,
+        "yaw_deg": 29.858352661132812,
+        "energy": 0.4522329270839691
+      },
+      "edges": {
+        "balanced_error": 0.1783876618553012,
+        "positive_rate": 0.32836174242424243,
+        "precision": 0.7418909592822637,
+        "recall": 0.7750540735400144,
+        "fpr": 0.13182939725061685,
+        "ap": 0.8170288940966179,
+        "auroc": 0.9216663672111167,
+        "edges": 4224,
+        "switch_tp": 408,
+        "switch_predicted": 844,
+        "switch_actual": 735,
+        "switch_precision": 0.4834123222748815,
+        "switch_recall": 0.5551020408163265,
+        "switch_f1": 0.5167827739075365,
+        "birth": {
+          "correct": 249,
+          "actual": 379,
+          "predicted": 470,
+          "precision": 0.5297872340425532,
+          "recall": 0.6569920844327177
+        },
+        "loss": {
+          "correct": 146,
+          "actual": 356,
+          "predicted": 374,
+          "precision": 0.39037433155080214,
+          "recall": 0.4101123595505618
+        },
+        "by_source": [
+          {
+            "correct": 126,
+            "actual": 253,
+            "predicted": 244,
+            "precision": 0.5163934426229508,
+            "recall": 0.4980237154150198
+          },
+          {
+            "correct": 135,
+            "actual": 234,
+            "predicted": 296,
+            "precision": 0.4560810810810811,
+            "recall": 0.5769230769230769
+          },
+          {
+            "correct": 147,
+            "actual": 248,
+            "predicted": 304,
+            "precision": 0.48355263157894735,
+            "recall": 0.592741935483871
+          }
+        ]
+      }
+    },
+    "pets": {
+      "effect": {
+        "xy": 0.5248854160308838,
+        "xy_rmse": 0.6804078221321106,
+        "r2": 0.1506655216217041,
+        "yaw_deg": 34.4068603515625,
+        "energy": 0.44546788930892944
+      },
+      "pose": {
+        "xy": 0.5480523109436035,
+        "xy_rmse": 0.7070430517196655,
+        "r2": 0.868645429611206,
+        "yaw_deg": 28.218852996826172,
+        "energy": 0.41606399416923523
+      }
+    },
+    "cophy": {
+      "effect": {
+        "xy": 0.5693603754043579,
+        "xy_rmse": 0.7253509759902954,
+        "r2": 0.034757256507873535,
+        "yaw_deg": 33.24214553833008,
+        "energy": 0.5693603754043579
+      },
+      "pose": {
+        "xy": 0.531868577003479,
+        "xy_rmse": 0.684665322303772,
+        "r2": 0.8768285512924194,
+        "yaw_deg": 29.166860580444336,
+        "energy": 0.531868577003479
+      }
+    },
+    "ncii": {
+      "edges": {
+        "balanced_error": 0.42542807107338165,
+        "positive_rate": 0.32836174242424243,
+        "precision": 0.46827794561933533,
+        "recall": 0.33525594808940157,
+        "fpr": 0.18611209023616496,
+        "ap": 0.43810053808238913,
+        "auroc": 0.5493621342650254,
+        "edges": 4224,
+        "switch_tp": 264,
+        "switch_predicted": 873,
+        "switch_actual": 735,
+        "switch_precision": 0.3024054982817869,
+        "switch_recall": 0.35918367346938773,
+        "switch_f1": 0.3283582089552239,
+        "birth": {
+          "correct": 135,
+          "actual": 379,
+          "predicted": 438,
+          "precision": 0.3082191780821918,
+          "recall": 0.3562005277044855
+        },
+        "loss": {
+          "correct": 102,
+          "actual": 356,
+          "predicted": 435,
+          "precision": 0.23448275862068965,
+          "recall": 0.28651685393258425
+        },
+        "by_source": [
+          {
+            "correct": 60,
+            "actual": 253,
+            "predicted": 246,
+            "precision": 0.24390243902439024,
+            "recall": 0.23715415019762845
+          },
+          {
+            "correct": 114,
+            "actual": 234,
+            "predicted": 347,
+            "precision": 0.3285302593659942,
+            "recall": 0.48717948717948717
+          },
+          {
+            "correct": 90,
+            "actual": 248,
+            "predicted": 280,
+            "precision": 0.32142857142857145,
+            "recall": 0.3629032258064516
+          }
+        ]
+      }
+    },
+    "source_only": {
+      "edges": {
+        "balanced_error": 0.4794252435691815,
+        "positive_rate": 0.32836174242424243,
+        "precision": 0.3419744318181818,
+        "recall": 0.6943042537851478,
+        "fpr": 0.6531547409235108,
+        "ap": 0.33297386718664657,
+        "auroc": 0.513239408485918,
+        "edges": 4224,
+        "switch_tp": 0,
+        "switch_predicted": 0,
+        "switch_actual": 735,
+        "switch_precision": 0.0,
+        "switch_recall": 0.0,
+        "switch_f1": 0.0,
+        "birth": {
+          "correct": 0,
+          "actual": 379,
+          "predicted": 0,
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "loss": {
+          "correct": 0,
+          "actual": 356,
+          "predicted": 0,
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "by_source": [
+          {
+            "correct": 0,
+            "actual": 253,
+            "predicted": 0,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          {
+            "correct": 0,
+            "actual": 234,
+            "predicted": 0,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          {
+            "correct": 0,
+            "actual": 248,
+            "predicted": 0,
+            "precision": 0.0,
+            "recall": 0.0
+          }
+        ]
+      }
+    },
+    "layouts": 128
+  }
+}
