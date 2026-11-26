@@ -12,7 +12,7 @@ from .baseline import cophy_class, cophy_predict, pets_predict, pets_restore
 from .collect import DOMAINS, OUT, PROTOCOL
 from .data import load, pair_ids, subset, UNIT
 from .fit import directed_truth, paired_actions
-from .model import World, average, contrast
+from .model import build_world, average, contrast
 
 
 def root_mean(error, mask):
@@ -115,6 +115,13 @@ def prediction(d, o, domain, flavor):
         b = d['a'][:,j,:,0].argmax(-1)
         remote = ((depth-a[...,None]).abs()>=2)&((depth-b[...,None]).abs()>=2)&mover
         stat.update(remote_delta_rmse=unit*root_mean(end,remote),remote_action_pairs=int(remote.sum()))
+    large = y[:,:,-1,:,:3].norm(dim=-1)
+    measured = mover.expand_as(large)
+    tail = (large >= large[measured].quantile(.95)) & measured
+    sq = end.square().sum(-1)
+    stat.update(largest_effect_rmse=unit*root_mean(end,tail),
+                largest_effect_error_share=float((sq*tail).sum()/(sq*measured).sum().clamp_min(1.e-12)),
+                largest_effect_pairs=int(tail.sum()))
     discrepancy=(d['edge'][:,i]!=d['edge'][:,j]).any(2).any(-2) | (d['edge'][:,i]!=d['edge'][:,j]).any(2).any(-1)
     changed=mover&discrepancy
     stat.update(contact_disagreement_delta_rmse=unit*root_mean(end,changed) if changed.any() else None,
@@ -181,15 +188,18 @@ def edits(model,d):
     ids=torch.arange(n,device=pred.device)
     indirect=(ids!=ps[:,None])&(ids!=pd[:,None])
     remote=significant&indirect[None,None,:,None,:]
+    direction=torch.nn.functional.cosine_similarity(pred,y,dim=-1)
     return dict(edited_trajectory_rmse=root_mean(pred-y,mask),
                 affected_trajectory_rmse=root_mean(pred-y,significant),
                 downstream_trajectory_rmse=root_mean(pred-y,remote),
+                downstream_effect_recall=float(average((pred.norm(dim=-1)>.1).float(),remote)),
+                downstream_direction_cosine=float(average(direction,remote)),
                 affected=int(significant.sum()), downstream=int(remote.sum()))
 
 
 def restore_world(name, device):
     checkpoint=torch.load(OUT/f'{name}.pt',map_location=device)
-    model=World().to(device)
+    model=build_world(name).to(device)
     model.load_state_dict(checkpoint['model'])
     return model.eval()
 
@@ -197,6 +207,12 @@ def restore_world(name, device):
 @torch.no_grad()
 def evaluate(names, splits, device, destination):
     torch.set_num_threads(2)
+    variants=('motion_once','motion_twice')
+    if all(f'{kind}-calibrated' in names for kind in variants):
+        val={kind:min(json.loads((OUT/f'{kind}-fit.json').read_text()),key=lambda r:r['criterion'])
+             for kind in variants}
+        selected=min(val,key=lambda kind:val[kind]['criterion'])
+        (OUT/'motion-selection.json').write_text(json.dumps(dict(selected=selected,validation=val),indent=2)+'\n')
     results={}
     for domain in DOMAINS:
         sets={s:load(domain,s,device) for s in ('val',*splits)}
@@ -208,6 +224,8 @@ def evaluate(names, splits, device, destination):
                     return {'pose':cophy_predict(model,d)['pose'], 'reward':None}
             elif name=='pets':
                 model=pets_restore(domain,device)
+                # Upstream TS∞ uses the default generator for member assignment.
+                torch.manual_seed(345)
                 rng=torch.Generator(device=device).manual_seed(345)
                 def run(d):
                     return pets_predict(model,d,rng)
@@ -243,10 +261,9 @@ def evaluate(names, splits, device, destination):
                 print(domain,split,name,stat.get('delta_rmse'),stat.get('contact',{}).get('ap'),flush=True)
     for splits_result in results.values():
         for panel in splits_result.values():
-            for key in ['shared-calibrated','shared']:
-                if key not in panel or not all(x in panel for x in ('cophynet','pets','ncii')):
+            for model in panel.values():
+                if 'contact' not in model or 'delta_rmse' not in model or not all(x in panel for x in ('cophynet','pets','ncii')):
                     continue
-                model=panel[key]
                 baseline=min(('cophynet','pets'),key=lambda method:panel[method]['delta_rmse'])
                 edge='directed' if 'directed' in model else 'contact'
                 model['comparison']=dict(

@@ -8,9 +8,11 @@ import torch
 from torch.nn import functional as F
 from whatif.mechanism.model import labeled
 
-from .collect import DOMAINS, OUT, PROTOCOL
+from .collect import DOMAINS, OUT, PROTOCOL, MOTION_PROTOCOL
 from .data import load, omission, pair_ids, subset
-from .model import World, average, contrast
+from .model import build_world, average, contrast
+
+UNSEEN = ('unseen_domain','motion_unseen')
 
 
 def paired_actions(x):
@@ -112,12 +114,12 @@ def train(kind, steps=None):
     torch.set_float32_matmul_precision('high')
     torch.manual_seed(PROTOCOL['seed'])
     dev = 'cuda'
-    domains = DOMAINS[:2] if kind=='unseen_domain' else DOMAINS
+    domains = DOMAINS[:2] if kind in UNSEEN else DOMAINS
     training = {dom: load(dom, 'train', dev) for dom in domains}
     valid = {dom: load(dom, 'val', dev) for dom in domains}
-    net = World().to(dev)
+    net = build_world(kind).to(dev)
     opt = torch.optim.AdamW(net.parameters(), lr=.0013, weight_decay=.005, fused=True)
-    steps = steps or PROTOCOL['budgets'][kind]
+    steps = steps or (PROTOCOL['budgets'] | MOTION_PROTOCOL['budgets'])[kind]
     schedule = torch.optim.lr_scheduler.CosineAnnealingLR(opt, steps, eta_min=.0002)
     best = float('inf')
     history = []
@@ -148,7 +150,7 @@ def train(kind, steps=None):
 
 if __name__ == '__main__':
     p = argparse.ArgumentParser()
-    p.add_argument('kind', choices=('shared','no_edge_intervention','unseen_domain'))
+    p.add_argument('kind', choices=('shared','no_edge_intervention','unseen_domain',*MOTION_PROTOCOL['architecture']))
     p.add_argument('--steps', type=int)
     args = p.parse_args()
     train(args.kind, args.steps)

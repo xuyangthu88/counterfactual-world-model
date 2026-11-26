@@ -4,10 +4,10 @@ import json
 
 import torch
 
-from .collect import DOMAINS, OUT, PROTOCOL
+from .collect import DOMAINS, OUT, PROTOCOL, MOTION_PROTOCOL
 from .data import load, subset
-from .fit import normal_nll, paired_actions
-from .model import World, contrast, average
+from .fit import UNSEEN, normal_nll, paired_actions
+from .model import build_world, contrast, average
 
 
 def loss(model, d):
@@ -33,13 +33,13 @@ def loss(model, d):
 def fit(kind):
     dev='cuda'
     checkpoint=torch.load(OUT/f'{kind}.pt',map_location=dev)
-    model=World().to(dev).eval()
+    model=build_world(kind).to(dev).eval()
     model.load_state_dict(checkpoint['model'])
     model.requires_grad_(False)
     for head in (model.position_dist,model.reward_dist,model.regime):
         head.requires_grad_(True)
     opt=torch.optim.AdamW((p for p in model.parameters() if p.requires_grad),lr=.0007,fused=True)
-    domains=DOMAINS[:2] if kind=='unseen_domain' else DOMAINS
+    domains=DOMAINS[:2] if kind in UNSEEN else DOMAINS
     train={dom:load(dom,'train',dev) for dom in domains}
     val={dom:load(dom,'val',dev) for dom in domains}
     history=[]
@@ -65,7 +65,7 @@ def fit(kind):
 
 if __name__=='__main__':
     parser=argparse.ArgumentParser()
-    parser.add_argument('kind',choices=('shared','no_edge_intervention','unseen_domain'))
+    parser.add_argument('kind',choices=('shared','no_edge_intervention','unseen_domain',*MOTION_PROTOCOL['architecture']))
     args=parser.parse_args()
     torch.set_num_threads(2)
     torch.manual_seed(PROTOCOL['seed'])

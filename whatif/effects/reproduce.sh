@@ -24,6 +24,12 @@ case "${1:-evaluate}" in
         train evaluate "${@:2}"
         CUDA_VISIBLE_DEVICES="" "$train_py" -m whatif.effects.figures
         ;;
+    motion-evaluate)
+        train evaluate --splits test transfer retransfer --output metrics-motion.json \
+            --models shared-calibrated motion_once-calibrated motion_twice-calibrated \
+            unseen_domain-calibrated motion_unseen-calibrated cophynet pets ncii
+        CUDA_VISIBLE_DEVICES="" "$train_py" -m whatif.effects.figures_motion
+        ;;
     *)
         exit 2
         ;;

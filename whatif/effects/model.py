@@ -98,6 +98,22 @@ class World(nn.Module):
         self.position_dist = mlp(WIDTH, 3*3*COMPONENTS, FEATURE)
         self.reward_dist = nn.Linear(FEATURE, 3*COMPONENTS)
 
+    def interaction(self, end, position, prior, dt, mask, omit, carry, soft):
+        n = position.size(1)
+        features = torch.cat([pairs(end), relative(position[..., :3]), prior[...,None],
+                              dt[:,None,None].expand(-1,n,n,-1)], -1)
+        p, c, strength, persist, opening, value = self.edge(features).split([1,1,1,1,9,9], -1)
+        logit = p[...,0] + prior
+        logit = .5*(logit + logit.transpose(-1,-2))
+        contact = logit.sigmoid()
+        conduct = (c[...,0]+1.5).sigmoid()
+        magnitude = F.softplus(strength[...,0])
+        carry = 1-(1-contact*conduct)*(1-carry*persist[...,0].sigmoid())
+        edge_gate = mask*omit*hard_gate(contact, soft)*conduct*(1+magnitude.tanh())
+        factor_gate = hard_gate(opening.sigmoid(), soft)*value.tanh()
+        weights = edge_gate[...,None,None]*factor_gate.unflatten(-1,(FACTORS,FACTORS))
+        return weights, logit, carry, magnitude
+
     def rollout(self, d, node, facts, action, reset, keep=None, soft=0.):
         x, role = d['x'], d['role']
         b, k, n = action.shape[:3]
@@ -119,18 +135,7 @@ class World(nn.Module):
             impulse = self.action(torch.cat([local_action, dt[:,None].expand(-1,n,-1)], -1))
             state = state + local_action[...,0,None,None]*impulse.unflatten(-1, (FACTORS,WIDTH))
             end = self.endpoint(torch.cat([state.flatten(-2), message.flatten(-2), position, last], -1))
-            features = torch.cat([pairs(end), relative(position[..., :3]), prior[...,None],
-                                  dt[:,None,None].expand(-1,n,n,-1)], -1)
-            p, c, strength, persist, *fg = self.edge(features).split([1,1,1,1,9,9], -1)
-            logit = (p[...,0] + prior)
-            logit = .5*(logit + logit.transpose(-1,-2))
-            contact = logit.sigmoid()
-            conduct = (c[...,0]+1.5).sigmoid()
-            magnitude = F.softplus(strength[...,0])
-            carry = 1-(1-contact*conduct)*(1-carry*persist[...,0].sigmoid())
-            edge_gate = mask*omit*hard_gate(contact, soft)*conduct*(1+magnitude.tanh())
-            factor_gate = hard_gate(fg[0].sigmoid(), soft)*fg[1].tanh()
-            weights = edge_gate[...,None,None]*factor_gate.unflatten(-1,(FACTORS,FACTORS))
+            weights, logit, carry, magnitude = self.interaction(end, position, prior, dt, mask, omit, carry, soft)
             message = torch.einsum('bijfg,bifh->bjgh', weights, self.message(state))
             time = dt[:, None, None].expand(-1, n, FACTORS, -1)
             state = state + self.recurrent(torch.cat([message, time], -1).flatten(0,2),
@@ -201,3 +206,12 @@ def contrast(mean, dist, w, i, j, independent=False):
         return m.flatten(-2), sd.flatten(-2), (w[:,:,None]*w[:,None,:]).flatten(1)
     var = sd[:,i].square()+sd[:,j].square()+(load[:,i]-load[:,j]).square()
     return loc[:,i]-loc[:,j], var.sqrt(), w
+
+
+def build_world(name):
+    from .collect import MOTION_PROTOCOL
+    spec = name.removesuffix('-calibrated')
+    if spec in MOTION_PROTOCOL['architecture']:
+        from .motion import MotionWorld
+        return MotionWorld(MOTION_PROTOCOL['architecture'][spec])
+    return World()

@@ -13,6 +13,7 @@ ROOT = Path(__file__).resolve().parents[2]
 DATA = ROOT / 'data/effects'
 OUT = ROOT / 'results/effects'
 PROTOCOL = json.loads(Path(__file__).with_name('protocol.json').read_text())
+MOTION_PROTOCOL = json.loads(Path(__file__).with_name('motion_protocol.json').read_text())
 DOMAINS = ('cophy', 'causalworld', 'pusht')
 PUSH_WINDOWS = (1, 2, 4, 6, 8)
 
@@ -68,10 +69,10 @@ def sample(item):
     return pushing(domain, seed, 'test' if split == 'transfer' else 'val')
 
 
-def items(domain, split):
+def items(domain, split, base=None):
     spec = PROTOCOL['splits'][split]
     n = spec[domain]
-    base = spec['base']
+    base = spec['base'] if base is None else base
     if split == 'transfer' and domain == 'causalworld':
         seeds = (base + 4*(i//2) + 2 + (i % 2) for i in range(n))
     elif split == 'transfer' and domain == 'pusht':
@@ -86,14 +87,18 @@ def main():
     parser.add_argument('domain', choices=DOMAINS)
     parser.add_argument('--workers', type=int, default=32)
     parser.add_argument('--split', choices=PROTOCOL['splits'])
+    parser.add_argument('--repeat-transfer', action='store_true')
     args = parser.parse_args()
     DATA.mkdir(exist_ok=True)
     with mp.Pool(args.workers, maxtasksperchild=32) as pool:
-        for split in ([args.split] if args.split else PROTOCOL['splits']):
-            rows = pool.map(sample, items(args.domain, split), chunksize=2)
+        splits = ['transfer'] if args.repeat_transfer else ([args.split] if args.split else PROTOCOL['splits'])
+        for split in splits:
+            base = MOTION_PROTOCOL['layout_base'] if args.repeat_transfer else None
+            rows = pool.map(sample, items(args.domain, split, base), chunksize=2)
             fields = ['seed','x','a','role','goal','fa','fact','fe','traj','contact',
                       *(['off'] if args.domain == 'cophy' else ['rewards'])]
-            path = DATA / f'{args.domain}-{split}.npz'
+            name = MOTION_PROTOCOL['test_split'] if args.repeat_transfer else split
+            path = DATA / f'{args.domain}-{name}.npz'
             np.savez_compressed(path, **{key: np.asarray([row[key] for row in rows]) for key in fields})
             print(path.relative_to(ROOT), len(rows), flush=True)
 

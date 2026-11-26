@@ -1,0 +1,27 @@
+{
+  "selected": "motion_once",
+  "validation": {
+    "motion_once": {
+      "step": 1300,
+      "loss": 0.37253618240356445,
+      "validation": {
+        "cophy": 1.1245750961152796,
+        "causalworld": 0.2998436106246987,
+        "pusht": 1.1057199837436134
+      },
+      "criterion": 0.8433795634945306,
+      "seconds": 206.7
+    },
+    "motion_twice": {
+      "step": 1690,
+      "loss": 0.37966156005859375,
+      "validation": {
+        "cophy": 1.1156385245810878,
+        "causalworld": 0.3035244220782707,
+        "pusht": 1.1314782056478077
+      },
+      "criterion": 0.850213717435722,
+      "seconds": 486.1
+    }
+  }
+}

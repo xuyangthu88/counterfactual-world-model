@@ -1,0 +1,7 @@
+{
+  "layout_base": 13400000,
+  "test_split": "retransfer",
+  "budgets": {"motion_once": 2600, "motion_twice": 2600, "motion_unseen": 2200},
+  "architecture": {"motion_once": 1, "motion_twice": 2, "motion_unseen": 2},
+  "primary": "The Stage 27 per-domain paired endpoint XYZ RMSE, evaluated on a new draw from the same held-out settings."
+}
