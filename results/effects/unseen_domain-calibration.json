@@ -1,0 +1,66 @@
+[
+  {
+    "step": 100,
+    "validation_nll": {
+      "cophy": -2.181990623474121,
+      "causalworld": -6.443975448608398
+    },
+    "criterion": -4.31298303604126
+  },
+  {
+    "step": 200,
+    "validation_nll": {
+      "cophy": -2.220503568649292,
+      "causalworld": -6.464460372924805
+    },
+    "criterion": -4.342481970787048
+  },
+  {
+    "step": 300,
+    "validation_nll": {
+      "cophy": -2.2723755836486816,
+      "causalworld": -6.479308605194092
+    },
+    "criterion": -4.375842094421387
+  },
+  {
+    "step": 400,
+    "validation_nll": {
+      "cophy": -2.301708459854126,
+      "causalworld": -6.506263732910156
+    },
+    "criterion": -4.403986096382141
+  },
+  {
+    "step": 500,
+    "validation_nll": {
+      "cophy": -2.320157051086426,
+      "causalworld": -6.514596462249756
+    },
+    "criterion": -4.417376756668091
+  },
+  {
+    "step": 600,
+    "validation_nll": {
+      "cophy": -2.3324031829833984,
+      "causalworld": -6.50394344329834
+    },
+    "criterion": -4.418173313140869
+  },
+  {
+    "step": 700,
+    "validation_nll": {
+      "cophy": -2.3110437393188477,
+      "causalworld": -6.4934515953063965
+    },
+    "criterion": -4.402247667312622
+  },
+  {
+    "step": 800,
+    "validation_nll": {
+      "cophy": -2.3277804851531982,
+      "causalworld": -6.506864547729492
+    },
+    "criterion": -4.417322516441345
+  }
+]

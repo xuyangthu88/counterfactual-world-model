@@ -1,0 +1,24 @@
+{
+  "seed": 271,
+  "target_percent": 30,
+  "primary": {
+    "prediction": "Terminal 3D position difference vector RMSE over all unordered candidate pairs and moving receivers",
+    "reference": "Per domain and split, the lower error of the standard CoPhyNet and PETS fits on the identical records",
+    "improvement_percent": "100 * (reference_rmse - model_rmse) / reference_rmse",
+    "structure": "Final CoPhy directed collision-removal BER and five-window pushing native contact BER against NCII with validation-selected thresholds",
+    "structure_improvement_percent": "100 * (reference_BER - model_BER) / reference_BER"
+  },
+  "units": {"cophy":"block edge lengths", "causalworld":"mm", "pusht":"px"},
+  "splits": {
+    "train": {"base":13000000, "cophy":768, "causalworld":1536, "pusht":1536},
+    "val": {"base":13100000, "cophy":144, "causalworld":192, "pusht":192},
+    "test": {"base":13200000, "cophy":256, "causalworld":320, "pusht":320},
+    "transfer": {"base":13300000, "cophy":256, "causalworld":320, "pusht":320}
+  },
+  "shift": {"cophy":"3/4 blocks to 5 blocks", "causalworld":"P1/P7 to P2/P8", "pusht":"damping 0/.08/.55 to .25"},
+  "unseen_domain": "Push-T, excluded from training, initialization and checkpoint selection",
+  "branches": 4,
+  "budgets": {"shared":2600,"no_edge_intervention":2600,"unseen_domain":2200,"cophynet_epochs":50,"pets_epochs":25,"ncii_updates":2400},
+  "secondary": ["position RMSE", "orientation-axis RMSE", "reward and reward difference RMSE", "difference CRPS", "signed edge-intervention response RMSE", "contact AP and new-contact AP", "hard gate paired separation", "distant receiver position-difference RMSE"],
+  "selection": "Validation terminal XYZ action differences averaged in object units. Thresholds picked on validation. Fixed model and threshold across both test splits."
+}

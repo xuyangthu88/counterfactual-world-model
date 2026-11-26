@@ -34,14 +34,15 @@ def cophy_api():
     return NATIVE
 
 
-def tower(seed, deletion=False, trace=False):
+def tower(seed, deletion=False, trace=False, *, height=None, trajectory_pairs=False):
     """Replay matched block interventions; trace records five physical windows and exact deletion effects."""
     api = cophy_api()
     pb = api['pb']
     rng = np.random.default_rng(seed)
     np.random.seed(seed)
     random.seed(seed)
-    height = 3+seed%2
+    height = 3+seed%2 if height is None else height
+    trace = trace or trajectory_pairs
     poses, angles = api['generate_random_tower'](height)
     masses = rng.choice([1.,10.],height)
     frictions = rng.choice([.5,1.],height)
@@ -49,7 +50,8 @@ def tower(seed, deletion=False, trace=False):
     gravity[rng.integers(2)] = rng.choice([-.5,0.,.5])
     def simulate(p, remove=None):
         api['set_up_env'](.2,5,gravity)
-        ids = api['set_up_tower'](p,angles,['red','green','blue','yellow'][:height],masses,frictions)
+        colors = (['red','green','blue','yellow'] * ((height+3)//4))[:height]
+        ids = api['set_up_tower'](p,angles,colors,masses,frictions)
         if remove is not None:
             i,j = remove
             pb.setCollisionFilterPair(ids[i],ids[j],-1,-1,0)
@@ -77,7 +79,8 @@ def tower(seed, deletion=False, trace=False):
         return start, obs(), edge
     x,f1,fe = simulate(poses)
     fa = np.zeros((N,A),np.float32)
-    actions, ys, edges, effects = [], [], [], []
+    actions, ys, edges, effects, deltas = [], [], [], [], []
+    pairs = list(zip(*np.tril_indices(N, -1)))
     for _ in range(BRANCHES):
         j,axis = rng.integers(height),rng.integers(2)
         delta = rng.choice([-1,1])*rng.choice(np.arange(.1,2.01,.05))
@@ -88,18 +91,30 @@ def tower(seed, deletion=False, trace=False):
         _,y,e = simulate(alt)
         if deletion or trace:
             impact = np.zeros((5,N,N) if trace else (N,N),np.float32)
-            for src in range(height):
-                for dst in range(src):
-                    _,missing,_ = simulate(alt,(src,dst))
-                    changes = np.linalg.norm(y[...,:3]-missing[...,:3],axis=-1)
-                    impact[...,src,dst],impact[...,dst,src] = changes[...,dst],changes[...,src]
+            if trajectory_pairs:
+                # [disabled unordered pair, time, receiver, coordinate]
+                signed = np.zeros((len(pairs),5,N,3),np.float32)
+            for p,(src,dst) in enumerate(pairs):
+                if src >= height:
+                    break
+                _,missing,_ = simulate(alt,(src,dst))
+                difference = y[...,:3]-missing[...,:3]
+                changes = np.linalg.norm(difference,axis=-1)
+                impact[...,src,dst],impact[...,dst,src] = changes[...,dst],changes[...,src]
+                if trajectory_pairs:
+                    signed[p] = difference
+            if trajectory_pairs:
+                deltas.append(signed)
             effects.append(impact)
         actions.append(act)
         ys.append(y)
         edges.append(e)
     if trace:
-        return dict(seed=seed,f0=x,fa=fa,f1=f1[-1],fe=fe.max(0),x=x,role=roles(list(range(height)),[],[]),
-                    goal=np.zeros(D),a=actions,traj=ys,contact=edges,impact=effects)
+        row = dict(seed=seed,f0=x,fa=fa,f1=f1[-1],fe=fe.max(0),x=x,role=roles(list(range(height)),[],[]),
+                   goal=np.zeros(D),a=actions,traj=ys,contact=edges,impact=effects)
+        if trajectory_pairs:
+            row.update(fact=np.concatenate([x[None],f1]), off=deltas)
+        return row
     if deletion:
         return seed,np.stack(effects)
     return dict(f0=x,fa=fa,f1=f1,fe=fe,x=x,role=roles(list(range(height)),[],[]),
