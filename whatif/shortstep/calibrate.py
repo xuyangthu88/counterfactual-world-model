@@ -13,11 +13,11 @@ from .fit import model_domains
 from .model import ShortWorld
 
 
-def calibrate(kind):
+def calibrate(kind, model=None, *, domains=None, directory=OUT, steps=PROTOCOL['calibration_steps']):
     device='cuda'
-    domains=model_domains(kind)
-    checkpoint=torch.load(OUT/f'{kind}.pt',map_location=device)
-    model=ShortWorld().to(device)
+    domains=model_domains(kind) if domains is None else domains
+    checkpoint=torch.load(directory/f'{kind}.pt',map_location=device)
+    model=(ShortWorld() if model is None else model).to(device)
     model.load_state_dict(checkpoint['model'])
     model.eval().requires_grad_(False)
     for head in (model.position_dist,model.reward_dist,model.regime):
@@ -27,22 +27,23 @@ def calibrate(kind):
     valid={d:load(d,'val',device,labels=False) for d in domains}
     log=[]
     best=float('inf')
-    for step in range(1,PROTOCOL['calibration_steps']+1):
+    for step in range(1,steps+1):
         rows=[subset(d,torch.randint(len(d['x']),(40,),device=device)) for d in train.values()]
         objective=torch.stack([loss(model,d) for d in rows]).mean()
         optimizer.zero_grad(set_to_none=True)
         objective.backward()
         optimizer.step()
-        if step%100==0 or step==PROTOCOL['calibration_steps']:
+        if step%100==0 or step==steps:
             with torch.no_grad():
                 values={d:float(loss(model,b)) for d,b in valid.items()}
             value=sum(values.values())/len(values)
             if value<best:
                 best=value
-                torch.save(dict(checkpoint,model=model.state_dict(),calibration_step=step),OUT/f'{kind}-calibrated.pt')
+                torch.save(dict(checkpoint,model=model.state_dict(),calibration_step=step),
+                           directory/f'{kind}-calibrated.pt')
             log.append(dict(step=step,validation=values,value=value))
             print(kind,log[-1],flush=True)
-            (OUT/f'{kind}-calibration.json').write_text(json.dumps(log,indent=2)+'\n')
+            (directory/f'{kind}-calibration.json').write_text(json.dumps(log,indent=2)+'\n')
 
 
 if __name__=='__main__':

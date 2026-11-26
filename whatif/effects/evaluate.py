@@ -119,8 +119,14 @@ def prediction(d, o, domain, flavor):
     measured = mover.expand_as(large)
     tail = (large >= large[measured].quantile(.95)) & measured
     sq = end.square().sum(-1)
+    target_delta = y[:,:,-1,:,:3]
+    predicted_delta = end + target_delta
     stat.update(largest_effect_rmse=unit*root_mean(end,tail),
                 largest_effect_error_share=float((sq*tail).sum()/(sq*measured).sum().clamp_min(1.e-12)),
+                largest_effect_true_magnitude=unit*float(average(large,tail)),
+                largest_effect_predicted_magnitude=unit*float(average(predicted_delta.norm(dim=-1),tail)),
+                largest_effect_direction_cosine=float(average(
+                    torch.nn.functional.cosine_similarity(predicted_delta,target_delta,dim=-1),tail)),
                 largest_effect_pairs=int(tail.sum()))
     discrepancy=(d['edge'][:,i]!=d['edge'][:,j]).any(2).any(-2) | (d['edge'][:,i]!=d['edge'][:,j]).any(2).any(-1)
     changed=mover&discrepancy

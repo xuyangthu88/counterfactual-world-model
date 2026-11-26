@@ -1,0 +1,76 @@
+{
+  "selected": "continued-calibrated",
+  "heldout_selected": "cumulative_unseen-calibrated",
+  "validation": {
+    "continued-calibrated": {
+      "step": 1800,
+      "validation": {
+        "cophy": 1.0508002335016546,
+        "causalworld": 0.261649058443271,
+        "pusht": 1.041188133312982
+      },
+      "initial_validation": {
+        "cophy": 1.0484147933671548,
+        "causalworld": 0.27194427967709195,
+        "pusht": 1.0708186769533865
+      },
+      "criterion": 0.9789155080234148,
+      "loss": 0.4845201373100281,
+      "seconds": 561.9
+    },
+    "cumulative-calibrated": {
+      "step": 1800,
+      "validation": {
+        "cophy": 1.0555516788065697,
+        "causalworld": 0.26119626614564795,
+        "pusht": 1.0440741739892556
+      },
+      "initial_validation": {
+        "cophy": 1.0484147933671548,
+        "causalworld": 0.27194427967709195,
+        "pusht": 1.0708186769533865
+      },
+      "criterion": 0.9807695685569352,
+      "loss": 0.4896222949028015,
+      "seconds": 620.8
+    },
+    "cumulative_unseen-calibrated": {
+      "step": 1300,
+      "validation": {
+        "cophy": 1.027687492285592,
+        "causalworld": 0.2799193951767243
+      },
+      "initial_validation": {
+        "cophy": 1.0721589687584396,
+        "causalworld": 0.2862642635063711
+      },
+      "criterion": 0.9681785950960766,
+      "loss": 0.7454167008399963,
+      "seconds": 300.7
+    },
+    "short_rotated-calibrated": {
+      "validation": {
+        "cophy": 1.0484147933671548,
+        "causalworld": 0.27194427967709195,
+        "pusht": 1.0708186769533865
+      },
+      "initial_validation": {
+        "cophy": 1.0484147933671548,
+        "causalworld": 0.27194427967709195,
+        "pusht": 1.0708186769533865
+      },
+      "criterion": 1.0
+    },
+    "short_unseen-calibrated": {
+      "validation": {
+        "cophy": 1.0721589687584396,
+        "causalworld": 0.2862642635063711
+      },
+      "initial_validation": {
+        "cophy": 1.0721589687584396,
+        "causalworld": 0.2862642635063711
+      },
+      "criterion": 1.0
+    }
+  }
+}

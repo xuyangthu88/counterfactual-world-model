@@ -53,6 +53,9 @@ class ShortWorld(MotionWorld):
         coef=self.vector(pair).unflatten(-1,(FACTORS,6))
         return torch.einsum('bijf,bijfl,bijlc->bjc',weights[...,0],coef,directions)
 
+    def cumulative_displacement(self,state,initial,time):
+        return None
+
     def rollout(self,d,node,facts,action,reset,keep=None,soft=0.):
         x,roles=d['x'],d['role']
         b,k,n=action.shape[:3]
@@ -63,6 +66,8 @@ class ShortWorld(MotionWorld):
         omit=torch.ones_like(mask) if keep is None else keep.flatten(0,1)
         prior=tile(facts['graph'],k)
         state=torch.stack([f(torch.cat([body,q],-1)) for f,q in zip(self.factor,pose.split(3,-1))],-2)
+        initial_state=state
+        correction=0.
         message=torch.zeros_like(state)
         observed=(d['fact'][:,-1]-d['fact'][:,-2])*(1-d['same'][:,None,None])
         velocity=tile(observed/d['widths'][:,-1,None,None],k)
@@ -95,6 +100,10 @@ class ShortWorld(MotionWorld):
                 h,m=state[:,:,i],message[:,:,i]
                 change.append(f(torch.cat([h,m,time],-1))-f(torch.cat([h,torch.zeros_like(m),time],-1)))
             future=proposed+fraction*(torch.cat(change,-1)+F.pad(physical,(0,6)))
+            next_correction=self.cumulative_displacement(state,initial_state,time)
+            if next_correction is not None:
+                future=future+F.pad(next_correction-correction,(0,6))
+                correction=next_correction
             velocity=(future-pose)/dt
             pose=future
             outputs.append((pose,logit,torch.logit(carry.clamp(1.e-5,1-1.e-5)),strength,state))

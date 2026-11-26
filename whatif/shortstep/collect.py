@@ -63,8 +63,8 @@ def sample(item):
     return collect_tower(seed,split) if domain=='cophy' else collect_push(domain,seed,split)
 
 
-def write(data, domain, split):
-    name = PROTOCOL['test_split'] if split=='transfer' else split
+def write(data, domain, split, name=None):
+    name = name or (PROTOCOL['test_split'] if split=='transfer' else split)
     fields = ['seed','native_pose','native_edge','native_off',
               *([] if domain=='cophy' else ['native_reward','removed_pair'])]
     old = ['seed','x','a','role','goal','fa','fact','fe','traj','contact',
@@ -88,10 +88,15 @@ if __name__=='__main__':
     p.add_argument('domain',choices=DOMAINS)
     p.add_argument('--workers',type=int,default=32)
     p.add_argument('--split',choices=('train','val','transfer'))
+    p.add_argument('--transfer-base',type=int)
+    p.add_argument('--transfer-name')
     a=p.parse_args()
+    if (a.transfer_base is None)!=(a.transfer_name is None) or (a.transfer_name and a.split!='transfer'):
+        p.error('A named transfer split needs both --transfer-base and --transfer-name with --split transfer')
     DATA.mkdir(exist_ok=True)
+    transfer_base = PROTOCOL['layout_base'] if a.transfer_base is None else a.transfer_base
     with mp.Pool(a.workers,maxtasksperchild=32) as pool:
         for split in ([a.split] if a.split else ('train','val','transfer')):
-            base = PROTOCOL['layout_base'] if split=='transfer' else None
+            base = transfer_base if split=='transfer' else None
             rows=pool.map(sample,items(a.domain,split,base),chunksize=2)
-            write(rows,a.domain,split)
+            write(rows,a.domain,split,a.transfer_name)

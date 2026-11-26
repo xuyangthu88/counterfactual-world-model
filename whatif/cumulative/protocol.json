@@ -1,0 +1,9 @@
+{
+  "layout_base": 13600000,
+  "test_split": "cumulativetransfer",
+  "budgets": {"continued": 1800, "cumulative": 1800, "cumulative_unseen": 1800},
+  "calibration_steps": 450,
+  "selection": "Lowest average normalized endpoint action-difference RMSE on the original validation layouts, including the Stage 29 parent. Use one selected checkpoint in all domains.",
+  "primary": "Terminal two-action XYZ difference RMSE over movable receivers, relative to the better frozen CoPhyNet or PETS model on the same records.",
+  "inputs": "Same as Stage 29 and Stage 27; no new training or calibration layout, and no added observation. All models compared on one independent draw."
+}
