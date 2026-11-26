@@ -1,0 +1,1308 @@
+{
+ "pusht": {
+  "n": 1024,
+  "arms": {
+   "both_means": {
+    "success": 242,
+    "peak": 0.892549356406974,
+    "last": 0.7463860516727436,
+    "versus_generator": {
+     "rescued": 39,
+     "broken": 41,
+     "points": -0.1953125,
+     "interval": [
+      -1.953125,
+      1.5625
+     ],
+     "different_plans": 305
+    }
+   },
+   "both_independent": {
+    "success": 240,
+    "peak": 0.8934055016920439,
+    "last": 0.7470961956714746,
+    "versus_generator": {
+     "rescued": 37,
+     "broken": 41,
+     "points": -0.390625,
+     "interval": [
+      -2.05078125,
+      1.2719726562499645
+     ],
+     "different_plans": 297
+    }
+   },
+   "both_law": {
+    "success": 244,
+    "peak": 0.8918256208175563,
+    "last": 0.746557874372229,
+    "versus_generator": {
+     "rescued": 41,
+     "broken": 41,
+     "points": 0.0,
+     "interval": [
+      -1.7578125,
+      1.7578125
+     ],
+     "different_plans": 307
+    }
+   },
+   "both_kl": {
+    "success": 244,
+    "peak": 0.8918256208175563,
+    "last": 0.746557874372229,
+    "versus_generator": {
+     "rescued": 41,
+     "broken": 41,
+     "points": 0.0,
+     "interval": [
+      -1.7578125,
+      1.7578125
+     ],
+     "different_plans": 307
+    }
+   },
+   "both_direct": {
+    "success": 254,
+    "peak": 0.8921826057407571,
+    "last": 0.7480051320308121,
+    "versus_generator": {
+     "rescued": 45,
+     "broken": 35,
+     "points": 0.9765625,
+     "interval": [
+      -0.68359375,
+      2.734375
+     ],
+     "different_plans": 306
+    }
+   },
+   "both_fixed": {
+    "success": 226,
+    "peak": 0.8963311736331434,
+    "last": 0.7205336693987192,
+    "versus_generator": {
+     "rescued": 146,
+     "broken": 164,
+     "points": -1.7578125,
+     "interval": [
+      -5.17578125,
+      1.5625
+     ],
+     "different_plans": 995
+    }
+   },
+   "both_unpaired": {
+    "success": 242,
+    "peak": 0.8942075033469905,
+    "last": 0.7477323903549404,
+    "versus_generator": {
+     "rescued": 39,
+     "broken": 41,
+     "points": -0.1953125,
+     "interval": [
+      -1.85546875,
+      1.46484375
+     ],
+     "different_plans": 238
+    }
+   },
+   "hold_means": {
+    "success": 236,
+    "peak": 0.8916232681660432,
+    "last": 0.7426446001190925,
+    "versus_generator": {
+     "rescued": 31,
+     "broken": 39,
+     "points": -0.78125,
+     "interval": [
+      -2.34375,
+      0.87890625
+     ],
+     "different_plans": 202
+    }
+   },
+   "hold_independent": {
+    "success": 235,
+    "peak": 0.8920466145793426,
+    "last": 0.743459879027796,
+    "versus_generator": {
+     "rescued": 30,
+     "broken": 39,
+     "points": -0.87890625,
+     "interval": [
+      -2.44140625,
+      0.68359375
+     ],
+     "different_plans": 194
+    }
+   },
+   "hold_law": {
+    "success": 233,
+    "peak": 0.8909827313329544,
+    "last": 0.7419436960335588,
+    "versus_generator": {
+     "rescued": 29,
+     "broken": 40,
+     "points": -1.07421875,
+     "interval": [
+      -2.63671875,
+      0.48828125
+     ],
+     "different_plans": 195
+    }
+   },
+   "hold_kl": {
+    "success": 233,
+    "peak": 0.8909827313329544,
+    "last": 0.7419436960335588,
+    "versus_generator": {
+     "rescued": 29,
+     "broken": 40,
+     "points": -1.07421875,
+     "interval": [
+      -2.63671875,
+      0.48828125
+     ],
+     "different_plans": 195
+    }
+   },
+   "hold_direct": {
+    "success": 238,
+    "peak": 0.8912711637969579,
+    "last": 0.7450668161181966,
+    "versus_generator": {
+     "rescued": 28,
+     "broken": 34,
+     "points": -0.5859375,
+     "interval": [
+      -2.05078125,
+      0.9765625
+     ],
+     "different_plans": 180
+    }
+   },
+   "hold_fixed": {
+    "success": 225,
+    "peak": 0.8838522616811133,
+    "last": 0.7098848416972601,
+    "versus_generator": {
+     "rescued": 121,
+     "broken": 140,
+     "points": -1.85546875,
+     "interval": [
+      -5.078125,
+      1.26953125
+     ],
+     "different_plans": 802
+    }
+   },
+   "hold_unpaired": {
+    "success": 239,
+    "peak": 0.8941951071743119,
+    "last": 0.7452352839427476,
+    "versus_generator": {
+     "rescued": 35,
+     "broken": 40,
+     "points": -0.48828125,
+     "interval": [
+      -2.1484375,
+      1.171875
+     ],
+     "different_plans": 213
+    }
+   },
+   "late_direct": {
+    "success": 291,
+    "peak": 0.9039015873307648,
+    "last": 0.7790448211189869,
+    "versus_generator": {
+     "rescued": 162,
+     "broken": 115,
+     "points": 4.58984375,
+     "interval": [
+      1.3671875,
+      7.8125
+     ],
+     "different_plans": 793
+    }
+   },
+   "late_means": {
+    "success": 284,
+    "peak": 0.9032093216404604,
+    "last": 0.7776697938124926,
+    "versus_generator": {
+     "rescued": 154,
+     "broken": 114,
+     "points": 3.90625,
+     "interval": [
+      0.68359375,
+      7.03125
+     ],
+     "different_plans": 777
+    }
+   },
+   "late_independent": {
+    "success": 284,
+    "peak": 0.9039645863552863,
+    "last": 0.7781707247440863,
+    "versus_generator": {
+     "rescued": 155,
+     "broken": 115,
+     "points": 3.90625,
+     "interval": [
+      0.68359375,
+      7.03125
+     ],
+     "different_plans": 776
+    }
+   },
+   "late_law": {
+    "success": 286,
+    "peak": 0.9031794937503577,
+    "last": 0.7773396663133099,
+    "versus_generator": {
+     "rescued": 157,
+     "broken": 115,
+     "points": 4.1015625,
+     "interval": [
+      0.87890625,
+      7.2265625
+     ],
+     "different_plans": 781
+    }
+   },
+   "late_kl": {
+    "success": 286,
+    "peak": 0.9031794937503577,
+    "last": 0.7773396663133099,
+    "versus_generator": {
+     "rescued": 157,
+     "broken": 115,
+     "points": 4.1015625,
+     "interval": [
+      0.87890625,
+      7.2265625
+     ],
+     "different_plans": 781
+    }
+   },
+   "stage25": {
+    "success": 277,
+    "peak": 0.9043183758927142,
+    "last": 0.7706995896251101,
+    "versus_generator": {
+     "rescued": 143,
+     "broken": 110,
+     "points": 3.22265625,
+     "interval": [
+      0.09765625,
+      6.25
+     ],
+     "different_plans": 731
+    }
+   },
+   "stage25belief": {
+    "success": 278,
+    "peak": 0.9034226808174566,
+    "last": 0.770026564073305,
+    "versus_generator": {
+     "rescued": 142,
+     "broken": 108,
+     "points": 3.3203125,
+     "interval": [
+      0.1953125,
+      6.3500976562499645
+     ],
+     "different_plans": 730
+    }
+   },
+   "stage24": {
+    "success": 268,
+    "peak": 0.8991650585847424,
+    "last": 0.7520986365580029,
+    "versus_generator": {
+     "rescued": 81,
+     "broken": 57,
+     "points": 2.34375,
+     "interval": [
+      0.0,
+      4.4921875
+     ],
+     "different_plans": 427
+    }
+   },
+   "actor": {
+    "success": 244,
+    "peak": 0.8932582406692404,
+    "last": 0.7525345563735755,
+    "versus_generator": {
+     "rescued": 0,
+     "broken": 0,
+     "points": 0.0,
+     "interval": [
+      0.0,
+      0.0
+     ],
+     "different_plans": 0
+    }
+   },
+   "fixed_policy": {
+    "success": 253,
+    "peak": 0.9021130116331193,
+    "last": 0.7553774657063173,
+    "versus_generator": {
+     "rescued": 178,
+     "broken": 169,
+     "points": 0.87890625,
+     "interval": [
+      -2.83203125,
+      4.39453125
+     ],
+     "different_plans": 1024
+    }
+   },
+   "pets": {
+    "success": 244,
+    "peak": 0.8932582406692404,
+    "last": 0.7525345563735755,
+    "versus_generator": {
+     "rescued": 0,
+     "broken": 0,
+     "points": 0.0,
+     "interval": [
+      0.0,
+      0.0
+     ]
+    }
+   },
+   "stage21": {
+    "success": 242,
+    "peak": 0.894108440914863,
+    "last": 0.7529575484550151,
+    "versus_generator": {
+     "rescued": 2,
+     "broken": 4,
+     "points": -0.1953125,
+     "interval": [
+      -0.68359375,
+      0.29296875
+     ]
+    }
+   }
+  },
+  "paired": {
+   "both_kl-actor": {
+    "rescued": 41,
+    "broken": 41,
+    "points": 0.0,
+    "interval": [
+     -1.7578125,
+     1.7578125
+    ],
+    "different_plans": 307
+   },
+   "both_kl-fixed_policy": {
+    "rescued": 159,
+    "broken": 168,
+    "points": -0.87890625,
+    "interval": [
+     -4.39453125,
+     2.63671875
+    ],
+    "different_plans": 1003
+   },
+   "both_kl-stage25": {
+    "rescued": 110,
+    "broken": 143,
+    "points": -3.22265625,
+    "interval": [
+     -6.252441406249999,
+     -0.09765625
+    ],
+    "different_plans": 768
+   },
+   "both_kl-stage25belief": {
+    "rescued": 107,
+    "broken": 141,
+    "points": -3.3203125,
+    "interval": [
+     -6.350097656249999,
+     -0.29296875
+    ],
+    "different_plans": 765
+   },
+   "both_kl-stage24": {
+    "rescued": 74,
+    "broken": 98,
+    "points": -2.34375,
+    "interval": [
+     -4.78515625,
+     0.29296875
+    ],
+    "different_plans": 520
+   },
+   "both_kl-stage21": {
+    "rescued": 45,
+    "broken": 43,
+    "points": 0.1953125,
+    "interval": [
+     -1.66015625,
+     1.953125
+    ]
+   },
+   "both_kl-pets": {
+    "rescued": 41,
+    "broken": 41,
+    "points": 0.0,
+    "interval": [
+     -1.7578125,
+     1.7578125
+    ]
+   },
+   "both_means-direct": {
+    "rescued": 12,
+    "broken": 24,
+    "points": -1.171875,
+    "interval": [
+     -2.34375,
+     -0.09765625
+    ],
+    "different_plans": 110
+   },
+   "both_independent-means": {
+    "rescued": 2,
+    "broken": 4,
+    "points": -0.1953125,
+    "interval": [
+     -0.68359375,
+     0.29296875
+    ],
+    "different_plans": 26
+   },
+   "both_law-independent": {
+    "rescued": 5,
+    "broken": 1,
+    "points": 0.390625,
+    "interval": [
+     0.0,
+     0.87890625
+    ],
+    "different_plans": 22
+   },
+   "both_law-means": {
+    "rescued": 7,
+    "broken": 5,
+    "points": 0.1953125,
+    "interval": [
+     -0.48828125,
+     0.87890625
+    ],
+    "different_plans": 44
+   },
+   "both_kl-law": {
+    "rescued": 0,
+    "broken": 0,
+    "points": 0.0,
+    "interval": [
+     0.0,
+     0.0
+    ],
+    "different_plans": 0
+   },
+   "both_direct-fixed": {
+    "rescued": 169,
+    "broken": 141,
+    "points": 2.734375,
+    "interval": [
+     -0.5859375,
+     6.15234375
+    ],
+    "different_plans": 957
+   },
+   "both_direct-unpaired": {
+    "rescued": 66,
+    "broken": 54,
+    "points": 1.171875,
+    "interval": [
+     -0.87890625,
+     3.22265625
+    ],
+    "different_plans": 375
+   },
+   "hold_means-direct": {
+    "rescued": 6,
+    "broken": 8,
+    "points": -0.1953125,
+    "interval": [
+     -0.9765625,
+     0.48828125
+    ],
+    "different_plans": 49
+   },
+   "hold_independent-means": {
+    "rescued": 1,
+    "broken": 2,
+    "points": -0.09765625,
+    "interval": [
+     -0.390625,
+     0.1953125
+    ],
+    "different_plans": 13
+   },
+   "hold_law-independent": {
+    "rescued": 0,
+    "broken": 2,
+    "points": -0.1953125,
+    "interval": [
+     -0.48828125,
+     0.0
+    ],
+    "different_plans": 7
+   },
+   "hold_law-means": {
+    "rescued": 1,
+    "broken": 4,
+    "points": -0.29296875,
+    "interval": [
+     -0.78125,
+     0.09765625
+    ],
+    "different_plans": 18
+   },
+   "hold_kl-law": {
+    "rescued": 0,
+    "broken": 0,
+    "points": 0.0,
+    "interval": [
+     0.0,
+     0.0
+    ],
+    "different_plans": 0
+   },
+   "hold_direct-fixed": {
+    "rescued": 123,
+    "broken": 110,
+    "points": 1.26953125,
+    "interval": [
+     -1.5625,
+     4.19921875
+    ],
+    "different_plans": 742
+   },
+   "hold_direct-unpaired": {
+    "rescued": 44,
+    "broken": 45,
+    "points": -0.09765625,
+    "interval": [
+     -1.85546875,
+     1.7578125
+    ],
+    "different_plans": 260
+   },
+   "late_means-direct": {
+    "rescued": 4,
+    "broken": 11,
+    "points": -0.68359375,
+    "interval": [
+     -1.46484375,
+     0.0
+    ],
+    "different_plans": 53
+   },
+   "late_independent-means": {
+    "rescued": 2,
+    "broken": 2,
+    "points": 0.0,
+    "interval": [
+     -0.390625,
+     0.390625
+    ],
+    "different_plans": 9
+   },
+   "late_law-independent": {
+    "rescued": 2,
+    "broken": 0,
+    "points": 0.1953125,
+    "interval": [
+     0.0,
+     0.48828125
+    ],
+    "different_plans": 12
+   },
+   "late_law-means": {
+    "rescued": 4,
+    "broken": 2,
+    "points": 0.1953125,
+    "interval": [
+     -0.29296875,
+     0.68359375
+    ],
+    "different_plans": 21
+   },
+   "late_kl-law": {
+    "rescued": 0,
+    "broken": 0,
+    "points": 0.0,
+    "interval": [
+     0.0,
+     0.0
+    ],
+    "different_plans": 0
+   }
+  }
+ },
+ "causalworld": {
+  "n": 1024,
+  "arms": {
+   "both_means": {
+    "success": 783,
+    "peak": 0.8105383648096307,
+    "last": 0.7395014534197344,
+    "versus_generator": {
+     "rescued": 429,
+     "broken": 59,
+     "points": 36.1328125,
+     "interval": [
+      32.51953125,
+      39.84375
+     ],
+     "different_plans": 976
+    }
+   },
+   "both_independent": {
+    "success": 780,
+    "peak": 0.8090915936070218,
+    "last": 0.7376996391178636,
+    "versus_generator": {
+     "rescued": 427,
+     "broken": 60,
+     "points": 35.83984375,
+     "interval": [
+      32.2265625,
+      39.55078125
+     ],
+     "different_plans": 976
+    }
+   },
+   "both_law": {
+    "success": 784,
+    "peak": 0.8109079896628231,
+    "last": 0.7402457071805202,
+    "versus_generator": {
+     "rescued": 430,
+     "broken": 59,
+     "points": 36.23046875,
+     "interval": [
+      32.6171875,
+      39.846191406249964
+     ],
+     "different_plans": 975
+    }
+   },
+   "both_kl": {
+    "success": 784,
+    "peak": 0.810949188637764,
+    "last": 0.7402869061554611,
+    "versus_generator": {
+     "rescued": 430,
+     "broken": 59,
+     "points": 36.23046875,
+     "interval": [
+      32.6171875,
+      39.846191406249964
+     ],
+     "different_plans": 974
+    }
+   },
+   "both_direct": {
+    "success": 782,
+    "peak": 0.809126584269265,
+    "last": 0.7378686329707307,
+    "versus_generator": {
+     "rescued": 431,
+     "broken": 62,
+     "points": 36.03515625,
+     "interval": [
+      32.421875,
+      39.74609375
+     ],
+     "different_plans": 984
+    }
+   },
+   "both_fixed": {
+    "success": 774,
+    "peak": 0.8047059772811167,
+    "last": 0.7343085986626647,
+    "versus_generator": {
+     "rescued": 427,
+     "broken": 66,
+     "points": 35.25390625,
+     "interval": [
+      31.54296875,
+      38.96484375
+     ],
+     "different_plans": 985
+    }
+   },
+   "both_unpaired": {
+    "success": 784,
+    "peak": 0.8093188570193206,
+    "last": 0.7391394511989233,
+    "versus_generator": {
+     "rescued": 434,
+     "broken": 63,
+     "points": 36.23046875,
+     "interval": [
+      32.6171875,
+      39.846191406249964
+     ],
+     "different_plans": 965
+    }
+   },
+   "hold_means": {
+    "success": 777,
+    "peak": 0.8075241131034403,
+    "last": 0.7403945452833796,
+    "versus_generator": {
+     "rescued": 425,
+     "broken": 61,
+     "points": 35.546875,
+     "interval": [
+      31.93359375,
+      39.16015625
+     ],
+     "different_plans": 956
+    }
+   },
+   "hold_independent": {
+    "success": 775,
+    "peak": 0.8061000477780311,
+    "last": 0.7385989616350344,
+    "versus_generator": {
+     "rescued": 423,
+     "broken": 61,
+     "points": 35.3515625,
+     "interval": [
+      31.73828125,
+      38.96484375
+     ],
+     "different_plans": 956
+    }
+   },
+   "hold_law": {
+    "success": 778,
+    "peak": 0.8074693003606939,
+    "last": 0.7403496544620793,
+    "versus_generator": {
+     "rescued": 425,
+     "broken": 60,
+     "points": 35.64453125,
+     "interval": [
+      32.03125,
+      39.2578125
+     ],
+     "different_plans": 958
+    }
+   },
+   "hold_kl": {
+    "success": 778,
+    "peak": 0.8075107003848956,
+    "last": 0.7403910544862811,
+    "versus_generator": {
+     "rescued": 425,
+     "broken": 60,
+     "points": 35.64453125,
+     "interval": [
+      32.03125,
+      39.2578125
+     ],
+     "different_plans": 957
+    }
+   },
+   "hold_direct": {
+    "success": 782,
+    "peak": 0.8058935874930597,
+    "last": 0.7410263824731373,
+    "versus_generator": {
+     "rescued": 430,
+     "broken": 61,
+     "points": 36.03515625,
+     "interval": [
+      32.41943359375,
+      39.74609375
+     ],
+     "different_plans": 962
+    }
+   },
+   "hold_fixed": {
+    "success": 775,
+    "peak": 0.8053016121806991,
+    "last": 0.7382626690729239,
+    "versus_generator": {
+     "rescued": 425,
+     "broken": 63,
+     "points": 35.3515625,
+     "interval": [
+      31.73828125,
+      39.0625
+     ],
+     "different_plans": 945
+    }
+   },
+   "hold_unpaired": {
+    "success": 776,
+    "peak": 0.8048983387104727,
+    "last": 0.7360985794477415,
+    "versus_generator": {
+     "rescued": 421,
+     "broken": 58,
+     "points": 35.44921875,
+     "interval": [
+      31.8359375,
+      38.96484375
+     ],
+     "different_plans": 933
+    }
+   },
+   "late_direct": {
+    "success": 782,
+    "peak": 0.8085675301776973,
+    "last": 0.7468956709087706,
+    "versus_generator": {
+     "rescued": 408,
+     "broken": 39,
+     "points": 36.03515625,
+     "interval": [
+      32.71484375,
+      39.55078125
+     ],
+     "different_plans": 873
+    }
+   },
+   "late_means": {
+    "success": 780,
+    "peak": 0.809153902577691,
+    "last": 0.7462794813416167,
+    "versus_generator": {
+     "rescued": 406,
+     "broken": 39,
+     "points": 35.83984375,
+     "interval": [
+      32.51953125,
+      39.35546875
+     ],
+     "different_plans": 872
+    }
+   },
+   "late_independent": {
+    "success": 779,
+    "peak": 0.8089527229608393,
+    "last": 0.7462606211281582,
+    "versus_generator": {
+     "rescued": 406,
+     "broken": 40,
+     "points": 35.7421875,
+     "interval": [
+      32.421875,
+      39.2578125
+     ],
+     "different_plans": 873
+    }
+   },
+   "late_law": {
+    "success": 779,
+    "peak": 0.8089527229608393,
+    "last": 0.7462581658708132,
+    "versus_generator": {
+     "rescued": 406,
+     "broken": 40,
+     "points": 35.7421875,
+     "interval": [
+      32.421875,
+      39.2578125
+     ],
+     "different_plans": 873
+    }
+   },
+   "late_kl": {
+    "success": 780,
+    "peak": 0.8091634329471162,
+    "last": 0.7465788141796565,
+    "versus_generator": {
+     "rescued": 407,
+     "broken": 40,
+     "points": 35.83984375,
+     "interval": [
+      32.51953125,
+      39.35546875
+     ],
+     "different_plans": 873
+    }
+   },
+   "stage25": {
+    "success": 799,
+    "peak": 0.813876683489525,
+    "last": 0.753166980710148,
+    "versus_generator": {
+     "rescued": 421,
+     "broken": 35,
+     "points": 37.6953125,
+     "interval": [
+      34.375,
+      41.11328125
+     ],
+     "different_plans": 881
+    }
+   },
+   "stage25belief": {
+    "success": 793,
+    "peak": 0.8111685852118171,
+    "last": 0.7513223001506049,
+    "versus_generator": {
+     "rescued": 417,
+     "broken": 37,
+     "points": 37.109375,
+     "interval": [
+      33.7890625,
+      40.52734375
+     ],
+     "different_plans": 885
+    }
+   },
+   "stage24": {
+    "success": 789,
+    "peak": 0.805997805229353,
+    "last": 0.7520916505759487,
+    "versus_generator": {
+     "rescued": 416,
+     "broken": 40,
+     "points": 36.71875,
+     "interval": [
+      33.203125,
+      40.13671875
+     ],
+     "different_plans": 866
+    }
+   },
+   "actor": {
+    "success": 413,
+    "peak": 0.61399455186897,
+    "last": 0.46203013139702875,
+    "versus_generator": {
+     "rescued": 0,
+     "broken": 0,
+     "points": 0.0,
+     "interval": [
+      0.0,
+      0.0
+     ],
+     "different_plans": 0
+    }
+   },
+   "fixed_policy": {
+    "success": 636,
+    "peak": 0.7770604790551943,
+    "last": 0.6561603618320078,
+    "versus_generator": {
+     "rescued": 309,
+     "broken": 86,
+     "points": 21.77734375,
+     "interval": [
+      18.1640625,
+      25.390625
+     ],
+     "different_plans": 1024
+    }
+   },
+   "pets": {
+    "success": 469,
+    "peak": 0.6047219274956177,
+    "last": 0.5371807081453426,
+    "versus_generator": {
+     "rescued": 133,
+     "broken": 77,
+     "points": 5.46875,
+     "interval": [
+      2.63671875,
+      8.30078125
+     ]
+    }
+   },
+   "stage21": {
+    "success": 786,
+    "peak": 0.8207445700768403,
+    "last": 0.769492622185453,
+    "versus_generator": {
+     "rescued": 399,
+     "broken": 26,
+     "points": 36.42578125,
+     "interval": [
+      33.203125,
+      39.74609375
+     ]
+    }
+   }
+  },
+  "paired": {
+   "both_kl-actor": {
+    "rescued": 430,
+    "broken": 59,
+    "points": 36.23046875,
+    "interval": [
+     32.6171875,
+     39.846191406249964
+    ],
+    "different_plans": 974
+   },
+   "both_kl-fixed_policy": {
+    "rescued": 220,
+    "broken": 72,
+    "points": 14.453125,
+    "interval": [
+     11.23046875,
+     17.578125
+    ],
+    "different_plans": 962
+   },
+   "both_kl-stage25": {
+    "rescued": 51,
+    "broken": 66,
+    "points": -1.46484375,
+    "interval": [
+     -3.515625,
+     0.5859375
+    ],
+    "different_plans": 440
+   },
+   "both_kl-stage25belief": {
+    "rescued": 52,
+    "broken": 61,
+    "points": -0.87890625,
+    "interval": [
+     -2.83203125,
+     1.171875
+    ],
+    "different_plans": 435
+   },
+   "both_kl-stage24": {
+    "rescued": 49,
+    "broken": 54,
+    "points": -0.48828125,
+    "interval": [
+     -2.44140625,
+     1.46484375
+    ],
+    "different_plans": 462
+   },
+   "both_kl-stage21": {
+    "rescued": 76,
+    "broken": 78,
+    "points": -0.1953125,
+    "interval": [
+     -2.5390625,
+     2.24609375
+    ]
+   },
+   "both_kl-pets": {
+    "rescued": 369,
+    "broken": 54,
+    "points": 30.76171875,
+    "interval": [
+     27.34375,
+     34.27734375
+    ]
+   },
+   "both_means-direct": {
+    "rescued": 11,
+    "broken": 10,
+    "points": 0.09765625,
+    "interval": [
+     -0.78125,
+     0.9765625
+    ],
+    "different_plans": 67
+   },
+   "both_independent-means": {
+    "rescued": 0,
+    "broken": 3,
+    "points": -0.29296875,
+    "interval": [
+     -0.68359375,
+     0.0
+    ],
+    "different_plans": 9
+   },
+   "both_law-independent": {
+    "rescued": 5,
+    "broken": 1,
+    "points": 0.390625,
+    "interval": [
+     -0.09765625,
+     0.87890625
+    ],
+    "different_plans": 25
+   },
+   "both_law-means": {
+    "rescued": 3,
+    "broken": 2,
+    "points": 0.09765625,
+    "interval": [
+     -0.29296875,
+     0.48828125
+    ],
+    "different_plans": 27
+   },
+   "both_kl-law": {
+    "rescued": 0,
+    "broken": 0,
+    "points": 0.0,
+    "interval": [
+     0.0,
+     0.0
+    ],
+    "different_plans": 6
+   },
+   "both_direct-fixed": {
+    "rescued": 56,
+    "broken": 48,
+    "points": 0.78125,
+    "interval": [
+     -1.171875,
+     2.734375
+    ],
+    "different_plans": 411
+   },
+   "both_direct-unpaired": {
+    "rescued": 50,
+    "broken": 52,
+    "points": -0.1953125,
+    "interval": [
+     -2.05078125,
+     1.7578125
+    ],
+    "different_plans": 381
+   },
+   "hold_means-direct": {
+    "rescued": 6,
+    "broken": 11,
+    "points": -0.48828125,
+    "interval": [
+     -1.26953125,
+     0.29296875
+    ],
+    "different_plans": 51
+   },
+   "hold_independent-means": {
+    "rescued": 0,
+    "broken": 2,
+    "points": -0.1953125,
+    "interval": [
+     -0.48828125,
+     0.0
+    ],
+    "different_plans": 7
+   },
+   "hold_law-independent": {
+    "rescued": 4,
+    "broken": 1,
+    "points": 0.29296875,
+    "interval": [
+     -0.09765625,
+     0.78125
+    ],
+    "different_plans": 15
+   },
+   "hold_law-means": {
+    "rescued": 2,
+    "broken": 1,
+    "points": 0.09765625,
+    "interval": [
+     -0.1953125,
+     0.48828125
+    ],
+    "different_plans": 15
+   },
+   "hold_kl-law": {
+    "rescued": 0,
+    "broken": 0,
+    "points": 0.0,
+    "interval": [
+     0.0,
+     0.0
+    ],
+    "different_plans": 5
+   },
+   "hold_direct-fixed": {
+    "rescued": 55,
+    "broken": 48,
+    "points": 0.68359375,
+    "interval": [
+     -1.26953125,
+     2.63671875
+    ],
+    "different_plans": 334
+   },
+   "hold_direct-unpaired": {
+    "rescued": 46,
+    "broken": 40,
+    "points": 0.5859375,
+    "interval": [
+     -1.26953125,
+     2.34375
+    ],
+    "different_plans": 320
+   },
+   "late_means-direct": {
+    "rescued": 1,
+    "broken": 3,
+    "points": -0.1953125,
+    "interval": [
+     -0.5859375,
+     0.1953125
+    ],
+    "different_plans": 13
+   },
+   "late_independent-means": {
+    "rescued": 0,
+    "broken": 1,
+    "points": -0.09765625,
+    "interval": [
+     -0.29296875,
+     0.0
+    ],
+    "different_plans": 3
+   },
+   "late_law-independent": {
+    "rescued": 0,
+    "broken": 0,
+    "points": 0.0,
+    "interval": [
+     0.0,
+     0.0
+    ],
+    "different_plans": 3
+   },
+   "late_law-means": {
+    "rescued": 0,
+    "broken": 1,
+    "points": -0.09765625,
+    "interval": [
+     -0.29296875,
+     0.0
+    ],
+    "different_plans": 6
+   },
+   "late_kl-law": {
+    "rescued": 1,
+    "broken": 0,
+    "points": 0.09765625,
+    "interval": [
+     0.0,
+     0.29296875
+    ],
+    "different_plans": 1
+   }
+  }
+ }
+}

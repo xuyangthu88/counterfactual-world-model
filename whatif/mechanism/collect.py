@@ -34,7 +34,8 @@ def cophy_api():
     return NATIVE
 
 
-def tower(seed, deletion=False):
+def tower(seed, deletion=False, trace=False):
+    """Replay matched block interventions; trace records five physical windows and exact deletion effects."""
     api = cophy_api()
     pb = api['pb']
     rng = np.random.default_rng(seed)
@@ -60,12 +61,19 @@ def tower(seed, deletion=False):
         start = obs()
         edge = np.zeros((N,N),np.float32)
         lookup = {body:i for i,body in enumerate(ids)}
-        for _ in range(30):
+        snapshots,windows=[],[]
+        for tick in range(30):
             pb.stepSimulation()
             for contact in pb.getContactPoints():
                 i,j = lookup.get(contact[1]),lookup.get(contact[2])
                 if i is not None and j is not None and contact[9] > .001:
                     edge[i,j] = edge[j,i] = 1
+            if trace and (tick+1)%6==0:
+                snapshots.append(obs())
+                windows.append(edge.copy())
+                edge.fill(0)
+        if trace:
+            return start,np.stack(snapshots),np.stack(windows)
         return start, obs(), edge
     x,f1,fe = simulate(poses)
     fa = np.zeros((N,A),np.float32)
@@ -78,17 +86,20 @@ def tower(seed, deletion=False):
         act[j,1+axis] = act[j,4+axis] = delta
         alt = api['move_one_block'](poses,j,'xy'[axis],delta)
         _,y,e = simulate(alt)
-        if deletion:
-            impact = np.zeros((N,N),np.float32)
+        if deletion or trace:
+            impact = np.zeros((5,N,N) if trace else (N,N),np.float32)
             for src in range(height):
                 for dst in range(src):
                     _,missing,_ = simulate(alt,(src,dst))
-                    changes = np.linalg.norm(y[:,:3]-missing[:,:3],axis=-1)
-                    impact[src,dst],impact[dst,src] = changes[dst],changes[src]
+                    changes = np.linalg.norm(y[...,:3]-missing[...,:3],axis=-1)
+                    impact[...,src,dst],impact[...,dst,src] = changes[...,dst],changes[...,src]
             effects.append(impact)
         actions.append(act)
         ys.append(y)
         edges.append(e)
+    if trace:
+        return dict(seed=seed,f0=x,fa=fa,f1=f1[-1],fe=fe.max(0),x=x,role=roles(list(range(height)),[],[]),
+                    goal=np.zeros(D),a=actions,traj=ys,contact=edges,impact=effects)
     if deletion:
         return seed,np.stack(effects)
     return dict(f0=x,fa=fa,f1=f1,fe=fe,x=x,role=roles(list(range(height)),[],[]),

@@ -103,10 +103,12 @@ class Simulator:
             goal = planar((g[:2]-256)/100, g[2])
         return x, goal.astype(np.float32)
 
-    def execute(self, action, stop=False, fine=False, landmarks=False):
+    def execute(self, action, stop=False, fine=False, landmarks=False, on_tick=None):
+        """Execute the waypoints, optionally yielding each native tick's pose, contacts and reward."""
         x, _ = self.observe()
         node = action[:,0].argmax()
         self.edge.fill(0)
+        all_edges = np.zeros_like(self.edge) if on_tick is not None else None
         rewards, scores = [], []
         done = False
         planned = x[node,:3].copy()
@@ -132,6 +134,8 @@ class Simulator:
                         command = np.clip(command.ravel(),self.env.action_space.low,self.env.action_space.high)
                     else:
                         command = np.clip(planned[:2]*100+256,0,512)
+                if on_tick is not None:
+                    self.edge.fill(0)
                 self.raw,r,done,info = self.env.step(command)
                 if self.domain == 'causalworld':
                     score = info['fractional_success']
@@ -151,12 +155,15 @@ class Simulator:
                 self.success |= bool(reached)
                 rewards.append(r)
                 scores.append(score)
+                if on_tick is not None:
+                    np.maximum(all_edges,self.edge,out=all_edges)
+                    on_tick(self.observe()[0],self.edge.copy(),float(r))
                 if stop and (reached or done):
                     break
             if stop and (reached or done):
                 break
         y, _ = self.observe()
-        return y, self.edge.copy(), np.array([np.mean(rewards), scores[-1], max(scores)],np.float32)
+        return y, self.edge.copy() if on_tick is None else all_edges, np.array([np.mean(rewards), scores[-1], max(scores)],np.float32)
 
     def close(self):
         self.env.close()

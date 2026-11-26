@@ -1,0 +1,842 @@
+{
+ "dynamic": {
+  "cophy-short": {
+   "contact": {
+    "birth": {
+     "n": 25708,
+     "positive": 118,
+     "ap": 0.006645720037020459,
+     "hard_correct": 5,
+     "hard_predicted": 989,
+     "hard_recall": 0.0423728813559322,
+     "hard_precision": 0.005055611729019211
+    },
+    "retained": {
+     "n": 11156,
+     "positive": 8330,
+     "ap": 0.9182430048255175
+    },
+    "loss": {
+     "n": 11156,
+     "positive": 2826,
+     "ap": 0.5069515062933385,
+     "hard_correct": 1615,
+     "hard_predicted": 3370,
+     "hard_recall": 0.5714791224345365,
+     "hard_precision": 0.4792284866468843
+    },
+    "remote_action_birth": {
+     "n": 34,
+     "layouts": 12,
+     "correct": 0.6470588235294118,
+     "mean_signed": 0.06795963042360895,
+     "hard_separation": 0.058823529411764705,
+     "initial_max": 0.0
+    }
+   },
+   "deletion": {
+    "birth": {
+     "n": 23672,
+     "positive": 390,
+     "ap": 0.042359445914308125,
+     "hard_correct": 16,
+     "hard_predicted": 567,
+     "hard_recall": 0.041025641025641026,
+     "hard_precision": 0.02821869488536155
+    },
+    "retained": {
+     "n": 13192,
+     "positive": 12981,
+     "ap": 0.9963811107953384
+    },
+    "loss": {
+     "n": 13192,
+     "positive": 211,
+     "ap": 0.043605808817882785,
+     "hard_correct": 3,
+     "hard_predicted": 82,
+     "hard_recall": 0.014218009478672985,
+     "hard_precision": 0.036585365853658534
+    },
+    "remote_action_birth": {
+     "n": 141,
+     "layouts": 71,
+     "correct": 0.5319148936170213,
+     "mean_signed": 0.011245605724051278,
+     "hard_separation": 0.028368794326241134,
+     "initial_max": 0.0
+    }
+   }
+  },
+  "pusht-short": {
+   "contact": {
+    "birth": {
+     "n": 41041,
+     "positive": 797,
+     "ap": 0.23546750697338656,
+     "hard_correct": 121,
+     "hard_predicted": 1035,
+     "hard_recall": 0.15181932245922208,
+     "hard_precision": 0.11690821256038647
+    },
+    "retained": {
+     "n": 3449,
+     "positive": 2824,
+     "ap": 0.8626477504685477
+    },
+    "loss": {
+     "n": 3449,
+     "positive": 625,
+     "ap": 0.2780024969051481,
+     "hard_correct": 53,
+     "hard_predicted": 407,
+     "hard_recall": 0.0848,
+     "hard_precision": 0.13022113022113022
+    },
+    "remote_action_birth": {
+     "n": 26,
+     "layouts": 3,
+     "correct": 0.34615384615384615,
+     "mean_signed": -0.003652383071871904,
+     "hard_separation": 0.0,
+     "initial_max": 0.0
+    }
+   }
+  },
+  "pusht-early": {
+   "contact": {
+    "birth": {
+     "n": 36574,
+     "positive": 1964,
+     "ap": 0.8061832235220916,
+     "hard_correct": 1074,
+     "hard_predicted": 1885,
+     "hard_recall": 0.5468431771894093,
+     "hard_precision": 0.5697612732095491
+    },
+    "retained": {
+     "n": 7716,
+     "positive": 7001,
+     "ap": 0.9712845680298194
+    },
+    "loss": {
+     "n": 7716,
+     "positive": 715,
+     "ap": 0.5208093464644573,
+     "hard_correct": 54,
+     "hard_predicted": 475,
+     "hard_recall": 0.07552447552447553,
+     "hard_precision": 0.11368421052631579
+    },
+    "remote_action_birth": {
+     "n": 2068,
+     "layouts": 142,
+     "correct": 0.7446808510638298,
+     "mean_signed": 0.09869819830173565,
+     "hard_separation": 0.07833655705996131,
+     "initial_max": 0.0
+    }
+   }
+  },
+  "pusht-late": {
+   "contact": {
+    "birth": {
+     "n": 35561,
+     "positive": 1060,
+     "ap": 0.7629927095266238,
+     "hard_correct": 335,
+     "hard_predicted": 734,
+     "hard_recall": 0.3160377358490566,
+     "hard_precision": 0.4564032697547684
+    },
+    "retained": {
+     "n": 7294,
+     "positive": 6618,
+     "ap": 0.93628257659888
+    },
+    "loss": {
+     "n": 7294,
+     "positive": 676,
+     "ap": 0.23108476315457827,
+     "hard_correct": 76,
+     "hard_predicted": 514,
+     "hard_recall": 0.11242603550295859,
+     "hard_precision": 0.14785992217898833
+    },
+    "remote_action_birth": {
+     "n": 540,
+     "layouts": 50,
+     "correct": 0.6657407407407407,
+     "mean_signed": 0.06412838164165065,
+     "hard_separation": 0.020370370370370372,
+     "initial_max": 0.0
+    }
+   }
+  },
+  "causalworld-short": {
+   "contact": {
+    "birth": {
+     "n": 11575,
+     "positive": 566,
+     "ap": 0.2572024205469977,
+     "hard_correct": 99,
+     "hard_predicted": 639,
+     "hard_recall": 0.17491166077738515,
+     "hard_precision": 0.15492957746478872
+    },
+    "retained": {
+     "n": 7341,
+     "positive": 7018,
+     "ap": 0.9917901195217911
+    },
+    "loss": {
+     "n": 7341,
+     "positive": 323,
+     "ap": 0.17381621988582566,
+     "hard_correct": 23,
+     "hard_predicted": 321,
+     "hard_recall": 0.07120743034055728,
+     "hard_precision": 0.07165109034267912
+    },
+    "remote_action_birth": {
+     "n": 16,
+     "layouts": 2,
+     "correct": 0.625,
+     "mean_signed": 0.0004932805895805359,
+     "hard_separation": 0.0,
+     "initial_max": 0.0
+    }
+   }
+  },
+  "causalworld-early": {
+   "contact": {
+    "birth": {
+     "n": 11301,
+     "positive": 2153,
+     "ap": 0.6528340697221535,
+     "hard_correct": 1365,
+     "hard_predicted": 3443,
+     "hard_recall": 0.6339990710636322,
+     "hard_precision": 0.3964565785652048
+    },
+    "retained": {
+     "n": 13387,
+     "positive": 11744,
+     "ap": 0.9815503878269473
+    },
+    "loss": {
+     "n": 13387,
+     "positive": 1643,
+     "ap": 0.3941727106796576,
+     "hard_correct": 734,
+     "hard_predicted": 3477,
+     "hard_recall": 0.44674376141205113,
+     "hard_precision": 0.21110152430255968
+    },
+    "remote_action_birth": {
+     "n": 0,
+     "layouts": 0,
+     "correct": null,
+     "mean_signed": null,
+     "hard_separation": null,
+     "initial_max": 0.0
+    }
+   }
+  },
+  "causalworld-late": {
+   "contact": {
+    "birth": {
+     "n": 8753,
+     "positive": 547,
+     "ap": 0.23694419930624083,
+     "hard_correct": 146,
+     "hard_predicted": 736,
+     "hard_recall": 0.26691042047531993,
+     "hard_precision": 0.1983695652173913
+    },
+    "retained": {
+     "n": 7743,
+     "positive": 6977,
+     "ap": 0.9806448509453414
+    },
+    "loss": {
+     "n": 7743,
+     "positive": 766,
+     "ap": 0.27144389176100253,
+     "hard_correct": 199,
+     "hard_predicted": 1491,
+     "hard_recall": 0.2597911227154047,
+     "hard_precision": 0.1334674714956405
+    },
+    "remote_action_birth": {
+     "n": 0,
+     "layouts": 0,
+     "correct": null,
+     "mean_signed": null,
+     "hard_separation": null,
+     "initial_max": 0.0
+    }
+   }
+  }
+ },
+ "fixed": {
+  "cophy-short": {
+   "contact": {
+    "birth": {
+     "n": 25708,
+     "positive": 118,
+     "ap": 0.005089135716026588,
+     "hard_correct": 0,
+     "hard_predicted": 0,
+     "hard_recall": 0.0,
+     "hard_precision": null
+    },
+    "retained": {
+     "n": 11156,
+     "positive": 8330,
+     "ap": 0.867441717208234
+    },
+    "loss": {
+     "n": 11156,
+     "positive": 2826,
+     "ap": 0.38006431276156927,
+     "hard_correct": 0,
+     "hard_predicted": 0,
+     "hard_recall": 0.0,
+     "hard_precision": null
+    },
+    "remote_action_birth": {
+     "n": 34,
+     "layouts": 12,
+     "correct": 0.5,
+     "mean_signed": 0.0,
+     "hard_separation": 0.0,
+     "initial_max": 0.0
+    }
+   },
+   "deletion": {
+    "birth": {
+     "n": 23672,
+     "positive": 390,
+     "ap": 0.037606552686784,
+     "hard_correct": 49,
+     "hard_predicted": 1255,
+     "hard_recall": 0.12564102564102564,
+     "hard_precision": 0.03904382470119522
+    },
+    "retained": {
+     "n": 13192,
+     "positive": 12981,
+     "ap": 0.9959818009166932
+    },
+    "loss": {
+     "n": 13192,
+     "positive": 211,
+     "ap": 0.041936700006681336,
+     "hard_correct": 0,
+     "hard_predicted": 0,
+     "hard_recall": 0.0,
+     "hard_precision": null
+    },
+    "remote_action_birth": {
+     "n": 141,
+     "layouts": 71,
+     "correct": 0.5,
+     "mean_signed": 0.0,
+     "hard_separation": 0.0,
+     "initial_max": 0.0
+    }
+   }
+  },
+  "pusht-short": {
+   "contact": {
+    "birth": {
+     "n": 41041,
+     "positive": 797,
+     "ap": 0.2526536721388194,
+     "hard_correct": 0,
+     "hard_predicted": 0,
+     "hard_recall": 0.0,
+     "hard_precision": null
+    },
+    "retained": {
+     "n": 3449,
+     "positive": 2824,
+     "ap": 0.8653574749696935
+    },
+    "loss": {
+     "n": 3449,
+     "positive": 625,
+     "ap": 0.26418868224095327,
+     "hard_correct": 0,
+     "hard_predicted": 0,
+     "hard_recall": 0.0,
+     "hard_precision": null
+    },
+    "remote_action_birth": {
+     "n": 26,
+     "layouts": 3,
+     "correct": 0.5,
+     "mean_signed": 0.0,
+     "hard_separation": 0.0,
+     "initial_max": 0.0
+    }
+   }
+  },
+  "pusht-early": {
+   "contact": {
+    "birth": {
+     "n": 36574,
+     "positive": 1964,
+     "ap": 0.7362003384845526,
+     "hard_correct": 0,
+     "hard_predicted": 0,
+     "hard_recall": 0.0,
+     "hard_precision": null
+    },
+    "retained": {
+     "n": 7716,
+     "positive": 7001,
+     "ap": 0.9688993634766023
+    },
+    "loss": {
+     "n": 7716,
+     "positive": 715,
+     "ap": 0.5630983322754584,
+     "hard_correct": 0,
+     "hard_predicted": 0,
+     "hard_recall": 0.0,
+     "hard_precision": null
+    },
+    "remote_action_birth": {
+     "n": 2068,
+     "layouts": 142,
+     "correct": 0.5,
+     "mean_signed": 0.0,
+     "hard_separation": 0.0,
+     "initial_max": 0.0
+    }
+   }
+  },
+  "pusht-late": {
+   "contact": {
+    "birth": {
+     "n": 35561,
+     "positive": 1060,
+     "ap": 0.587534691130836,
+     "hard_correct": 0,
+     "hard_predicted": 0,
+     "hard_recall": 0.0,
+     "hard_precision": null
+    },
+    "retained": {
+     "n": 7294,
+     "positive": 6618,
+     "ap": 0.9395219398214028
+    },
+    "loss": {
+     "n": 7294,
+     "positive": 676,
+     "ap": 0.2509700165508587,
+     "hard_correct": 0,
+     "hard_predicted": 0,
+     "hard_recall": 0.0,
+     "hard_precision": null
+    },
+    "remote_action_birth": {
+     "n": 540,
+     "layouts": 50,
+     "correct": 0.5,
+     "mean_signed": 0.0,
+     "hard_separation": 0.0,
+     "initial_max": 0.0
+    }
+   }
+  },
+  "causalworld-short": {
+   "contact": {
+    "birth": {
+     "n": 11575,
+     "positive": 566,
+     "ap": 0.18903271490477425,
+     "hard_correct": 0,
+     "hard_predicted": 0,
+     "hard_recall": 0.0,
+     "hard_precision": null
+    },
+    "retained": {
+     "n": 7341,
+     "positive": 7018,
+     "ap": 0.9915659568364341
+    },
+    "loss": {
+     "n": 7341,
+     "positive": 323,
+     "ap": 0.1647371878728446,
+     "hard_correct": 0,
+     "hard_predicted": 0,
+     "hard_recall": 0.0,
+     "hard_precision": null
+    },
+    "remote_action_birth": {
+     "n": 16,
+     "layouts": 2,
+     "correct": 0.5,
+     "mean_signed": 0.0,
+     "hard_separation": 0.0,
+     "initial_max": 0.0
+    }
+   }
+  },
+  "causalworld-early": {
+   "contact": {
+    "birth": {
+     "n": 11301,
+     "positive": 2153,
+     "ap": 0.31702708917499967,
+     "hard_correct": 0,
+     "hard_predicted": 0,
+     "hard_recall": 0.0,
+     "hard_precision": null
+    },
+    "retained": {
+     "n": 13387,
+     "positive": 11744,
+     "ap": 0.9675698483178015
+    },
+    "loss": {
+     "n": 13387,
+     "positive": 1643,
+     "ap": 0.27052593506344447,
+     "hard_correct": 0,
+     "hard_predicted": 0,
+     "hard_recall": 0.0,
+     "hard_precision": null
+    },
+    "remote_action_birth": {
+     "n": 0,
+     "layouts": 0,
+     "correct": null,
+     "mean_signed": null,
+     "hard_separation": null,
+     "initial_max": 0.0
+    }
+   }
+  },
+  "causalworld-late": {
+   "contact": {
+    "birth": {
+     "n": 8753,
+     "positive": 547,
+     "ap": 0.1421996981027454,
+     "hard_correct": 0,
+     "hard_predicted": 0,
+     "hard_recall": 0.0,
+     "hard_precision": null
+    },
+    "retained": {
+     "n": 7743,
+     "positive": 6977,
+     "ap": 0.9799639078760987
+    },
+    "loss": {
+     "n": 7743,
+     "positive": 766,
+     "ap": 0.2556128429921999,
+     "hard_correct": 0,
+     "hard_predicted": 0,
+     "hard_recall": 0.0,
+     "hard_precision": null
+    },
+    "remote_action_birth": {
+     "n": 0,
+     "layouts": 0,
+     "correct": null,
+     "mean_signed": null,
+     "hard_separation": null,
+     "initial_max": 0.0
+    }
+   }
+  }
+ },
+ "unpaired": {
+  "cophy-short": {
+   "contact": {
+    "birth": {
+     "n": 25708,
+     "positive": 118,
+     "ap": 0.006390109727102131,
+     "hard_correct": 2,
+     "hard_predicted": 960,
+     "hard_recall": 0.01694915254237288,
+     "hard_precision": 0.0020833333333333333
+    },
+    "retained": {
+     "n": 11156,
+     "positive": 8330,
+     "ap": 0.9221651149479162
+    },
+    "loss": {
+     "n": 11156,
+     "positive": 2826,
+     "ap": 0.5221821157149665,
+     "hard_correct": 1566,
+     "hard_predicted": 3248,
+     "hard_recall": 0.554140127388535,
+     "hard_precision": 0.48214285714285715
+    },
+    "remote_action_birth": {
+     "n": 34,
+     "layouts": 12,
+     "correct": 0.6764705882352942,
+     "mean_signed": 0.0446359777056119,
+     "hard_separation": 0.0,
+     "initial_max": 0.0
+    }
+   },
+   "deletion": {
+    "birth": {
+     "n": 23672,
+     "positive": 390,
+     "ap": 0.04265209501994462,
+     "hard_correct": 16,
+     "hard_predicted": 618,
+     "hard_recall": 0.041025641025641026,
+     "hard_precision": 0.025889967637540454
+    },
+    "retained": {
+     "n": 13192,
+     "positive": 12981,
+     "ap": 0.9963639219186755
+    },
+    "loss": {
+     "n": 13192,
+     "positive": 211,
+     "ap": 0.04305389431708447,
+     "hard_correct": 3,
+     "hard_predicted": 219,
+     "hard_recall": 0.014218009478672985,
+     "hard_precision": 0.0136986301369863
+    },
+    "remote_action_birth": {
+     "n": 141,
+     "layouts": 71,
+     "correct": 0.5531914893617021,
+     "mean_signed": 0.00854512734226354,
+     "hard_separation": 0.02127659574468085,
+     "initial_max": 0.0
+    }
+   }
+  },
+  "pusht-short": {
+   "contact": {
+    "birth": {
+     "n": 41041,
+     "positive": 797,
+     "ap": 0.23278001095795908,
+     "hard_correct": 151,
+     "hard_predicted": 1319,
+     "hard_recall": 0.18946047678795483,
+     "hard_precision": 0.11448066717210008
+    },
+    "retained": {
+     "n": 3449,
+     "positive": 2824,
+     "ap": 0.8603762315437149
+    },
+    "loss": {
+     "n": 3449,
+     "positive": 625,
+     "ap": 0.27312650933047045,
+     "hard_correct": 45,
+     "hard_predicted": 341,
+     "hard_recall": 0.072,
+     "hard_precision": 0.13196480938416422
+    },
+    "remote_action_birth": {
+     "n": 26,
+     "layouts": 3,
+     "correct": 0.2692307692307692,
+     "mean_signed": -0.0007166351693180891,
+     "hard_separation": 0.0,
+     "initial_max": 0.0
+    }
+   }
+  },
+  "pusht-early": {
+   "contact": {
+    "birth": {
+     "n": 36574,
+     "positive": 1964,
+     "ap": 0.8089186562114594,
+     "hard_correct": 1042,
+     "hard_predicted": 1774,
+     "hard_recall": 0.5305498981670062,
+     "hard_precision": 0.5873731679819617
+    },
+    "retained": {
+     "n": 7716,
+     "positive": 7001,
+     "ap": 0.9745314008412711
+    },
+    "loss": {
+     "n": 7716,
+     "positive": 715,
+     "ap": 0.522656913703199,
+     "hard_correct": 59,
+     "hard_predicted": 521,
+     "hard_recall": 0.08251748251748252,
+     "hard_precision": 0.11324376199616124
+    },
+    "remote_action_birth": {
+     "n": 2068,
+     "layouts": 142,
+     "correct": 0.7434719535783365,
+     "mean_signed": 0.0929707330867749,
+     "hard_separation": 0.043520309477756286,
+     "initial_max": 0.0
+    }
+   }
+  },
+  "pusht-late": {
+   "contact": {
+    "birth": {
+     "n": 35561,
+     "positive": 1060,
+     "ap": 0.7497281185859341,
+     "hard_correct": 288,
+     "hard_predicted": 558,
+     "hard_recall": 0.27169811320754716,
+     "hard_precision": 0.5161290322580645
+    },
+    "retained": {
+     "n": 7294,
+     "positive": 6618,
+     "ap": 0.9362989227250109
+    },
+    "loss": {
+     "n": 7294,
+     "positive": 676,
+     "ap": 0.23719343768811996,
+     "hard_correct": 78,
+     "hard_predicted": 530,
+     "hard_recall": 0.11538461538461539,
+     "hard_precision": 0.1471698113207547
+    },
+    "remote_action_birth": {
+     "n": 540,
+     "layouts": 50,
+     "correct": 0.7148148148148148,
+     "mean_signed": 0.05971074572729844,
+     "hard_separation": 0.0,
+     "initial_max": 0.0
+    }
+   }
+  },
+  "causalworld-short": {
+   "contact": {
+    "birth": {
+     "n": 11575,
+     "positive": 566,
+     "ap": 0.2439945762480419,
+     "hard_correct": 75,
+     "hard_predicted": 635,
+     "hard_recall": 0.13250883392226148,
+     "hard_precision": 0.11811023622047244
+    },
+    "retained": {
+     "n": 7341,
+     "positive": 7018,
+     "ap": 0.992337644651524
+    },
+    "loss": {
+     "n": 7341,
+     "positive": 323,
+     "ap": 0.18707128857405203,
+     "hard_correct": 8,
+     "hard_predicted": 271,
+     "hard_recall": 0.02476780185758514,
+     "hard_precision": 0.02952029520295203
+    },
+    "remote_action_birth": {
+     "n": 16,
+     "layouts": 2,
+     "correct": 0.59375,
+     "mean_signed": 0.0009923987090587616,
+     "hard_separation": 0.0,
+     "initial_max": 0.0
+    }
+   }
+  },
+  "causalworld-early": {
+   "contact": {
+    "birth": {
+     "n": 11301,
+     "positive": 2153,
+     "ap": 0.671528602962476,
+     "hard_correct": 1292,
+     "hard_predicted": 2913,
+     "hard_recall": 0.6000928936367859,
+     "hard_precision": 0.44352900789564026
+    },
+    "retained": {
+     "n": 13387,
+     "positive": 11744,
+     "ap": 0.9804202770026872
+    },
+    "loss": {
+     "n": 13387,
+     "positive": 1643,
+     "ap": 0.41112141103134237,
+     "hard_correct": 642,
+     "hard_predicted": 3181,
+     "hard_recall": 0.3907486305538649,
+     "hard_precision": 0.2018233259981138
+    },
+    "remote_action_birth": {
+     "n": 0,
+     "layouts": 0,
+     "correct": null,
+     "mean_signed": null,
+     "hard_separation": null,
+     "initial_max": 0.0
+    }
+   }
+  },
+  "causalworld-late": {
+   "contact": {
+    "birth": {
+     "n": 8753,
+     "positive": 547,
+     "ap": 0.24428421679350093,
+     "hard_correct": 142,
+     "hard_predicted": 707,
+     "hard_recall": 0.2595978062157221,
+     "hard_precision": 0.20084865629420084
+    },
+    "retained": {
+     "n": 7743,
+     "positive": 6977,
+     "ap": 0.9808726930676609
+    },
+    "loss": {
+     "n": 7743,
+     "positive": 766,
+     "ap": 0.27845487462690405,
+     "hard_correct": 215,
+     "hard_predicted": 1482,
+     "hard_recall": 0.28067885117493474,
+     "hard_precision": 0.14507422402159245
+    },
+    "remote_action_birth": {
+     "n": 0,
+     "layouts": 0,
+     "correct": null,
+     "mean_signed": null,
+     "hard_separation": null,
+     "initial_max": 0.0
+    }
+   }
+  }
+ }
+}
