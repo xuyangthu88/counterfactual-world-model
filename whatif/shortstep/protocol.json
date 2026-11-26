@@ -1,0 +1,13 @@
+{
+  "layout_base": 13500000,
+  "test_split": "shorttransfer",
+  "cophy_clock": [1, 2, 3, 4, 5, 6, 9, 12, 18, 24, 30],
+  "push_clock": [1, 2, 3, 4, 5, 6, 7, 8],
+  "budgets": {"shortstep": 2000, "short_coarse": 2000, "short_rotated": 2000, "short_unseen": 1800},
+  "calibration_steps": 500,
+  "rotated_layout_probability": 0.65,
+  "selection": "Arithmetic mean of validation endpoint-action RMSE divided by the same validation metric of the initialization checkpoint, one model for all available domains",
+  "primary": "Unordered two-action terminal XYZ difference RMSE over movable nodes. Relative to the lower of the fixed CoPhyNet and PETS baselines scored on the same data.",
+  "train": "Replay of Stage 27's train and validation seeds, groups, commands and coarse observations. A measured pushing edit is one contact pair shared across all four candidates.",
+  "shift": "Fresh 256 five-block towers, 320 P2/P8 CausalWorld layouts and 320 Push-T layouts at damping .25."
+}

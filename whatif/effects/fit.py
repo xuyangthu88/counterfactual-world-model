@@ -41,6 +41,10 @@ def directed_truth(d):
 def objective(model, d, intervention, soft):
     removed = omission(d) if intervention and 'off' in d else None
     o = model(d, removed, soft=soft)
+    return forecast_loss(o, d, removed)
+
+
+def forecast_loss(o, d, removed=None):
     i, j = paired_actions(d['a'])
     obj = d['role'].sum(-1)[:,None,None,:,None]
     movable = d['role'][:,None,None,:,0:1]

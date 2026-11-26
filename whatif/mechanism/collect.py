@@ -34,7 +34,8 @@ def cophy_api():
     return NATIVE
 
 
-def tower(seed, deletion=False, trace=False, *, height=None, trajectory_pairs=False):
+def tower(seed, deletion=False, trace=False, *, height=None, trajectory_pairs=False,
+          windows=(6,12,18,24,30)):
     """Replay matched block interventions; trace records five physical windows and exact deletion effects."""
     api = cophy_api()
     pb = api['pb']
@@ -63,19 +64,19 @@ def tower(seed, deletion=False, trace=False, *, height=None, trajectory_pairs=Fa
         start = obs()
         edge = np.zeros((N,N),np.float32)
         lookup = {body:i for i,body in enumerate(ids)}
-        snapshots,windows=[],[]
-        for tick in range(30):
+        snapshots,contacts=[],[]
+        for tick in range(windows[-1]):
             pb.stepSimulation()
             for contact in pb.getContactPoints():
                 i,j = lookup.get(contact[1]),lookup.get(contact[2])
                 if i is not None and j is not None and contact[9] > .001:
                     edge[i,j] = edge[j,i] = 1
-            if trace and (tick+1)%6==0:
+            if trace and tick+1 in windows:
                 snapshots.append(obs())
-                windows.append(edge.copy())
+                contacts.append(edge.copy())
                 edge.fill(0)
         if trace:
-            return start,np.stack(snapshots),np.stack(windows)
+            return start,np.stack(snapshots),np.stack(contacts)
         return start, obs(), edge
     x,f1,fe = simulate(poses)
     fa = np.zeros((N,A),np.float32)
@@ -90,10 +91,10 @@ def tower(seed, deletion=False, trace=False, *, height=None, trajectory_pairs=Fa
         alt = api['move_one_block'](poses,j,'xy'[axis],delta)
         _,y,e = simulate(alt)
         if deletion or trace:
-            impact = np.zeros((5,N,N) if trace else (N,N),np.float32)
+            impact = np.zeros((len(windows),N,N) if trace else (N,N),np.float32)
             if trajectory_pairs:
                 # [disabled unordered pair, time, receiver, coordinate]
-                signed = np.zeros((len(pairs),5,N,3),np.float32)
+                signed = np.zeros((len(pairs),len(windows),N,3),np.float32)
             for p,(src,dst) in enumerate(pairs):
                 if src >= height:
                     break

@@ -1,0 +1,53 @@
+{
+  "selected": "short_rotated",
+  "validation": {
+    "shortstep": {
+      "step": 1400,
+      "loss": 0.3926392197608948,
+      "validation": {
+        "cophy": 1.1071110580202193,
+        "causalworld": 0.28529898672424236,
+        "pusht": 1.0853627740046263
+      },
+      "initial_validation": {
+        "cophy": 1.1245750961152796,
+        "causalworld": 0.2998436106246987,
+        "pusht": 1.1057199837436134
+      },
+      "criterion": 0.9725174534812489,
+      "seconds": 453.5
+    },
+    "short_coarse": {
+      "step": 1800,
+      "loss": 0.27096545696258545,
+      "validation": {
+        "cophy": 1.1384807678576623,
+        "causalworld": 0.2800194312577478,
+        "pusht": 1.0868702000224444
+      },
+      "initial_validation": {
+        "cophy": 1.1245750961152796,
+        "causalworld": 0.2998436106246987,
+        "pusht": 1.1057199837436134
+      },
+      "criterion": 0.9764008945566774,
+      "seconds": 539.3
+    },
+    "short_rotated": {
+      "step": 2000,
+      "loss": 0.48400768637657166,
+      "validation": {
+        "cophy": 1.0484147933671548,
+        "causalworld": 0.27194427967709195,
+        "pusht": 1.0708186769533865
+      },
+      "initial_validation": {
+        "cophy": 1.1245750961152796,
+        "causalworld": 0.2998436106246987,
+        "pusht": 1.1057199837436134
+      },
+      "criterion": 0.9358885910257833,
+      "seconds": 604.9
+    }
+  }
+}

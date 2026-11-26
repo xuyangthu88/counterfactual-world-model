@@ -18,7 +18,7 @@ DOMAINS = ('cophy', 'causalworld', 'pusht')
 PUSH_WINDOWS = (1, 2, 4, 6, 8)
 
 
-def pushing(domain, seed, env_split):
+def pushing(domain, seed, env_split, *, native_trace=False):
     rng = np.random.default_rng(seed)
     prefix = []
     branches = []
@@ -28,11 +28,12 @@ def pushing(domain, seed, env_split):
         sim.execute(action, landmarks=True, on_tick=lambda y, e, r: ticks.append((y, e, r)))
         state, edge, reward = zip(*ticks)
         starts = (0, *PUSH_WINDOWS[:-1])
-        return (
+        coarse = (
             np.stack([state[end-1] for end in PUSH_WINDOWS]),
             np.stack([np.maximum.reduce(edge[start:end]) for start, end in zip(starts, PUSH_WINDOWS)]),
             np.array([np.mean(reward[start:end]) for start, end in zip(starts, PUSH_WINDOWS)], np.float32),
         )
+        return coarse, ticks
 
     for branch in range(PROTOCOL['branches']):
         sim = Simulator(domain, seed, env_split)
@@ -42,7 +43,7 @@ def pushing(domain, seed, env_split):
                 for _ in range(1 + seed % 5):
                     f0, goal = sim.observe()
                     prefix.append(menu(f0, sim.role, rng, 1, fine=True)[0])
-                    observed, factual_edge, _ = record(sim, prefix[-1])
+                    (observed, factual_edge, _), _ = record(sim, prefix[-1])
                 x, goal = sim.observe()
                 role = sim.role.copy()
                 actions = menu(x, role, rng, PROTOCOL['branches'], fine=True)
@@ -54,12 +55,18 @@ def pushing(domain, seed, env_split):
             branches.append(record(sim, actions[branch]))
         finally:
             sim.close()
-    traj, contact, rewards = map(np.stack, zip(*branches))
-    return dict(
+    coarse,traces = zip(*branches)
+    traj, contact, rewards = map(np.stack, zip(*coarse))
+    row = dict(
         seed=seed, x=x, a=actions, role=role, goal=goal, fa=prefix[-1],
         fact=np.concatenate([f0[None], observed]), fe=factual_edge.max(0),
         traj=traj, contact=contact, rewards=rewards,
     )
+    if native_trace:
+        pose, edge, reward = zip(*(zip(*ticks) for ticks in traces))
+        row.update(prefix=prefix,native_pose=np.asarray(pose),native_edge=np.asarray(edge),
+                   native_reward=np.asarray(reward,np.float32))
+    return row
 
 
 def sample(item):

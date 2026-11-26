@@ -189,7 +189,10 @@ def edits(model,d):
     indirect=(ids!=ps[:,None])&(ids!=pd[:,None])
     remote=significant&indirect[None,None,:,None,:]
     direction=torch.nn.functional.cosine_similarity(pred,y,dim=-1)
+    i,j=paired_actions(d['a'])
+    e=pred-y
     return dict(edited_trajectory_rmse=root_mean(pred-y,mask),
+                paired_edit_rmse=root_mean(e[:,i]-e[:,j],mask),
                 affected_trajectory_rmse=root_mean(pred-y,significant),
                 downstream_trajectory_rmse=root_mean(pred-y,remote),
                 downstream_effect_recall=float(average((pred.norm(dim=-1)>.1).float(),remote)),
@@ -205,7 +208,8 @@ def restore_world(name, device):
 
 
 @torch.no_grad()
-def evaluate(names, splits, device, destination):
+def evaluate(names, splits, device, destination, *, load_data=load, restore_model=restore_world,
+             output_dir=OUT):
     torch.set_num_threads(2)
     variants=('motion_once','motion_twice')
     if all(f'{kind}-calibrated' in names for kind in variants):
@@ -215,7 +219,7 @@ def evaluate(names, splits, device, destination):
         (OUT/'motion-selection.json').write_text(json.dumps(dict(selected=selected,validation=val),indent=2)+'\n')
     results={}
     for domain in DOMAINS:
-        sets={s:load(domain,s,device) for s in ('val',*splits)}
+        sets={s:load_data(domain,s,device) for s in ('val',*splits)}
         for name in names:
             if name=='cophynet':
                 model=cophy_class()().to(device)
@@ -235,7 +239,7 @@ def evaluate(names, splits, device, destination):
                 def run(d):
                     return ncii_predict(model,d)
             else:
-                model=restore_world(name,device)
+                model=restore_model(name,device)
                 def run(d):
                     o=model(d)
                     return {k:o[k] for k in ('pose','reward','edge','causal','w','p_dist','r_dist')}
@@ -272,7 +276,8 @@ def evaluate(names, splits, device, destination):
                     graph_reference='ncii',
                     ber_reduction_pct=100*(1-model[edge]['ber']/panel['ncii'][edge]['ber']),
                 )
-    (OUT/destination).write_text(json.dumps(results,indent=2,allow_nan=False)+'\n')
+    (output_dir/destination).write_text(json.dumps(results,indent=2,allow_nan=False)+'\n')
+    return results
 
 
 if __name__=='__main__':

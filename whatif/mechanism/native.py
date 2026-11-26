@@ -103,6 +103,24 @@ class Simulator:
             goal = planar((g[:2]-256)/100, g[2])
         return x, goal.astype(np.float32)
 
+    def disable_object_contact(self, pair):
+        """Disable only a labeled collision pair in this replay instance."""
+        other, movable = sorted(map(int,pair),reverse=True)
+        if movable != 0 or not self.role[other].any():
+            raise ValueError(f'No simulator contact adapter for {pair}')
+        if self.domain != 'causalworld':
+            handler = self.env.space.add_collision_handler(1, other+1)
+            handler.pre_solve = lambda *_: False
+            return
+        w = self.world
+        body, client = self.scene.body, self.scene.client
+        if other == 4:
+            w.pb.setCollisionFilterPair(body,self.floor,-1,-1,0,physicsClientId=client)
+        else:
+            lo = w.links[other-2]+1 if other > 1 else 0
+            for link in range(lo,w.links[other-1]+1):
+                w.pb.setCollisionFilterPair(w.robot_id,body,link,-1,0,physicsClientId=client)
+
     def execute(self, action, stop=False, fine=False, landmarks=False, on_tick=None):
         """Execute the waypoints, optionally yielding each native tick's pose, contacts and reward."""
         x, _ = self.observe()
