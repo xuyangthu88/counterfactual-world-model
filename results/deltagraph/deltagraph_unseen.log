@@ -1,0 +1,38 @@
+/opt/anaconda3/lib/python3.13/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.5)
+  from scipy.sparse import csr_matrix, issparse
+deltagraph_unseen domain_scales={'cophy': 1.858674645910536, 'causalworld': 0.5380177763764111} batch_sizes={'cophy': 12, 'causalworld': 24}
+deltagraph_unseen params=870,465 ref_val={'cophy': 1.027687492285592, 'causalworld': 0.2799193951767243}
+/home/kailais/.local/lib/python3.13/site-packages/torch/nn/modules/rnn.py:1440: UserWarning: RNN module weights are not part of single contiguous chunk of memory. This means they need to be compacted at every call, possibly greatly increasing memory usage. To compact weights again call flatten_parameters(). (Triggered internally at /__w/pytorch/pytorch/aten/src/ATen/native/cudnn/RNN.cpp:1479.)
+  result = _VF.gru(
+deltagraph_unseen {'step': 150, 'loss': 1.213, 'val': {'cophy': 1.2313, 'causalworld': 0.2702}, 'crit': 1.0816, 'ema': True, 'sec': 150.6}
+deltagraph_unseen {'step': 300, 'loss': 0.99, 'val': {'cophy': 1.1265, 'causalworld': 0.2564}, 'crit': 1.0061, 'ema': True, 'sec': 301.2}
+deltagraph_unseen {'step': 450, 'loss': 1.073, 'val': {'cophy': 1.0626, 'causalworld': 0.2463}, 'crit': 0.9569, 'ema': True, 'sec': 456.2}
+deltagraph_unseen {'step': 600, 'loss': 0.981, 'val': {'cophy': 1.0267, 'causalworld': 0.2472}, 'crit': 0.941, 'ema': True, 'sec': 601.6}
+deltagraph_unseen {'step': 750, 'loss': 1.196, 'val': {'cophy': 1.0123, 'causalworld': 0.2467}, 'crit': 0.9331, 'ema': True, 'sec': 750.4}
+deltagraph_unseen {'step': 900, 'loss': 0.937, 'val': {'cophy': 1.0119, 'causalworld': 0.2437}, 'crit': 0.9275, 'ema': True, 'sec': 896.0}
+deltagraph_unseen {'step': 1050, 'loss': 0.921, 'val': {'cophy': 1.0011, 'causalworld': 0.2412}, 'crit': 0.9179, 'ema': True, 'sec': 1041.3}
+deltagraph_unseen {'step': 1200, 'loss': 0.875, 'val': {'cophy': 0.9994, 'causalworld': 0.2386}, 'crit': 0.9125, 'ema': True, 'sec': 1187.2}
+deltagraph_unseen {'step': 1350, 'loss': 0.933, 'val': {'cophy': 0.9965, 'causalworld': 0.2394}, 'crit': 0.9124, 'ema': True, 'sec': 1331.8}
+deltagraph_unseen {'step': 1500, 'loss': 0.841, 'val': {'cophy': 1.002, 'causalworld': 0.2368}, 'crit': 0.9104, 'ema': True, 'sec': 1475.3}
+deltagraph_unseen {'step': 1650, 'loss': 0.929, 'val': {'cophy': 0.9981, 'causalworld': 0.2354}, 'crit': 0.906, 'ema': True, 'sec': 1618.4}
+deltagraph_unseen {'step': 1800, 'loss': 0.846, 'val': {'cophy': 0.9988, 'causalworld': 0.2314}, 'crit': 0.8992, 'ema': True, 'sec': 1760.5}
+deltagraph_unseen {'step': 1950, 'loss': 0.815, 'val': {'cophy': 1.0112, 'causalworld': 0.2281}, 'crit': 0.8994, 'ema': True, 'sec': 1902.9}
+deltagraph_unseen {'step': 2100, 'loss': 0.928, 'val': {'cophy': 1.018, 'causalworld': 0.2238}, 'crit': 0.8951, 'ema': True, 'sec': 2045.3}
+deltagraph_unseen {'step': 2250, 'loss': 0.861, 'val': {'cophy': 1.0219, 'causalworld': 0.2218}, 'crit': 0.8933, 'ema': True, 'sec': 2187.9}
+deltagraph_unseen {'step': 2400, 'loss': 0.72, 'val': {'cophy': 1.03, 'causalworld': 0.2204}, 'crit': 0.8948, 'ema': True, 'sec': 2330.1}
+deltagraph_unseen {'step': 2550, 'loss': 0.804, 'val': {'cophy': 1.0289, 'causalworld': 0.2187}, 'crit': 0.8913, 'ema': True, 'sec': 2472.1}
+deltagraph_unseen {'step': 2700, 'loss': 0.821, 'val': {'cophy': 1.0402, 'causalworld': 0.2184}, 'crit': 0.8962, 'ema': True, 'sec': 2614.5}
+deltagraph_unseen {'step': 2850, 'loss': 0.607, 'val': {'cophy': 1.0465, 'causalworld': 0.2173}, 'crit': 0.8973, 'ema': True, 'sec': 2756.9}
+deltagraph_unseen {'step': 3000, 'loss': 0.759, 'val': {'cophy': 1.0504, 'causalworld': 0.2166}, 'crit': 0.898, 'ema': True, 'sec': 2899.3}
+deltagraph_unseen {'step': 3150, 'loss': 0.761, 'val': {'cophy': 1.0572, 'causalworld': 0.216}, 'crit': 0.9002, 'ema': True, 'sec': 3041.4}
+deltagraph_unseen {'step': 3200, 'loss': 0.66, 'val': {'cophy': 1.0609, 'causalworld': 0.2157}, 'crit': 0.9014, 'ema': True, 'sec': 3090.6}
+/opt/anaconda3/lib/python3.13/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.5)
+  from scipy.sparse import csr_matrix, issparse
+deltagraph_unseen {'step': 150, 'validation': {'cophy': -1.7660367488861084, 'causalworld': -5.852860450744629}, 'value': -3.8094485998153687}
+deltagraph_unseen {'step': 300, 'validation': {'cophy': -1.8947279453277588, 'causalworld': -6.34876012802124}, 'value': -4.1217440366744995}
+deltagraph_unseen {'step': 450, 'validation': {'cophy': -2.049647331237793, 'causalworld': -6.707724571228027}, 'value': -4.37868595123291}
+deltagraph_unseen {'step': 600, 'validation': {'cophy': -2.105228900909424, 'causalworld': -6.950142860412598}, 'value': -4.527685880661011}
+deltagraph_unseen {'step': 750, 'validation': {'cophy': -2.168445110321045, 'causalworld': -7.0349321365356445}, 'value': -4.601688623428345}
+deltagraph_unseen {'step': 900, 'validation': {'cophy': -2.1913959980010986, 'causalworld': -7.076150894165039}, 'value': -4.633773446083069}
+deltagraph_unseen {'step': 1050, 'validation': {'cophy': -2.2131738662719727, 'causalworld': -7.092444896697998}, 'value': -4.652809381484985}
+deltagraph_unseen {'step': 1200, 'validation': {'cophy': -2.2331595420837402, 'causalworld': -7.121386528015137}, 'value': -4.6772730350494385}

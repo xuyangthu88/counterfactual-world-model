@@ -1,0 +1,79 @@
+/opt/anaconda3/lib/python3.13/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.5)
+  from scipy.sparse import csr_matrix, issparse
+cophy test continued-calibrated 1.060713949795184 0.9102639579802474
+cophy cumulativetransfer continued-calibrated 1.6820514456266975 0.8372815597266954
+cophy test fix_only-calibrated 1.035924604747023 0.9266567228468048
+cophy cumulativetransfer fix_only-calibrated 1.6332372085675317 0.8628709495029154
+cophy test inertial_hop2-calibrated 1.0682514143099038 0.9193947966555789
+cophy cumulativetransfer inertial_hop2-calibrated 1.6628249316941772 0.8551625240613654
+cophy test inertial_hop3-calibrated 1.0589972708777688 0.9174615841059398
+cophy cumulativetransfer inertial_hop3-calibrated 1.6259947446430858 0.8551860249626706
+cophy test layout_hop2-calibrated 1.0467932939671016 0.9224415579905912
+cophy cumulativetransfer layout_hop2-calibrated 1.6324506294765004 0.8590923560992795
+cophy test deltagraph_hop2-calibrated 1.032565231848851 0.9213841825880752
+cophy cumulativetransfer deltagraph_hop2-calibrated 1.6660656401627556 0.858362990497804
+cophy test deltagraph_hop3-calibrated 1.0305812863898973 0.9235263617327507
+cophy cumulativetransfer deltagraph_hop3-calibrated 1.621718688370898 0.8686769403047938
+cophy test deltagraph_unseen-calibrated 1.0411260091863974 0.9232500771975863
+cophy cumulativetransfer deltagraph_unseen-calibrated 1.64573737560879 0.8554425956516432
+cophy test cophynet 1.2032657887706704 None
+cophy cumulativetransfer cophynet 1.7725393566932757 None
+cophy test pets 1.4927486942191635 None
+cophy cumulativetransfer pets 2.0500343924638007 None
+cophy test ncii None 0.22925899187041432
+cophy cumulativetransfer ncii None 0.15611006269355943
+causalworld test continued-calibrated 16.901363016834342 0.9672584040598313
+causalworld cumulativetransfer continued-calibrated 16.92546328103545 0.9741438468800794
+causalworld test fix_only-calibrated 14.518894026733047 0.9704084766028884
+causalworld cumulativetransfer fix_only-calibrated 15.126234450608703 0.9754732765880674
+causalworld test inertial_hop2-calibrated 14.685477668572757 0.9742839276546758
+causalworld cumulativetransfer inertial_hop2-calibrated 15.815401027190623 0.9774139974190391
+causalworld test inertial_hop3-calibrated 14.87560907324553 0.97188402506758
+causalworld cumulativetransfer inertial_hop3-calibrated 15.378014037935994 0.9759485621505399
+causalworld test layout_hop2-calibrated 14.505922333033839 0.9741496213218409
+causalworld cumulativetransfer layout_hop2-calibrated 15.253968949988886 0.9775193753144739
+causalworld test deltagraph_hop2-calibrated 14.516586421749508 0.9739742233972026
+causalworld cumulativetransfer deltagraph_hop2-calibrated 15.132951162970267 0.9771742162496101
+causalworld test deltagraph_hop3-calibrated 14.853949540475982 0.9717037320543507
+causalworld cumulativetransfer deltagraph_hop3-calibrated 15.178417194132807 0.9758503088843583
+causalworld test deltagraph_unseen-calibrated 15.046885440526689 0.9738541863287707
+causalworld cumulativetransfer deltagraph_unseen-calibrated 15.091628346218663 0.9773733174501233
+causalworld test cophynet 32.096192149307264 None
+causalworld cumulativetransfer cophynet 27.469527113959124 None
+causalworld test pets 32.55168664181914 None
+causalworld cumulativetransfer pets 28.062583069635902 None
+causalworld test ncii None 0.3256125695375609
+causalworld cumulativetransfer ncii None 0.3170710105283482
+pusht test continued-calibrated 98.15456965337121 0.6328755697778051
+pusht cumulativetransfer continued-calibrated 108.88283213705358 0.5663976399564296
+pusht test fix_only-calibrated 91.52268061404283 0.6876606732649011
+pusht cumulativetransfer fix_only-calibrated 105.609274602132 0.6146562101333438
+pusht test inertial_hop2-calibrated 90.86885201122892 0.7220560654933855
+pusht cumulativetransfer inertial_hop2-calibrated 106.32631702553684 0.6490044345090275
+pusht test inertial_hop3-calibrated 92.15983929505013 0.7124479164499008
+pusht cumulativetransfer inertial_hop3-calibrated 105.38524571540293 0.6416450439543625
+pusht test layout_hop2-calibrated 95.33390055056425 0.7346126032988919
+pusht cumulativetransfer layout_hop2-calibrated 107.86322906739336 0.655001234132361
+pusht test deltagraph_hop2-calibrated 91.4686951527954 0.7290147321510911
+pusht cumulativetransfer deltagraph_hop2-calibrated 107.52664901082689 0.6416591372942585
+pusht test deltagraph_hop3-calibrated 91.6127635232178 0.7297344727013827
+pusht cumulativetransfer deltagraph_hop3-calibrated 106.84457356977074 0.6535142756208064
+pusht test deltagraph_unseen-calibrated 106.86912230452388 0.2300607065886764
+pusht cumulativetransfer deltagraph_unseen-calibrated 123.30493810623749 0.17602101697500783
+pusht test cophynet 107.98996403653018 None
+pusht cumulativetransfer cophynet 124.29233506769268 None
+pusht test pets 112.1230166971104 None
+pusht cumulativetransfer pets 128.2953525462637 None
+pusht test ncii None 0.2419819133777038
+pusht cumulativetransfer ncii None 0.17570340228866727
+diag continued-calibrated {"pusht_damping_acc_all": 0.4472651127374254, "pusht_damping_acc_moved": 0.45087719298245615, "pusht_m_std": 0.03739018365740776, "pusht_pinch_rmse": 147.87623596191406, "pusht_nopinch_rmse": 48.69877243041992, "pusht_actor_rmse_end": 36.901397705078125, "pusht_pusher_ap": 0.5624234225845034, "pusht_wall_ap": 0.36257465580032855, "cophy_5blk_by_layer": [0.17575152218341827, 0.7353485822677612, 1.3748561143875122, 2.0781517028808594, 2.714021921157837]}
+diag fix_only-calibrated {"pusht_damping_acc_all": 0.6067896273108, "pusht_damping_acc_moved": 0.6517543859649122, "pusht_m_std": 0.03366373851895332, "pusht_pinch_rmse": 143.69337463378906, "pusht_nopinch_rmse": 46.471221923828125, "pusht_actor_rmse_end": 12.922181129455566, "pusht_pusher_ap": 0.6319867588981665, "pusht_wall_ap": 0.41897662371035976, "cophy_5blk_by_layer": [0.1749037802219391, 0.7206134796142578, 1.3517855405807495, 2.030538558959961, 2.614771842956543]}
+diag inertial_hop2-calibrated {"pusht_damping_acc_all": 0.644570413300055, "pusht_damping_acc_moved": 0.6736842105263158, "pusht_m_std": 0.06147761642932892, "pusht_pinch_rmse": 146.20745849609375, "pusht_nopinch_rmse": 42.01300811767578, "pusht_actor_rmse_end": 25.108972549438477, "pusht_pusher_ap": 0.627439088301918, "pusht_wall_ap": 0.4815690071326094, "cophy_5blk_by_layer": [0.17217972874641418, 0.7279800176620483, 1.4060204029083252, 2.0727367401123047, 2.6442770957946777]}
+diag inertial_hop3-calibrated {"pusht_damping_acc_all": 0.6282668471593553, "pusht_damping_acc_moved": 0.6429824561403509, "pusht_m_std": 0.039501436054706573, "pusht_pinch_rmse": 144.73342895507812, "pusht_nopinch_rmse": 42.229915618896484, "pusht_actor_rmse_end": 22.88289451599121, "pusht_pusher_ap": 0.6271274225621939, "pusht_wall_ap": 0.46008066205234865, "cophy_5blk_by_layer": [0.17947529256343842, 0.7383800745010376, 1.4031306505203247, 2.0212597846984863, 2.566634178161621]}
+diag layout_hop2-calibrated {"pusht_damping_acc_all": 0.6744891915901687, "pusht_damping_acc_moved": 0.7201754385964912, "pusht_m_std": 0.08265548944473267, "pusht_pinch_rmse": 147.5314483642578, "pusht_nopinch_rmse": 45.14103698730469, "pusht_actor_rmse_end": 12.948987007141113, "pusht_pusher_ap": 0.6433205246248279, "pusht_wall_ap": 0.48686670459697073, "cophy_5blk_by_layer": [0.17223280668258667, 0.7338204979896545, 1.3969950675964355, 2.05430269241333, 2.566040277481079]}
+diag deltagraph_hop2-calibrated {"pusht_damping_acc_all": 0.645835272219637, "pusht_damping_acc_moved": 0.6614035087719298, "pusht_m_std": 0.07236997038125992, "pusht_pinch_rmse": 147.3909454345703, "pusht_nopinch_rmse": 43.99769592285156, "pusht_actor_rmse_end": 10.796614646911621, "pusht_pusher_ap": 0.6447335867297574, "pusht_wall_ap": 0.454107049473268, "cophy_5blk_by_layer": [0.17072397470474243, 0.7457062005996704, 1.4182237386703491, 2.0705783367156982, 2.6448051929473877]}
+diag deltagraph_hop3-calibrated {"pusht_damping_acc_all": 0.6263230255086933, "pusht_damping_acc_moved": 0.6745614035087719, "pusht_m_std": 0.0828167200088501, "pusht_pinch_rmse": 145.38894653320312, "pusht_nopinch_rmse": 46.971370697021484, "pusht_actor_rmse_end": 10.165433883666992, "pusht_pusher_ap": 0.6442716705006531, "pusht_wall_ap": 0.47314411039575405, "cophy_5blk_by_layer": [0.17011897265911102, 0.7278468608856201, 1.3632632493972778, 1.9954447746276855, 2.598243474960327]}
+diag deltagraph_unseen-calibrated {"pusht_damping_acc_all": 0.44726088244003553, "pusht_damping_acc_moved": 0.4473684210526316, "pusht_m_std": 0.03176118806004524, "pusht_pinch_rmse": 163.0672149658203, "pusht_nopinch_rmse": 66.46668243408203, "pusht_actor_rmse_end": 102.98860168457031, "pusht_pusher_ap": 0.3476347088487318, "pusht_wall_ap": 0.08989095033083913, "cophy_5blk_by_layer": [0.1713661402463913, 0.7364628314971924, 1.406457543373108, 2.049382209777832, 2.6062276363372803]}
+selected deltagraph_hop2-calibrated
+/opt/anaconda3/lib/python3.13/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.5)
+  from scipy.sparse import csr_matrix, issparse

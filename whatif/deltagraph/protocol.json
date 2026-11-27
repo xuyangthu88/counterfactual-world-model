@@ -1,0 +1,25 @@
+{
+  "stage": 32,
+  "name": "deltagraph",
+  "seed": 271,
+  "test_split": "cumulativetransfer",
+  "variants": {
+    "layout_hop2": {"use_delta_prop": false, "hops": 2, "width": 32, "feature": 96, "dropout": 0.08, "steps": 4200},
+    "deltagraph_hop2": {"use_delta_prop": true, "hops": 2, "width": 32, "feature": 96, "dropout": 0.08, "steps": 4200},
+    "deltagraph_hop3": {"use_delta_prop": true, "hops": 3, "width": 36, "feature": 112, "dropout": 0.08, "steps": 4200},
+    "deltagraph_unseen": {"use_delta_prop": true, "hops": 2, "width": 32, "feature": 96, "dropout": 0.08, "steps": 3200}
+  },
+  "base_batch_size": 24,
+  "lr": 0.0012,
+  "eta_min": 0.00010,
+  "weight_decay": 0.015,
+  "ema_decay": 0.996,
+  "sparse_gate_threshold": 0.08,
+  "robust_beta": 4.5,
+  "pose_noise_std": 0.003,
+  "calibration_steps": 600,
+  "rotated_layout_probability": 0.65,
+  "selection": "Lowest average normalized validation terminal XYZ action-difference RMSE (relative to Stage 30 continued-calibrated on original val layouts), one shared checkpoint across all domains.",
+  "primary": "Terminal 3D position difference vector RMSE over unordered candidate pairs and movable receivers on identical splits; improvement = 100*(baseline-model)/baseline vs lower of frozen CoPhyNet/PETS.",
+  "inputs": "Identical archived 9D object states, 7D actions, 3D roles, and 5-window factual histories; zero added inputs or task-specific rules."
+}

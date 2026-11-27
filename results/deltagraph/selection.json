@@ -1,0 +1,110 @@
+{
+  "selected": "deltagraph_hop2-calibrated",
+  "heldout": "deltagraph_unseen-calibrated",
+  "validation": {
+    "layout_hop2-calibrated": {
+      "step": 4050,
+      "loss": 0.7464473247528076,
+      "validation": {
+        "cophy": 1.0170840876043978,
+        "causalworld": 0.21400470463908247,
+        "pusht": 0.9531264226934102
+      },
+      "validation_raw": {
+        "cophy": 1.026244874379467,
+        "causalworld": 0.21540433977214335,
+        "pusht": 0.9578599054118851
+      },
+      "validation_ema": {
+        "cophy": 1.0170840876043978,
+        "causalworld": 0.21400470463908247,
+        "pusht": 0.9531264226934102
+      },
+      "ref_validation": {
+        "cophy": 1.0508002335016546,
+        "causalworld": 0.261649058443271,
+        "pusht": 1.041188133312982
+      },
+      "criterion": 0.9004143851361629,
+      "used_ema": true,
+      "seconds": 4292.0
+    },
+    "deltagraph_hop2-calibrated": {
+      "step": 3300,
+      "loss": 0.795854926109314,
+      "validation": {
+        "cophy": 1.0261256091640294,
+        "causalworld": 0.21545016795773975,
+        "pusht": 0.9253223746667257
+      },
+      "validation_raw": {
+        "cophy": 1.059977991417461,
+        "causalworld": 0.21583708241988744,
+        "pusht": 0.9401658091672781
+      },
+      "validation_ema": {
+        "cophy": 1.0261256091640294,
+        "causalworld": 0.21545016795773975,
+        "pusht": 0.9253223746667257
+      },
+      "ref_validation": {
+        "cophy": 1.0508002335016546,
+        "causalworld": 0.261649058443271,
+        "pusht": 1.041188133312982
+      },
+      "criterion": 0.896222617424966,
+      "used_ema": true,
+      "seconds": 4590.7
+    },
+    "deltagraph_hop3-calibrated": {
+      "step": 2100,
+      "loss": 0.9144431948661804,
+      "validation": {
+        "cophy": 1.0245357150677892,
+        "causalworld": 0.22299414644449062,
+        "pusht": 0.9804251459768013
+      },
+      "validation_raw": {
+        "cophy": 1.06816326776917,
+        "causalworld": 0.22656738341757687,
+        "pusht": 0.9938459777867835
+      },
+      "validation_ema": {
+        "cophy": 1.0245357150677892,
+        "causalworld": 0.22299414644449062,
+        "pusht": 0.9804251459768013
+      },
+      "ref_validation": {
+        "cophy": 1.0508002335016546,
+        "causalworld": 0.261649058443271,
+        "pusht": 1.041188133312982
+      },
+      "criterion": 0.9229700748778683,
+      "used_ema": true,
+      "seconds": 4252.7
+    },
+    "deltagraph_unseen-calibrated": {
+      "step": 2550,
+      "loss": 0.8038729429244995,
+      "validation": {
+        "cophy": 1.0289062781926497,
+        "causalworld": 0.21871986777674976
+      },
+      "validation_raw": {
+        "cophy": 1.0615598845266392,
+        "causalworld": 0.22784547407767355
+      },
+      "validation_ema": {
+        "cophy": 1.0289062781926497,
+        "causalworld": 0.21871986777674976
+      },
+      "ref_validation": {
+        "cophy": 1.027687492285592,
+        "causalworld": 0.2799193951767243
+      },
+      "criterion": 0.891276635234392,
+      "used_ema": true,
+      "seconds": 2472.1
+    }
+  }
+}

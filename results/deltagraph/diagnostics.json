@@ -1,0 +1,138 @@
+{
+  "continued-calibrated": {
+    "pusht_damping_acc_all": 0.4472651127374254,
+    "pusht_damping_acc_moved": 0.45087719298245615,
+    "pusht_m_std": 0.03739018365740776,
+    "pusht_pinch_rmse": 147.87623596191406,
+    "pusht_nopinch_rmse": 48.69877243041992,
+    "pusht_actor_rmse_end": 36.901397705078125,
+    "pusht_pusher_ap": 0.5624234225845034,
+    "pusht_wall_ap": 0.36257465580032855,
+    "cophy_5blk_by_layer": [
+      0.17575152218341827,
+      0.7353485822677612,
+      1.3748561143875122,
+      2.0781517028808594,
+      2.714021921157837
+    ]
+  },
+  "fix_only-calibrated": {
+    "pusht_damping_acc_all": 0.6067896273108,
+    "pusht_damping_acc_moved": 0.6517543859649122,
+    "pusht_m_std": 0.03366373851895332,
+    "pusht_pinch_rmse": 143.69337463378906,
+    "pusht_nopinch_rmse": 46.471221923828125,
+    "pusht_actor_rmse_end": 12.922181129455566,
+    "pusht_pusher_ap": 0.6319867588981665,
+    "pusht_wall_ap": 0.41897662371035976,
+    "cophy_5blk_by_layer": [
+      0.1749037802219391,
+      0.7206134796142578,
+      1.3517855405807495,
+      2.030538558959961,
+      2.614771842956543
+    ]
+  },
+  "inertial_hop2-calibrated": {
+    "pusht_damping_acc_all": 0.644570413300055,
+    "pusht_damping_acc_moved": 0.6736842105263158,
+    "pusht_m_std": 0.06147761642932892,
+    "pusht_pinch_rmse": 146.20745849609375,
+    "pusht_nopinch_rmse": 42.01300811767578,
+    "pusht_actor_rmse_end": 25.108972549438477,
+    "pusht_pusher_ap": 0.627439088301918,
+    "pusht_wall_ap": 0.4815690071326094,
+    "cophy_5blk_by_layer": [
+      0.17217972874641418,
+      0.7279800176620483,
+      1.4060204029083252,
+      2.0727367401123047,
+      2.6442770957946777
+    ]
+  },
+  "inertial_hop3-calibrated": {
+    "pusht_damping_acc_all": 0.6282668471593553,
+    "pusht_damping_acc_moved": 0.6429824561403509,
+    "pusht_m_std": 0.039501436054706573,
+    "pusht_pinch_rmse": 144.73342895507812,
+    "pusht_nopinch_rmse": 42.229915618896484,
+    "pusht_actor_rmse_end": 22.88289451599121,
+    "pusht_pusher_ap": 0.6271274225621939,
+    "pusht_wall_ap": 0.46008066205234865,
+    "cophy_5blk_by_layer": [
+      0.17947529256343842,
+      0.7383800745010376,
+      1.4031306505203247,
+      2.0212597846984863,
+      2.566634178161621
+    ]
+  },
+  "layout_hop2-calibrated": {
+    "pusht_damping_acc_all": 0.6744891915901687,
+    "pusht_damping_acc_moved": 0.7201754385964912,
+    "pusht_m_std": 0.08265548944473267,
+    "pusht_pinch_rmse": 147.5314483642578,
+    "pusht_nopinch_rmse": 45.14103698730469,
+    "pusht_actor_rmse_end": 12.948987007141113,
+    "pusht_pusher_ap": 0.6433205246248279,
+    "pusht_wall_ap": 0.48686670459697073,
+    "cophy_5blk_by_layer": [
+      0.17223280668258667,
+      0.7338204979896545,
+      1.3969950675964355,
+      2.05430269241333,
+      2.566040277481079
+    ]
+  },
+  "deltagraph_hop2-calibrated": {
+    "pusht_damping_acc_all": 0.645835272219637,
+    "pusht_damping_acc_moved": 0.6614035087719298,
+    "pusht_m_std": 0.07236997038125992,
+    "pusht_pinch_rmse": 147.3909454345703,
+    "pusht_nopinch_rmse": 43.99769592285156,
+    "pusht_actor_rmse_end": 10.796614646911621,
+    "pusht_pusher_ap": 0.6447335867297574,
+    "pusht_wall_ap": 0.454107049473268,
+    "cophy_5blk_by_layer": [
+      0.17072397470474243,
+      0.7457062005996704,
+      1.4182237386703491,
+      2.0705783367156982,
+      2.6448051929473877
+    ]
+  },
+  "deltagraph_hop3-calibrated": {
+    "pusht_damping_acc_all": 0.6263230255086933,
+    "pusht_damping_acc_moved": 0.6745614035087719,
+    "pusht_m_std": 0.0828167200088501,
+    "pusht_pinch_rmse": 145.38894653320312,
+    "pusht_nopinch_rmse": 46.971370697021484,
+    "pusht_actor_rmse_end": 10.165433883666992,
+    "pusht_pusher_ap": 0.6442716705006531,
+    "pusht_wall_ap": 0.47314411039575405,
+    "cophy_5blk_by_layer": [
+      0.17011897265911102,
+      0.7278468608856201,
+      1.3632632493972778,
+      1.9954447746276855,
+      2.598243474960327
+    ]
+  },
+  "deltagraph_unseen-calibrated": {
+    "pusht_damping_acc_all": 0.44726088244003553,
+    "pusht_damping_acc_moved": 0.4473684210526316,
+    "pusht_m_std": 0.03176118806004524,
+    "pusht_pinch_rmse": 163.0672149658203,
+    "pusht_nopinch_rmse": 66.46668243408203,
+    "pusht_actor_rmse_end": 102.98860168457031,
+    "pusht_pusher_ap": 0.3476347088487318,
+    "pusht_wall_ap": 0.08989095033083913,
+    "cophy_5blk_by_layer": [
+      0.1713661402463913,
+      0.7364628314971924,
+      1.406457543373108,
+      2.049382209777832,
+      2.6062276363372803
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+/opt/anaconda3/lib/python3.13/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.5)
+  from scipy.sparse import csr_matrix, issparse
+cophy test layout_hop2-calibrated 1.0467932939671016 0.9224415579905912
+cophy cumulativetransfer layout_hop2-calibrated 1.6324506294765004 0.8590923560992795
+cophy test deltagraph_hop2-calibrated 1.032565231848851 0.9213841825880752
+cophy cumulativetransfer deltagraph_hop2-calibrated 1.6660656401627556 0.858362990497804
+cophy test deltagraph_unseen-calibrated 1.0411260091863974 0.9232500771975863
+cophy cumulativetransfer deltagraph_unseen-calibrated 1.64573737560879 0.8554425956516432
+cophy test cophynet 1.2032657887706704 None
+cophy cumulativetransfer cophynet 1.7725393566932757 None
+cophy test pets 1.4927486942191635 None
+cophy cumulativetransfer pets 2.0500343924638007 None
+cophy test ncii None 0.22925899187041432
+cophy cumulativetransfer ncii None 0.15611006269355943
+causalworld test layout_hop2-calibrated 14.505922333033839 0.9741496213218409
+causalworld cumulativetransfer layout_hop2-calibrated 15.253968949988886 0.9775193753144739
+causalworld test deltagraph_hop2-calibrated 14.516586421749508 0.9739742233972026
+causalworld cumulativetransfer deltagraph_hop2-calibrated 15.132951162970267 0.9771742162496101
+causalworld test deltagraph_unseen-calibrated 15.046885440526689 0.9738541863287707
+causalworld cumulativetransfer deltagraph_unseen-calibrated 15.091628346218663 0.9773733174501233
+causalworld test cophynet 32.096192149307264 None
+causalworld cumulativetransfer cophynet 27.469527113959124 None
+causalworld test pets 32.55168664181914 None
+causalworld cumulativetransfer pets 28.062583069635902 None
+causalworld test ncii None 0.3256125695375609
+causalworld cumulativetransfer ncii None 0.3170710105283482
+pusht test layout_hop2-calibrated 95.33390055056425 0.7346126032988919
+pusht cumulativetransfer layout_hop2-calibrated 107.86322906739336 0.655001234132361
+pusht test deltagraph_hop2-calibrated 91.4686951527954 0.7290147321510911
+pusht cumulativetransfer deltagraph_hop2-calibrated 107.52664901082689 0.6416591372942585
+pusht test deltagraph_unseen-calibrated 106.86912230452388 0.2300607065886764
+pusht cumulativetransfer deltagraph_unseen-calibrated 123.30493810623749 0.17602101697500783
+pusht test cophynet 107.98996403653018 None
+pusht cumulativetransfer cophynet 124.29233506769268 None
+pusht test pets 112.1230166971104 None
+pusht cumulativetransfer pets 128.2953525462637 None
+pusht test ncii None 0.2419819133777038
+pusht cumulativetransfer ncii None 0.17570340228866727
+diag layout_hop2-calibrated {"pusht_damping_acc_all": 0.6744891915901687, "pusht_damping_acc_moved": 0.7201754385964912, "pusht_m_std": 0.08265548944473267, "pusht_pinch_rmse": 147.5314483642578, "pusht_nopinch_rmse": 45.14103698730469, "pusht_actor_rmse_end": 12.948987007141113, "pusht_pusher_ap": 0.6433205246248279, "pusht_wall_ap": 0.48686670459697073, "cophy_5blk_by_layer": [0.17223280668258667, 0.7338204979896545, 1.3969950675964355, 2.05430269241333, 2.566040277481079]}
+diag deltagraph_hop2-calibrated {"pusht_damping_acc_all": 0.645835272219637, "pusht_damping_acc_moved": 0.6614035087719298, "pusht_m_std": 0.07236997038125992, "pusht_pinch_rmse": 147.3909454345703, "pusht_nopinch_rmse": 43.99769592285156, "pusht_actor_rmse_end": 10.796614646911621, "pusht_pusher_ap": 0.6447335867297574, "pusht_wall_ap": 0.454107049473268, "cophy_5blk_by_layer": [0.17072397470474243, 0.7457062005996704, 1.4182237386703491, 2.0705783367156982, 2.6448051929473877]}
+diag deltagraph_unseen-calibrated {"pusht_damping_acc_all": 0.44726088244003553, "pusht_damping_acc_moved": 0.4473684210526316, "pusht_m_std": 0.03176118806004524, "pusht_pinch_rmse": 163.0672149658203, "pusht_nopinch_rmse": 66.46668243408203, "pusht_actor_rmse_end": 102.98860168457031, "pusht_pusher_ap": 0.3476347088487318, "pusht_wall_ap": 0.08989095033083913, "cophy_5blk_by_layer": [0.1713661402463913, 0.7364628314971924, 1.406457543373108, 2.049382209777832, 2.6062276363372803]}
+selected deltagraph_hop2-calibrated

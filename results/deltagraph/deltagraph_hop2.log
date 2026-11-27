@@ -1,0 +1,44 @@
+/opt/anaconda3/lib/python3.13/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.5)
+  from scipy.sparse import csr_matrix, issparse
+deltagraph_hop2 domain_scales={'cophy': 1.7679219768689505, 'causalworld': 0.5117482249487814, 'pusht': 1.10530099387638} batch_sizes={'cophy': 12, 'causalworld': 24, 'pusht': 24}
+deltagraph_hop2 params=870,465 ref_val={'cophy': 1.0508002335016546, 'causalworld': 0.261649058443271, 'pusht': 1.041188133312982}
+/home/kailais/.local/lib/python3.13/site-packages/torch/nn/modules/rnn.py:1440: UserWarning: RNN module weights are not part of single contiguous chunk of memory. This means they need to be compacted at every call, possibly greatly increasing memory usage. To compact weights again call flatten_parameters(). (Triggered internally at /__w/pytorch/pytorch/aten/src/ATen/native/cudnn/RNN.cpp:1479.)
+  result = _VF.gru(
+deltagraph_hop2 {'step': 150, 'loss': 1.183, 'val': {'cophy': 1.2509, 'causalworld': 0.2773, 'pusht': 1.0706}, 'crit': 1.0928, 'ema': True, 'sec': 236.8}
+deltagraph_hop2 {'step': 300, 'loss': 1.082, 'val': {'cophy': 1.1453, 'causalworld': 0.2566, 'pusht': 1.0108}, 'crit': 1.0138, 'ema': True, 'sec': 459.7}
+deltagraph_hop2 {'step': 450, 'loss': 0.996, 'val': {'cophy': 1.0911, 'causalworld': 0.2468, 'pusht': 1.0035}, 'crit': 0.9819, 'ema': True, 'sec': 674.1}
+deltagraph_hop2 {'step': 600, 'loss': 1.057, 'val': {'cophy': 1.0602, 'causalworld': 0.2439, 'pusht': 0.9936}, 'crit': 0.9652, 'ema': True, 'sec': 886.8}
+deltagraph_hop2 {'step': 750, 'loss': 0.99, 'val': {'cophy': 1.0443, 'causalworld': 0.2433, 'pusht': 1.0003}, 'crit': 0.9615, 'ema': True, 'sec': 1098.0}
+deltagraph_hop2 {'step': 900, 'loss': 1.286, 'val': {'cophy': 1.0238, 'causalworld': 0.2423, 'pusht': 0.9902}, 'crit': 0.9504, 'ema': True, 'sec': 1313.5}
+deltagraph_hop2 {'step': 1050, 'loss': 1.07, 'val': {'cophy': 1.0156, 'causalworld': 0.2395, 'pusht': 0.9948}, 'crit': 0.9457, 'ema': True, 'sec': 1522.4}
+deltagraph_hop2 {'step': 1200, 'loss': 0.93, 'val': {'cophy': 1.0132, 'causalworld': 0.2385, 'pusht': 0.9916}, 'crit': 0.9427, 'ema': True, 'sec': 1729.7}
+deltagraph_hop2 {'step': 1350, 'loss': 0.97, 'val': {'cophy': 1.0077, 'causalworld': 0.2345, 'pusht': 0.9908}, 'crit': 0.9356, 'ema': True, 'sec': 1934.8}
+deltagraph_hop2 {'step': 1500, 'loss': 0.997, 'val': {'cophy': 1.0058, 'causalworld': 0.233, 'pusht': 0.9797}, 'crit': 0.9296, 'ema': True, 'sec': 2141.2}
+deltagraph_hop2 {'step': 1650, 'loss': 0.909, 'val': {'cophy': 1.007, 'causalworld': 0.2301, 'pusht': 0.9731}, 'crit': 0.924, 'ema': True, 'sec': 2345.9}
+deltagraph_hop2 {'step': 1800, 'loss': 0.943, 'val': {'cophy': 1.007, 'causalworld': 0.2293, 'pusht': 0.9674}, 'crit': 0.9213, 'ema': True, 'sec': 2551.2}
+deltagraph_hop2 {'step': 1950, 'loss': 0.995, 'val': {'cophy': 1.0079, 'causalworld': 0.2279, 'pusht': 0.959}, 'crit': 0.9171, 'ema': True, 'sec': 2755.8}
+deltagraph_hop2 {'step': 2100, 'loss': 0.867, 'val': {'cophy': 1.0114, 'causalworld': 0.2256, 'pusht': 0.9583}, 'crit': 0.9151, 'ema': True, 'sec': 2961.0}
+deltagraph_hop2 {'step': 2250, 'loss': 0.91, 'val': {'cophy': 1.0172, 'causalworld': 0.2243, 'pusht': 0.9536}, 'crit': 0.9138, 'ema': True, 'sec': 3166.4}
+deltagraph_hop2 {'step': 2400, 'loss': 0.802, 'val': {'cophy': 1.0188, 'causalworld': 0.2228, 'pusht': 0.945}, 'crit': 0.9095, 'ema': True, 'sec': 3370.3}
+deltagraph_hop2 {'step': 2550, 'loss': 0.859, 'val': {'cophy': 1.0161, 'causalworld': 0.2207, 'pusht': 0.9359}, 'crit': 0.9031, 'ema': True, 'sec': 3574.4}
+deltagraph_hop2 {'step': 2700, 'loss': 0.769, 'val': {'cophy': 1.0185, 'causalworld': 0.22, 'pusht': 0.9289}, 'crit': 0.9007, 'ema': True, 'sec': 3778.5}
+deltagraph_hop2 {'step': 2850, 'loss': 0.812, 'val': {'cophy': 1.0199, 'causalworld': 0.2185, 'pusht': 0.9206}, 'crit': 0.8967, 'ema': True, 'sec': 3982.4}
+deltagraph_hop2 {'step': 3000, 'loss': 0.866, 'val': {'cophy': 1.0251, 'causalworld': 0.2168, 'pusht': 0.9231}, 'crit': 0.8969, 'ema': True, 'sec': 4186.4}
+deltagraph_hop2 {'step': 3150, 'loss': 0.807, 'val': {'cophy': 1.0268, 'causalworld': 0.2166, 'pusht': 0.9247}, 'crit': 0.8976, 'ema': True, 'sec': 4388.8}
+deltagraph_hop2 {'step': 3300, 'loss': 0.796, 'val': {'cophy': 1.0261, 'causalworld': 0.2155, 'pusht': 0.9253}, 'crit': 0.8962, 'ema': True, 'sec': 4590.7}
+deltagraph_hop2 {'step': 3450, 'loss': 0.819, 'val': {'cophy': 1.0277, 'causalworld': 0.2151, 'pusht': 0.9272}, 'crit': 0.8969, 'ema': True, 'sec': 4793.4}
+deltagraph_hop2 {'step': 3600, 'loss': 0.639, 'val': {'cophy': 1.0394, 'causalworld': 0.215, 'pusht': 0.932}, 'crit': 0.902, 'ema': True, 'sec': 4995.4}
+deltagraph_hop2 {'step': 3750, 'loss': 0.688, 'val': {'cophy': 1.0405, 'causalworld': 0.2151, 'pusht': 0.9375}, 'crit': 0.9042, 'ema': True, 'sec': 5197.6}
+deltagraph_hop2 {'step': 3900, 'loss': 0.771, 'val': {'cophy': 1.0435, 'causalworld': 0.2145, 'pusht': 0.9357}, 'crit': 0.9039, 'ema': True, 'sec': 5400.0}
+deltagraph_hop2 {'step': 4050, 'loss': 0.788, 'val': {'cophy': 1.0466, 'causalworld': 0.2145, 'pusht': 0.9348}, 'crit': 0.9045, 'ema': True, 'sec': 5602.7}
+deltagraph_hop2 {'step': 4200, 'loss': 0.735, 'val': {'cophy': 1.055, 'causalworld': 0.214, 'pusht': 0.9332}, 'crit': 0.9061, 'ema': True, 'sec': 5806.2}
+/opt/anaconda3/lib/python3.13/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.5)
+  from scipy.sparse import csr_matrix, issparse
+deltagraph_hop2 {'step': 150, 'validation': {'cophy': -1.7808191776275635, 'causalworld': -5.882182598114014, 'pusht': -4.754434585571289}, 'value': -4.139145453770955}
+deltagraph_hop2 {'step': 300, 'validation': {'cophy': -1.8897428512573242, 'causalworld': -6.380382537841797, 'pusht': -5.354095458984375}, 'value': -4.541406949361165}
+deltagraph_hop2 {'step': 450, 'validation': {'cophy': -1.9571421146392822, 'causalworld': -6.679107666015625, 'pusht': -5.984555721282959}, 'value': -4.873601833979289}
+deltagraph_hop2 {'step': 600, 'validation': {'cophy': -2.040696382522583, 'causalworld': -6.959902286529541, 'pusht': -6.464834690093994}, 'value': -5.155144453048706}
+deltagraph_hop2 {'step': 750, 'validation': {'cophy': -2.0877039432525635, 'causalworld': -7.0045976638793945, 'pusht': -6.680141925811768}, 'value': -5.257481177647908}
+deltagraph_hop2 {'step': 900, 'validation': {'cophy': -2.165091037750244, 'causalworld': -7.048501014709473, 'pusht': -6.825379371643066}, 'value': -5.346323808034261}
+deltagraph_hop2 {'step': 1050, 'validation': {'cophy': -2.1991117000579834, 'causalworld': -7.069037437438965, 'pusht': -6.893847465515137}, 'value': -5.387332201004028}
+deltagraph_hop2 {'step': 1200, 'validation': {'cophy': -2.2181172370910645, 'causalworld': -7.076638221740723, 'pusht': -6.948705673217773}, 'value': -5.4144870440165205}
