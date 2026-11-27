@@ -1,0 +1,42 @@
+{
+  "stage": 33,
+  "seed": 20261127,
+  "branches": 4,
+  "domains": ["ballscf", "stacking2"],
+  "all_domains": ["cophy", "ballscf", "causalworld", "stacking2", "pusht"],
+  "cophy_clock": [1, 2, 3, 4, 5, 6, 9, 12, 18, 24, 30],
+  "push_clock": [1, 2, 3, 4, 5, 6, 7, 8],
+  "splits": {
+    "train": {"base": 331000, "ballscf": 1024, "stacking2": 1024},
+    "val": {"base": 332500, "ballscf": 160, "stacking2": 160},
+    "test": {"base": 334000, "ballscf": 256, "stacking2": 256},
+    "transfer": {"base": 336000, "ballscf": 256, "stacking2": 256}
+  },
+  "ballscf": {
+    "source": "CoPhy BallsCF (Baradel et al., ICLR 2020, arXiv:1909.12000, github.com/fabienbaradel/cophy)",
+    "train_balls": [3, 4],
+    "transfer_balls": [5, 6],
+    "masses": [1.0, 2.0, 5.0],
+    "frictions": [0.1, 0.5, 1.0],
+    "restitutions": [0.1, 0.5, 1.0],
+    "radius": 0.25,
+    "unit": 1.0
+  },
+  "stacking2": {
+    "source": "CausalWorld STACKING2_BENCHMARK (Ahmed et al., ICLR 2021, arXiv:2010.04296)",
+    "train_protocols": ["P1", "P7"],
+    "transfer_protocols": ["P2", "P8"],
+    "unit": 65.0
+  },
+  "cf_gps_reference": {
+    "paper": "Buesing et al., Woulda, Coulda, Shoulda: Counterfactually-Guided Policy Search, ICLR 2019",
+    "arxiv": "https://arxiv.org/abs/1811.06272",
+    "openreview": "https://openreview.net/forum?id=HygngcZCbx",
+    "note": "Discrete 2D POMDP gridworld policy-search paper without official GitHub repo; same-state counterfactual abduction principle adopted across all 5 continuous physical benchmarks."
+  },
+  "budgets": {
+    "cophynet_epochs": 50,
+    "pets_epochs": 25,
+    "ncii_updates": 2400
+  }
+}

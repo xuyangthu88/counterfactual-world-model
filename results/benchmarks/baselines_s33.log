@@ -1,0 +1,82 @@
+ballscf cophynet {'epoch': 5, 'validation_pose_batch_rmse': 0.4670436203479767, 'seconds': 187.6}
+ballscf cophynet {'epoch': 10, 'validation_pose_batch_rmse': 0.43217743635177613, 'seconds': 376.1}
+ballscf cophynet {'epoch': 15, 'validation_pose_batch_rmse': 0.41294280886650087, 'seconds': 564.8}
+ballscf cophynet {'epoch': 20, 'validation_pose_batch_rmse': 0.4002154469490051, 'seconds': 751.6}
+ballscf cophynet {'epoch': 25, 'validation_pose_batch_rmse': 0.4046877384185791, 'seconds': 938.3}
+ballscf cophynet {'epoch': 30, 'validation_pose_batch_rmse': 0.38492748737335203, 'seconds': 1123.2}
+ballscf cophynet {'epoch': 35, 'validation_pose_batch_rmse': 0.3831588089466095, 'seconds': 1311.1}
+ballscf cophynet {'epoch': 40, 'validation_pose_batch_rmse': 0.3843956470489502, 'seconds': 1498.8}
+ballscf cophynet {'epoch': 45, 'validation_pose_batch_rmse': 0.38380504250526426, 'seconds': 1686.0}
+ballscf cophynet {'epoch': 49, 'validation_pose_batch_rmse': 0.36313070058822633, 'seconds': 1835.6}
+ballscf pets {'epoch': 1, 'nll': 2.522227368503809, 'mse': 0.017874477431178093, 'seconds': 15.0}
+ballscf pets {'epoch': 2, 'nll': -3.6045620020478966, 'mse': 0.01757330819964409, 'seconds': 27.8}
+ballscf pets {'epoch': 3, 'nll': -28.355637967586517, 'mse': 0.017261944711208344, 'seconds': 40.1}
+ballscf pets {'epoch': 4, 'nll': -36.00704565644264, 'mse': 0.01723349466919899, 'seconds': 52.5}
+ballscf pets {'epoch': 5, 'nll': -38.02723877429962, 'mse': 0.017223279923200607, 'seconds': 65.0}
+ballscf pets {'epoch': 6, 'nll': -38.926815474033354, 'mse': 0.017215659841895103, 'seconds': 77.3}
+ballscf pets {'epoch': 7, 'nll': -39.47193866968155, 'mse': 0.017194051295518875, 'seconds': 89.6}
+ballscf pets {'epoch': 8, 'nll': -39.86032758951187, 'mse': 0.017188092693686485, 'seconds': 101.7}
+ballscf pets {'epoch': 9, 'nll': -40.156602036952975, 'mse': 0.01717440038919449, 'seconds': 114.1}
+ballscf pets {'epoch': 10, 'nll': -40.40270791053772, 'mse': 0.017172392457723618, 'seconds': 126.5}
+ballscf pets {'epoch': 11, 'nll': -40.60729967355728, 'mse': 0.017154596745967865, 'seconds': 138.8}
+ballscf pets {'epoch': 12, 'nll': -40.78221596479416, 'mse': 0.017146319150924683, 'seconds': 151.1}
+ballscf pets {'epoch': 13, 'nll': -40.932718861103055, 'mse': 0.017135219648480415, 'seconds': 163.3}
+ballscf pets {'epoch': 14, 'nll': -41.06921923160553, 'mse': 0.017131946980953217, 'seconds': 175.8}
+ballscf pets {'epoch': 15, 'nll': -41.18735274076462, 'mse': 0.017123864963650703, 'seconds': 187.8}
+ballscf pets {'epoch': 16, 'nll': -41.29676333665848, 'mse': 0.017112229019403458, 'seconds': 199.6}
+ballscf pets {'epoch': 17, 'nll': -41.396088016033175, 'mse': 0.017101436853408813, 'seconds': 212.0}
+ballscf pets {'epoch': 18, 'nll': -41.4841891169548, 'mse': 0.01709173247218132, 'seconds': 224.3}
+ballscf pets {'epoch': 19, 'nll': -41.5644336938858, 'mse': 0.017085248604416847, 'seconds': 236.2}
+ballscf pets {'epoch': 20, 'nll': -41.63982580900192, 'mse': 0.017072632908821106, 'seconds': 248.9}
+ballscf pets {'epoch': 21, 'nll': -41.71012725830078, 'mse': 0.017060713842511177, 'seconds': 262.1}
+ballscf pets {'epoch': 22, 'nll': -41.77471239566803, 'mse': 0.017050713300704956, 'seconds': 274.8}
+ballscf pets {'epoch': 23, 'nll': -41.836368358135225, 'mse': 0.017045803368091583, 'seconds': 287.2}
+ballscf pets {'epoch': 24, 'nll': -41.89067633152008, 'mse': 0.017032820731401443, 'seconds': 299.9}
+ballscf pets {'epoch': 25, 'nll': -41.94574700593948, 'mse': 0.017026370391249657, 'seconds': 312.8}
+ballscf ncii {'step': 400, 'loss': -4.627386093139648, 'interaction_loss': 0.713359534740448, 'seconds': 4.2}
+ballscf ncii {'step': 800, 'loss': -10.194865226745605, 'interaction_loss': 0.2036558985710144, 'seconds': 10.2}
+ballscf ncii {'step': 1200, 'loss': -13.656326293945312, 'interaction_loss': 0.24578237533569336, 'seconds': 16.2}
+ballscf ncii {'step': 1600, 'loss': -15.645951271057129, 'interaction_loss': 0.2178225964307785, 'seconds': 22.3}
+ballscf ncii {'step': 2000, 'loss': -11.607664108276367, 'interaction_loss': 0.29219722747802734, 'seconds': 28.6}
+ballscf ncii {'step': 2400, 'loss': -15.112051963806152, 'interaction_loss': 0.38960954546928406, 'seconds': 34.8}
+stacking2 cophynet {'epoch': 5, 'validation_pose_batch_rmse': 0.3130791842937469, 'seconds': 230.8}
+stacking2 cophynet {'epoch': 10, 'validation_pose_batch_rmse': 0.3241435050964355, 'seconds': 461.9}
+stacking2 cophynet {'epoch': 15, 'validation_pose_batch_rmse': 0.32261621952056885, 'seconds': 692.5}
+stacking2 cophynet {'epoch': 20, 'validation_pose_batch_rmse': 0.32241512537002565, 'seconds': 922.0}
+stacking2 cophynet {'epoch': 25, 'validation_pose_batch_rmse': 0.3242853879928589, 'seconds': 1130.9}
+stacking2 cophynet {'epoch': 30, 'validation_pose_batch_rmse': 0.31976351141929626, 'seconds': 1234.7}
+stacking2 cophynet {'epoch': 35, 'validation_pose_batch_rmse': 0.32437753677368164, 'seconds': 1338.5}
+stacking2 cophynet {'epoch': 40, 'validation_pose_batch_rmse': 0.325810033082962, 'seconds': 1442.3}
+stacking2 cophynet {'epoch': 45, 'validation_pose_batch_rmse': 0.3253501296043396, 'seconds': 1546.1}
+stacking2 cophynet {'epoch': 49, 'validation_pose_batch_rmse': 0.32432627081871035, 'seconds': 1629.3}
+stacking2 pets {'epoch': 1, 'nll': 2.452462224289775, 'mse': 0.0026228290516883135, 'seconds': 9.2}
+stacking2 pets {'epoch': 2, 'nll': -4.68409363925457, 'mse': 0.002790616126731038, 'seconds': 16.9}
+stacking2 pets {'epoch': 3, 'nll': -33.858716648817065, 'mse': 0.0025951059069484472, 'seconds': 24.7}
+stacking2 pets {'epoch': 4, 'nll': -42.75404658317566, 'mse': 0.002585287671536207, 'seconds': 32.4}
+stacking2 pets {'epoch': 5, 'nll': -44.94375616312027, 'mse': 0.0025769472122192383, 'seconds': 40.2}
+stacking2 pets {'epoch': 6, 'nll': -45.773071479797366, 'mse': 0.0025719315744936466, 'seconds': 47.2}
+stacking2 pets {'epoch': 7, 'nll': -46.20232480764389, 'mse': 0.002568657509982586, 'seconds': 55.0}
+stacking2 pets {'epoch': 8, 'nll': -46.47257873415947, 'mse': 0.0025648800656199455, 'seconds': 62.7}
+stacking2 pets {'epoch': 9, 'nll': -46.66056325435638, 'mse': 0.0025605284608900547, 'seconds': 70.5}
+stacking2 pets {'epoch': 10, 'nll': -46.80078714489937, 'mse': 0.002557743340730667, 'seconds': 78.2}
+stacking2 pets {'epoch': 11, 'nll': -46.907895827293395, 'mse': 0.0025544469244778156, 'seconds': 86.0}
+stacking2 pets {'epoch': 12, 'nll': -46.99205794930458, 'mse': 0.0025521302595734596, 'seconds': 93.7}
+stacking2 pets {'epoch': 13, 'nll': -47.06146348118782, 'mse': 0.0025505870580673218, 'seconds': 101.4}
+stacking2 pets {'epoch': 14, 'nll': -47.11915631294251, 'mse': 0.0025471001863479614, 'seconds': 109.1}
+stacking2 pets {'epoch': 15, 'nll': -47.16897827982903, 'mse': 0.0025442270562052727, 'seconds': 116.8}
+stacking2 pets {'epoch': 16, 'nll': -47.21150500178337, 'mse': 0.0025443951599299908, 'seconds': 124.4}
+stacking2 pets {'epoch': 17, 'nll': -47.248932445049284, 'mse': 0.002542262664064765, 'seconds': 132.1}
+stacking2 pets {'epoch': 18, 'nll': -47.28084887862205, 'mse': 0.002539724810048938, 'seconds': 139.7}
+stacking2 pets {'epoch': 19, 'nll': -47.31249856352806, 'mse': 0.0025389872025698423, 'seconds': 147.3}
+stacking2 pets {'epoch': 20, 'nll': -47.338769894838336, 'mse': 0.0025373983662575483, 'seconds': 154.7}
+stacking2 pets {'epoch': 21, 'nll': -47.36320869326592, 'mse': 0.002536302199587226, 'seconds': 162.0}
+stacking2 pets {'epoch': 22, 'nll': -47.38693377375603, 'mse': 0.0025352006778120995, 'seconds': 169.5}
+stacking2 pets {'epoch': 23, 'nll': -47.40870979428291, 'mse': 0.002533102408051491, 'seconds': 177.1}
+stacking2 pets {'epoch': 24, 'nll': -47.42721535563469, 'mse': 0.0025330730713903904, 'seconds': 184.6}
+stacking2 pets {'epoch': 25, 'nll': -47.44618598222733, 'mse': 0.002529539866372943, 'seconds': 192.2}
+stacking2 ncii {'step': 400, 'loss': -29.35686492919922, 'interaction_loss': 0.7158380150794983, 'seconds': 3.9}
+stacking2 ncii {'step': 800, 'loss': -30.257354736328125, 'interaction_loss': 0.061078302562236786, 'seconds': 10.0}
+stacking2 ncii {'step': 1200, 'loss': -34.32673263549805, 'interaction_loss': 0.07344438880681992, 'seconds': 16.2}
+stacking2 ncii {'step': 1600, 'loss': -33.81983947753906, 'interaction_loss': 0.13711190223693848, 'seconds': 22.5}
+stacking2 ncii {'step': 2000, 'loss': -36.6912727355957, 'interaction_loss': 0.14887022972106934, 'seconds': 28.6}
+stacking2 ncii {'step': 2400, 'loss': -36.294151306152344, 'interaction_loss': 0.13291248679161072, 'seconds': 34.7}

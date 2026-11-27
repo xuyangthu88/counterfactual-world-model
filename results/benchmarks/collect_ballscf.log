@@ -1,0 +1,28 @@
+pybullet build time: Jan 29 2025 23:16:28
+pybullet build time: Jan 29 2025 23:16:28
+pybullet build time: Jan 29 2025 23:16:28
+pybullet build time: Jan 29 2025 23:16:28
+pybullet build time: Jan 29 2025 23:16:28
+pybullet build time: Jan 29 2025 23:16:28
+pybullet build time: Jan 29 2025 23:16:28
+pybullet build time: Jan 29 2025 23:16:28
+pybullet build time: Jan 29 2025 23:16:28
+pybullet build time: Jan 29 2025 23:16:28
+pybullet build time: Jan 29 2025 23:16:28
+pybullet build time: Jan 29 2025 23:16:28
+pybullet build time: Jan 29 2025 23:16:28
+pybullet build time: Jan 29 2025 23:16:28
+pybullet build time: Jan 29 2025 23:16:28
+pybullet build time: Jan 29 2025 23:16:28
+pybullet build time: Jan 29 2025 23:16:28
+pybullet build time: Jan 29 2025 23:16:28
+pybullet build time: Jan 29 2025 23:16:28
+pybullet build time: Jan 29 2025 23:16:28
+pybullet build time: Jan 29 2025 23:16:28
+pybullet build time: Jan 29 2025 23:16:28
+pybullet build time: Jan 29 2025 23:16:28
+pybullet build time: Jan 29 2025 23:16:28
+data/benchmarks/ballscf-train.npz n=1024 delta_rms=0.9908 edge_density=0.0672
+data/benchmarks/ballscf-val.npz n=160 delta_rms=0.9264 edge_density=0.0673
+data/benchmarks/ballscf-test.npz n=256 delta_rms=0.9421 edge_density=0.0673
+data/benchmarks/ballscf-transfer.npz n=256 delta_rms=0.7490 edge_density=0.1122
