@@ -1,0 +1,92 @@
+/opt/anaconda3/lib/python3.13/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.5)
+  from scipy.sparse import csr_matrix, issparse
+cophy test shared-calibrated 1.1746119264169632 0.8591300201300718
+cophy cumulativetransfer shared-calibrated 1.8252583386197159 0.7706778598958904
+cophy test continued-calibrated 1.060713949795184 0.9102639579802474
+cophy cumulativetransfer continued-calibrated 1.6820514456266975 0.8372815597266954
+cophy test cumulative_unseen-calibrated 1.0508836320540926 0.9115475827373838
+cophy cumulativetransfer cumulative_unseen-calibrated 1.6855945425708343 0.8322425801335831
+cophy test fix_only-calibrated 1.035924604747023 0.9266567228468048
+cophy cumulativetransfer fix_only-calibrated 1.6332372085675317 0.8628709495029154
+cophy test inertial_hop2-calibrated 1.0682514143099038 0.9193947966555789
+cophy cumulativetransfer inertial_hop2-calibrated 1.6628249316941772 0.8551625240613654
+cophy test inertial_hop3-calibrated 1.0589972708777688 0.9174615841059398
+cophy cumulativetransfer inertial_hop3-calibrated 1.6259947446430858 0.8551860249626706
+cophy test stabilized_unseen-calibrated 1.0429438327284544 0.9251455896079843
+cophy cumulativetransfer stabilized_unseen-calibrated 1.6069209823646722 0.8568287186973426
+cophy test cophynet 1.2032657887706704 None
+cophy cumulativetransfer cophynet 1.7725393566932757 None
+cophy test pets 1.4927486942191635 None
+cophy cumulativetransfer pets 2.0500343924638007 None
+cophy test ncii None 0.22925899187041432
+cophy cumulativetransfer ncii None 0.15611006269355943
+causalworld test shared-calibrated 19.76219705401343 0.9597043213705192
+causalworld cumulativetransfer shared-calibrated 18.072062555440137 0.9677473742948943
+causalworld test continued-calibrated 16.901363016834342 0.9672584040598313
+causalworld cumulativetransfer continued-calibrated 16.92546328103545 0.9741438468800794
+causalworld test cumulative_unseen-calibrated 17.508654673533638 0.9649866523241001
+causalworld cumulativetransfer cumulative_unseen-calibrated 16.796424626810786 0.97176737041518
+causalworld test fix_only-calibrated 14.518894026733047 0.9704084766028884
+causalworld cumulativetransfer fix_only-calibrated 15.126234450608703 0.9754732765880674
+causalworld test inertial_hop2-calibrated 14.685477668572757 0.9742839276546758
+causalworld cumulativetransfer inertial_hop2-calibrated 15.815401027190623 0.9774139974190391
+causalworld test inertial_hop3-calibrated 14.87560907324553 0.97188402506758
+causalworld cumulativetransfer inertial_hop3-calibrated 15.378014037935994 0.9759485621505399
+causalworld test stabilized_unseen-calibrated 14.28427893409251 0.9743803673348297
+causalworld cumulativetransfer stabilized_unseen-calibrated 15.659144389318227 0.9775474583474204
+causalworld test cophynet 32.096192149307264 None
+causalworld cumulativetransfer cophynet 27.469527113959124 None
+causalworld test pets 32.55168664181914 None
+causalworld cumulativetransfer pets 28.062583069635902 None
+causalworld test ncii None 0.3256125695375609
+causalworld cumulativetransfer ncii None 0.3170710105283482
+pusht test shared-calibrated 99.158110823845 0.6011312220079776
+pusht cumulativetransfer shared-calibrated 111.7940848780093 0.5223321864957876
+pusht test continued-calibrated 98.15456965337121 0.6328755697778051
+pusht cumulativetransfer continued-calibrated 108.88283213705358 0.5663976399564296
+pusht test cumulative_unseen-calibrated 106.63116748498736 0.2004355921859396
+pusht cumulativetransfer cumulative_unseen-calibrated 124.16247646677587 0.2073292554450645
+pusht test fix_only-calibrated 91.52268061404283 0.6876606732649011
+pusht cumulativetransfer fix_only-calibrated 105.609274602132 0.6146562101333438
+pusht test inertial_hop2-calibrated 90.86885201122892 0.7220560654933855
+pusht cumulativetransfer inertial_hop2-calibrated 106.32631702553684 0.6490044345090275
+pusht test inertial_hop3-calibrated 92.15983929505013 0.7124479164499008
+pusht cumulativetransfer inertial_hop3-calibrated 105.38524571540293 0.6416450439543625
+pusht test stabilized_unseen-calibrated 108.59052804242569 0.12330025556809063
+pusht cumulativetransfer stabilized_unseen-calibrated 125.41819711978587 0.13633957262283447
+pusht test cophynet 107.98996403653018 None
+pusht cumulativetransfer cophynet 124.29233506769268 None
+pusht test pets 112.1230166971104 None
+pusht cumulativetransfer pets 128.2953525462637 None
+pusht test ncii None 0.2419819133777038
+pusht cumulativetransfer ncii None 0.17570340228866727
+native/edit cophy shared-calibrated None
+native/edit cophy continued-calibrated None
+native/edit cophy cumulative_unseen-calibrated None
+native/edit cophy fix_only-calibrated None
+native/edit cophy inertial_hop2-calibrated None
+native/edit cophy inertial_hop3-calibrated None
+native/edit cophy stabilized_unseen-calibrated None
+native/edit causalworld shared-calibrated 8.956907373067489
+native/edit causalworld continued-calibrated 8.47744787114628
+native/edit causalworld cumulative_unseen-calibrated 8.691261989489258
+native/edit causalworld fix_only-calibrated 7.692194295703796
+native/edit causalworld inertial_hop2-calibrated 7.93873288640256
+native/edit causalworld inertial_hop3-calibrated 7.654429489638282
+native/edit causalworld stabilized_unseen-calibrated 7.935479264648492
+native/edit pusht shared-calibrated 77.60150614707328
+native/edit pusht continued-calibrated 77.48278826661816
+native/edit pusht cumulative_unseen-calibrated 80.54721303104839
+native/edit pusht fix_only-calibrated 73.13787738192191
+native/edit pusht inertial_hop2-calibrated 71.0647733554542
+native/edit pusht inertial_hop3-calibrated 71.81534572105637
+native/edit pusht stabilized_unseen-calibrated 81.19582057071943
+diag continued-calibrated {"pusht_damping_acc_all": 0.4472651127374254, "pusht_damping_acc_moved": 0.45087719298245615, "pusht_m_std": 0.03739018365740776, "pusht_pinch_rmse": 147.87623596191406, "pusht_nopinch_rmse": 48.69877243041992, "pusht_actor_rmse_end": 36.901397705078125, "pusht_pusher_ap": 0.5624234225845034, "pusht_wall_ap": 0.36257465580032855, "cophy_5blk_by_layer": [0.17575152218341827, 0.7353485822677612, 1.3748561143875122, 2.0781517028808594, 2.714021921157837], "state_norm_end": {"cophy": 41.969032287597656, "pusht": 34.85686492919922}}
+diag cumulative_unseen-calibrated {"pusht_damping_acc_all": 0.3990883709124751, "pusht_damping_acc_moved": 0.3885964912280702, "pusht_m_std": 0.03761153295636177, "pusht_pinch_rmse": 164.0459442138672, "pusht_nopinch_rmse": 67.28880310058594, "pusht_actor_rmse_end": 53.91201400756836, "pusht_pusher_ap": 0.3593588387742674, "pusht_wall_ap": 0.20692526239097517, "cophy_5blk_by_layer": [0.17363734543323517, 0.71942538022995, 1.3603321313858032, 2.064542055130005, 2.7469229698181152], "state_norm_end": {"cophy": 28.73324966430664, "pusht": 25.381994247436523}}
+diag fix_only-calibrated {"pusht_damping_acc_all": 0.6067896273108, "pusht_damping_acc_moved": 0.6517543859649122, "pusht_m_std": 0.03366373851895332, "pusht_pinch_rmse": 143.69337463378906, "pusht_nopinch_rmse": 46.471221923828125, "pusht_actor_rmse_end": 12.922181129455566, "pusht_pusher_ap": 0.6319867588981665, "pusht_wall_ap": 0.41897662371035976, "cophy_5blk_by_layer": [0.1749037802219391, 0.7206134796142578, 1.3517855405807495, 2.030538558959961, 2.614771842956543], "state_norm_end": {"cophy": 5.96635103225708, "pusht": 5.943004131317139}}
+diag inertial_hop2-calibrated {"pusht_damping_acc_all": 0.644570413300055, "pusht_damping_acc_moved": 0.6736842105263158, "pusht_m_std": 0.06147761642932892, "pusht_pinch_rmse": 146.20745849609375, "pusht_nopinch_rmse": 42.01300811767578, "pusht_actor_rmse_end": 25.108972549438477, "pusht_pusher_ap": 0.627439088301918, "pusht_wall_ap": 0.4815690071326094, "cophy_5blk_by_layer": [0.17217972874641418, 0.7279800176620483, 1.4060204029083252, 2.0727367401123047, 2.6442770957946777], "state_norm_end": {"cophy": 5.7599897384643555, "pusht": 5.772733688354492}}
+diag inertial_hop3-calibrated {"pusht_damping_acc_all": 0.6282668471593553, "pusht_damping_acc_moved": 0.6429824561403509, "pusht_m_std": 0.039501436054706573, "pusht_pinch_rmse": 144.73342895507812, "pusht_nopinch_rmse": 42.229915618896484, "pusht_actor_rmse_end": 22.88289451599121, "pusht_pusher_ap": 0.6271274225621939, "pusht_wall_ap": 0.46008066205234865, "cophy_5blk_by_layer": [0.17947529256343842, 0.7383800745010376, 1.4031306505203247, 2.0212597846984863, 2.566634178161621], "state_norm_end": {"cophy": 5.85831880569458, "pusht": 5.789807319641113}}
+diag stabilized_unseen-calibrated {"pusht_damping_acc_all": 0.5182177757096325, "pusht_damping_acc_moved": 0.5780701754385965, "pusht_m_std": 0.035109084099531174, "pusht_pinch_rmse": 163.7767333984375, "pusht_nopinch_rmse": 72.26106262207031, "pusht_actor_rmse_end": 61.425907135009766, "pusht_pusher_ap": 0.34662030611940087, "pusht_wall_ap": 0.10050199166271458, "cophy_5blk_by_layer": [0.17492642998695374, 0.7277042865753174, 1.3818556070327759, 2.0148112773895264, 2.5262291431427], "state_norm_end": {"cophy": 5.894195079803467, "pusht": 5.737851619720459}}
+selected fix_only-calibrated
+/opt/anaconda3/lib/python3.13/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.5)
+  from scipy.sparse import csr_matrix, issparse

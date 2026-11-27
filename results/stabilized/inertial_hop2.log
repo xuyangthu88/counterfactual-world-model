@@ -1,0 +1,38 @@
+/opt/anaconda3/lib/python3.13/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.5)
+  from scipy.sparse import csr_matrix, issparse
+inertial_hop2 domain_scales={'cophy': 1.7679219768689505, 'causalworld': 0.5117482249487814, 'pusht': 1.10530099387638}
+inertial_hop2 params=660,026 ref_val={'cophy': 1.0508002335016546, 'causalworld': 0.261649058443271, 'pusht': 1.041188133312982}
+/home/kailais/.local/lib/python3.13/site-packages/torch/nn/modules/rnn.py:1440: UserWarning: RNN module weights are not part of single contiguous chunk of memory. This means they need to be compacted at every call, possibly greatly increasing memory usage. To compact weights again call flatten_parameters(). (Triggered internally at /__w/pytorch/pytorch/aten/src/ATen/native/cudnn/RNN.cpp:1479.)
+  result = _VF.gru(
+inertial_hop2 {'step': 150, 'loss': 1.199, 'val': {'cophy': 1.3032, 'causalworld': 0.2979, 'pusht': 1.1524}, 'crit': 1.1618, 'ema': True, 'sec': 121.5}
+inertial_hop2 {'step': 300, 'loss': 1.121, 'val': {'cophy': 1.2343, 'causalworld': 0.2761, 'pusht': 1.1496}, 'crit': 1.1113, 'ema': True, 'sec': 243.6}
+inertial_hop2 {'step': 450, 'loss': 1.146, 'val': {'cophy': 1.1544, 'causalworld': 0.2555, 'pusht': 1.0907}, 'crit': 1.0409, 'ema': True, 'sec': 365.4}
+inertial_hop2 {'step': 600, 'loss': 1.131, 'val': {'cophy': 1.0917, 'causalworld': 0.2518, 'pusht': 1.0564}, 'crit': 1.0052, 'ema': True, 'sec': 486.5}
+inertial_hop2 {'step': 750, 'loss': 1.032, 'val': {'cophy': 1.0648, 'causalworld': 0.2464, 'pusht': 1.0353}, 'crit': 0.9831, 'ema': True, 'sec': 606.9}
+inertial_hop2 {'step': 900, 'loss': 1.021, 'val': {'cophy': 1.0438, 'causalworld': 0.2449, 'pusht': 1.0303}, 'crit': 0.9729, 'ema': True, 'sec': 726.4}
+inertial_hop2 {'step': 1050, 'loss': 0.925, 'val': {'cophy': 1.0364, 'causalworld': 0.241, 'pusht': 1.018}, 'crit': 0.9617, 'ema': True, 'sec': 846.1}
+inertial_hop2 {'step': 1200, 'loss': 1.004, 'val': {'cophy': 1.0236, 'causalworld': 0.2397, 'pusht': 1.0048}, 'crit': 0.9518, 'ema': True, 'sec': 966.3}
+inertial_hop2 {'step': 1350, 'loss': 0.991, 'val': {'cophy': 1.0213, 'causalworld': 0.239, 'pusht': 1.0024}, 'crit': 0.9494, 'ema': True, 'sec': 1087.7}
+inertial_hop2 {'step': 1500, 'loss': 0.936, 'val': {'cophy': 1.0182, 'causalworld': 0.2377, 'pusht': 0.9919}, 'crit': 0.9434, 'ema': True, 'sec': 1207.6}
+inertial_hop2 {'step': 1650, 'loss': 0.922, 'val': {'cophy': 1.014, 'causalworld': 0.2363, 'pusht': 0.9837}, 'crit': 0.9377, 'ema': True, 'sec': 1327.1}
+inertial_hop2 {'step': 1800, 'loss': 0.789, 'val': {'cophy': 1.0134, 'causalworld': 0.2345, 'pusht': 0.9827}, 'crit': 0.9348, 'ema': True, 'sec': 1446.3}
+inertial_hop2 {'step': 1950, 'loss': 0.809, 'val': {'cophy': 1.0143, 'causalworld': 0.2328, 'pusht': 0.9817}, 'crit': 0.9326, 'ema': True, 'sec': 1567.0}
+inertial_hop2 {'step': 2100, 'loss': 0.851, 'val': {'cophy': 1.0145, 'causalworld': 0.2316, 'pusht': 0.9819}, 'crit': 0.9312, 'ema': True, 'sec': 1686.7}
+inertial_hop2 {'step': 2250, 'loss': 0.789, 'val': {'cophy': 1.0173, 'causalworld': 0.2317, 'pusht': 0.9803}, 'crit': 0.9316, 'ema': True, 'sec': 1806.6}
+inertial_hop2 {'step': 2400, 'loss': 0.868, 'val': {'cophy': 1.0179, 'causalworld': 0.2309, 'pusht': 0.9853}, 'crit': 0.9326, 'ema': True, 'sec': 1926.3}
+inertial_hop2 {'step': 2550, 'loss': 0.859, 'val': {'cophy': 1.0171, 'causalworld': 0.2301, 'pusht': 0.9816}, 'crit': 0.93, 'ema': True, 'sec': 2046.1}
+inertial_hop2 {'step': 2700, 'loss': 0.743, 'val': {'cophy': 1.02, 'causalworld': 0.2285, 'pusht': 0.9822}, 'crit': 0.9291, 'ema': True, 'sec': 2165.5}
+inertial_hop2 {'step': 2850, 'loss': 0.797, 'val': {'cophy': 1.0253, 'causalworld': 0.2276, 'pusht': 0.981}, 'crit': 0.9293, 'ema': True, 'sec': 2284.9}
+inertial_hop2 {'step': 3000, 'loss': 0.806, 'val': {'cophy': 1.0264, 'causalworld': 0.2272, 'pusht': 0.9803}, 'crit': 0.9289, 'ema': True, 'sec': 2406.1}
+inertial_hop2 {'step': 3150, 'loss': 0.78, 'val': {'cophy': 1.0249, 'causalworld': 0.2265, 'pusht': 0.9797}, 'crit': 0.9273, 'ema': True, 'sec': 2525.5}
+inertial_hop2 {'step': 3300, 'loss': 0.782, 'val': {'cophy': 1.0262, 'causalworld': 0.2272, 'pusht': 0.9801}, 'crit': 0.9287, 'ema': True, 'sec': 2645.6}
+inertial_hop2 {'step': 3450, 'loss': 0.862, 'val': {'cophy': 1.0266, 'causalworld': 0.2266, 'pusht': 0.9794}, 'crit': 0.9279, 'ema': True, 'sec': 2764.3}
+inertial_hop2 {'step': 3600, 'loss': 0.865, 'val': {'cophy': 1.0286, 'causalworld': 0.2255, 'pusht': 0.9896}, 'crit': 0.9304, 'ema': True, 'sec': 2883.8}
+/opt/anaconda3/lib/python3.13/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.5)
+  from scipy.sparse import csr_matrix, issparse
+inertial_hop2 {'step': 100, 'validation': {'cophy': -1.805274248123169, 'causalworld': -5.4714579582214355, 'pusht': -4.443694114685059}, 'value': -3.906808773676554}
+inertial_hop2 {'step': 200, 'validation': {'cophy': -1.9084558486938477, 'causalworld': -5.866848468780518, 'pusht': -4.82715368270874}, 'value': -4.200819333394368}
+inertial_hop2 {'step': 300, 'validation': {'cophy': -1.9748951196670532, 'causalworld': -6.176766395568848, 'pusht': -5.099438667297363}, 'value': -4.417033394177754}
+inertial_hop2 {'step': 400, 'validation': {'cophy': -2.03031587600708, 'causalworld': -6.387558460235596, 'pusht': -5.361856937408447}, 'value': -4.593243757883708}
+inertial_hop2 {'step': 500, 'validation': {'cophy': -2.080894947052002, 'causalworld': -6.55709171295166, 'pusht': -5.605495452880859}, 'value': -4.747827370961507}
+inertial_hop2 {'step': 600, 'validation': {'cophy': -2.118474245071411, 'causalworld': -6.669824123382568, 'pusht': -5.805325508117676}, 'value': -4.864541292190552}

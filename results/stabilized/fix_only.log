@@ -1,0 +1,38 @@
+/opt/anaconda3/lib/python3.13/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.5)
+  from scipy.sparse import csr_matrix, issparse
+fix_only domain_scales={'cophy': 1.7679219768689505, 'causalworld': 0.5117482249487814, 'pusht': 1.10530099387638}
+fix_only params=640,155 ref_val={'cophy': 1.0508002335016546, 'causalworld': 0.261649058443271, 'pusht': 1.041188133312982}
+/home/kailais/.local/lib/python3.13/site-packages/torch/nn/modules/rnn.py:1440: UserWarning: RNN module weights are not part of single contiguous chunk of memory. This means they need to be compacted at every call, possibly greatly increasing memory usage. To compact weights again call flatten_parameters(). (Triggered internally at /__w/pytorch/pytorch/aten/src/ATen/native/cudnn/RNN.cpp:1479.)
+  result = _VF.gru(
+fix_only {'step': 150, 'loss': 1.228, 'val': {'cophy': 1.2466, 'causalworld': 0.2957, 'pusht': 1.1639}, 'crit': 1.1448, 'ema': True, 'sec': 56.0}
+fix_only {'step': 300, 'loss': 1.065, 'val': {'cophy': 1.1636, 'causalworld': 0.2667, 'pusht': 1.1534}, 'crit': 1.0781, 'ema': True, 'sec': 110.8}
+fix_only {'step': 450, 'loss': 1.13, 'val': {'cophy': 1.0862, 'causalworld': 0.2541, 'pusht': 1.0855}, 'crit': 1.0158, 'ema': True, 'sec': 165.9}
+fix_only {'step': 600, 'loss': 1.12, 'val': {'cophy': 1.061, 'causalworld': 0.2502, 'pusht': 1.0568}, 'crit': 0.9937, 'ema': True, 'sec': 220.2}
+fix_only {'step': 750, 'loss': 1.031, 'val': {'cophy': 1.0473, 'causalworld': 0.2471, 'pusht': 1.0493}, 'crit': 0.9829, 'ema': True, 'sec': 273.4}
+fix_only {'step': 900, 'loss': 0.99, 'val': {'cophy': 1.0359, 'causalworld': 0.2426, 'pusht': 1.0458}, 'crit': 0.9725, 'ema': True, 'sec': 327.2}
+fix_only {'step': 1050, 'loss': 0.944, 'val': {'cophy': 1.0278, 'causalworld': 0.2376, 'pusht': 1.0318}, 'crit': 0.959, 'ema': True, 'sec': 381.4}
+fix_only {'step': 1200, 'loss': 0.992, 'val': {'cophy': 1.0212, 'causalworld': 0.2372, 'pusht': 1.0206}, 'crit': 0.9529, 'ema': True, 'sec': 434.6}
+fix_only {'step': 1350, 'loss': 0.968, 'val': {'cophy': 1.0192, 'causalworld': 0.2358, 'pusht': 1.0136}, 'crit': 0.9482, 'ema': True, 'sec': 488.5}
+fix_only {'step': 1500, 'loss': 0.945, 'val': {'cophy': 1.0156, 'causalworld': 0.2355, 'pusht': 1.0103}, 'crit': 0.9457, 'ema': True, 'sec': 541.9}
+fix_only {'step': 1650, 'loss': 0.922, 'val': {'cophy': 1.011, 'causalworld': 0.2332, 'pusht': 1.0053}, 'crit': 0.9397, 'ema': True, 'sec': 596.2}
+fix_only {'step': 1800, 'loss': 0.83, 'val': {'cophy': 1.0095, 'causalworld': 0.2316, 'pusht': 1.001}, 'crit': 0.9357, 'ema': True, 'sec': 650.6}
+fix_only {'step': 1950, 'loss': 0.837, 'val': {'cophy': 1.0066, 'causalworld': 0.2303, 'pusht': 0.9979}, 'crit': 0.9321, 'ema': True, 'sec': 704.1}
+fix_only {'step': 2100, 'loss': 0.849, 'val': {'cophy': 1.001, 'causalworld': 0.2296, 'pusht': 0.9951}, 'crit': 0.9286, 'ema': True, 'sec': 758.2}
+fix_only {'step': 2250, 'loss': 0.831, 'val': {'cophy': 1.0144, 'causalworld': 0.2305, 'pusht': 0.9658}, 'crit': 0.9246, 'ema': False, 'sec': 811.3}
+fix_only {'step': 2400, 'loss': 0.879, 'val': {'cophy': 1.0, 'causalworld': 0.2274, 'pusht': 0.9933}, 'crit': 0.9249, 'ema': True, 'sec': 864.8}
+fix_only {'step': 2550, 'loss': 0.886, 'val': {'cophy': 1.0042, 'causalworld': 0.2264, 'pusht': 0.9913}, 'crit': 0.9243, 'ema': True, 'sec': 918.1}
+fix_only {'step': 2700, 'loss': 0.77, 'val': {'cophy': 1.0076, 'causalworld': 0.2247, 'pusht': 1.0008}, 'crit': 0.9263, 'ema': True, 'sec': 973.9}
+fix_only {'step': 2850, 'loss': 0.88, 'val': {'cophy': 1.0085, 'causalworld': 0.2244, 'pusht': 1.0}, 'crit': 0.9259, 'ema': True, 'sec': 1027.8}
+fix_only {'step': 3000, 'loss': 0.803, 'val': {'cophy': 1.013, 'causalworld': 0.2238, 'pusht': 1.0034}, 'crit': 0.9277, 'ema': True, 'sec': 1081.2}
+fix_only {'step': 3150, 'loss': 0.808, 'val': {'cophy': 1.0157, 'causalworld': 0.2232, 'pusht': 1.0}, 'crit': 0.9268, 'ema': True, 'sec': 1136.9}
+fix_only {'step': 3300, 'loss': 0.791, 'val': {'cophy': 1.0189, 'causalworld': 0.2224, 'pusht': 1.0002}, 'crit': 0.9268, 'ema': True, 'sec': 1192.8}
+fix_only {'step': 3450, 'loss': 0.863, 'val': {'cophy': 1.0205, 'causalworld': 0.2215, 'pusht': 1.0093}, 'crit': 0.929, 'ema': True, 'sec': 1248.5}
+fix_only {'step': 3600, 'loss': 0.903, 'val': {'cophy': 1.0212, 'causalworld': 0.2215, 'pusht': 1.0063}, 'crit': 0.9282, 'ema': True, 'sec': 1303.6}
+/opt/anaconda3/lib/python3.13/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.5)
+  from scipy.sparse import csr_matrix, issparse
+fix_only {'step': 100, 'validation': {'cophy': -1.8729430437088013, 'causalworld': -5.42661714553833, 'pusht': -3.980863332748413}, 'value': -3.7601411739985147}
+fix_only {'step': 200, 'validation': {'cophy': -2.024549961090088, 'causalworld': -5.678226470947266, 'pusht': -4.330906867980957}, 'value': -4.0112277666727705}
+fix_only {'step': 300, 'validation': {'cophy': -2.100559711456299, 'causalworld': -5.856358051300049, 'pusht': -4.583641052246094}, 'value': -4.1801862716674805}
+fix_only {'step': 400, 'validation': {'cophy': -2.1498491764068604, 'causalworld': -6.021778583526611, 'pusht': -4.824071884155273}, 'value': -4.331899881362915}
+fix_only {'step': 500, 'validation': {'cophy': -2.1998414993286133, 'causalworld': -6.20388126373291, 'pusht': -5.086362838745117}, 'value': -4.496695200602214}
+fix_only {'step': 600, 'validation': {'cophy': -2.2785696983337402, 'causalworld': -6.33779764175415, 'pusht': -5.302739143371582}, 'value': -4.639702161153157}

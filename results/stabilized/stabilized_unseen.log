@@ -1,0 +1,36 @@
+/opt/anaconda3/lib/python3.13/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.5)
+  from scipy.sparse import csr_matrix, issparse
+stabilized_unseen domain_scales={'cophy': 1.858674645910536, 'causalworld': 0.5380177763764111}
+stabilized_unseen params=660,026 ref_val={'cophy': 1.027687492285592, 'causalworld': 0.2799193951767243}
+/home/kailais/.local/lib/python3.13/site-packages/torch/nn/modules/rnn.py:1440: UserWarning: RNN module weights are not part of single contiguous chunk of memory. This means they need to be compacted at every call, possibly greatly increasing memory usage. To compact weights again call flatten_parameters(). (Triggered internally at /__w/pytorch/pytorch/aten/src/ATen/native/cudnn/RNN.cpp:1479.)
+  result = _VF.gru(
+stabilized_unseen {'step': 150, 'loss': 1.268, 'val': {'cophy': 1.2926, 'causalworld': 0.286}, 'crit': 1.1397, 'ema': True, 'sec': 87.2}
+stabilized_unseen {'step': 300, 'loss': 1.007, 'val': {'cophy': 1.1476, 'causalworld': 0.2612}, 'crit': 1.025, 'ema': True, 'sec': 173.7}
+stabilized_unseen {'step': 450, 'loss': 1.027, 'val': {'cophy': 1.0872, 'causalworld': 0.2554}, 'crit': 0.985, 'ema': True, 'sec': 260.7}
+stabilized_unseen {'step': 600, 'loss': 0.953, 'val': {'cophy': 1.0568, 'causalworld': 0.2499}, 'crit': 0.9605, 'ema': True, 'sec': 346.5}
+stabilized_unseen {'step': 750, 'loss': 0.88, 'val': {'cophy': 1.0443, 'causalworld': 0.2466}, 'crit': 0.9487, 'ema': True, 'sec': 432.9}
+stabilized_unseen {'step': 900, 'loss': 0.91, 'val': {'cophy': 1.0279, 'causalworld': 0.2416}, 'crit': 0.9317, 'ema': True, 'sec': 519.5}
+stabilized_unseen {'step': 1050, 'loss': 0.927, 'val': {'cophy': 1.0244, 'causalworld': 0.2374}, 'crit': 0.9225, 'ema': True, 'sec': 605.7}
+stabilized_unseen {'step': 1200, 'loss': 0.836, 'val': {'cophy': 1.0198, 'causalworld': 0.2359}, 'crit': 0.9176, 'ema': True, 'sec': 691.2}
+stabilized_unseen {'step': 1350, 'loss': 0.918, 'val': {'cophy': 1.0211, 'causalworld': 0.2347}, 'crit': 0.916, 'ema': True, 'sec': 777.5}
+stabilized_unseen {'step': 1500, 'loss': 0.809, 'val': {'cophy': 1.0171, 'causalworld': 0.2322}, 'crit': 0.9096, 'ema': True, 'sec': 864.0}
+stabilized_unseen {'step': 1650, 'loss': 0.65, 'val': {'cophy': 1.0102, 'causalworld': 0.2288}, 'crit': 0.9001, 'ema': True, 'sec': 950.6}
+stabilized_unseen {'step': 1800, 'loss': 0.787, 'val': {'cophy': 1.0116, 'causalworld': 0.228}, 'crit': 0.8995, 'ema': True, 'sec': 1038.0}
+stabilized_unseen {'step': 1950, 'loss': 0.829, 'val': {'cophy': 1.0105, 'causalworld': 0.228}, 'crit': 0.8988, 'ema': True, 'sec': 1125.1}
+stabilized_unseen {'step': 2100, 'loss': 0.806, 'val': {'cophy': 1.0089, 'causalworld': 0.2268}, 'crit': 0.896, 'ema': True, 'sec': 1211.2}
+stabilized_unseen {'step': 2250, 'loss': 0.793, 'val': {'cophy': 1.0075, 'causalworld': 0.2265}, 'crit': 0.8947, 'ema': True, 'sec': 1298.7}
+stabilized_unseen {'step': 2400, 'loss': 0.691, 'val': {'cophy': 1.0078, 'causalworld': 0.224}, 'crit': 0.8904, 'ema': True, 'sec': 1384.6}
+stabilized_unseen {'step': 2550, 'loss': 0.772, 'val': {'cophy': 1.0084, 'causalworld': 0.2231}, 'crit': 0.8891, 'ema': True, 'sec': 1470.0}
+stabilized_unseen {'step': 2700, 'loss': 0.733, 'val': {'cophy': 1.01, 'causalworld': 0.2239}, 'crit': 0.8913, 'ema': True, 'sec': 1555.0}
+stabilized_unseen {'step': 2850, 'loss': 0.776, 'val': {'cophy': 1.0141, 'causalworld': 0.2238}, 'crit': 0.8931, 'ema': True, 'sec': 1641.0}
+stabilized_unseen {'step': 3000, 'loss': 0.761, 'val': {'cophy': 1.0186, 'causalworld': 0.2236}, 'crit': 0.895, 'ema': True, 'sec': 1726.8}
+stabilized_unseen {'step': 3150, 'loss': 0.711, 'val': {'cophy': 1.0224, 'causalworld': 0.2236}, 'crit': 0.8969, 'ema': True, 'sec': 1811.1}
+stabilized_unseen {'step': 3200, 'loss': 0.766, 'val': {'cophy': 1.0232, 'causalworld': 0.2243}, 'crit': 0.8985, 'ema': True, 'sec': 1840.3}
+/opt/anaconda3/lib/python3.13/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.5)
+  from scipy.sparse import csr_matrix, issparse
+stabilized_unseen {'step': 100, 'validation': {'cophy': -1.787071943283081, 'causalworld': -5.5952534675598145}, 'value': -3.6911627054214478}
+stabilized_unseen {'step': 200, 'validation': {'cophy': -1.8734745979309082, 'causalworld': -5.8772053718566895}, 'value': -3.875339984893799}
+stabilized_unseen {'step': 300, 'validation': {'cophy': -1.9972302913665771, 'causalworld': -6.070338249206543}, 'value': -4.03378427028656}
+stabilized_unseen {'step': 400, 'validation': {'cophy': -2.104268789291382, 'causalworld': -6.237676620483398}, 'value': -4.17097270488739}
+stabilized_unseen {'step': 500, 'validation': {'cophy': -2.183284282684326, 'causalworld': -6.389309883117676}, 'value': -4.286297082901001}
+stabilized_unseen {'step': 600, 'validation': {'cophy': -2.2224395275115967, 'causalworld': -6.512181282043457}, 'value': -4.367310404777527}

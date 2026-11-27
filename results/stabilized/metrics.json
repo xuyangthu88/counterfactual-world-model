@@ -1,0 +1,3972 @@
+{
+  "cophy": {
+    "test": {
+      "shared-calibrated": {
+        "contact": {
+          "ap": 0.8591300201300718,
+          "ber": 0.17537508422731893,
+          "cut": 0.4119023084640503,
+          "positives": 12778,
+          "count": 46080
+        },
+        "new_contact": {
+          "ap": 0.008542363056939232,
+          "ber": 0.37110741971207084,
+          "cut": 0.15643669664859772,
+          "positives": 126,
+          "count": 25926
+        },
+        "lost_contact": {
+          "ap": 0.6333512579364353,
+          "ber": 0.24306398178453553,
+          "cut": 0.5883360505104065,
+          "positives": 2884,
+          "count": 10938
+        },
+        "remote_contact_disagreement": {
+          "count": 16,
+          "layouts": 13,
+          "order": 0.5625,
+          "hard": 0.0
+        },
+        "directed": {
+          "ap": 0.9306261038841592,
+          "ber": 0.13046293052040397,
+          "cut": 0.3502301573753357,
+          "positives": 3361,
+          "count": 9216
+        },
+        "position_rmse": 1.0110241482847564,
+        "delta_rmse": 1.1746119264169632,
+        "pose_rmse_by_window": [
+          0.6716889190261289,
+          0.876969165272987,
+          0.8803225147895052,
+          0.8866370747463465,
+          1.0110241482847564
+        ],
+        "delta_rmse_by_window": [
+          0.8874713879660941,
+          1.1753695454708746,
+          1.1711695773137971,
+          1.1643849892630573,
+          1.1746119264169632
+        ],
+        "orientation_rmse": 1.0657646848350095,
+        "remote_delta_rmse": 1.4614485392533472,
+        "remote_action_pairs": 635,
+        "largest_effect_rmse": 3.024923112380781,
+        "largest_effect_error_share": 0.33184319734573364,
+        "largest_effect_true_magnitude": 4.419262409210205,
+        "largest_effect_predicted_magnitude": 2.4587512016296387,
+        "largest_effect_direction_cosine": 0.718329131603241,
+        "largest_effect_pairs": 269,
+        "contact_disagreement_delta_rmse": 1.1976540263753157,
+        "contact_disagreement_action_pairs": 4410,
+        "delta_crps": 0.26813310384750366,
+        "delta_crps_independent": 0.2855417728424072,
+        "edited_trajectory_rmse": 0.7045636400199851,
+        "paired_edit_rmse": 0.9537015953129819,
+        "affected_trajectory_rmse": 1.2318227916939672,
+        "downstream_trajectory_rmse": 1.4407388439418405,
+        "downstream_effect_recall": 0.2656559646129608,
+        "downstream_direction_cosine": 0.12256113439798355,
+        "affected": 26664,
+        "downstream": 10092,
+        "layouts": 256,
+        "comparison": {
+          "prediction_reference": "cophynet",
+          "delta_rmse_reduction_pct": 2.3813410653835354,
+          "graph_reference": "ncii",
+          "ber_reduction_pct": 74.02718605246632
+        }
+      },
+      "continued-calibrated": {
+        "contact": {
+          "ap": 0.9102639579802474,
+          "ber": 0.1222511095004355,
+          "cut": 0.2800770103931427,
+          "positives": 12778,
+          "count": 46080
+        },
+        "new_contact": {
+          "ap": 0.01765553159374056,
+          "ber": 0.2389516426725729,
+          "cut": 0.1281351000070572,
+          "positives": 126,
+          "count": 25926
+        },
+        "lost_contact": {
+          "ap": 0.6951439126111038,
+          "ber": 0.19534508227577582,
+          "cut": 0.670924723148346,
+          "positives": 2884,
+          "count": 10938
+        },
+        "remote_contact_disagreement": {
+          "count": 16,
+          "layouts": 13,
+          "order": 0.5625,
+          "hard": 0.0
+        },
+        "directed": {
+          "ap": 0.9403893997456941,
+          "ber": 0.11324018333570054,
+          "cut": 0.35376471281051636,
+          "positives": 3361,
+          "count": 9216
+        },
+        "position_rmse": 0.9509445326059612,
+        "delta_rmse": 1.060713949795184,
+        "pose_rmse_by_window": [
+          0.5149952192454978,
+          0.7649876802985823,
+          0.793686527808231,
+          0.7989375405587985,
+          0.9509445326059612
+        ],
+        "delta_rmse_by_window": [
+          0.6884070611597687,
+          1.0207443912192247,
+          1.0534092822237917,
+          1.0555767690188897,
+          1.060713949795184
+        ],
+        "orientation_rmse": 1.072267570563325,
+        "remote_delta_rmse": 1.2751232293360397,
+        "remote_action_pairs": 635,
+        "largest_effect_rmse": 2.700921897326723,
+        "largest_effect_error_share": 0.32442963123321533,
+        "largest_effect_true_magnitude": 4.419262409210205,
+        "largest_effect_predicted_magnitude": 2.8316240310668945,
+        "largest_effect_direction_cosine": 0.8195019364356995,
+        "largest_effect_pairs": 269,
+        "contact_disagreement_delta_rmse": 1.0873629867358443,
+        "contact_disagreement_action_pairs": 4410,
+        "delta_crps": 0.23674137890338898,
+        "delta_crps_independent": 0.24141600728034973,
+        "edited_trajectory_rmse": 0.6364932684875794,
+        "paired_edit_rmse": 0.8672093225431114,
+        "affected_trajectory_rmse": 1.124348981894482,
+        "downstream_trajectory_rmse": 1.3000554531447979,
+        "downstream_effect_recall": 0.6281212568283081,
+        "downstream_direction_cosine": 0.3238724172115326,
+        "affected": 26664,
+        "downstream": 10092,
+        "layouts": 256,
+        "comparison": {
+          "prediction_reference": "cophynet",
+          "delta_rmse_reduction_pct": 11.847078202158967,
+          "graph_reference": "ncii",
+          "ber_reduction_pct": 77.4559240588056
+        }
+      },
+      "cumulative_unseen-calibrated": {
+        "contact": {
+          "ap": 0.9115475827373838,
+          "ber": 0.12155315180805878,
+          "cut": 0.29411429166793823,
+          "positives": 12778,
+          "count": 46080
+        },
+        "new_contact": {
+          "ap": 0.021801071008886588,
+          "ber": 0.2036747877445552,
+          "cut": 0.07680188119411469,
+          "positives": 126,
+          "count": 25926
+        },
+        "lost_contact": {
+          "ap": 0.6950608783128035,
+          "ber": 0.19424880668524905,
+          "cut": 0.6573019027709961,
+          "positives": 2884,
+          "count": 10938
+        },
+        "remote_contact_disagreement": {
+          "count": 16,
+          "layouts": 13,
+          "order": 0.75,
+          "hard": 0.0
+        },
+        "directed": {
+          "ap": 0.9427245547663161,
+          "ber": 0.11663591846089075,
+          "cut": 0.2693895399570465,
+          "positives": 3361,
+          "count": 9216
+        },
+        "position_rmse": 0.9180622459035747,
+        "delta_rmse": 1.0508836320540926,
+        "pose_rmse_by_window": [
+          0.5217973719898775,
+          0.7591048164241009,
+          0.7819848609907715,
+          0.7830873627382573,
+          0.9180622459035747
+        ],
+        "delta_rmse_by_window": [
+          0.6922180668473301,
+          1.0154746311086116,
+          1.0466188715289824,
+          1.0457004961758083,
+          1.0508836320540926
+        ],
+        "orientation_rmse": 1.0592770781595384,
+        "remote_delta_rmse": 1.252394338098872,
+        "remote_action_pairs": 635,
+        "largest_effect_rmse": 2.7278881621271136,
+        "largest_effect_error_share": 0.3371606767177582,
+        "largest_effect_true_magnitude": 4.419262409210205,
+        "largest_effect_predicted_magnitude": 2.838442325592041,
+        "largest_effect_direction_cosine": 0.816596508026123,
+        "largest_effect_pairs": 269,
+        "contact_disagreement_delta_rmse": 1.0745607698597799,
+        "contact_disagreement_action_pairs": 4410,
+        "delta_crps": 0.23538129031658173,
+        "delta_crps_independent": 0.23889051377773285,
+        "edited_trajectory_rmse": 0.6302934121535821,
+        "paired_edit_rmse": 0.8621779075384828,
+        "affected_trajectory_rmse": 1.1153652027575816,
+        "downstream_trajectory_rmse": 1.2901644533886831,
+        "downstream_effect_recall": 0.6269322037696838,
+        "downstream_direction_cosine": 0.3231341540813446,
+        "affected": 26664,
+        "downstream": 10092,
+        "layouts": 256,
+        "comparison": {
+          "prediction_reference": "cophynet",
+          "delta_rmse_reduction_pct": 12.664047971667225,
+          "graph_reference": "ncii",
+          "ber_reduction_pct": 76.77989450566082
+        }
+      },
+      "fix_only-calibrated": {
+        "contact": {
+          "ap": 0.9266567228468048,
+          "ber": 0.10906885435214093,
+          "cut": 0.25356632471084595,
+          "positives": 12778,
+          "count": 46080
+        },
+        "new_contact": {
+          "ap": 0.019385617471795326,
+          "ber": 0.25058877814691766,
+          "cut": 0.0925707072019577,
+          "positives": 126,
+          "count": 25926
+        },
+        "lost_contact": {
+          "ap": 0.6948568702899627,
+          "ber": 0.19250304894114517,
+          "cut": 0.687021017074585,
+          "positives": 2884,
+          "count": 10938
+        },
+        "remote_contact_disagreement": {
+          "count": 16,
+          "layouts": 13,
+          "order": 0.75,
+          "hard": 0.0
+        },
+        "directed": {
+          "ap": 0.9435343060689733,
+          "ber": 0.11720379263725086,
+          "cut": 0.30661433935165405,
+          "positives": 3361,
+          "count": 9216
+        },
+        "position_rmse": 0.7858483599550585,
+        "delta_rmse": 1.035924604747023,
+        "pose_rmse_by_window": [
+          0.5100014678148577,
+          0.7522154907673223,
+          0.7755074593180957,
+          0.7793421528983144,
+          0.7858483599550585
+        ],
+        "delta_rmse_by_window": [
+          0.6789652176545334,
+          1.0066939067839198,
+          1.0335662146120528,
+          1.031947333644304,
+          1.035924604747023
+        ],
+        "orientation_rmse": 0.9048378893518011,
+        "remote_delta_rmse": 1.2491523252651748,
+        "remote_action_pairs": 635,
+        "largest_effect_rmse": 2.6789444763535606,
+        "largest_effect_error_share": 0.3346294164657593,
+        "largest_effect_true_magnitude": 4.419262409210205,
+        "largest_effect_predicted_magnitude": 2.8923001289367676,
+        "largest_effect_direction_cosine": 0.8183231949806213,
+        "largest_effect_pairs": 269,
+        "contact_disagreement_delta_rmse": 1.0586857491806474,
+        "contact_disagreement_action_pairs": 4410,
+        "delta_crps": 0.2507069706916809,
+        "delta_crps_independent": 0.2480754405260086,
+        "edited_trajectory_rmse": 0.6151021421713033,
+        "paired_edit_rmse": 0.8423302679835122,
+        "affected_trajectory_rmse": 1.085589895257327,
+        "downstream_trajectory_rmse": 1.2438584611077041,
+        "downstream_effect_recall": 0.6624058485031128,
+        "downstream_direction_cosine": 0.33336567878723145,
+        "affected": 26664,
+        "downstream": 10092,
+        "layouts": 256,
+        "comparison": {
+          "prediction_reference": "cophynet",
+          "delta_rmse_reduction_pct": 13.907250217311784,
+          "graph_reference": "ncii",
+          "ber_reduction_pct": 76.66684101016308
+        }
+      },
+      "inertial_hop2-calibrated": {
+        "contact": {
+          "ap": 0.9193947966555789,
+          "ber": 0.11167758766961401,
+          "cut": 0.2530509829521179,
+          "positives": 12778,
+          "count": 46080
+        },
+        "new_contact": {
+          "ap": 0.018231083489434623,
+          "ber": 0.24182908822443705,
+          "cut": 0.09670458734035492,
+          "positives": 126,
+          "count": 25926
+        },
+        "lost_contact": {
+          "ap": 0.6823354954787747,
+          "ber": 0.1967033722098443,
+          "cut": 0.6506315469741821,
+          "positives": 2884,
+          "count": 10938
+        },
+        "remote_contact_disagreement": {
+          "count": 16,
+          "layouts": 13,
+          "order": 0.625,
+          "hard": 0.0625
+        },
+        "directed": {
+          "ap": 0.9390573428458014,
+          "ber": 0.1137639996229417,
+          "cut": 0.38703709840774536,
+          "positives": 3361,
+          "count": 9216
+        },
+        "position_rmse": 0.8099395682903627,
+        "delta_rmse": 1.0682514143099038,
+        "pose_rmse_by_window": [
+          0.5346813740203781,
+          0.7831722643472845,
+          0.8011945076827991,
+          0.8074126532350512,
+          0.8099395682903627
+        ],
+        "delta_rmse_by_window": [
+          0.7030682222966157,
+          1.036179407565937,
+          1.0601397272001694,
+          1.0654353937963024,
+          1.0682514143099038
+        ],
+        "orientation_rmse": 0.9262982948675464,
+        "remote_delta_rmse": 1.3185115472073115,
+        "remote_action_pairs": 635,
+        "largest_effect_rmse": 2.7167067468257025,
+        "largest_effect_error_share": 0.32361719012260437,
+        "largest_effect_true_magnitude": 4.419262409210205,
+        "largest_effect_predicted_magnitude": 2.905393600463867,
+        "largest_effect_direction_cosine": 0.803341805934906,
+        "largest_effect_pairs": 269,
+        "contact_disagreement_delta_rmse": 1.0914113792129607,
+        "contact_disagreement_action_pairs": 4410,
+        "delta_crps": 0.2604405879974365,
+        "delta_crps_independent": 0.25707516074180603,
+        "edited_trajectory_rmse": 0.6356419778767587,
+        "paired_edit_rmse": 0.8671984628895126,
+        "affected_trajectory_rmse": 1.121020271471887,
+        "downstream_trajectory_rmse": 1.2866441178116632,
+        "downstream_effect_recall": 0.6896551847457886,
+        "downstream_direction_cosine": 0.3573552668094635,
+        "affected": 26664,
+        "downstream": 10092,
+        "layouts": 256,
+        "comparison": {
+          "prediction_reference": "cophynet",
+          "delta_rmse_reduction_pct": 11.220660947961091,
+          "graph_reference": "ncii",
+          "ber_reduction_pct": 77.35164169356261
+        }
+      },
+      "inertial_hop3-calibrated": {
+        "contact": {
+          "ap": 0.9174615841059398,
+          "ber": 0.1123568206078027,
+          "cut": 0.2815341651439667,
+          "positives": 12778,
+          "count": 46080
+        },
+        "new_contact": {
+          "ap": 0.016413655111195694,
+          "ber": 0.29227021040974527,
+          "cut": 0.13600881397724152,
+          "positives": 126,
+          "count": 25926
+        },
+        "lost_contact": {
+          "ap": 0.6915026642328179,
+          "ber": 0.19638694016498207,
+          "cut": 0.6620031595230103,
+          "positives": 2884,
+          "count": 10938
+        },
+        "remote_contact_disagreement": {
+          "count": 16,
+          "layouts": 13,
+          "order": 0.6875,
+          "hard": 0.0
+        },
+        "directed": {
+          "ap": 0.9386805344551463,
+          "ber": 0.11377759303163759,
+          "cut": 0.3986036479473114,
+          "positives": 3361,
+          "count": 9216
+        },
+        "position_rmse": 0.8014941136149368,
+        "delta_rmse": 1.0589972708777688,
+        "pose_rmse_by_window": [
+          0.5273631904692109,
+          0.7761384831057748,
+          0.796838161140577,
+          0.8003651724287533,
+          0.8014941136149368
+        ],
+        "delta_rmse_by_window": [
+          0.6969315612830042,
+          1.0267145819340653,
+          1.0526056157850394,
+          1.0544670157087477,
+          1.0589972708777688
+        ],
+        "orientation_rmse": 0.929763886976016,
+        "remote_delta_rmse": 1.297209822853908,
+        "remote_action_pairs": 635,
+        "largest_effect_rmse": 2.744698790125584,
+        "largest_effect_error_share": 0.3361187279224396,
+        "largest_effect_true_magnitude": 4.419262409210205,
+        "largest_effect_predicted_magnitude": 2.860287666320801,
+        "largest_effect_direction_cosine": 0.804570198059082,
+        "largest_effect_pairs": 269,
+        "contact_disagreement_delta_rmse": 1.0836098513682404,
+        "contact_disagreement_action_pairs": 4410,
+        "delta_crps": 0.26118654012680054,
+        "delta_crps_independent": 0.263550341129303,
+        "edited_trajectory_rmse": 0.6250282519630848,
+        "paired_edit_rmse": 0.8552974721071299,
+        "affected_trajectory_rmse": 1.103615059212769,
+        "downstream_trajectory_rmse": 1.2609117602211124,
+        "downstream_effect_recall": 0.6724137663841248,
+        "downstream_direction_cosine": 0.3478027880191803,
+        "affected": 26664,
+        "downstream": 10092,
+        "layouts": 256,
+        "comparison": {
+          "prediction_reference": "cophynet",
+          "delta_rmse_reduction_pct": 11.989746508150546,
+          "graph_reference": "ncii",
+          "ber_reduction_pct": 77.34893549132138
+        }
+      },
+      "stabilized_unseen-calibrated": {
+        "contact": {
+          "ap": 0.9251455896079843,
+          "ber": 0.10577065152152398,
+          "cut": 0.2272261083126068,
+          "positives": 12778,
+          "count": 46080
+        },
+        "new_contact": {
+          "ap": 0.023509511719341354,
+          "ber": 0.2575692137320044,
+          "cut": 0.1426875740289688,
+          "positives": 126,
+          "count": 25926
+        },
+        "lost_contact": {
+          "ap": 0.6842834450162824,
+          "ber": 0.19304533166727916,
+          "cut": 0.6083241105079651,
+          "positives": 2884,
+          "count": 10938
+        },
+        "remote_contact_disagreement": {
+          "count": 16,
+          "layouts": 13,
+          "order": 0.75,
+          "hard": 0.0
+        },
+        "directed": {
+          "ap": 0.9461507807231003,
+          "ber": 0.10886590064209165,
+          "cut": 0.40424641966819763,
+          "positives": 3361,
+          "count": 9216
+        },
+        "position_rmse": 0.7877292132962807,
+        "delta_rmse": 1.0429438327284544,
+        "pose_rmse_by_window": [
+          0.5237907811677969,
+          0.7646300799625282,
+          0.7789211275598685,
+          0.7840238917588311,
+          0.7877292132962807
+        ],
+        "delta_rmse_by_window": [
+          0.6871922844706778,
+          1.0130622221165992,
+          1.0348421015979021,
+          1.0373838819304426,
+          1.0429438327284544
+        ],
+        "orientation_rmse": 0.9316691268303815,
+        "remote_delta_rmse": 1.2441165748080185,
+        "remote_action_pairs": 635,
+        "largest_effect_rmse": 2.694013022484064,
+        "largest_effect_error_share": 0.3338647484779358,
+        "largest_effect_true_magnitude": 4.419262409210205,
+        "largest_effect_predicted_magnitude": 2.866442918777466,
+        "largest_effect_direction_cosine": 0.8073416948318481,
+        "largest_effect_pairs": 269,
+        "contact_disagreement_delta_rmse": 1.0664763375191026,
+        "contact_disagreement_action_pairs": 4410,
+        "delta_crps": 0.25065305829048157,
+        "delta_crps_independent": 0.24544231593608856,
+        "edited_trajectory_rmse": 0.617801143906554,
+        "paired_edit_rmse": 0.8462748015923555,
+        "affected_trajectory_rmse": 1.0910568868699526,
+        "downstream_trajectory_rmse": 1.2441422538806546,
+        "downstream_effect_recall": 0.6766746044158936,
+        "downstream_direction_cosine": 0.3575238585472107,
+        "affected": 26664,
+        "downstream": 10092,
+        "layouts": 256,
+        "comparison": {
+          "prediction_reference": "cophynet",
+          "delta_rmse_reduction_pct": 13.323902128557208,
+          "graph_reference": "ncii",
+          "ber_reduction_pct": 78.32676476506471
+        }
+      },
+      "cophynet": {
+        "position_rmse": 0.8934414817932146,
+        "delta_rmse": 1.2032657887706704,
+        "pose_rmse_by_window": [
+          0.6165010038585796,
+          0.8786908373173407,
+          0.8930181507987085,
+          0.8906958367804295,
+          0.8934414817932146
+        ],
+        "delta_rmse_by_window": [
+          0.8391384623149566,
+          1.1842171314679923,
+          1.2024051940565939,
+          1.2005248273119684,
+          1.2032657887706704
+        ],
+        "remote_delta_rmse": 1.4794567343111897,
+        "remote_action_pairs": 635,
+        "largest_effect_rmse": 3.117316298345528,
+        "largest_effect_error_share": 0.3358393907546997,
+        "largest_effect_true_magnitude": 4.419262409210205,
+        "largest_effect_predicted_magnitude": 2.319826126098633,
+        "largest_effect_direction_cosine": 0.7329955101013184,
+        "largest_effect_pairs": 269,
+        "contact_disagreement_delta_rmse": 1.232713087591833,
+        "contact_disagreement_action_pairs": 4410,
+        "delta_crps": 0.38059332966804504,
+        "layouts": 256
+      },
+      "pets": {
+        "position_rmse": 2.281268916639517,
+        "delta_rmse": 1.4927486942191635,
+        "pose_rmse_by_window": [
+          1.2824535299734814,
+          1.6617857352360395,
+          1.8269823856224991,
+          2.0307505066826517,
+          2.281268916639517
+        ],
+        "delta_rmse_by_window": [
+          1.1307068295280747,
+          1.4468252152844046,
+          1.4762124751762007,
+          1.4830677098246183,
+          1.4927486942191635
+        ],
+        "orientation_rmse": 1.1013828969864345,
+        "remote_delta_rmse": 1.6582480560433968,
+        "remote_action_pairs": 635,
+        "largest_effect_rmse": 3.918370356566707,
+        "largest_effect_error_share": 0.3447709083557129,
+        "largest_effect_true_magnitude": 4.419262409210205,
+        "largest_effect_predicted_magnitude": 1.1273670196533203,
+        "largest_effect_direction_cosine": 0.4610461890697479,
+        "largest_effect_pairs": 269,
+        "contact_disagreement_delta_rmse": 1.527918636687276,
+        "contact_disagreement_action_pairs": 4410,
+        "delta_crps": 0.38968148827552795,
+        "layouts": 256
+      },
+      "ncii": {
+        "contact": {
+          "ap": 0.22925899187041432,
+          "ber": 0.5000132210676533,
+          "cut": 0.0002044228749582544,
+          "positives": 12778,
+          "count": 46080
+        },
+        "new_contact": {
+          "ap": 0.004389613410439805,
+          "ber": 0.5076605758582502,
+          "cut": 0.03625897690653801,
+          "positives": 126,
+          "count": 25926
+        },
+        "lost_contact": {
+          "ap": 0.313244039524079,
+          "ber": 0.4688261912396456,
+          "cut": 0.9896411895751953,
+          "positives": 2884,
+          "count": 10938
+        },
+        "remote_contact_disagreement": {
+          "count": 16,
+          "layouts": 13,
+          "order": 0.4375,
+          "hard": 0.0
+        },
+        "directed": {
+          "ap": 0.2651618547593918,
+          "ber": 0.5023057216054654,
+          "cut": 0.5,
+          "positives": 3361,
+          "count": 9216
+        },
+        "layouts": 256
+      }
+    },
+    "cumulativetransfer": {
+      "shared-calibrated": {
+        "contact": {
+          "ap": 0.7706778598958904,
+          "ber": 0.21156160694649978,
+          "cut": 0.4119023084640503,
+          "positives": 20490,
+          "count": 102400
+        },
+        "new_contact": {
+          "ap": 0.02078476590625148,
+          "ber": 0.3151151236072253,
+          "cut": 0.15643669664859772,
+          "positives": 556,
+          "count": 63818
+        },
+        "lost_contact": {
+          "ap": 0.5645096906370222,
+          "ber": 0.3043721514217574,
+          "cut": 0.5883360505104065,
+          "positives": 6164,
+          "count": 18102
+        },
+        "remote_contact_disagreement": {
+          "count": 136,
+          "layouts": 70,
+          "order": 0.5477941036224365,
+          "hard": 0.022058824077248573
+        },
+        "directed": {
+          "ap": 0.8729588117167376,
+          "ber": 0.20640837683613436,
+          "cut": 0.3502301573753357,
+          "positives": 8779,
+          "count": 20480
+        },
+        "position_rmse": 1.5611057164124253,
+        "delta_rmse": 1.8252583386197159,
+        "pose_rmse_by_window": [
+          0.9705545783794656,
+          1.3178379412251646,
+          1.381836196306292,
+          1.3943736951711612,
+          1.5611057164124253
+        ],
+        "delta_rmse_by_window": [
+          1.129754668332285,
+          1.7158804086702897,
+          1.8097930293537132,
+          1.8105936877670834,
+          1.8252583386197159
+        ],
+        "orientation_rmse": 1.274561988167152,
+        "remote_delta_rmse": 2.0025794561388603,
+        "remote_action_pairs": 1844,
+        "largest_effect_rmse": 4.677767198801852,
+        "largest_effect_error_share": 0.3283964991569519,
+        "largest_effect_true_magnitude": 5.7567138671875,
+        "largest_effect_predicted_magnitude": 2.4754645824432373,
+        "largest_effect_direction_cosine": 0.574968159198761,
+        "largest_effect_pairs": 384,
+        "contact_disagreement_delta_rmse": 1.866557888994153,
+        "contact_disagreement_action_pairs": 6461,
+        "delta_crps": 0.44068849086761475,
+        "delta_crps_independent": 0.47161200642585754,
+        "edited_trajectory_rmse": 0.8781423682399172,
+        "paired_edit_rmse": 1.1898835003350146,
+        "affected_trajectory_rmse": 1.415976141017405,
+        "downstream_trajectory_rmse": 1.500944634856835,
+        "downstream_effect_recall": 0.18029217422008514,
+        "downstream_direction_cosine": 0.04776841402053833,
+        "affected": 95954,
+        "downstream": 53735,
+        "layouts": 256,
+        "comparison": {
+          "prediction_reference": "cophynet",
+          "delta_rmse_reduction_pct": -2.9742065657029526,
+          "graph_reference": "ncii",
+          "ber_reduction_pct": 60.8961655338113
+        }
+      },
+      "continued-calibrated": {
+        "contact": {
+          "ap": 0.8372815597266954,
+          "ber": 0.15539027080335943,
+          "cut": 0.2800770103931427,
+          "positives": 20490,
+          "count": 102400
+        },
+        "new_contact": {
+          "ap": 0.03441687187508407,
+          "ber": 0.27933131348924845,
+          "cut": 0.1281351000070572,
+          "positives": 556,
+          "count": 63818
+        },
+        "lost_contact": {
+          "ap": 0.6266612638221717,
+          "ber": 0.259349272561055,
+          "cut": 0.670924723148346,
+          "positives": 6164,
+          "count": 18102
+        },
+        "remote_contact_disagreement": {
+          "count": 136,
+          "layouts": 70,
+          "order": 0.6470588445663452,
+          "hard": 0.007352941203862429
+        },
+        "directed": {
+          "ap": 0.8813000641275377,
+          "ber": 0.19652048202332406,
+          "cut": 0.35376471281051636,
+          "positives": 8779,
+          "count": 20480
+        },
+        "position_rmse": 1.4544894467754828,
+        "delta_rmse": 1.6820514456266975,
+        "pose_rmse_by_window": [
+          0.7642899765550256,
+          1.181232325103769,
+          1.256568720227499,
+          1.2687699602934113,
+          1.4544894467754828
+        ],
+        "delta_rmse_by_window": [
+          0.9534117470573141,
+          1.56523998346126,
+          1.6639871356356801,
+          1.6777932064590488,
+          1.6820514456266975
+        ],
+        "orientation_rmse": 1.2658448675876175,
+        "remote_delta_rmse": 1.796683724215659,
+        "remote_action_pairs": 1844,
+        "largest_effect_rmse": 4.156508817716836,
+        "largest_effect_error_share": 0.3053154945373535,
+        "largest_effect_true_magnitude": 5.7567138671875,
+        "largest_effect_predicted_magnitude": 2.9619266986846924,
+        "largest_effect_direction_cosine": 0.7145511507987976,
+        "largest_effect_pairs": 384,
+        "contact_disagreement_delta_rmse": 1.715473589443417,
+        "contact_disagreement_action_pairs": 6461,
+        "delta_crps": 0.4069656431674957,
+        "delta_crps_independent": 0.40950676798820496,
+        "edited_trajectory_rmse": 0.8356797721219615,
+        "paired_edit_rmse": 1.141115109430366,
+        "affected_trajectory_rmse": 1.356536181092865,
+        "downstream_trajectory_rmse": 1.4297200183609726,
+        "downstream_effect_recall": 0.48696380853652954,
+        "downstream_direction_cosine": 0.164279967546463,
+        "affected": 95954,
+        "downstream": 53735,
+        "layouts": 256,
+        "comparison": {
+          "prediction_reference": "cophynet",
+          "delta_rmse_reduction_pct": 5.104987413954298,
+          "graph_reference": "ncii",
+          "ber_reduction_pct": 62.76941606707906
+        },
+        "native": {
+          "native_increment_diff_rmse": 0.4770572470594799,
+          "native_delta_rmse": [
+            0.1777039596187842,
+            0.42017569744120087,
+            0.48164733300406715,
+            0.5993566819336357,
+            0.7772912242529952,
+            0.9534117470573141,
+            1.3429797870566362,
+            1.56523998346126,
+            1.6639871356356801,
+            1.6777932064590488,
+            1.6820514456266975
+          ],
+          "native_contact_ap": 0.8090995825767843,
+          "native_new_contact_ap": 0.2768156173403383
+        }
+      },
+      "cumulative_unseen-calibrated": {
+        "contact": {
+          "ap": 0.8322425801335831,
+          "ber": 0.16018807081466827,
+          "cut": 0.29411429166793823,
+          "positives": 20490,
+          "count": 102400
+        },
+        "new_contact": {
+          "ap": 0.03629954677393403,
+          "ber": 0.26105957888047626,
+          "cut": 0.07680188119411469,
+          "positives": 556,
+          "count": 63818
+        },
+        "lost_contact": {
+          "ap": 0.6081937327666633,
+          "ber": 0.2653253686117186,
+          "cut": 0.6573019027709961,
+          "positives": 6164,
+          "count": 18102
+        },
+        "remote_contact_disagreement": {
+          "count": 136,
+          "layouts": 70,
+          "order": 0.6617646813392639,
+          "hard": 0.007352941203862429
+        },
+        "directed": {
+          "ap": 0.8862115602394296,
+          "ber": 0.19788366156742634,
+          "cut": 0.2693895399570465,
+          "positives": 8779,
+          "count": 20480
+        },
+        "position_rmse": 1.4270751098989896,
+        "delta_rmse": 1.6855945425708343,
+        "pose_rmse_by_window": [
+          0.7892270435961608,
+          1.172146778380745,
+          1.2397318625487839,
+          1.2488489573450101,
+          1.4270751098989896
+        ],
+        "delta_rmse_by_window": [
+          0.9557849788047366,
+          1.5675797098143698,
+          1.665701046007479,
+          1.6771705399422114,
+          1.6855945425708343
+        ],
+        "orientation_rmse": 1.250194820480834,
+        "remote_delta_rmse": 1.8461298696477095,
+        "remote_action_pairs": 1844,
+        "largest_effect_rmse": 4.291342096493327,
+        "largest_effect_error_share": 0.32407835125923157,
+        "largest_effect_true_magnitude": 5.7567138671875,
+        "largest_effect_predicted_magnitude": 3.000808000564575,
+        "largest_effect_direction_cosine": 0.6877748370170593,
+        "largest_effect_pairs": 384,
+        "contact_disagreement_delta_rmse": 1.720188925702422,
+        "contact_disagreement_action_pairs": 6461,
+        "delta_crps": 0.4056970477104187,
+        "delta_crps_independent": 0.40408849716186523,
+        "edited_trajectory_rmse": 0.8289569778092557,
+        "paired_edit_rmse": 1.141479120141251,
+        "affected_trajectory_rmse": 1.3462679138691884,
+        "downstream_trajectory_rmse": 1.423125335599502,
+        "downstream_effect_recall": 0.47483018040657043,
+        "downstream_direction_cosine": 0.16714751720428467,
+        "affected": 95954,
+        "downstream": 53735,
+        "layouts": 256,
+        "comparison": {
+          "prediction_reference": "cophynet",
+          "delta_rmse_reduction_pct": 4.905099217917474,
+          "graph_reference": "ncii",
+          "ber_reduction_pct": 62.511163238112765
+        },
+        "native": {
+          "native_increment_diff_rmse": 0.47248299631172264,
+          "native_delta_rmse": [
+            0.19969595059943981,
+            0.429000252878119,
+            0.48751678132248666,
+            0.6137182780301433,
+            0.7847263810564262,
+            0.9557849788047366,
+            1.3446195583391203,
+            1.5675797098143698,
+            1.665701046007479,
+            1.6771705399422114,
+            1.6855945425708343
+          ],
+          "native_contact_ap": 0.7988569237178016,
+          "native_new_contact_ap": 0.3070891578182564
+        }
+      },
+      "fix_only-calibrated": {
+        "contact": {
+          "ap": 0.8628709495029154,
+          "ber": 0.14160491353369728,
+          "cut": 0.25356632471084595,
+          "positives": 20490,
+          "count": 102400
+        },
+        "new_contact": {
+          "ap": 0.04356276663203094,
+          "ber": 0.2268819132674007,
+          "cut": 0.0925707072019577,
+          "positives": 556,
+          "count": 63818
+        },
+        "lost_contact": {
+          "ap": 0.610869048133434,
+          "ber": 0.24024929146686824,
+          "cut": 0.687021017074585,
+          "positives": 6164,
+          "count": 18102
+        },
+        "remote_contact_disagreement": {
+          "count": 136,
+          "layouts": 70,
+          "order": 0.625,
+          "hard": 0.014705882407724857
+        },
+        "directed": {
+          "ap": 0.8886609972488609,
+          "ber": 0.19668870128006968,
+          "cut": 0.30661433935165405,
+          "positives": 8779,
+          "count": 20480
+        },
+        "position_rmse": 1.2428279161540237,
+        "delta_rmse": 1.6332372085675317,
+        "pose_rmse_by_window": [
+          0.7605247725540744,
+          1.1656436806171337,
+          1.2222639923231096,
+          1.233197676870439,
+          1.2428279161540237
+        ],
+        "delta_rmse_by_window": [
+          0.9420057105561505,
+          1.5470547812440398,
+          1.6251882297364741,
+          1.6308917562045413,
+          1.6332372085675317
+        ],
+        "orientation_rmse": 1.0926051551440266,
+        "remote_delta_rmse": 1.7783040229767733,
+        "remote_action_pairs": 1844,
+        "largest_effect_rmse": 4.118376066283875,
+        "largest_effect_error_share": 0.3179241418838501,
+        "largest_effect_true_magnitude": 5.7567138671875,
+        "largest_effect_predicted_magnitude": 2.926785707473755,
+        "largest_effect_direction_cosine": 0.7415295243263245,
+        "largest_effect_pairs": 384,
+        "contact_disagreement_delta_rmse": 1.672436842588353,
+        "contact_disagreement_action_pairs": 6461,
+        "delta_crps": 0.4197635352611542,
+        "delta_crps_independent": 0.4111023247241974,
+        "edited_trajectory_rmse": 0.8143831950292809,
+        "paired_edit_rmse": 1.1160853891861926,
+        "affected_trajectory_rmse": 1.3213454951311399,
+        "downstream_trajectory_rmse": 1.3960153925957033,
+        "downstream_effect_recall": 0.5191029906272888,
+        "downstream_direction_cosine": 0.18113009631633759,
+        "affected": 95954,
+        "downstream": 53735,
+        "layouts": 256,
+        "comparison": {
+          "prediction_reference": "cophynet",
+          "delta_rmse_reduction_pct": 7.858902968767712,
+          "graph_reference": "ncii",
+          "ber_reduction_pct": 62.73754711839279
+        },
+        "native": {
+          "native_increment_diff_rmse": 0.47304945739494825,
+          "native_delta_rmse": [
+            0.21419667855769897,
+            0.38982421810781437,
+            0.43718727038188626,
+            0.5699400796264005,
+            0.7593762103412542,
+            0.9420057105561505,
+            1.3309018893291027,
+            1.5470547812440398,
+            1.6251882297364741,
+            1.6308917562045413,
+            1.6332372085675317
+          ],
+          "native_contact_ap": 0.8639073998570156,
+          "native_new_contact_ap": 0.49896653618914816
+        }
+      },
+      "inertial_hop2-calibrated": {
+        "contact": {
+          "ap": 0.8551625240613654,
+          "ber": 0.14413422247596563,
+          "cut": 0.2530509829521179,
+          "positives": 20490,
+          "count": 102400
+        },
+        "new_contact": {
+          "ap": 0.038965180460579084,
+          "ber": 0.25177956967358994,
+          "cut": 0.09670458734035492,
+          "positives": 556,
+          "count": 63818
+        },
+        "lost_contact": {
+          "ap": 0.620072334054745,
+          "ber": 0.24859527306832652,
+          "cut": 0.6506315469741821,
+          "positives": 6164,
+          "count": 18102
+        },
+        "remote_contact_disagreement": {
+          "count": 136,
+          "layouts": 70,
+          "order": 0.625,
+          "hard": 0.029411764815449715
+        },
+        "directed": {
+          "ap": 0.8809375145094878,
+          "ber": 0.1955932220450674,
+          "cut": 0.38703709840774536,
+          "positives": 8779,
+          "count": 20480
+        },
+        "position_rmse": 1.2848049715673948,
+        "delta_rmse": 1.6628249316941772,
+        "pose_rmse_by_window": [
+          0.8064293757956797,
+          1.2423152258122871,
+          1.2800149314724734,
+          1.2897639360231365,
+          1.2848049715673948
+        ],
+        "delta_rmse_by_window": [
+          0.975856067730353,
+          1.5804790652999616,
+          1.6474830793284598,
+          1.6621701938784634,
+          1.6628249316941772
+        ],
+        "orientation_rmse": 1.1009309730477073,
+        "remote_delta_rmse": 1.7934658051361072,
+        "remote_action_pairs": 1844,
+        "largest_effect_rmse": 3.9497348889582704,
+        "largest_effect_error_share": 0.28210633993148804,
+        "largest_effect_true_magnitude": 5.7567138671875,
+        "largest_effect_predicted_magnitude": 3.2956926822662354,
+        "largest_effect_direction_cosine": 0.7474926114082336,
+        "largest_effect_pairs": 384,
+        "contact_disagreement_delta_rmse": 1.6990363362935763,
+        "contact_disagreement_action_pairs": 6461,
+        "delta_crps": 0.4408544898033142,
+        "delta_crps_independent": 0.4270177483558655,
+        "edited_trajectory_rmse": 0.8462982198368116,
+        "paired_edit_rmse": 1.1453651280821269,
+        "affected_trajectory_rmse": 1.371333913608874,
+        "downstream_trajectory_rmse": 1.4480444579596938,
+        "downstream_effect_recall": 0.5579603314399719,
+        "downstream_direction_cosine": 0.18591000139713287,
+        "affected": 95954,
+        "downstream": 53735,
+        "layouts": 256,
+        "comparison": {
+          "prediction_reference": "cophynet",
+          "delta_rmse_reduction_pct": 6.189674975893,
+          "graph_reference": "ncii",
+          "ber_reduction_pct": 62.94508442537274
+        },
+        "native": {
+          "native_increment_diff_rmse": 0.4800546148392834,
+          "native_delta_rmse": [
+            0.12834302361577457,
+            0.28572773821913267,
+            0.3740278198941612,
+            0.5892633525725776,
+            0.793268720142049,
+            0.975856067730353,
+            1.3708571531473757,
+            1.5804790652999616,
+            1.6474830793284598,
+            1.6621701938784634,
+            1.6628249316941772
+          ],
+          "native_contact_ap": 0.8530667005843561,
+          "native_new_contact_ap": 0.39814462407858797
+        }
+      },
+      "inertial_hop3-calibrated": {
+        "contact": {
+          "ap": 0.8551860249626706,
+          "ber": 0.14204406281245607,
+          "cut": 0.2815341651439667,
+          "positives": 20490,
+          "count": 102400
+        },
+        "new_contact": {
+          "ap": 0.03210802663033396,
+          "ber": 0.2821781587091618,
+          "cut": 0.13600881397724152,
+          "positives": 556,
+          "count": 63818
+        },
+        "lost_contact": {
+          "ap": 0.6178853714127389,
+          "ber": 0.2458140583366646,
+          "cut": 0.6620031595230103,
+          "positives": 6164,
+          "count": 18102
+        },
+        "remote_contact_disagreement": {
+          "count": 136,
+          "layouts": 70,
+          "order": 0.6397058963775635,
+          "hard": 0.036764707416296005
+        },
+        "directed": {
+          "ap": 0.8857063699296052,
+          "ber": 0.1877606735288766,
+          "cut": 0.3986036479473114,
+          "positives": 8779,
+          "count": 20480
+        },
+        "position_rmse": 1.2367654180728131,
+        "delta_rmse": 1.6259947446430858,
+        "pose_rmse_by_window": [
+          0.7663449386352883,
+          1.1855188708949285,
+          1.2525127903633575,
+          1.240847458580751,
+          1.2367654180728131
+        ],
+        "delta_rmse_by_window": [
+          0.9260349811245399,
+          1.5283267865028614,
+          1.6199601587647479,
+          1.6285099855701857,
+          1.6259947446430858
+        ],
+        "orientation_rmse": 1.094081828326092,
+        "remote_delta_rmse": 1.7679066726770105,
+        "remote_action_pairs": 1844,
+        "largest_effect_rmse": 4.061718674865358,
+        "largest_effect_error_share": 0.3119977116584778,
+        "largest_effect_true_magnitude": 5.7567138671875,
+        "largest_effect_predicted_magnitude": 2.872816324234009,
+        "largest_effect_direction_cosine": 0.7639791965484619,
+        "largest_effect_pairs": 384,
+        "contact_disagreement_delta_rmse": 1.6587215911571251,
+        "contact_disagreement_action_pairs": 6461,
+        "delta_crps": 0.43483179807662964,
+        "delta_crps_independent": 0.4287639260292053,
+        "edited_trajectory_rmse": 0.8151447460729435,
+        "paired_edit_rmse": 1.1127184064121451,
+        "affected_trajectory_rmse": 1.324657896250575,
+        "downstream_trajectory_rmse": 1.4006776821402955,
+        "downstream_effect_recall": 0.5273471474647522,
+        "downstream_direction_cosine": 0.1952003389596939,
+        "affected": 95954,
+        "downstream": 53735,
+        "layouts": 256,
+        "comparison": {
+          "prediction_reference": "cophynet",
+          "delta_rmse_reduction_pct": 8.267495528199342,
+          "graph_reference": "ncii",
+          "ber_reduction_pct": 64.42895191815707
+        },
+        "native": {
+          "native_increment_diff_rmse": 0.4603096031258375,
+          "native_delta_rmse": [
+            0.09757302552665752,
+            0.23740267202400914,
+            0.3621652957077223,
+            0.5689156029196175,
+            0.7574953418374439,
+            0.9260349811245399,
+            1.3107877643535646,
+            1.5283267865028614,
+            1.6199601587647479,
+            1.6285099855701857,
+            1.6259947446430858
+          ],
+          "native_contact_ap": 0.8532355443155638,
+          "native_new_contact_ap": 0.43689393704329343
+        }
+      },
+      "stabilized_unseen-calibrated": {
+        "contact": {
+          "ap": 0.8568287186973426,
+          "ber": 0.14464784433199576,
+          "cut": 0.2272261083126068,
+          "positives": 20490,
+          "count": 102400
+        },
+        "new_contact": {
+          "ap": 0.05850539547261051,
+          "ber": 0.22087827509166513,
+          "cut": 0.1426875740289688,
+          "positives": 556,
+          "count": 63818
+        },
+        "lost_contact": {
+          "ap": 0.6095377397162692,
+          "ber": 0.2564319174919433,
+          "cut": 0.6083241105079651,
+          "positives": 6164,
+          "count": 18102
+        },
+        "remote_contact_disagreement": {
+          "count": 136,
+          "layouts": 70,
+          "order": 0.6838235259056091,
+          "hard": 0.05882352963089943
+        },
+        "directed": {
+          "ap": 0.895016091012974,
+          "ber": 0.18758052413907883,
+          "cut": 0.40424641966819763,
+          "positives": 8779,
+          "count": 20480
+        },
+        "position_rmse": 1.2141572048802152,
+        "delta_rmse": 1.6069209823646722,
+        "pose_rmse_by_window": [
+          0.7716184089214767,
+          1.1596481289421305,
+          1.2101306811612005,
+          1.2129100361866345,
+          1.2141572048802152
+        ],
+        "delta_rmse_by_window": [
+          0.9448256381711722,
+          1.5225725114714894,
+          1.5995886571937488,
+          1.6041425067353845,
+          1.6069209823646722
+        ],
+        "orientation_rmse": 1.1019783046892244,
+        "remote_delta_rmse": 1.745979732059328,
+        "remote_action_pairs": 1844,
+        "largest_effect_rmse": 4.003981516060861,
+        "largest_effect_error_share": 0.31043100357055664,
+        "largest_effect_true_magnitude": 5.7567138671875,
+        "largest_effect_predicted_magnitude": 2.878350019454956,
+        "largest_effect_direction_cosine": 0.7751515507698059,
+        "largest_effect_pairs": 384,
+        "contact_disagreement_delta_rmse": 1.6433961262548074,
+        "contact_disagreement_action_pairs": 6461,
+        "delta_crps": 0.4156937003135681,
+        "delta_crps_independent": 0.42410367727279663,
+        "edited_trajectory_rmse": 0.8107496260795942,
+        "paired_edit_rmse": 1.107537372897137,
+        "affected_trajectory_rmse": 1.316800610252114,
+        "downstream_trajectory_rmse": 1.3915992924186529,
+        "downstream_effect_recall": 0.5355355143547058,
+        "downstream_direction_cosine": 0.18202103674411774,
+        "affected": 95954,
+        "downstream": 53735,
+        "layouts": 256,
+        "comparison": {
+          "prediction_reference": "cophynet",
+          "delta_rmse_reduction_pct": 9.343565416655652,
+          "graph_reference": "ncii",
+          "ber_reduction_pct": 64.4630810171104
+        },
+        "native": {
+          "native_increment_diff_rmse": 0.4589515836649102,
+          "native_delta_rmse": [
+            0.1097672742332829,
+            0.2671650531329998,
+            0.3460618652398556,
+            0.5494791154424514,
+            0.7556758135298239,
+            0.9448256381711722,
+            1.3268338827841137,
+            1.5225725114714894,
+            1.5995886571937488,
+            1.6041425067353845,
+            1.6069209823646722
+          ],
+          "native_contact_ap": 0.8533591722200529,
+          "native_new_contact_ap": 0.43236553162258873
+        }
+      },
+      "cophynet": {
+        "position_rmse": 1.3485026921749999,
+        "delta_rmse": 1.7725393566932757,
+        "pose_rmse_by_window": [
+          0.8672787729979176,
+          1.2689696023244745,
+          1.3425004605340434,
+          1.3469533662943494,
+          1.3485026921749999
+        ],
+        "delta_rmse_by_window": [
+          1.084067786504326,
+          1.6784596058084593,
+          1.7681454248688078,
+          1.7724086112713506,
+          1.7725393566932757
+        ],
+        "remote_delta_rmse": 1.9237327590774604,
+        "remote_action_pairs": 1844,
+        "largest_effect_rmse": 4.558492703531444,
+        "largest_effect_error_share": 0.33068978786468506,
+        "largest_effect_true_magnitude": 5.7567138671875,
+        "largest_effect_predicted_magnitude": 2.3127787113189697,
+        "largest_effect_direction_cosine": 0.6461318135261536,
+        "largest_effect_pairs": 384,
+        "contact_disagreement_delta_rmse": 1.8090771550204188,
+        "contact_disagreement_action_pairs": 6461,
+        "delta_crps": 0.5860620737075806,
+        "layouts": 256
+      },
+      "pets": {
+        "position_rmse": 3.1002641934442994,
+        "delta_rmse": 2.0500343924638007,
+        "pose_rmse_by_window": [
+          1.7969770983009876,
+          2.6958915641269785,
+          2.8456236985955803,
+          2.958286195477961,
+          3.1002641934442994
+        ],
+        "delta_rmse_by_window": [
+          1.3689273771552568,
+          1.9529657527852669,
+          2.036477975840039,
+          2.0451157559042,
+          2.0500343924638007
+        ],
+        "orientation_rmse": 1.3284399220209648,
+        "remote_delta_rmse": 2.0986559881223825,
+        "remote_action_pairs": 1844,
+        "largest_effect_rmse": 5.432889364783309,
+        "largest_effect_error_share": 0.3511635661125183,
+        "largest_effect_true_magnitude": 5.7567138671875,
+        "largest_effect_predicted_magnitude": 0.7034565806388855,
+        "largest_effect_direction_cosine": 0.40317806601524353,
+        "largest_effect_pairs": 384,
+        "contact_disagreement_delta_rmse": 2.1050686429536283,
+        "contact_disagreement_action_pairs": 6461,
+        "delta_crps": 0.5832892060279846,
+        "layouts": 256
+      },
+      "ncii": {
+        "contact": {
+          "ap": 0.15611006269355943,
+          "ber": 0.5085423245728105,
+          "cut": 0.0002044228749582544,
+          "positives": 20490,
+          "count": 102400
+        },
+        "new_contact": {
+          "ap": 0.008348370276569766,
+          "ber": 0.49702007228588474,
+          "cut": 0.03625897690653801,
+          "positives": 556,
+          "count": 63818
+        },
+        "lost_contact": {
+          "ap": 0.43170826703994414,
+          "ber": 0.44339292107208894,
+          "cut": 0.9896411895751953,
+          "positives": 6164,
+          "count": 18102
+        },
+        "remote_contact_disagreement": {
+          "count": 136,
+          "layouts": 70,
+          "order": 0.5073529481887817,
+          "hard": 0.0
+        },
+        "directed": {
+          "ap": 0.31671878291465005,
+          "ber": 0.5278468969957569,
+          "cut": 0.5,
+          "positives": 8779,
+          "count": 20480
+        },
+        "layouts": 256
+      }
+    }
+  },
+  "causalworld": {
+    "test": {
+      "shared-calibrated": {
+        "contact": {
+          "ap": 0.9597043213705192,
+          "ber": 0.09211064502700189,
+          "cut": 0.4879051446914673,
+          "positives": 17770,
+          "count": 51200
+        },
+        "new_contact": {
+          "ap": 0.46585936546935514,
+          "ber": 0.12883921891017294,
+          "cut": 0.2506435215473175,
+          "positives": 1526,
+          "count": 27104
+        },
+        "lost_contact": {
+          "ap": 0.4675484327001544,
+          "ber": 0.12730614714594282,
+          "cut": 0.12639272212982178,
+          "positives": 876,
+          "count": 13856
+        },
+        "remote_contact_disagreement": {
+          "count": 93,
+          "layouts": 54,
+          "order": 0.7580645084381104,
+          "hard": 0.2795698940753937
+        },
+        "position_rmse": 23.160802795166667,
+        "delta_rmse": 19.76219705401343,
+        "pose_rmse_by_window": [
+          4.564867584283646,
+          7.953027715080949,
+          13.558550357749168,
+          18.293550644587576,
+          23.160802795166667
+        ],
+        "delta_rmse_by_window": [
+          1.4512511304876408,
+          4.4191044691835275,
+          8.32165888797303,
+          13.765055426121796,
+          19.76219705401343
+        ],
+        "orientation_rmse": 0.45999472589164464,
+        "largest_effect_rmse": 37.844172456070204,
+        "largest_effect_error_share": 0.18335704505443573,
+        "largest_effect_true_magnitude": 84.97728765010834,
+        "largest_effect_predicted_magnitude": 54.84047621488571,
+        "largest_effect_direction_cosine": 0.9596607089042664,
+        "largest_effect_pairs": 96,
+        "contact_disagreement_delta_rmse": 20.965445634416103,
+        "contact_disagreement_action_pairs": 1533,
+        "reward_rmse": 0.08626914024353027,
+        "reward_delta_rmse": 0.1010466068983078,
+        "delta_crps": 5.279726721346378,
+        "reward_delta_crps": 0.0598677396774292,
+        "delta_crps_independent": 6.100575551390648,
+        "reward_delta_crps_independent": 0.0650399699807167,
+        "layouts": 320,
+        "comparison": {
+          "prediction_reference": "cophynet",
+          "delta_rmse_reduction_pct": 38.428219266378115,
+          "graph_reference": "ncii",
+          "ber_reduction_pct": 80.5772547305787
+        }
+      },
+      "continued-calibrated": {
+        "contact": {
+          "ap": 0.9672584040598313,
+          "ber": 0.07793260546104536,
+          "cut": 0.4164404273033142,
+          "positives": 17770,
+          "count": 51200
+        },
+        "new_contact": {
+          "ap": 0.5680293827162091,
+          "ber": 0.10372123118993458,
+          "cut": 0.24132873117923737,
+          "positives": 1526,
+          "count": 27104
+        },
+        "lost_contact": {
+          "ap": 0.4420955915389428,
+          "ber": 0.11946795561840837,
+          "cut": 0.210798442363739,
+          "positives": 876,
+          "count": 13856
+        },
+        "remote_contact_disagreement": {
+          "count": 93,
+          "layouts": 54,
+          "order": 0.8440859913825989,
+          "hard": 0.3333333432674408
+        },
+        "position_rmse": 16.713653020353092,
+        "delta_rmse": 16.901363016834342,
+        "pose_rmse_by_window": [
+          2.2599031672383125,
+          4.624206763151038,
+          8.89694191230364,
+          12.737086850571458,
+          16.713653020353092
+        ],
+        "delta_rmse_by_window": [
+          0.9310490901218907,
+          2.5754743938551123,
+          7.438680297822956,
+          12.096826246344921,
+          16.901363016834342
+        ],
+        "orientation_rmse": 0.4324417275107591,
+        "largest_effect_rmse": 30.500020749004918,
+        "largest_effect_error_share": 0.16282713413238525,
+        "largest_effect_true_magnitude": 84.97728765010834,
+        "largest_effect_predicted_magnitude": 61.35695904493332,
+        "largest_effect_direction_cosine": 0.9838857650756836,
+        "largest_effect_pairs": 96,
+        "contact_disagreement_delta_rmse": 17.76902157557187,
+        "contact_disagreement_action_pairs": 1533,
+        "reward_rmse": 0.0840890035033226,
+        "reward_delta_rmse": 0.09749632328748703,
+        "delta_crps": 4.524360373616219,
+        "reward_delta_crps": 0.058452147990465164,
+        "delta_crps_independent": 4.827820882201195,
+        "reward_delta_crps_independent": 0.06569790840148926,
+        "layouts": 320,
+        "comparison": {
+          "prediction_reference": "cophynet",
+          "delta_rmse_reduction_pct": 47.34153217237913,
+          "graph_reference": "ncii",
+          "ber_reduction_pct": 83.56688150855453
+        }
+      },
+      "cumulative_unseen-calibrated": {
+        "contact": {
+          "ap": 0.9649866523241001,
+          "ber": 0.08329517443869727,
+          "cut": 0.4583415985107422,
+          "positives": 17770,
+          "count": 51200
+        },
+        "new_contact": {
+          "ap": 0.5255377753997512,
+          "ber": 0.11689123608950065,
+          "cut": 0.18291515111923218,
+          "positives": 1526,
+          "count": 27104
+        },
+        "lost_contact": {
+          "ap": 0.4719122664509192,
+          "ber": 0.11960198689940969,
+          "cut": 0.1906658411026001,
+          "positives": 876,
+          "count": 13856
+        },
+        "remote_contact_disagreement": {
+          "count": 93,
+          "layouts": 54,
+          "order": 0.801075279712677,
+          "hard": 0.3978494703769684
+        },
+        "position_rmse": 19.089205875827812,
+        "delta_rmse": 17.508654673533638,
+        "pose_rmse_by_window": [
+          3.7040470008580435,
+          6.317788570716251,
+          10.880795782146826,
+          15.317014428944852,
+          19.089205875827812
+        ],
+        "delta_rmse_by_window": [
+          1.7165529159779913,
+          3.707631352022083,
+          7.896949367232935,
+          12.505486953006207,
+          17.508654673533638
+        ],
+        "orientation_rmse": 0.44601949818717324,
+        "largest_effect_rmse": 35.80456368776406,
+        "largest_effect_error_share": 0.2090938538312912,
+        "largest_effect_true_magnitude": 84.97728765010834,
+        "largest_effect_predicted_magnitude": 55.947186052799225,
+        "largest_effect_direction_cosine": 0.981626033782959,
+        "largest_effect_pairs": 96,
+        "contact_disagreement_delta_rmse": 18.295582742362388,
+        "contact_disagreement_action_pairs": 1533,
+        "reward_rmse": 0.08568155020475388,
+        "reward_delta_rmse": 0.09700234234333038,
+        "delta_crps": 4.657332226634026,
+        "reward_delta_crps": 0.05788120999932289,
+        "delta_crps_independent": 5.002398379147053,
+        "reward_delta_crps_independent": 0.062445517629384995,
+        "layouts": 320,
+        "comparison": {
+          "prediction_reference": "cophynet",
+          "delta_rmse_reduction_pct": 45.44943340292307,
+          "graph_reference": "ncii",
+          "ber_reduction_pct": 82.43611305923902
+        }
+      },
+      "fix_only-calibrated": {
+        "contact": {
+          "ap": 0.9704084766028884,
+          "ber": 0.0712890355728657,
+          "cut": 0.402071475982666,
+          "positives": 17770,
+          "count": 51200
+        },
+        "new_contact": {
+          "ap": 0.6240172967157909,
+          "ber": 0.09121585995992829,
+          "cut": 0.2789798676967621,
+          "positives": 1526,
+          "count": 27104
+        },
+        "lost_contact": {
+          "ap": 0.47314179773758086,
+          "ber": 0.11365571198401475,
+          "cut": 0.17879515886306763,
+          "positives": 876,
+          "count": 13856
+        },
+        "remote_contact_disagreement": {
+          "count": 93,
+          "layouts": 54,
+          "order": 0.8602150678634644,
+          "hard": 0.47311827540397644
+        },
+        "position_rmse": 12.693689528675279,
+        "delta_rmse": 14.518894026733047,
+        "pose_rmse_by_window": [
+          2.0051544567677984,
+          3.4932302032335283,
+          6.435304318417027,
+          9.674302742796845,
+          12.693689528675279
+        ],
+        "delta_rmse_by_window": [
+          0.9334442031085716,
+          2.344924166980664,
+          6.243172712691503,
+          10.444830768610435,
+          14.518894026733047
+        ],
+        "orientation_rmse": 0.446516033528701,
+        "largest_effect_rmse": 27.109670300757973,
+        "largest_effect_error_share": 0.17432168126106262,
+        "largest_effect_true_magnitude": 84.97728765010834,
+        "largest_effect_predicted_magnitude": 65.78258574008942,
+        "largest_effect_direction_cosine": 0.9874665141105652,
+        "largest_effect_pairs": 96,
+        "contact_disagreement_delta_rmse": 15.487297019016093,
+        "contact_disagreement_action_pairs": 1533,
+        "reward_rmse": 0.0800311341881752,
+        "reward_delta_rmse": 0.09789309650659561,
+        "delta_crps": 3.993020933121443,
+        "reward_delta_crps": 0.09409544616937637,
+        "delta_crps_independent": 4.061063602566719,
+        "reward_delta_crps_independent": 0.09451644122600555,
+        "layouts": 320,
+        "comparison": {
+          "prediction_reference": "cophynet",
+          "delta_rmse_reduction_pct": 54.764434487452405,
+          "graph_reference": "ncii",
+          "ber_reduction_pct": 84.96776590774513
+        }
+      },
+      "inertial_hop2-calibrated": {
+        "contact": {
+          "ap": 0.9742839276546758,
+          "ber": 0.06917790405572855,
+          "cut": 0.37589746713638306,
+          "positives": 17770,
+          "count": 51200
+        },
+        "new_contact": {
+          "ap": 0.640756945926461,
+          "ber": 0.08767855977147793,
+          "cut": 0.28357237577438354,
+          "positives": 1526,
+          "count": 27104
+        },
+        "lost_contact": {
+          "ap": 0.49486225466780875,
+          "ber": 0.11812482850328218,
+          "cut": 0.11806291341781616,
+          "positives": 876,
+          "count": 13856
+        },
+        "remote_contact_disagreement": {
+          "count": 93,
+          "layouts": 54,
+          "order": 0.8709677457809448,
+          "hard": 0.46236559748649597
+        },
+        "position_rmse": 12.879908420318337,
+        "delta_rmse": 14.685477668572757,
+        "pose_rmse_by_window": [
+          1.6962967018629085,
+          3.3472078849296105,
+          6.677934727908549,
+          9.847658475113723,
+          12.879908420318337
+        ],
+        "delta_rmse_by_window": [
+          0.7813445584434885,
+          2.0999688600364705,
+          6.253524386341249,
+          10.536725858809842,
+          14.685477668572757
+        ],
+        "orientation_rmse": 0.4485364957524087,
+        "largest_effect_rmse": 26.083100231443538,
+        "largest_effect_error_share": 0.15772926807403564,
+        "largest_effect_true_magnitude": 84.97728765010834,
+        "largest_effect_predicted_magnitude": 67.55442798137665,
+        "largest_effect_direction_cosine": 0.9883785247802734,
+        "largest_effect_pairs": 96,
+        "contact_disagreement_delta_rmse": 15.653251254879978,
+        "contact_disagreement_action_pairs": 1533,
+        "reward_rmse": 0.07942663878202438,
+        "reward_delta_rmse": 0.097690150141716,
+        "delta_crps": 4.113111458718777,
+        "reward_delta_crps": 0.07586389034986496,
+        "delta_crps_independent": 4.233571253716946,
+        "reward_delta_crps_independent": 0.07635597884654999,
+        "layouts": 320,
+        "comparison": {
+          "prediction_reference": "cophynet",
+          "delta_rmse_reduction_pct": 54.245420764376505,
+          "graph_reference": "ncii",
+          "ber_reduction_pct": 85.41292585289135
+        }
+      },
+      "inertial_hop3-calibrated": {
+        "contact": {
+          "ap": 0.97188402506758,
+          "ber": 0.07047166481132683,
+          "cut": 0.4071219265460968,
+          "positives": 17770,
+          "count": 51200
+        },
+        "new_contact": {
+          "ap": 0.6123411946046599,
+          "ber": 0.08637009586076337,
+          "cut": 0.2347693145275116,
+          "positives": 1526,
+          "count": 27104
+        },
+        "lost_contact": {
+          "ap": 0.4867578889574647,
+          "ber": 0.11703147096692487,
+          "cut": 0.16211509704589844,
+          "positives": 876,
+          "count": 13856
+        },
+        "remote_contact_disagreement": {
+          "count": 93,
+          "layouts": 54,
+          "order": 0.8709677457809448,
+          "hard": 0.5053763389587402
+        },
+        "position_rmse": 12.865935733465006,
+        "delta_rmse": 14.87560907324553,
+        "pose_rmse_by_window": [
+          1.7434898040055316,
+          3.303615277302512,
+          6.56702933547862,
+          9.727744371545151,
+          12.865935733465006
+        ],
+        "delta_rmse_by_window": [
+          0.850307999111941,
+          2.10126978347262,
+          6.3203444137492495,
+          10.605094944353496,
+          14.87560907324553
+        ],
+        "orientation_rmse": 0.44892306340481747,
+        "largest_effect_rmse": 27.1403784007727,
+        "largest_effect_error_share": 0.16643792390823364,
+        "largest_effect_true_magnitude": 84.97728765010834,
+        "largest_effect_predicted_magnitude": 64.76871579885483,
+        "largest_effect_direction_cosine": 0.9881773591041565,
+        "largest_effect_pairs": 96,
+        "contact_disagreement_delta_rmse": 15.835803224486455,
+        "contact_disagreement_action_pairs": 1533,
+        "reward_rmse": 0.08223528414964676,
+        "reward_delta_rmse": 0.09908390045166016,
+        "delta_crps": 4.15664941072464,
+        "reward_delta_crps": 0.08048393577337265,
+        "delta_crps_independent": 4.174493961036205,
+        "reward_delta_crps_independent": 0.08080888539552689,
+        "layouts": 320,
+        "comparison": {
+          "prediction_reference": "cophynet",
+          "delta_rmse_reduction_pct": 53.6530408216459,
+          "graph_reference": "ncii",
+          "ber_reduction_pct": 85.14011932126633
+        }
+      },
+      "stabilized_unseen-calibrated": {
+        "contact": {
+          "ap": 0.9743803673348297,
+          "ber": 0.068223120872935,
+          "cut": 0.41845300793647766,
+          "positives": 17770,
+          "count": 51200
+        },
+        "new_contact": {
+          "ap": 0.6351586651926511,
+          "ber": 0.08051859360215667,
+          "cut": 0.2750057876110077,
+          "positives": 1526,
+          "count": 27104
+        },
+        "lost_contact": {
+          "ap": 0.5041992138687892,
+          "ber": 0.1190693796567955,
+          "cut": 0.17113572359085083,
+          "positives": 876,
+          "count": 13856
+        },
+        "remote_contact_disagreement": {
+          "count": 93,
+          "layouts": 54,
+          "order": 0.9139785170555115,
+          "hard": 0.5053763389587402
+        },
+        "position_rmse": 12.395541060098134,
+        "delta_rmse": 14.28427893409251,
+        "pose_rmse_by_window": [
+          1.6899661251022156,
+          3.2901169941281387,
+          6.463957677937696,
+          9.5004204134319,
+          12.395541060098134
+        ],
+        "delta_rmse_by_window": [
+          0.8176762776754586,
+          2.1677465367918645,
+          6.129175667405786,
+          10.217886368120979,
+          14.28427893409251
+        ],
+        "orientation_rmse": 0.4484220322656158,
+        "largest_effect_rmse": 26.1966565080596,
+        "largest_effect_error_share": 0.16816867887973785,
+        "largest_effect_true_magnitude": 84.97728765010834,
+        "largest_effect_predicted_magnitude": 67.72496700286865,
+        "largest_effect_direction_cosine": 0.9873482584953308,
+        "largest_effect_pairs": 96,
+        "contact_disagreement_delta_rmse": 15.163688382855375,
+        "contact_disagreement_action_pairs": 1533,
+        "reward_rmse": 0.08014454692602158,
+        "reward_delta_rmse": 0.09725404530763626,
+        "delta_crps": 4.055121876299381,
+        "reward_delta_crps": 0.08437631279230118,
+        "delta_crps_independent": 4.205243326723576,
+        "reward_delta_crps_independent": 0.08535745739936829,
+        "layouts": 320,
+        "comparison": {
+          "prediction_reference": "cophynet",
+          "delta_rmse_reduction_pct": 55.495409338142274,
+          "graph_reference": "ncii",
+          "ber_reduction_pct": 85.61425448913627
+        }
+      },
+      "cophynet": {
+        "position_rmse": 37.179909780999736,
+        "delta_rmse": 32.096192149307264,
+        "pose_rmse_by_window": [
+          5.466223258612755,
+          10.567907543583946,
+          20.22672705198462,
+          29.168566163687117,
+          37.179909780999736
+        ],
+        "delta_rmse_by_window": [
+          0.9982465096419821,
+          3.472543388849579,
+          12.056473194593044,
+          22.27365183451169,
+          32.096192149307264
+        ],
+        "largest_effect_rmse": 85.8178857313513,
+        "largest_effect_error_share": 0.35745272040367126,
+        "largest_effect_true_magnitude": 84.97728765010834,
+        "largest_effect_predicted_magnitude": 0.21845832467079163,
+        "largest_effect_direction_cosine": -0.008587487041950226,
+        "largest_effect_pairs": 96,
+        "contact_disagreement_delta_rmse": 35.277056777660405,
+        "contact_disagreement_action_pairs": 1533,
+        "delta_crps": 10.295198932290077,
+        "layouts": 320
+      },
+      "pets": {
+        "position_rmse": 36.38124480053318,
+        "delta_rmse": 32.55168664181914,
+        "pose_rmse_by_window": [
+          5.45311787228747,
+          10.2565639321403,
+          19.756019717031098,
+          28.501707717590808,
+          36.38124480053318
+        ],
+        "delta_rmse_by_window": [
+          2.5001937995519707,
+          4.6648091457607475,
+          12.95035333898742,
+          22.868236922010254,
+          32.55168664181914
+        ],
+        "orientation_rmse": 0.4811247247658961,
+        "largest_effect_rmse": 85.09102160506264,
+        "largest_effect_error_share": 0.3416571319103241,
+        "largest_effect_true_magnitude": 84.97728765010834,
+        "largest_effect_predicted_magnitude": 6.4263224974274635,
+        "largest_effect_direction_cosine": 0.08237922191619873,
+        "largest_effect_pairs": 96,
+        "contact_disagreement_delta_rmse": 35.67728521354899,
+        "contact_disagreement_action_pairs": 1533,
+        "reward_rmse": 0.0915788859128952,
+        "reward_delta_rmse": 0.10768508911132812,
+        "delta_crps": 8.71910385787487,
+        "reward_delta_crps": 0.0795324370265007,
+        "layouts": 320
+      },
+      "ncii": {
+        "contact": {
+          "ap": 0.3256125695375609,
+          "ber": 0.474241121681283,
+          "cut": 0.02089373953640461,
+          "positives": 17770,
+          "count": 51200
+        },
+        "new_contact": {
+          "ap": 0.05696152316975786,
+          "ber": 0.4873977852239704,
+          "cut": 0.03229815140366554,
+          "positives": 1526,
+          "count": 27104
+        },
+        "lost_contact": {
+          "ap": 0.047260634464356424,
+          "ber": 0.45364857068479075,
+          "cut": 0.9925287961959839,
+          "positives": 876,
+          "count": 13856
+        },
+        "remote_contact_disagreement": {
+          "count": 93,
+          "layouts": 54,
+          "order": 0.5053763389587402,
+          "hard": 0.0
+        },
+        "layouts": 320
+      }
+    },
+    "cumulativetransfer": {
+      "shared-calibrated": {
+        "contact": {
+          "ap": 0.9677473742948943,
+          "ber": 0.08395470655854043,
+          "cut": 0.4879051446914673,
+          "positives": 18648,
+          "count": 51200
+        },
+        "new_contact": {
+          "ap": 0.5269062475429663,
+          "ber": 0.10135732784197304,
+          "cut": 0.2506435215473175,
+          "positives": 1384,
+          "count": 26400
+        },
+        "lost_contact": {
+          "ap": 0.3634134804916812,
+          "ber": 0.13555641380642114,
+          "cut": 0.12639272212982178,
+          "positives": 668,
+          "count": 14560
+        },
+        "remote_contact_disagreement": {
+          "count": 41,
+          "layouts": 32,
+          "order": 0.8292682766914368,
+          "hard": 0.4878048598766327
+        },
+        "position_rmse": 19.915087076410874,
+        "delta_rmse": 18.072062555440137,
+        "pose_rmse_by_window": [
+          3.767616949887455,
+          6.671873221910852,
+          11.362203911915136,
+          15.414074591792875,
+          19.915087076410874
+        ],
+        "delta_rmse_by_window": [
+          1.4047957745898416,
+          4.65466898205255,
+          8.423411090897352,
+          12.971394801326682,
+          18.072062555440137
+        ],
+        "orientation_rmse": 0.454418440976163,
+        "largest_effect_rmse": 30.333227200336633,
+        "largest_effect_error_share": 0.14086133241653442,
+        "largest_effect_true_magnitude": 68.39350879192352,
+        "largest_effect_predicted_magnitude": 49.91457253694534,
+        "largest_effect_direction_cosine": 0.9495161175727844,
+        "largest_effect_pairs": 96,
+        "contact_disagreement_delta_rmse": 18.690545222701,
+        "contact_disagreement_action_pairs": 1570,
+        "reward_rmse": 0.07870377600193024,
+        "reward_delta_rmse": 0.08214812725782394,
+        "delta_crps": 4.772256128489971,
+        "reward_delta_crps": 0.051345620304346085,
+        "delta_crps_independent": 5.701043009757996,
+        "reward_delta_crps_independent": 0.057778146117925644,
+        "layouts": 320,
+        "comparison": {
+          "prediction_reference": "cophynet",
+          "delta_rmse_reduction_pct": 34.21050722690999,
+          "graph_reference": "ncii",
+          "ber_reduction_pct": 83.14850643317497
+        },
+        "edit": {
+          "edit_rmse": 8.149938866463353,
+          "paired_edit_rmse": 8.956907373067489,
+          "active_edit_rmse": 14.239086058389,
+          "active_edits": 1807,
+          "active_pairs": 3551,
+          "active_edit_cosine": 0.5581463575363159
+        }
+      },
+      "continued-calibrated": {
+        "contact": {
+          "ap": 0.9741438468800794,
+          "ber": 0.07184650155896162,
+          "cut": 0.4164404273033142,
+          "positives": 18648,
+          "count": 51200
+        },
+        "new_contact": {
+          "ap": 0.591258342782267,
+          "ber": 0.0858352388575358,
+          "cut": 0.24132873117923737,
+          "positives": 1384,
+          "count": 26400
+        },
+        "lost_contact": {
+          "ap": 0.3723650888654449,
+          "ber": 0.11574619261333365,
+          "cut": 0.210798442363739,
+          "positives": 668,
+          "count": 14560
+        },
+        "remote_contact_disagreement": {
+          "count": 41,
+          "layouts": 32,
+          "order": 0.9024389982223511,
+          "hard": 0.5365853309631348
+        },
+        "position_rmse": 15.472017410330224,
+        "delta_rmse": 16.92546328103545,
+        "pose_rmse_by_window": [
+          1.9447545491450615,
+          4.151659662110599,
+          8.972717719849411,
+          12.661060236683484,
+          15.472017410330224
+        ],
+        "delta_rmse_by_window": [
+          0.8705885800379889,
+          2.908767172262247,
+          8.43275133864488,
+          13.217979062457006,
+          16.92546328103545
+        ],
+        "orientation_rmse": 0.42469172236327407,
+        "largest_effect_rmse": 26.73732162325131,
+        "largest_effect_error_share": 0.12477416545152664,
+        "largest_effect_true_magnitude": 68.39350879192352,
+        "largest_effect_predicted_magnitude": 54.23678636550903,
+        "largest_effect_direction_cosine": 0.9697102904319763,
+        "largest_effect_pairs": 96,
+        "contact_disagreement_delta_rmse": 17.567179885719426,
+        "contact_disagreement_action_pairs": 1570,
+        "reward_rmse": 0.07535558938980103,
+        "reward_delta_rmse": 0.07804084569215775,
+        "delta_crps": 4.442627131938934,
+        "reward_delta_crps": 0.04975823312997818,
+        "delta_crps_independent": 4.8356590792536736,
+        "reward_delta_crps_independent": 0.058593690395355225,
+        "layouts": 320,
+        "comparison": {
+          "prediction_reference": "cophynet",
+          "delta_rmse_reduction_pct": 38.38458444945534,
+          "graph_reference": "ncii",
+          "ber_reduction_pct": 85.57888046484318
+        },
+        "edit": {
+          "edit_rmse": 7.521668198616779,
+          "paired_edit_rmse": 8.47744787114628,
+          "active_edit_rmse": 13.120938446810017,
+          "active_edits": 1807,
+          "active_pairs": 3551,
+          "active_edit_cosine": 0.6618307828903198
+        },
+        "native": {
+          "native_increment_diff_rmse": 3.1092268627922635,
+          "native_delta_rmse": [
+            0.8705885800379889,
+            2.908767172262247,
+            5.58982752955747,
+            8.43275133864488,
+            11.019868498357143,
+            13.217979062457006,
+            15.16144984984207,
+            16.92546328103545
+          ],
+          "native_contact_ap": 0.9706563436728989,
+          "native_new_contact_ap": 0.42124945016452237
+        }
+      },
+      "cumulative_unseen-calibrated": {
+        "contact": {
+          "ap": 0.97176737041518,
+          "ber": 0.07646066791434203,
+          "cut": 0.4583415985107422,
+          "positives": 18648,
+          "count": 51200
+        },
+        "new_contact": {
+          "ap": 0.5899241028101171,
+          "ber": 0.10031290956446834,
+          "cut": 0.18291515111923218,
+          "positives": 1384,
+          "count": 26400
+        },
+        "lost_contact": {
+          "ap": 0.39987346470213414,
+          "ber": 0.12203939371473005,
+          "cut": 0.1906658411026001,
+          "positives": 668,
+          "count": 14560
+        },
+        "remote_contact_disagreement": {
+          "count": 41,
+          "layouts": 32,
+          "order": 0.8536584973335266,
+          "hard": 0.4878048598766327
+        },
+        "position_rmse": 16.22374686334988,
+        "delta_rmse": 16.796424626810786,
+        "pose_rmse_by_window": [
+          3.3540948612707857,
+          6.022724998670347,
+          9.612980397375033,
+          13.071069740504553,
+          16.22374686334988
+        ],
+        "delta_rmse_by_window": [
+          1.9475034835378644,
+          4.453995219905535,
+          8.352955200794465,
+          12.4141620586381,
+          16.796424626810786
+        ],
+        "orientation_rmse": 0.4406047397040844,
+        "largest_effect_rmse": 27.556487394276324,
+        "largest_effect_error_share": 0.1345810741186142,
+        "largest_effect_true_magnitude": 68.39350879192352,
+        "largest_effect_predicted_magnitude": 50.451422929763794,
+        "largest_effect_direction_cosine": 0.9647226333618164,
+        "largest_effect_pairs": 96,
+        "contact_disagreement_delta_rmse": 17.497961130963617,
+        "contact_disagreement_action_pairs": 1570,
+        "reward_rmse": 0.07395695149898529,
+        "reward_delta_rmse": 0.0770181193947792,
+        "delta_crps": 4.4607264176011086,
+        "reward_delta_crps": 0.04916619136929512,
+        "delta_crps_independent": 4.94470227509737,
+        "reward_delta_crps_independent": 0.05441155657172203,
+        "layouts": 320,
+        "comparison": {
+          "prediction_reference": "cophynet",
+          "delta_rmse_reduction_pct": 38.85433645388316,
+          "graph_reference": "ncii",
+          "ber_reduction_pct": 84.65271923051458
+        },
+        "edit": {
+          "edit_rmse": 8.147327917193461,
+          "paired_edit_rmse": 8.691261989489258,
+          "active_edit_rmse": 14.191095459939847,
+          "active_edits": 1807,
+          "active_pairs": 3551,
+          "active_edit_cosine": 0.34931182861328125
+        },
+        "native": {
+          "native_increment_diff_rmse": 3.1699646442208116,
+          "native_delta_rmse": [
+            1.9475034835378644,
+            4.453995219905535,
+            6.564820683235747,
+            8.352955200794465,
+            10.334833419562448,
+            12.4141620586381,
+            14.513344747419112,
+            16.796424626810786
+          ],
+          "native_contact_ap": 0.9682797162944164,
+          "native_new_contact_ap": 0.4194550041693805
+        }
+      },
+      "fix_only-calibrated": {
+        "contact": {
+          "ap": 0.9754732765880674,
+          "ber": 0.06534465160663244,
+          "cut": 0.402071475982666,
+          "positives": 18648,
+          "count": 51200
+        },
+        "new_contact": {
+          "ap": 0.6278515302157182,
+          "ber": 0.07145646439457938,
+          "cut": 0.2789798676967621,
+          "positives": 1384,
+          "count": 26400
+        },
+        "lost_contact": {
+          "ap": 0.45686564220897197,
+          "ber": 0.12118894948369889,
+          "cut": 0.17879515886306763,
+          "positives": 668,
+          "count": 14560
+        },
+        "remote_contact_disagreement": {
+          "count": 41,
+          "layouts": 32,
+          "order": 0.9024389982223511,
+          "hard": 0.5365853309631348
+        },
+        "position_rmse": 13.16223847150007,
+        "delta_rmse": 15.126234450608703,
+        "pose_rmse_by_window": [
+          2.0935641842271804,
+          3.6967903059385887,
+          7.1127686319768255,
+          10.704508047300767,
+          13.16223847150007
+        ],
+        "delta_rmse_by_window": [
+          0.9733700856178552,
+          2.7471026441108584,
+          7.186679845124694,
+          11.875469561597733,
+          15.126234450608703
+        ],
+        "orientation_rmse": 0.44386689298633925,
+        "largest_effect_rmse": 23.245838752018486,
+        "largest_effect_error_share": 0.11808611452579498,
+        "largest_effect_true_magnitude": 68.39350879192352,
+        "largest_effect_predicted_magnitude": 59.38233584165573,
+        "largest_effect_direction_cosine": 0.9769277572631836,
+        "largest_effect_pairs": 96,
+        "contact_disagreement_delta_rmse": 15.758896120573791,
+        "contact_disagreement_action_pairs": 1570,
+        "reward_rmse": 0.07059089839458466,
+        "reward_delta_rmse": 0.07995180785655975,
+        "delta_crps": 4.168885424733162,
+        "reward_delta_crps": 0.08772335201501846,
+        "delta_crps_independent": 4.28148377686739,
+        "reward_delta_crps_independent": 0.08812346309423447,
+        "layouts": 320,
+        "comparison": {
+          "prediction_reference": "cophynet",
+          "delta_rmse_reduction_pct": 44.934492727681366,
+          "graph_reference": "ncii",
+          "ber_reduction_pct": 86.88393990862478
+        },
+        "edit": {
+          "edit_rmse": 6.879295626274625,
+          "paired_edit_rmse": 7.692194295703796,
+          "active_edit_rmse": 11.488976975691648,
+          "active_edits": 1807,
+          "active_pairs": 3551,
+          "active_edit_cosine": 0.8668463230133057
+        },
+        "native": {
+          "native_increment_diff_rmse": 2.7413604916453007,
+          "native_delta_rmse": [
+            0.9733700856178552,
+            2.7471026441108584,
+            4.765415917465026,
+            7.186679845124694,
+            9.685392006206907,
+            11.875469561597733,
+            13.633077715887161,
+            15.126234450608703
+          ],
+          "native_contact_ap": 0.9742221787535514,
+          "native_new_contact_ap": 0.4788757616347792
+        }
+      },
+      "inertial_hop2-calibrated": {
+        "contact": {
+          "ap": 0.9774139974190391,
+          "ber": 0.06432577558775641,
+          "cut": 0.37589746713638306,
+          "positives": 18648,
+          "count": 51200
+        },
+        "new_contact": {
+          "ap": 0.6417669330756369,
+          "ber": 0.07608656471418986,
+          "cut": 0.28357237577438354,
+          "positives": 1384,
+          "count": 26400
+        },
+        "lost_contact": {
+          "ap": 0.4347416423112459,
+          "ber": 0.12929640287521701,
+          "cut": 0.11806291341781616,
+          "positives": 668,
+          "count": 14560
+        },
+        "remote_contact_disagreement": {
+          "count": 41,
+          "layouts": 32,
+          "order": 0.9268292188644409,
+          "hard": 0.5609756112098694
+        },
+        "position_rmse": 13.813089359907039,
+        "delta_rmse": 15.815401027190623,
+        "pose_rmse_by_window": [
+          1.5077303372752717,
+          3.210984315989174,
+          7.354647717397168,
+          11.050259462371255,
+          13.813089359907039
+        ],
+        "delta_rmse_by_window": [
+          0.7828911990089352,
+          2.0826909249347048,
+          7.001172270588863,
+          11.954052311013854,
+          15.815401027190623
+        ],
+        "orientation_rmse": 0.4437734879738353,
+        "largest_effect_rmse": 21.44388860742079,
+        "largest_effect_error_share": 0.09192141145467758,
+        "largest_effect_true_magnitude": 68.39350879192352,
+        "largest_effect_predicted_magnitude": 62.74569869041443,
+        "largest_effect_direction_cosine": 0.9812827110290527,
+        "largest_effect_pairs": 96,
+        "contact_disagreement_delta_rmse": 16.3894960143716,
+        "contact_disagreement_action_pairs": 1570,
+        "reward_rmse": 0.07302460074424744,
+        "reward_delta_rmse": 0.08045300096273422,
+        "delta_crps": 4.470582641661167,
+        "reward_delta_crps": 0.06965258717536926,
+        "delta_crps_independent": 4.536955244839191,
+        "reward_delta_crps_independent": 0.07011693716049194,
+        "layouts": 320,
+        "comparison": {
+          "prediction_reference": "cophynet",
+          "delta_rmse_reduction_pct": 42.42565239081328,
+          "graph_reference": "ncii",
+          "ber_reduction_pct": 87.08844997579426
+        },
+        "edit": {
+          "edit_rmse": 6.968402269453669,
+          "paired_edit_rmse": 7.93873288640256,
+          "active_edit_rmse": 12.032963581174496,
+          "active_edits": 1807,
+          "active_pairs": 3551,
+          "active_edit_cosine": 0.8539749979972839
+        },
+        "native": {
+          "native_increment_diff_rmse": 2.674766502237505,
+          "native_delta_rmse": [
+            0.7828911990089352,
+            2.0826909249347048,
+            4.270585529979742,
+            7.001172270588863,
+            9.652011799054069,
+            11.954052311013854,
+            13.971292480630021,
+            15.815401027190623
+          ],
+          "native_contact_ap": 0.975901381254828,
+          "native_new_contact_ap": 0.4898082417729336
+        }
+      },
+      "inertial_hop3-calibrated": {
+        "contact": {
+          "ap": 0.9759485621505399,
+          "ber": 0.0653044954163165,
+          "cut": 0.4071219265460968,
+          "positives": 18648,
+          "count": 51200
+        },
+        "new_contact": {
+          "ap": 0.6237701050396411,
+          "ber": 0.07320031942562541,
+          "cut": 0.2347693145275116,
+          "positives": 1384,
+          "count": 26400
+        },
+        "lost_contact": {
+          "ap": 0.4309748338540357,
+          "ber": 0.12845932092049703,
+          "cut": 0.16211509704589844,
+          "positives": 668,
+          "count": 14560
+        },
+        "remote_contact_disagreement": {
+          "count": 41,
+          "layouts": 32,
+          "order": 0.9268292188644409,
+          "hard": 0.5121951103210449
+        },
+        "position_rmse": 13.560046021767917,
+        "delta_rmse": 15.378014037935994,
+        "pose_rmse_by_window": [
+          1.5258159982111361,
+          3.066842457586271,
+          7.151937694510517,
+          10.778215361759289,
+          13.560046021767917
+        ],
+        "delta_rmse_by_window": [
+          0.9513917762546139,
+          2.1954549527859295,
+          7.050806411040472,
+          11.732411281542173,
+          15.378014037935994
+        ],
+        "orientation_rmse": 0.44700693370361283,
+        "largest_effect_rmse": 22.911744660243738,
+        "largest_effect_error_share": 0.1109905019402504,
+        "largest_effect_true_magnitude": 68.39350879192352,
+        "largest_effect_predicted_magnitude": 57.32679396867752,
+        "largest_effect_direction_cosine": 0.9787283539772034,
+        "largest_effect_pairs": 96,
+        "contact_disagreement_delta_rmse": 16.1203323166644,
+        "contact_disagreement_action_pairs": 1570,
+        "reward_rmse": 0.07256149500608444,
+        "reward_delta_rmse": 0.08114150166511536,
+        "delta_crps": 4.339739717543125,
+        "reward_delta_crps": 0.07429937273263931,
+        "delta_crps_independent": 4.320379830896854,
+        "reward_delta_crps_independent": 0.07462278753519058,
+        "layouts": 320,
+        "comparison": {
+          "prediction_reference": "cophynet",
+          "delta_rmse_reduction_pct": 44.017914927551175,
+          "graph_reference": "ncii",
+          "ber_reduction_pct": 86.89200010930341
+        },
+        "edit": {
+          "edit_rmse": 6.701693222089398,
+          "paired_edit_rmse": 7.654429489638282,
+          "active_edit_rmse": 11.362860149253633,
+          "active_edits": 1807,
+          "active_pairs": 3551,
+          "active_edit_cosine": 0.8766910433769226
+        },
+        "native": {
+          "native_increment_diff_rmse": 2.6316901868376488,
+          "native_delta_rmse": [
+            0.9513917762546139,
+            2.1954549527859295,
+            4.350306137208979,
+            7.050806411040472,
+            9.573678076880839,
+            11.732411281542173,
+            13.622771086003418,
+            15.378014037935994
+          ],
+          "native_contact_ap": 0.9745372306021393,
+          "native_new_contact_ap": 0.4593134572995314
+        }
+      },
+      "stabilized_unseen-calibrated": {
+        "contact": {
+          "ap": 0.9775474583474204,
+          "ber": 0.06435890741002562,
+          "cut": 0.41845300793647766,
+          "positives": 18648,
+          "count": 51200
+        },
+        "new_contact": {
+          "ap": 0.6406241055141702,
+          "ber": 0.07339626338565283,
+          "cut": 0.2750057876110077,
+          "positives": 1384,
+          "count": 26400
+        },
+        "lost_contact": {
+          "ap": 0.45218917639950207,
+          "ber": 0.12206741139086641,
+          "cut": 0.17113572359085083,
+          "positives": 668,
+          "count": 14560
+        },
+        "remote_contact_disagreement": {
+          "count": 41,
+          "layouts": 32,
+          "order": 0.9268292188644409,
+          "hard": 0.6097560524940491
+        },
+        "position_rmse": 13.408144963243203,
+        "delta_rmse": 15.659144389318227,
+        "pose_rmse_by_window": [
+          1.4612629645924307,
+          3.1601882379342827,
+          7.1140196010240615,
+          10.635237109729388,
+          13.408144963243203
+        ],
+        "delta_rmse_by_window": [
+          0.9117589629550912,
+          2.51532292810727,
+          7.248076346971464,
+          11.873284493622752,
+          15.659144389318227
+        ],
+        "orientation_rmse": 0.4459179727332851,
+        "largest_effect_rmse": 22.50208538295676,
+        "largest_effect_error_share": 0.10324748605489731,
+        "largest_effect_true_magnitude": 68.39350879192352,
+        "largest_effect_predicted_magnitude": 61.39943689107895,
+        "largest_effect_direction_cosine": 0.976408064365387,
+        "largest_effect_pairs": 96,
+        "contact_disagreement_delta_rmse": 16.214767161684467,
+        "contact_disagreement_action_pairs": 1570,
+        "reward_rmse": 0.07063648104667664,
+        "reward_delta_rmse": 0.08012598007917404,
+        "delta_crps": 4.417264983057976,
+        "reward_delta_crps": 0.07725932449102402,
+        "delta_crps_independent": 4.49256107211113,
+        "reward_delta_crps_independent": 0.07823736220598221,
+        "layouts": 320,
+        "comparison": {
+          "prediction_reference": "cophynet",
+          "delta_rmse_reduction_pct": 42.99448867701564,
+          "graph_reference": "ncii",
+          "ber_reduction_pct": 87.081799715044
+        },
+        "edit": {
+          "edit_rmse": 6.940147697304458,
+          "paired_edit_rmse": 7.935479264648492,
+          "active_edit_rmse": 11.874883072365261,
+          "active_edits": 1807,
+          "active_pairs": 3551,
+          "active_edit_cosine": 0.8572518825531006
+        },
+        "native": {
+          "native_increment_diff_rmse": 2.6533581209683104,
+          "native_delta_rmse": [
+            0.9117589629550912,
+            2.51532292810727,
+            4.694518465172145,
+            7.248076346971464,
+            9.695958482072934,
+            11.873284493622752,
+            13.826981978132139,
+            15.659144389318227
+          ],
+          "native_contact_ap": 0.9756730108518519,
+          "native_new_contact_ap": 0.47773421985550424
+        }
+      },
+      "cophynet": {
+        "position_rmse": 31.132374357158216,
+        "delta_rmse": 27.469527113959124,
+        "pose_rmse_by_window": [
+          4.336085233770545,
+          8.381998546338146,
+          16.243768927873926,
+          23.950998283092495,
+          31.132374357158216
+        ],
+        "delta_rmse_by_window": [
+          0.8446196885732872,
+          2.7577923122930463,
+          9.591907327268869,
+          18.688799463059866,
+          27.469527113959124
+        ],
+        "largest_effect_rmse": 69.18322893896966,
+        "largest_effect_error_share": 0.31715336441993713,
+        "largest_effect_true_magnitude": 68.39350879192352,
+        "largest_effect_predicted_magnitude": 0.9773313999176025,
+        "largest_effect_direction_cosine": -0.1072278544306755,
+        "largest_effect_pairs": 96,
+        "contact_disagreement_delta_rmse": 29.828871836786938,
+        "contact_disagreement_action_pairs": 1570,
+        "delta_crps": 8.868720680475235,
+        "layouts": 320
+      },
+      "pets": {
+        "position_rmse": 30.8312593051959,
+        "delta_rmse": 28.062583069635902,
+        "pose_rmse_by_window": [
+          4.41171117731785,
+          8.250747115698772,
+          16.02826803388642,
+          23.612685349851674,
+          30.8312593051959
+        ],
+        "delta_rmse_by_window": [
+          2.279796432389409,
+          3.922653699795273,
+          10.48839678691827,
+          19.396701832459712,
+          28.062583069635902
+        ],
+        "orientation_rmse": 0.47707801826992347,
+        "largest_effect_rmse": 70.12290436117384,
+        "largest_effect_error_share": 0.3122011721134186,
+        "largest_effect_true_magnitude": 68.39350879192352,
+        "largest_effect_predicted_magnitude": 7.145715951919556,
+        "largest_effect_direction_cosine": -0.0521540641784668,
+        "largest_effect_pairs": 96,
+        "contact_disagreement_delta_rmse": 30.355619051449143,
+        "contact_disagreement_action_pairs": 1570,
+        "reward_rmse": 0.08378900587558746,
+        "reward_delta_rmse": 0.09117560088634491,
+        "delta_crps": 7.5411272048950195,
+        "reward_delta_crps": 0.07186205685138702,
+        "layouts": 320
+      },
+      "ncii": {
+        "contact": {
+          "ap": 0.3170710105283482,
+          "ber": 0.49820335643019353,
+          "cut": 0.02089373953640461,
+          "positives": 18648,
+          "count": 51200
+        },
+        "new_contact": {
+          "ap": 0.05622047727051307,
+          "ber": 0.4753754129149252,
+          "cut": 0.03229815140366554,
+          "positives": 1384,
+          "count": 26400
+        },
+        "lost_contact": {
+          "ap": 0.03359764318789352,
+          "ber": 0.484831230139778,
+          "cut": 0.9925287961959839,
+          "positives": 668,
+          "count": 14560
+        },
+        "remote_contact_disagreement": {
+          "count": 41,
+          "layouts": 32,
+          "order": 0.4390243887901306,
+          "hard": 0.0
+        },
+        "layouts": 320
+      }
+    }
+  },
+  "pusht": {
+    "test": {
+      "shared-calibrated": {
+        "contact": {
+          "ap": 0.6011312220079776,
+          "ber": 0.1660984257475816,
+          "cut": 0.2158343642950058,
+          "positives": 7960,
+          "count": 64000
+        },
+        "new_contact": {
+          "ap": 0.5054339964309197,
+          "ber": 0.15635735189110994,
+          "cut": 0.23226234316825867,
+          "positives": 2562,
+          "count": 44762
+        },
+        "lost_contact": {
+          "ap": 0.5031219036141232,
+          "ber": 0.34803946309308853,
+          "cut": 0.5452702045440674,
+          "positives": 2138,
+          "count": 6438
+        },
+        "remote_contact_disagreement": {
+          "count": 1108,
+          "layouts": 219,
+          "order": 0.8298736214637756,
+          "hard": 0.4395306706428528
+        },
+        "position_rmse": 87.47435943399505,
+        "delta_rmse": 99.158110823845,
+        "pose_rmse_by_window": [
+          10.431502823597102,
+          19.77596140850165,
+          44.624141380320324,
+          67.14092015056617,
+          87.47435943399505
+        ],
+        "delta_rmse_by_window": [
+          3.140786833709529,
+          11.674032724242805,
+          46.29158302880991,
+          73.98956651207214,
+          99.158110823845
+        ],
+        "orientation_rmse": 0.8067794569493304,
+        "largest_effect_rmse": 311.702427639899,
+        "largest_effect_error_share": 0.494076132774353,
+        "largest_effect_true_magnitude": 336.48929595947266,
+        "largest_effect_predicted_magnitude": 87.19207644462585,
+        "largest_effect_direction_cosine": 0.5099150538444519,
+        "largest_effect_pairs": 96,
+        "contact_disagreement_delta_rmse": 107.82754765416662,
+        "contact_disagreement_action_pairs": 1575,
+        "reward_rmse": 0.06726919859647751,
+        "reward_delta_rmse": 0.04078426957130432,
+        "delta_crps": 21.62821888923645,
+        "reward_delta_crps": 0.018133118748664856,
+        "delta_crps_independent": 22.416140139102936,
+        "reward_delta_crps_independent": 0.023527391254901886,
+        "layouts": 320,
+        "comparison": {
+          "prediction_reference": "cophynet",
+          "delta_rmse_reduction_pct": 8.178401846395268,
+          "graph_reference": "ncii",
+          "ber_reduction_pct": 52.30412405975107
+        }
+      },
+      "continued-calibrated": {
+        "contact": {
+          "ap": 0.6328755697778051,
+          "ber": 0.150440909041998,
+          "cut": 0.22066736221313477,
+          "positives": 7960,
+          "count": 64000
+        },
+        "new_contact": {
+          "ap": 0.564544712660537,
+          "ber": 0.1337699923415874,
+          "cut": 0.2444823533296585,
+          "positives": 2562,
+          "count": 44762
+        },
+        "lost_contact": {
+          "ap": 0.5242233632500496,
+          "ber": 0.3367098135619031,
+          "cut": 0.46680784225463867,
+          "positives": 2138,
+          "count": 6438
+        },
+        "remote_contact_disagreement": {
+          "count": 1108,
+          "layouts": 219,
+          "order": 0.8799638748168945,
+          "hard": 0.48736461997032166
+        },
+        "position_rmse": 84.87181450507963,
+        "delta_rmse": 98.15456965337121,
+        "pose_rmse_by_window": [
+          7.737203379493453,
+          15.97891706263852,
+          42.80852877165267,
+          66.13299978717528,
+          84.87181450507963
+        ],
+        "delta_rmse_by_window": [
+          2.856655602172666,
+          9.857827746805325,
+          46.525797299641134,
+          74.82509484073174,
+          98.15456965337121
+        ],
+        "orientation_rmse": 0.7880772397531575,
+        "largest_effect_rmse": 323.45536776959636,
+        "largest_effect_error_share": 0.5429723262786865,
+        "largest_effect_true_magnitude": 336.48929595947266,
+        "largest_effect_predicted_magnitude": 73.50502014160156,
+        "largest_effect_direction_cosine": 0.3683988153934479,
+        "largest_effect_pairs": 96,
+        "contact_disagreement_delta_rmse": 107.4759773648303,
+        "contact_disagreement_action_pairs": 1575,
+        "reward_rmse": 0.0698295384645462,
+        "reward_delta_rmse": 0.0406716912984848,
+        "delta_crps": 20.311760902404785,
+        "reward_delta_crps": 0.016431881114840508,
+        "delta_crps_independent": 20.700930058956146,
+        "reward_delta_crps_independent": 0.019097084179520607,
+        "layouts": 320,
+        "comparison": {
+          "prediction_reference": "cophynet",
+          "delta_rmse_reduction_pct": 9.107692988796545,
+          "graph_reference": "ncii",
+          "ber_reduction_pct": 56.80024719253015
+        }
+      },
+      "cumulative_unseen-calibrated": {
+        "contact": {
+          "ap": 0.2004355921859396,
+          "ber": 0.33421855889009644,
+          "cut": 0.2850853204727173,
+          "positives": 7960,
+          "count": 64000
+        },
+        "new_contact": {
+          "ap": 0.09869728645684377,
+          "ber": 0.3382446141380956,
+          "cut": 0.3335818648338318,
+          "positives": 2562,
+          "count": 44762
+        },
+        "lost_contact": {
+          "ap": 0.35179067430100736,
+          "ber": 0.4799821611155829,
+          "cut": 0.43434005975723267,
+          "positives": 2138,
+          "count": 6438
+        },
+        "remote_contact_disagreement": {
+          "count": 1108,
+          "layouts": 219,
+          "order": 0.2838447690010071,
+          "hard": 0.0009025270701386034
+        },
+        "position_rmse": 102.51018008409713,
+        "delta_rmse": 106.63116748498736,
+        "pose_rmse_by_window": [
+          22.460189475167258,
+          32.83610970458556,
+          56.14097148343491,
+          82.55290242620103,
+          102.51018008409713
+        ],
+        "delta_rmse_by_window": [
+          3.5626488521707076,
+          11.400566236310961,
+          50.755039199800436,
+          82.83754725710325,
+          106.63116748498736
+        ],
+        "orientation_rmse": 0.8551778080859489,
+        "largest_effect_rmse": 348.6554204198041,
+        "largest_effect_error_share": 0.5345576405525208,
+        "largest_effect_true_magnitude": 336.48929595947266,
+        "largest_effect_predicted_magnitude": 18.848346173763275,
+        "largest_effect_direction_cosine": -0.13804827630519867,
+        "largest_effect_pairs": 96,
+        "contact_disagreement_delta_rmse": 116.83558202222022,
+        "contact_disagreement_action_pairs": 1575,
+        "reward_rmse": 0.12171709537506104,
+        "reward_delta_rmse": 0.04930274561047554,
+        "delta_crps": 26.219776272773743,
+        "reward_delta_crps": 0.082771435379982,
+        "delta_crps_independent": 24.65631663799286,
+        "reward_delta_crps_independent": 0.1427321881055832,
+        "layouts": 320,
+        "comparison": {
+          "prediction_reference": "cophynet",
+          "delta_rmse_reduction_pct": 1.2582618798568923,
+          "graph_reference": "ncii",
+          "ber_reduction_pct": 4.027706162754397
+        }
+      },
+      "fix_only-calibrated": {
+        "contact": {
+          "ap": 0.6876606732649011,
+          "ber": 0.13751842725404323,
+          "cut": 0.24100010097026825,
+          "positives": 7960,
+          "count": 64000
+        },
+        "new_contact": {
+          "ap": 0.6263387055062745,
+          "ber": 0.10789284511877939,
+          "cut": 0.23604631423950195,
+          "positives": 2562,
+          "count": 44762
+        },
+        "lost_contact": {
+          "ap": 0.5722088468589263,
+          "ber": 0.3091241542845955,
+          "cut": 0.4833776354789734,
+          "positives": 2138,
+          "count": 6438
+        },
+        "remote_contact_disagreement": {
+          "count": 1108,
+          "layouts": 219,
+          "order": 0.9043321013450623,
+          "hard": 0.5740072131156921
+        },
+        "position_rmse": 76.20280102615368,
+        "delta_rmse": 91.52268061404283,
+        "pose_rmse_by_window": [
+          16.83541799394303,
+          27.672966953317957,
+          44.815499781250175,
+          60.639353852094416,
+          76.20280102615368
+        ],
+        "delta_rmse_by_window": [
+          4.470905915140284,
+          11.51067665685349,
+          44.150005457868055,
+          68.76132611699676,
+          91.52268061404283
+        ],
+        "orientation_rmse": 0.7768805959535289,
+        "largest_effect_rmse": 300.41075243443373,
+        "largest_effect_error_share": 0.5386956334114075,
+        "largest_effect_true_magnitude": 336.48929595947266,
+        "largest_effect_predicted_magnitude": 96.85311317443848,
+        "largest_effect_direction_cosine": 0.5467771291732788,
+        "largest_effect_pairs": 96,
+        "contact_disagreement_delta_rmse": 100.0001668928661,
+        "contact_disagreement_action_pairs": 1575,
+        "reward_rmse": 0.032431937754154205,
+        "reward_delta_rmse": 0.030269969254732132,
+        "delta_crps": 20.393237471580505,
+        "reward_delta_crps": 0.06501224637031555,
+        "delta_crps_independent": 19.942571222782135,
+        "reward_delta_crps_independent": 0.06604992598295212,
+        "layouts": 320,
+        "comparison": {
+          "prediction_reference": "cophynet",
+          "delta_rmse_reduction_pct": 15.248901663599867,
+          "graph_reference": "ncii",
+          "ber_reduction_pct": 60.51099330842096
+        }
+      },
+      "inertial_hop2-calibrated": {
+        "contact": {
+          "ap": 0.7220560654933855,
+          "ber": 0.11467464015294172,
+          "cut": 0.18610221147537231,
+          "positives": 7960,
+          "count": 64000
+        },
+        "new_contact": {
+          "ap": 0.6401488484172112,
+          "ber": 0.10119306599183843,
+          "cut": 0.1804947555065155,
+          "positives": 2562,
+          "count": 44762
+        },
+        "lost_contact": {
+          "ap": 0.6177596926604849,
+          "ber": 0.3010966562969086,
+          "cut": 0.548253059387207,
+          "positives": 2138,
+          "count": 6438
+        },
+        "remote_contact_disagreement": {
+          "count": 1108,
+          "layouts": 219,
+          "order": 0.910649836063385,
+          "hard": 0.5640794038772583
+        },
+        "position_rmse": 70.48290795584016,
+        "delta_rmse": 90.86885201122892,
+        "pose_rmse_by_window": [
+          8.162875716633957,
+          14.786496926804077,
+          35.40409884268803,
+          53.70275539152245,
+          70.48290795584016
+        ],
+        "delta_rmse_by_window": [
+          3.476962779072095,
+          10.620989708848596,
+          42.58529882629183,
+          67.57131773780586,
+          90.86885201122892
+        ],
+        "orientation_rmse": 0.8049891748944423,
+        "largest_effect_rmse": 288.7110372570775,
+        "largest_effect_error_share": 0.5047388076782227,
+        "largest_effect_true_magnitude": 336.48929595947266,
+        "largest_effect_predicted_magnitude": 136.43893003463745,
+        "largest_effect_direction_cosine": 0.5348135828971863,
+        "largest_effect_pairs": 96,
+        "contact_disagreement_delta_rmse": 99.24199290129994,
+        "contact_disagreement_action_pairs": 1575,
+        "reward_rmse": 0.03386097028851509,
+        "reward_delta_rmse": 0.03040441684424877,
+        "delta_crps": 19.677162170410156,
+        "reward_delta_crps": 0.05368027836084366,
+        "delta_crps_independent": 18.947219848632812,
+        "reward_delta_crps_independent": 0.054805219173431396,
+        "layouts": 320,
+        "comparison": {
+          "prediction_reference": "cophynet",
+          "delta_rmse_reduction_pct": 15.854354780143865,
+          "graph_reference": "ncii",
+          "ber_reduction_pct": 67.07068483274271
+        }
+      },
+      "inertial_hop3-calibrated": {
+        "contact": {
+          "ap": 0.7124479164499008,
+          "ber": 0.11922307827502968,
+          "cut": 0.2037135511636734,
+          "positives": 7960,
+          "count": 64000
+        },
+        "new_contact": {
+          "ap": 0.6355567733551293,
+          "ber": 0.1089175740220725,
+          "cut": 0.20424482226371765,
+          "positives": 2562,
+          "count": 44762
+        },
+        "lost_contact": {
+          "ap": 0.6126676714595569,
+          "ber": 0.28989492461983596,
+          "cut": 0.4774021506309509,
+          "positives": 2138,
+          "count": 6438
+        },
+        "remote_contact_disagreement": {
+          "count": 1108,
+          "layouts": 219,
+          "order": 0.917870044708252,
+          "hard": 0.5848375558853149
+        },
+        "position_rmse": 72.85216384925863,
+        "delta_rmse": 92.15983929505013,
+        "pose_rmse_by_window": [
+          7.861905343325219,
+          14.910926147363876,
+          37.96631244009107,
+          56.683430774836395,
+          72.85216384925863
+        ],
+        "delta_rmse_by_window": [
+          2.8991615897611047,
+          9.88923990877367,
+          43.330206811734016,
+          69.47857651085741,
+          92.15983929505013
+        ],
+        "orientation_rmse": 0.8184856599589706,
+        "largest_effect_rmse": 298.7143146478131,
+        "largest_effect_error_share": 0.5252894163131714,
+        "largest_effect_true_magnitude": 336.48929595947266,
+        "largest_effect_predicted_magnitude": 127.20489501953125,
+        "largest_effect_direction_cosine": 0.5068348050117493,
+        "largest_effect_pairs": 96,
+        "contact_disagreement_delta_rmse": 100.70795750472227,
+        "contact_disagreement_action_pairs": 1575,
+        "reward_rmse": 0.034933481365442276,
+        "reward_delta_rmse": 0.030123738572001457,
+        "delta_crps": 19.965067505836487,
+        "reward_delta_crps": 0.05839267000555992,
+        "delta_crps_independent": 19.322268664836884,
+        "reward_delta_crps_independent": 0.059165846556425095,
+        "layouts": 320,
+        "comparison": {
+          "prediction_reference": "cophynet",
+          "delta_rmse_reduction_pct": 14.658885094289998,
+          "graph_reference": "ncii",
+          "ber_reduction_pct": 65.7645813015588
+        }
+      },
+      "stabilized_unseen-calibrated": {
+        "contact": {
+          "ap": 0.12330025556809063,
+          "ber": 0.4858867858206091,
+          "cut": 0.9991326928138733,
+          "positives": 7960,
+          "count": 64000
+        },
+        "new_contact": {
+          "ap": 0.06469842597273771,
+          "ber": 0.4615241720960002,
+          "cut": 0.9990077614784241,
+          "positives": 2562,
+          "count": 44762
+        },
+        "lost_contact": {
+          "ap": 0.32010092526081196,
+          "ber": 0.4955135205691039,
+          "cut": 0.5865120887756348,
+          "positives": 2138,
+          "count": 6438
+        },
+        "remote_contact_disagreement": {
+          "count": 1108,
+          "layouts": 219,
+          "order": 0.3641696870326996,
+          "hard": 0.0
+        },
+        "position_rmse": 102.9372905550727,
+        "delta_rmse": 108.59052804242569,
+        "pose_rmse_by_window": [
+          10.233186951323171,
+          20.81734799004885,
+          53.781204037422256,
+          83.119026629143,
+          102.9372905550727
+        ],
+        "delta_rmse_by_window": [
+          2.9831120912391764,
+          10.87467294439617,
+          52.703936233859174,
+          85.78934817140221,
+          108.59052804242569
+        ],
+        "orientation_rmse": 0.9343594718842088,
+        "largest_effect_rmse": 348.1564196339752,
+        "largest_effect_error_share": 0.5139666199684143,
+        "largest_effect_true_magnitude": 336.48929595947266,
+        "largest_effect_predicted_magnitude": 8.059865236282349,
+        "largest_effect_direction_cosine": -0.0773911401629448,
+        "largest_effect_pairs": 96,
+        "contact_disagreement_delta_rmse": 119.17020336762778,
+        "contact_disagreement_action_pairs": 1575,
+        "reward_rmse": 0.1349915862083435,
+        "reward_delta_rmse": 0.0498194620013237,
+        "delta_crps": 28.593283891677856,
+        "reward_delta_crps": 0.06323688477277756,
+        "delta_crps_independent": 26.575440168380737,
+        "reward_delta_crps_independent": 0.0635259747505188,
+        "layouts": 320,
+        "comparison": {
+          "prediction_reference": "cophynet",
+          "delta_rmse_reduction_pct": -0.5561294618936508,
+          "graph_reference": "ncii",
+          "ber_reduction_pct": -39.5244762447335
+        }
+      },
+      "cophynet": {
+        "position_rmse": 94.7082564765785,
+        "delta_rmse": 107.98996403653018,
+        "pose_rmse_by_window": [
+          10.358909033311432,
+          21.213879073940923,
+          50.867019992857806,
+          76.65947980643037,
+          94.7082564765785
+        ],
+        "delta_rmse_by_window": [
+          3.87123192036322,
+          16.452418941625048,
+          52.68737111013628,
+          83.52551393690476,
+          107.98996403653018
+        ],
+        "largest_effect_rmse": 330.83220711491555,
+        "largest_effect_error_share": 0.4692656397819519,
+        "largest_effect_true_magnitude": 336.48929595947266,
+        "largest_effect_predicted_magnitude": 63.09513449668884,
+        "largest_effect_direction_cosine": 0.2525953948497772,
+        "largest_effect_pairs": 96,
+        "contact_disagreement_delta_rmse": 115.7616812659432,
+        "contact_disagreement_action_pairs": 1575,
+        "delta_crps": 32.45512843132019,
+        "layouts": 320
+      },
+      "pets": {
+        "position_rmse": 109.70744155500094,
+        "delta_rmse": 112.1230166971104,
+        "pose_rmse_by_window": [
+          12.43019094053031,
+          23.742042670352664,
+          58.259711184618965,
+          89.12871057990708,
+          109.70744155500094
+        ],
+        "delta_rmse_by_window": [
+          6.017866189345936,
+          13.490626694920168,
+          55.5541576434797,
+          88.8805370993485,
+          112.1230166971104
+        ],
+        "orientation_rmse": 0.8589111116468447,
+        "largest_effect_rmse": 347.4371264545418,
+        "largest_effect_error_share": 0.4801013171672821,
+        "largest_effect_true_magnitude": 336.48929595947266,
+        "largest_effect_predicted_magnitude": 18.162035942077637,
+        "largest_effect_direction_cosine": 0.005817267578095198,
+        "largest_effect_pairs": 96,
+        "contact_disagreement_delta_rmse": 122.64703606664378,
+        "contact_disagreement_action_pairs": 1575,
+        "reward_rmse": 0.07875125110149384,
+        "reward_delta_rmse": 0.0426785945892334,
+        "delta_crps": 26.373499631881714,
+        "reward_delta_crps": 0.039977844804525375,
+        "layouts": 320
+      },
+      "ncii": {
+        "contact": {
+          "ap": 0.2419819133777038,
+          "ber": 0.3482448376787578,
+          "cut": 4.7066325947753285e-08,
+          "positives": 7960,
+          "count": 64000
+        },
+        "new_contact": {
+          "ap": 0.12324442711686012,
+          "ber": 0.36986256479128055,
+          "cut": 4.01341111455622e-07,
+          "positives": 2562,
+          "count": 44762
+        },
+        "lost_contact": {
+          "ap": 0.3506891588854636,
+          "ber": 0.47773228620532127,
+          "cut": 0.9999961853027344,
+          "positives": 2138,
+          "count": 6438
+        },
+        "remote_contact_disagreement": {
+          "count": 1108,
+          "layouts": 219,
+          "order": 0.7612816095352173,
+          "hard": 0.0
+        },
+        "layouts": 320
+      }
+    },
+    "cumulativetransfer": {
+      "shared-calibrated": {
+        "contact": {
+          "ap": 0.5223321864957876,
+          "ber": 0.18841146030620481,
+          "cut": 0.2158343642950058,
+          "positives": 6940,
+          "count": 64000
+        },
+        "new_contact": {
+          "ap": 0.4560203999068218,
+          "ber": 0.18863518093366705,
+          "cut": 0.23226234316825867,
+          "positives": 2972,
+          "count": 45636
+        },
+        "lost_contact": {
+          "ap": 0.5954084122610012,
+          "ber": 0.3838275873637595,
+          "cut": 0.5452702045440674,
+          "positives": 2452,
+          "count": 5564
+        },
+        "remote_contact_disagreement": {
+          "count": 1229,
+          "layouts": 213,
+          "order": 0.8116354942321777,
+          "hard": 0.42799022793769836
+        },
+        "position_rmse": 102.99509131206742,
+        "delta_rmse": 111.7940848780093,
+        "pose_rmse_by_window": [
+          15.574761927776686,
+          28.49026166025833,
+          55.484995007844304,
+          83.17286339558983,
+          102.99509131206742
+        ],
+        "delta_rmse_by_window": [
+          2.996612704379411,
+          11.8350461271676,
+          46.489537377163465,
+          86.51926964910548,
+          111.7940848780093
+        ],
+        "orientation_rmse": 0.9836854487450518,
+        "largest_effect_rmse": 327.87592562487737,
+        "largest_effect_error_share": 0.43008214235305786,
+        "largest_effect_true_magnitude": 362.2035264968872,
+        "largest_effect_predicted_magnitude": 66.44015908241272,
+        "largest_effect_direction_cosine": 0.4464287757873535,
+        "largest_effect_pairs": 96,
+        "contact_disagreement_delta_rmse": 126.40859877546151,
+        "contact_disagreement_action_pairs": 1447,
+        "reward_rmse": 0.054286181926727295,
+        "reward_delta_rmse": 0.03542709723114967,
+        "delta_crps": 24.56468641757965,
+        "reward_delta_crps": 0.016493791714310646,
+        "delta_crps_independent": 25.53809881210327,
+        "reward_delta_crps_independent": 0.022258585318922997,
+        "layouts": 320,
+        "comparison": {
+          "prediction_reference": "cophynet",
+          "delta_rmse_reduction_pct": 10.0555277064161,
+          "graph_reference": "ncii",
+          "ber_reduction_pct": 52.99277946155152
+        },
+        "edit": {
+          "edit_rmse": 64.65109275136277,
+          "paired_edit_rmse": 77.60150614707328,
+          "active_edit_rmse": 140.1575882421457,
+          "active_edits": 1349,
+          "active_pairs": 2957,
+          "active_edit_cosine": 0.3654155135154724
+        }
+      },
+      "continued-calibrated": {
+        "contact": {
+          "ap": 0.5663976399564296,
+          "ber": 0.15953998571704187,
+          "cut": 0.22066736221313477,
+          "positives": 6940,
+          "count": 64000
+        },
+        "new_contact": {
+          "ap": 0.5128490091837675,
+          "ber": 0.15837667596485883,
+          "cut": 0.2444823533296585,
+          "positives": 2972,
+          "count": 45636
+        },
+        "lost_contact": {
+          "ap": 0.6286059219400271,
+          "ber": 0.35762999199017015,
+          "cut": 0.46680784225463867,
+          "positives": 2452,
+          "count": 5564
+        },
+        "remote_contact_disagreement": {
+          "count": 1229,
+          "layouts": 213,
+          "order": 0.8885272741317749,
+          "hard": 0.45890969038009644
+        },
+        "position_rmse": 98.80090874010772,
+        "delta_rmse": 108.88283213705358,
+        "pose_rmse_by_window": [
+          13.298037381809328,
+          25.71242711989219,
+          51.886342084109494,
+          79.22655943650575,
+          98.80090874010772
+        ],
+        "delta_rmse_by_window": [
+          2.776001409177754,
+          9.830948267215108,
+          44.457486614123816,
+          84.58390335930733,
+          108.88283213705358
+        ],
+        "orientation_rmse": 0.9867760877946881,
+        "largest_effect_rmse": 330.62069693579315,
+        "largest_effect_error_share": 0.46101099252700806,
+        "largest_effect_true_magnitude": 362.2035264968872,
+        "largest_effect_predicted_magnitude": 74.17699694633484,
+        "largest_effect_direction_cosine": 0.44636282324790955,
+        "largest_effect_pairs": 96,
+        "contact_disagreement_delta_rmse": 123.85394191267038,
+        "contact_disagreement_action_pairs": 1447,
+        "reward_rmse": 0.05522603914141655,
+        "reward_delta_rmse": 0.03578616678714752,
+        "delta_crps": 23.17626178264618,
+        "reward_delta_crps": 0.014879745431244373,
+        "delta_crps_independent": 23.38092029094696,
+        "reward_delta_crps_independent": 0.017568537965416908,
+        "layouts": 320,
+        "comparison": {
+          "prediction_reference": "cophynet",
+          "delta_rmse_reduction_pct": 12.397790195386305,
+          "graph_reference": "ncii",
+          "ber_reduction_pct": 60.19599189394462
+        },
+        "edit": {
+          "edit_rmse": 64.36264160194015,
+          "paired_edit_rmse": 77.48278826661816,
+          "active_edit_rmse": 139.78069738035342,
+          "active_edits": 1349,
+          "active_pairs": 2957,
+          "active_edit_cosine": 0.41168412566185
+        },
+        "native": {
+          "native_increment_diff_rmse": 26.10165727467416,
+          "native_delta_rmse": [
+            2.776001409177754,
+            9.830948267215108,
+            23.637608758665092,
+            44.457486614123816,
+            64.86614943460168,
+            84.58390335930733,
+            98.28073947209879,
+            108.88283213705358
+          ],
+          "native_contact_ap": 0.4607676772295137,
+          "native_new_contact_ap": 0.3459018777825819
+        }
+      },
+      "cumulative_unseen-calibrated": {
+        "contact": {
+          "ap": 0.2073292554450645,
+          "ber": 0.31872956420815945,
+          "cut": 0.2850853204727173,
+          "positives": 6940,
+          "count": 64000
+        },
+        "new_contact": {
+          "ap": 0.1174631880074273,
+          "ber": 0.32374655481916476,
+          "cut": 0.3335818648338318,
+          "positives": 2972,
+          "count": 45636
+        },
+        "lost_contact": {
+          "ap": 0.4787332301350564,
+          "ber": 0.4772752529806213,
+          "cut": 0.43434005975723267,
+          "positives": 2452,
+          "count": 5564
+        },
+        "remote_contact_disagreement": {
+          "count": 1229,
+          "layouts": 213,
+          "order": 0.29861676692962646,
+          "hard": 0.0
+        },
+        "position_rmse": 121.40520466043945,
+        "delta_rmse": 124.16247646677587,
+        "pose_rmse_by_window": [
+          25.48386692684363,
+          39.309328354585624,
+          65.82987911079407,
+          99.18184269790436,
+          121.40520466043945
+        ],
+        "delta_rmse_by_window": [
+          3.451087780625744,
+          11.03301154031265,
+          50.84070979467739,
+          97.5104196800642,
+          124.16247646677587
+        ],
+        "orientation_rmse": 1.0605370958414815,
+        "largest_effect_rmse": 374.15280328455174,
+        "largest_effect_error_share": 0.45403286814689636,
+        "largest_effect_true_magnitude": 362.2035264968872,
+        "largest_effect_predicted_magnitude": 22.499482333660126,
+        "largest_effect_direction_cosine": -0.17423616349697113,
+        "largest_effect_pairs": 96,
+        "contact_disagreement_delta_rmse": 141.5886729720826,
+        "contact_disagreement_action_pairs": 1447,
+        "reward_rmse": 0.1040126383304596,
+        "reward_delta_rmse": 0.04674175754189491,
+        "delta_crps": 30.583298206329346,
+        "reward_delta_crps": 0.07881924510002136,
+        "delta_crps_independent": 28.94209623336792,
+        "reward_delta_crps_independent": 0.14047636091709137,
+        "layouts": 320,
+        "comparison": {
+          "prediction_reference": "cophynet",
+          "delta_rmse_reduction_pct": 0.10447836614065897,
+          "graph_reference": "ncii",
+          "ber_reduction_pct": 20.479407714865438
+        },
+        "edit": {
+          "edit_rmse": 67.65088260494979,
+          "paired_edit_rmse": 80.54721303104839,
+          "active_edit_rmse": 146.87086870592265,
+          "active_edits": 1349,
+          "active_pairs": 2957,
+          "active_edit_cosine": 0.30152055621147156
+        },
+        "native": {
+          "native_increment_diff_rmse": 27.54481370541263,
+          "native_delta_rmse": [
+            3.451087780625744,
+            11.03301154031265,
+            26.589501905646625,
+            50.84070979467739,
+            75.19614082970108,
+            97.5104196800642,
+            112.88573574579468,
+            124.16247646677587
+          ],
+          "native_contact_ap": 0.17351154574004224,
+          "native_new_contact_ap": 0.07352589268254017
+        }
+      },
+      "fix_only-calibrated": {
+        "contact": {
+          "ap": 0.6146562101333438,
+          "ber": 0.16348401147081135,
+          "cut": 0.24100010097026825,
+          "positives": 6940,
+          "count": 64000
+        },
+        "new_contact": {
+          "ap": 0.5977232883743542,
+          "ber": 0.13750148583478933,
+          "cut": 0.23604631423950195,
+          "positives": 2972,
+          "count": 45636
+        },
+        "lost_contact": {
+          "ap": 0.6158023598982468,
+          "ber": 0.3471737042737265,
+          "cut": 0.4833776354789734,
+          "positives": 2452,
+          "count": 5564
+        },
+        "remote_contact_disagreement": {
+          "count": 1229,
+          "layouts": 213,
+          "order": 0.9137510061264038,
+          "hard": 0.52969890832901
+        },
+        "position_rmse": 91.39426715263383,
+        "delta_rmse": 105.609274602132,
+        "pose_rmse_by_window": [
+          20.919919782276423,
+          33.87475585849522,
+          53.33628153351256,
+          75.5850818989749,
+          91.39426715263383
+        ],
+        "delta_rmse_by_window": [
+          4.5957818577803335,
+          11.952855708635498,
+          44.56922183762651,
+          82.21984980857826,
+          105.609274602132
+        ],
+        "orientation_rmse": 0.9678680958728859,
+        "largest_effect_rmse": 321.96348881303624,
+        "largest_effect_error_share": 0.4647068977355957,
+        "largest_effect_true_magnitude": 362.2035264968872,
+        "largest_effect_predicted_magnitude": 77.53677368164062,
+        "largest_effect_direction_cosine": 0.5313813090324402,
+        "largest_effect_pairs": 96,
+        "contact_disagreement_delta_rmse": 119.92949918188324,
+        "contact_disagreement_action_pairs": 1447,
+        "reward_rmse": 0.028645426034927368,
+        "reward_delta_rmse": 0.028586864471435547,
+        "delta_crps": 23.973099887371063,
+        "reward_delta_crps": 0.06462512165307999,
+        "delta_crps_independent": 23.107419908046722,
+        "reward_delta_crps_independent": 0.06570368260145187,
+        "layouts": 320,
+        "comparison": {
+          "prediction_reference": "cophynet",
+          "delta_rmse_reduction_pct": 15.031546760615132,
+          "graph_reference": "ncii",
+          "ber_reduction_pct": 59.21198758701205
+        },
+        "edit": {
+          "edit_rmse": 60.12246062295263,
+          "paired_edit_rmse": 73.13787738192191,
+          "active_edit_rmse": 129.1125548237878,
+          "active_edits": 1349,
+          "active_pairs": 2957,
+          "active_edit_cosine": 0.5833534598350525
+        },
+        "native": {
+          "native_increment_diff_rmse": 25.20075746591838,
+          "native_delta_rmse": [
+            4.5957818577803335,
+            11.952855708635498,
+            25.286233955328047,
+            44.56922183762651,
+            62.53696540590299,
+            82.21984980857826,
+            95.65768350289142,
+            105.609274602132
+          ],
+          "native_contact_ap": 0.5240267313386864,
+          "native_new_contact_ap": 0.43203862019906397
+        }
+      },
+      "inertial_hop2-calibrated": {
+        "contact": {
+          "ap": 0.6490044345090275,
+          "ber": 0.13734124855680507,
+          "cut": 0.18610221147537231,
+          "positives": 6940,
+          "count": 64000
+        },
+        "new_contact": {
+          "ap": 0.6035982426531432,
+          "ber": 0.13646458766728103,
+          "cut": 0.1804947555065155,
+          "positives": 2972,
+          "count": 45636
+        },
+        "lost_contact": {
+          "ap": 0.6400325821983504,
+          "ber": 0.33919847184188345,
+          "cut": 0.548253059387207,
+          "positives": 2452,
+          "count": 5564
+        },
+        "remote_contact_disagreement": {
+          "count": 1229,
+          "layouts": 213,
+          "order": 0.9015459418296814,
+          "hard": 0.5541090369224548
+        },
+        "position_rmse": 90.62604245868809,
+        "delta_rmse": 106.32631702553684,
+        "pose_rmse_by_window": [
+          13.570426850394393,
+          24.349707661622592,
+          47.834125377940495,
+          72.4583998078942,
+          90.62604245868809
+        ],
+        "delta_rmse_by_window": [
+          3.170708443553901,
+          10.249566113342777,
+          43.65020166385467,
+          80.76768919937332,
+          106.32631702553684
+        ],
+        "orientation_rmse": 0.9861233035902397,
+        "largest_effect_rmse": 315.06037300056306,
+        "largest_effect_error_share": 0.43901166319847107,
+        "largest_effect_true_magnitude": 362.2035264968872,
+        "largest_effect_predicted_magnitude": 116.78069829940796,
+        "largest_effect_direction_cosine": 0.5467782616615295,
+        "largest_effect_pairs": 96,
+        "contact_disagreement_delta_rmse": 120.48395004068892,
+        "contact_disagreement_action_pairs": 1447,
+        "reward_rmse": 0.027965936809778214,
+        "reward_delta_rmse": 0.02718871645629406,
+        "delta_crps": 23.17585200071335,
+        "reward_delta_crps": 0.052195560187101364,
+        "delta_crps_independent": 22.002843022346497,
+        "reward_delta_crps_independent": 0.05336059257388115,
+        "layouts": 320,
+        "comparison": {
+          "prediction_reference": "cophynet",
+          "delta_rmse_reduction_pct": 14.45464680695805,
+          "graph_reference": "ncii",
+          "ber_reduction_pct": 65.73440729431577
+        },
+        "edit": {
+          "edit_rmse": 57.97046525170665,
+          "paired_edit_rmse": 71.0647733554542,
+          "active_edit_rmse": 124.19310970912115,
+          "active_edits": 1349,
+          "active_pairs": 2957,
+          "active_edit_cosine": 0.62761390209198
+        },
+        "native": {
+          "native_increment_diff_rmse": 24.910411649761272,
+          "native_delta_rmse": [
+            3.170708443553901,
+            10.249566113342777,
+            24.082596363079567,
+            43.65020166385467,
+            61.50836093793263,
+            80.76768919937332,
+            95.41281127359159,
+            106.32631702553684
+          ],
+          "native_contact_ap": 0.5511434659948266,
+          "native_new_contact_ap": 0.42794117013952226
+        }
+      },
+      "inertial_hop3-calibrated": {
+        "contact": {
+          "ap": 0.6416450439543625,
+          "ber": 0.14065496555019186,
+          "cut": 0.2037135511636734,
+          "positives": 6940,
+          "count": 64000
+        },
+        "new_contact": {
+          "ap": 0.6015149630815585,
+          "ber": 0.13022553268596784,
+          "cut": 0.20424482226371765,
+          "positives": 2972,
+          "count": 45636
+        },
+        "lost_contact": {
+          "ap": 0.6288408744023389,
+          "ber": 0.335505458007104,
+          "cut": 0.4774021506309509,
+          "positives": 2452,
+          "count": 5564
+        },
+        "remote_contact_disagreement": {
+          "count": 1229,
+          "layouts": 213,
+          "order": 0.9072416424751282,
+          "hard": 0.5720097422599792
+        },
+        "position_rmse": 88.12203016755481,
+        "delta_rmse": 105.38524571540293,
+        "pose_rmse_by_window": [
+          13.381048017159603,
+          23.31736132224599,
+          46.00010103235345,
+          70.44151549583879,
+          88.12203016755481
+        ],
+        "delta_rmse_by_window": [
+          2.830822045227623,
+          9.719885043041595,
+          43.79009044846077,
+          80.31912661277049,
+          105.38524571540293
+        ],
+        "orientation_rmse": 1.0067574352958908,
+        "largest_effect_rmse": 307.69671281082117,
+        "largest_effect_error_share": 0.4262418746948242,
+        "largest_effect_true_magnitude": 362.2035264968872,
+        "largest_effect_predicted_magnitude": 108.36087465286255,
+        "largest_effect_direction_cosine": 0.5397038459777832,
+        "largest_effect_pairs": 96,
+        "contact_disagreement_delta_rmse": 119.40534854998901,
+        "contact_disagreement_action_pairs": 1447,
+        "reward_rmse": 0.028704075142741203,
+        "reward_delta_rmse": 0.027342049404978752,
+        "delta_crps": 23.330290615558624,
+        "reward_delta_crps": 0.0572279617190361,
+        "delta_crps_independent": 22.57288545370102,
+        "reward_delta_crps_independent": 0.05803624913096428,
+        "layouts": 320,
+        "comparison": {
+          "prediction_reference": "cophynet",
+          "delta_rmse_reduction_pct": 15.211790286176917,
+          "graph_reference": "ncii",
+          "ber_reduction_pct": 64.907660209733
+        },
+        "edit": {
+          "edit_rmse": 59.05135185751812,
+          "paired_edit_rmse": 71.81534572105637,
+          "active_edit_rmse": 126.96180108574595,
+          "active_edits": 1349,
+          "active_pairs": 2957,
+          "active_edit_cosine": 0.6552149057388306
+        },
+        "native": {
+          "native_increment_diff_rmse": 24.99845842734557,
+          "native_delta_rmse": [
+            2.830822045227623,
+            9.719885043041595,
+            24.350523090912514,
+            43.79009044846077,
+            61.248350802425676,
+            80.31912661277049,
+            94.63493713750086,
+            105.38524571540293
+          ],
+          "native_contact_ap": 0.5417075052141519,
+          "native_new_contact_ap": 0.4270669823556964
+        }
+      },
+      "stabilized_unseen-calibrated": {
+        "contact": {
+          "ap": 0.13633957262283447,
+          "ber": 0.46222460608227756,
+          "cut": 0.9991326928138733,
+          "positives": 6940,
+          "count": 64000
+        },
+        "new_contact": {
+          "ap": 0.0975172294261007,
+          "ber": 0.43251067088059086,
+          "cut": 0.9990077614784241,
+          "positives": 2972,
+          "count": 45636
+        },
+        "lost_contact": {
+          "ap": 0.42479830611092356,
+          "ber": 0.5005441232591201,
+          "cut": 0.5865120887756348,
+          "positives": 2452,
+          "count": 5564
+        },
+        "remote_contact_disagreement": {
+          "count": 1229,
+          "layouts": 213,
+          "order": 0.3588283061981201,
+          "hard": 0.0
+        },
+        "position_rmse": 121.81628842674577,
+        "delta_rmse": 125.41819711978587,
+        "pose_rmse_by_window": [
+          16.15305413525624,
+          30.432680984183907,
+          64.64887313465502,
+          100.06762244737864,
+          121.81628842674577
+        ],
+        "delta_rmse_by_window": [
+          2.8501876119534324,
+          10.406264137567762,
+          52.47223301426243,
+          99.6420503765325,
+          125.41819711978587
+        ],
+        "orientation_rmse": 1.3215022397955085,
+        "largest_effect_rmse": 366.44163306552053,
+        "largest_effect_error_share": 0.42683351039886475,
+        "largest_effect_true_magnitude": 362.2035264968872,
+        "largest_effect_predicted_magnitude": 5.466362461447716,
+        "largest_effect_direction_cosine": -0.23259706795215607,
+        "largest_effect_pairs": 96,
+        "contact_disagreement_delta_rmse": 143.4081366243036,
+        "contact_disagreement_action_pairs": 1447,
+        "reward_rmse": 0.14622968435287476,
+        "reward_delta_rmse": 0.046049490571022034,
+        "delta_crps": 32.6849490404129,
+        "reward_delta_crps": 0.06101574748754501,
+        "delta_crps_independent": 30.93818724155426,
+        "reward_delta_crps_independent": 0.06132729351520538,
+        "layouts": 320,
+        "comparison": {
+          "prediction_reference": "cophynet",
+          "delta_rmse_reduction_pct": -0.9058177654157173,
+          "graph_reference": "ncii",
+          "ber_reduction_pct": -15.321509429920521
+        },
+        "edit": {
+          "edit_rmse": 69.17704899741145,
+          "paired_edit_rmse": 81.19582057071943,
+          "active_edit_rmse": 149.48222282377975,
+          "active_edits": 1349,
+          "active_pairs": 2957,
+          "active_edit_cosine": 0.051849089562892914
+        },
+        "native": {
+          "native_increment_diff_rmse": 27.602757861817036,
+          "native_delta_rmse": [
+            2.8501876119534324,
+            10.406264137567762,
+            27.199883052542962,
+            52.47223301426243,
+            77.35946572671561,
+            99.6420503765325,
+            114.76035171557272,
+            125.41819711978587
+          ],
+          "native_contact_ap": 0.09712820762690838,
+          "native_new_contact_ap": 0.05390557799600147
+        }
+      },
+      "cophynet": {
+        "position_rmse": 106.40711107619826,
+        "delta_rmse": 124.29233506769268,
+        "pose_rmse_by_window": [
+          15.615227146397503,
+          27.643184107801982,
+          58.98405668665403,
+          88.7964726052471,
+          106.40711107619826
+        ],
+        "delta_rmse_by_window": [
+          4.120263399069187,
+          18.03506865468771,
+          55.620544555190264,
+          98.90612814656204,
+          124.29233506769268
+        ],
+        "largest_effect_rmse": 352.0767181196373,
+        "largest_effect_error_share": 0.40119537711143494,
+        "largest_effect_true_magnitude": 362.2035264968872,
+        "largest_effect_predicted_magnitude": 53.50068211555481,
+        "largest_effect_direction_cosine": 0.18932966887950897,
+        "largest_effect_pairs": 96,
+        "contact_disagreement_delta_rmse": 138.53238249147395,
+        "contact_disagreement_action_pairs": 1447,
+        "delta_crps": 37.004077434539795,
+        "layouts": 320
+      },
+      "pets": {
+        "position_rmse": 126.91025230110307,
+        "delta_rmse": 128.2953525462637,
+        "pose_rmse_by_window": [
+          17.83281719401896,
+          32.22521576812872,
+          67.50292921774749,
+          104.20154114899609,
+          126.91025230110307
+        ],
+        "delta_rmse_by_window": [
+          6.282393135603254,
+          13.11963425809781,
+          54.6859659252258,
+          101.97426879987263,
+          128.2953525462637
+        ],
+        "orientation_rmse": 1.0529851667803067,
+        "largest_effect_rmse": 366.7492917917977,
+        "largest_effect_error_share": 0.40858903527259827,
+        "largest_effect_true_magnitude": 362.2035264968872,
+        "largest_effect_predicted_magnitude": 18.399818241596222,
+        "largest_effect_direction_cosine": -0.0737023577094078,
+        "largest_effect_pairs": 96,
+        "contact_disagreement_delta_rmse": 146.23986755223194,
+        "contact_disagreement_action_pairs": 1447,
+        "reward_rmse": 0.06384088844060898,
+        "reward_delta_rmse": 0.038765762001276016,
+        "delta_crps": 30.19302487373352,
+        "reward_delta_crps": 0.04012225568294525,
+        "layouts": 320
+      },
+      "ncii": {
+        "contact": {
+          "ap": 0.17570340228866727,
+          "ber": 0.4008138710351912,
+          "cut": 4.7066325947753285e-08,
+          "positives": 6940,
+          "count": 64000
+        },
+        "new_contact": {
+          "ap": 0.10819862031766073,
+          "ber": 0.4079277866626422,
+          "cut": 4.01341111455622e-07,
+          "positives": 2972,
+          "count": 45636
+        },
+        "lost_contact": {
+          "ap": 0.4484717536128662,
+          "ber": 0.49101960730865524,
+          "cut": 0.9999961853027344,
+          "positives": 2452,
+          "count": 5564
+        },
+        "remote_contact_disagreement": {
+          "count": 1229,
+          "layouts": 213,
+          "order": 0.800650954246521,
+          "hard": 0.0
+        },
+        "layouts": 320
+      }
+    }
+  }
+}

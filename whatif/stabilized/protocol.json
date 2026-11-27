@@ -1,0 +1,24 @@
+{
+  "stage": 31,
+  "name": "stabilized",
+  "seed": 271,
+  "test_split": "cumulativetransfer",
+  "variants": {
+    "fix_only": {"mode": "fix_only", "hops": 1, "width": 32, "feature": 96, "steps": 3600},
+    "inertial_hop2": {"mode": "inertial_multihop", "hops": 2, "width": 32, "feature": 96, "steps": 3600},
+    "inertial_hop3": {"mode": "inertial_multihop", "hops": 3, "width": 32, "feature": 96, "steps": 3600},
+    "stabilized_unseen": {"mode": "inertial_multihop", "hops": 2, "width": 32, "feature": 96, "steps": 3200}
+  },
+  "batch_size": 24,
+  "lr": 0.0012,
+  "eta_min": 0.00012,
+  "weight_decay": 0.005,
+  "ema_decay": 0.995,
+  "sparse_gate_threshold": 0.08,
+  "robust_beta": 4.5,
+  "calibration_steps": 600,
+  "rotated_layout_probability": 0.65,
+  "selection": "Lowest average normalized validation terminal XYZ action-difference RMSE (relative to Stage 30 continued-calibrated on original val layouts), one shared checkpoint across all domains.",
+  "primary": "Terminal 3D position difference vector RMSE over unordered candidate pairs and movable receivers on identical splits; improvement = 100*(baseline-model)/baseline vs lower of frozen CoPhyNet/PETS.",
+  "inputs": "Identical archived 9D object states, 7D actions, 3D roles, and 5-window factual histories from Stage 27/29/30; zero added inputs or task-specific rules."
+}
