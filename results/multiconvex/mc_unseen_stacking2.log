@@ -1,0 +1,36 @@
+/opt/anaconda3/lib/python3.13/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.5)
+  from scipy.sparse import csr_matrix, issparse
+mc_unseen_stacking2 domains=('cophy', 'ballscf', 'causalworld', 'pusht') scales={'cophy': 1.764620659004489, 'ballscf': 1.0056230180586807, 'causalworld': 0.5107926151542124, 'pusht': 1.1032370170920915} batch_sizes={'cophy': 10, 'ballscf': 13, 'causalworld': 20, 'pusht': 20}
+mc_unseen_stacking2 params=1,041,419
+/home/kailais/.local/lib/python3.13/site-packages/torch/nn/modules/rnn.py:1440: UserWarning: RNN module weights are not part of single contiguous chunk of memory. This means they need to be compacted at every call, possibly greatly increasing memory usage. To compact weights again call flatten_parameters(). (Triggered internally at /__w/pytorch/pytorch/aten/src/ATen/native/cudnn/RNN.cpp:1479.)
+  result = _VF.gru(
+mc_unseen_stacking2 {'step': 150, 'loss': 1.23, 'val': {'cophy': 1.212, 'ballscf': 0.7386, 'causalworld': 0.2797, 'pusht': 1.0654}, 'crit': 0.7283, 'ema': True, 'sec': 442.4}
+mc_unseen_stacking2 {'step': 300, 'loss': 1.185, 'val': {'cophy': 1.1225, 'ballscf': 0.648, 'causalworld': 0.2646, 'pusht': 1.0141}, 'crit': 0.6736, 'ema': True, 'sec': 883.2}
+mc_unseen_stacking2 {'step': 450, 'loss': 0.9, 'val': {'cophy': 1.0787, 'ballscf': 0.563, 'causalworld': 0.2543, 'pusht': 0.9936}, 'crit': 0.6357, 'ema': True, 'sec': 1324.1}
+mc_unseen_stacking2 {'step': 600, 'loss': 0.928, 'val': {'cophy': 1.0489, 'ballscf': 0.5166, 'causalworld': 0.2434, 'pusht': 0.9824}, 'crit': 0.6114, 'ema': True, 'sec': 1765.0}
+mc_unseen_stacking2 {'step': 750, 'loss': 0.917, 'val': {'cophy': 1.0247, 'ballscf': 0.4926, 'causalworld': 0.2384, 'pusht': 0.9712}, 'crit': 0.5969, 'ema': True, 'sec': 2207.7}
+mc_unseen_stacking2 {'step': 900, 'loss': 0.873, 'val': {'cophy': 1.0094, 'ballscf': 0.4858, 'causalworld': 0.2316, 'pusht': 0.9605}, 'crit': 0.5872, 'ema': True, 'sec': 2656.2}
+mc_unseen_stacking2 {'step': 1050, 'loss': 0.961, 'val': {'cophy': 1.0052, 'ballscf': 0.4748, 'causalworld': 0.2281, 'pusht': 0.9424}, 'crit': 0.5782, 'ema': True, 'sec': 3100.1}
+mc_unseen_stacking2 {'step': 1200, 'loss': 0.86, 'val': {'cophy': 1.0088, 'ballscf': 0.4661, 'causalworld': 0.23, 'pusht': 0.9293}, 'crit': 0.5747, 'ema': True, 'sec': 3542.9}
+mc_unseen_stacking2 {'step': 1350, 'loss': 0.865, 'val': {'cophy': 0.9998, 'ballscf': 0.4611, 'causalworld': 0.2283, 'pusht': 0.9303}, 'crit': 0.5714, 'ema': True, 'sec': 3984.1}
+mc_unseen_stacking2 {'step': 1500, 'loss': 0.714, 'val': {'cophy': 1.0061, 'ballscf': 0.4608, 'causalworld': 0.2246, 'pusht': 0.9223}, 'crit': 0.5687, 'ema': True, 'sec': 4426.4}
+mc_unseen_stacking2 {'step': 1650, 'loss': 1.175, 'val': {'cophy': 0.9966, 'ballscf': 0.4555, 'causalworld': 0.2206, 'pusht': 0.9188}, 'crit': 0.5632, 'ema': True, 'sec': 4869.1}
+mc_unseen_stacking2 {'step': 1800, 'loss': 0.834, 'val': {'cophy': 0.9942, 'ballscf': 0.4443, 'causalworld': 0.218, 'pusht': 0.9319}, 'crit': 0.5614, 'ema': True, 'sec': 5310.4}
+mc_unseen_stacking2 {'step': 1950, 'loss': 0.752, 'val': {'cophy': 0.9935, 'ballscf': 0.4368, 'causalworld': 0.2166, 'pusht': 0.9253}, 'crit': 0.5571, 'ema': True, 'sec': 5752.7}
+mc_unseen_stacking2 {'step': 2100, 'loss': 0.763, 'val': {'cophy': 1.0011, 'ballscf': 0.4354, 'causalworld': 0.215, 'pusht': 0.928}, 'crit': 0.5576, 'ema': True, 'sec': 6194.5}
+mc_unseen_stacking2 {'step': 2250, 'loss': 0.81, 'val': {'cophy': 0.9974, 'ballscf': 0.4339, 'causalworld': 0.2141, 'pusht': 0.9298}, 'crit': 0.5566, 'ema': True, 'sec': 6636.6}
+mc_unseen_stacking2 {'step': 2400, 'loss': 0.751, 'val': {'cophy': 0.9955, 'ballscf': 0.4262, 'causalworld': 0.2136, 'pusht': 0.9374}, 'crit': 0.5556, 'ema': False, 'sec': 7076.9}
+mc_unseen_stacking2 {'step': 2550, 'loss': 0.728, 'val': {'cophy': 0.9962, 'ballscf': 0.4264, 'causalworld': 0.2122, 'pusht': 0.9295}, 'crit': 0.5534, 'ema': True, 'sec': 7517.7}
+mc_unseen_stacking2 {'step': 2700, 'loss': 0.735, 'val': {'cophy': 0.988, 'ballscf': 0.4302, 'causalworld': 0.2112, 'pusht': 0.9252}, 'crit': 0.5519, 'ema': False, 'sec': 7958.8}
+mc_unseen_stacking2 {'step': 2850, 'loss': 0.677, 'val': {'cophy': 0.992, 'ballscf': 0.4249, 'causalworld': 0.2116, 'pusht': 0.93}, 'crit': 0.5523, 'ema': True, 'sec': 8399.8}
+mc_unseen_stacking2 {'step': 3000, 'loss': 0.748, 'val': {'cophy': 0.9886, 'ballscf': 0.4252, 'causalworld': 0.2105, 'pusht': 0.9323}, 'crit': 0.5518, 'ema': True, 'sec': 8840.5}
+/opt/anaconda3/lib/python3.13/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.5)
+  from scipy.sparse import csr_matrix, issparse
+mc_unseen_stacking2 cal {'step': 150, 'validation': {'cophy': -1.6112470626831055, 'ballscf': -3.789641857147217, 'causalworld': -5.687509536743164, 'pusht': -5.994327068328857}, 'value': -4.270681381225586}
+mc_unseen_stacking2 cal {'step': 300, 'validation': {'cophy': -2.1138644218444824, 'ballscf': -4.300699234008789, 'causalworld': -6.597358703613281, 'pusht': -7.105380058288574}, 'value': -5.029325604438782}
+mc_unseen_stacking2 cal {'step': 450, 'validation': {'cophy': -2.1462554931640625, 'ballscf': -4.370570182800293, 'causalworld': -6.75310754776001, 'pusht': -7.710909366607666}, 'value': -5.245210647583008}
+mc_unseen_stacking2 cal {'step': 600, 'validation': {'cophy': -2.2074389457702637, 'ballscf': -4.514136791229248, 'causalworld': -6.906027317047119, 'pusht': -7.870085716247559}, 'value': -5.374422192573547}
+mc_unseen_stacking2 cal {'step': 750, 'validation': {'cophy': -2.1076149940490723, 'ballscf': -4.485315799713135, 'causalworld': -6.693991661071777, 'pusht': -7.9046630859375}, 'value': -5.297896385192871}
+mc_unseen_stacking2 cal {'step': 900, 'validation': {'cophy': -2.230595350265503, 'ballscf': -4.594707489013672, 'causalworld': -7.041213512420654, 'pusht': -8.064123153686523}, 'value': -5.482659876346588}
+mc_unseen_stacking2 cal {'step': 1050, 'validation': {'cophy': -2.2336788177490234, 'ballscf': -4.685235977172852, 'causalworld': -6.998788833618164, 'pusht': -8.189584732055664}, 'value': -5.526822090148926}
+mc_unseen_stacking2 cal {'step': 1200, 'validation': {'cophy': -2.2532098293304443, 'ballscf': -4.777742862701416, 'causalworld': -7.176095485687256, 'pusht': -8.27170467376709}, 'value': -5.6196882128715515}

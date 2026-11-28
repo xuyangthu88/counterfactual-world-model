@@ -1,0 +1,402 @@
+{
+  "cophy": {
+    "test": {
+      "best_mc_baseline": "cophynet_mc",
+      "best_mc_baseline_delta_rmse": 1.253527527654858,
+      "mc_shared3_hop3-calibrated": {
+        "delta_rmse": 0.9593,
+        "reduction_pct": 23.48,
+        "contact_ap": 0.9335
+      },
+      "mc_shared5_hop3-calibrated": {
+        "delta_rmse": 0.9586,
+        "reduction_pct": 23.53,
+        "contact_ap": 0.9323
+      },
+      "mc_shared5_noexo-calibrated": {
+        "delta_rmse": 0.9679,
+        "reduction_pct": 22.79,
+        "contact_ap": 0.923
+      },
+      "mc_unseen_pusht4-calibrated": {
+        "delta_rmse": 0.9713,
+        "reduction_pct": 22.52,
+        "contact_ap": 0.9312
+      },
+      "mc_unseen_stacking2-calibrated": {
+        "delta_rmse": 0.947,
+        "reduction_pct": 24.45,
+        "contact_ap": 0.9365
+      },
+      "cophynet_mc": {
+        "delta_rmse": 1.2535,
+        "reduction_pct": 0.0,
+        "contact_ap": null
+      },
+      "pets_mc": {
+        "delta_rmse": 1.4946,
+        "reduction_pct": -19.24,
+        "contact_ap": null
+      }
+    },
+    "cumulativetransfer": {
+      "best_mc_baseline": "cophynet_mc",
+      "best_mc_baseline_delta_rmse": 1.8343018083413842,
+      "mc_shared3_hop3-calibrated": {
+        "delta_rmse": 1.5782,
+        "reduction_pct": 13.96,
+        "contact_ap": 0.8698
+      },
+      "mc_shared5_hop3-calibrated": {
+        "delta_rmse": 1.5824,
+        "reduction_pct": 13.73,
+        "contact_ap": 0.8689
+      },
+      "mc_shared5_noexo-calibrated": {
+        "delta_rmse": 1.6857,
+        "reduction_pct": 8.1,
+        "contact_ap": 0.8351
+      },
+      "mc_unseen_pusht4-calibrated": {
+        "delta_rmse": 1.6068,
+        "reduction_pct": 12.4,
+        "contact_ap": 0.8568
+      },
+      "mc_unseen_stacking2-calibrated": {
+        "delta_rmse": 1.5827,
+        "reduction_pct": 13.72,
+        "contact_ap": 0.8652
+      },
+      "cophynet_mc": {
+        "delta_rmse": 1.8343,
+        "reduction_pct": 0.0,
+        "contact_ap": null
+      },
+      "pets_mc": {
+        "delta_rmse": 2.0527,
+        "reduction_pct": -11.91,
+        "contact_ap": null
+      }
+    }
+  },
+  "ballscf": {
+    "test": {
+      "best_mc_baseline": "cophynet_mc",
+      "best_mc_baseline_delta_rmse": 0.7662012306238347,
+      "mc_shared3_hop3-calibrated": {
+        "delta_rmse": 0.8353,
+        "reduction_pct": -9.02,
+        "contact_ap": 0.0992
+      },
+      "mc_shared5_hop3-calibrated": {
+        "delta_rmse": 0.4893,
+        "reduction_pct": 36.14,
+        "contact_ap": 0.7313
+      },
+      "mc_shared5_noexo-calibrated": {
+        "delta_rmse": 0.5426,
+        "reduction_pct": 29.18,
+        "contact_ap": 0.6499
+      },
+      "mc_unseen_pusht4-calibrated": {
+        "delta_rmse": 0.4659,
+        "reduction_pct": 39.2,
+        "contact_ap": 0.7243
+      },
+      "mc_unseen_stacking2-calibrated": {
+        "delta_rmse": 0.4588,
+        "reduction_pct": 40.12,
+        "contact_ap": 0.7235
+      },
+      "cophynet_mc": {
+        "delta_rmse": 0.7662,
+        "reduction_pct": 0.0,
+        "contact_ap": null
+      },
+      "pets_mc": {
+        "delta_rmse": 2567.5758,
+        "reduction_pct": -335004.63,
+        "contact_ap": null
+      }
+    },
+    "transfer": {
+      "best_mc_baseline": "cophynet_mc",
+      "best_mc_baseline_delta_rmse": 0.6484149101642736,
+      "mc_shared3_hop3-calibrated": {
+        "delta_rmse": 0.6644,
+        "reduction_pct": -2.47,
+        "contact_ap": 0.0552
+      },
+      "mc_shared5_hop3-calibrated": {
+        "delta_rmse": 0.4489,
+        "reduction_pct": 30.77,
+        "contact_ap": 0.6424
+      },
+      "mc_shared5_noexo-calibrated": {
+        "delta_rmse": 0.4797,
+        "reduction_pct": 26.03,
+        "contact_ap": 0.5645
+      },
+      "mc_unseen_pusht4-calibrated": {
+        "delta_rmse": 0.4268,
+        "reduction_pct": 34.18,
+        "contact_ap": 0.6394
+      },
+      "mc_unseen_stacking2-calibrated": {
+        "delta_rmse": 0.4354,
+        "reduction_pct": 32.85,
+        "contact_ap": 0.6594
+      },
+      "cophynet_mc": {
+        "delta_rmse": 0.6484,
+        "reduction_pct": 0.0,
+        "contact_ap": null
+      },
+      "pets_mc": {
+        "delta_rmse": 22633.7122,
+        "reduction_pct": -3490521.8,
+        "contact_ap": null
+      }
+    }
+  },
+  "causalworld": {
+    "test": {
+      "best_mc_baseline": "cophynet_mc",
+      "best_mc_baseline_delta_rmse": 32.02023646536867,
+      "mc_shared3_hop3-calibrated": {
+        "delta_rmse": 14.2046,
+        "reduction_pct": 55.64,
+        "contact_ap": 0.9749
+      },
+      "mc_shared5_hop3-calibrated": {
+        "delta_rmse": 13.472,
+        "reduction_pct": 57.93,
+        "contact_ap": 0.9806
+      },
+      "mc_shared5_noexo-calibrated": {
+        "delta_rmse": 14.1122,
+        "reduction_pct": 55.93,
+        "contact_ap": 0.974
+      },
+      "mc_unseen_pusht4-calibrated": {
+        "delta_rmse": 13.0329,
+        "reduction_pct": 59.3,
+        "contact_ap": 0.9779
+      },
+      "mc_unseen_stacking2-calibrated": {
+        "delta_rmse": 13.9549,
+        "reduction_pct": 56.42,
+        "contact_ap": 0.975
+      },
+      "cophynet_mc": {
+        "delta_rmse": 32.0202,
+        "reduction_pct": 0.0,
+        "contact_ap": null
+      },
+      "pets_mc": {
+        "delta_rmse": 32.6575,
+        "reduction_pct": -1.99,
+        "contact_ap": null
+      }
+    },
+    "cumulativetransfer": {
+      "best_mc_baseline": "cophynet_mc",
+      "best_mc_baseline_delta_rmse": 27.089257526174237,
+      "mc_shared3_hop3-calibrated": {
+        "delta_rmse": 14.5494,
+        "reduction_pct": 46.29,
+        "contact_ap": 0.9748
+      },
+      "mc_shared5_hop3-calibrated": {
+        "delta_rmse": 13.1927,
+        "reduction_pct": 51.3,
+        "contact_ap": 0.9817
+      },
+      "mc_shared5_noexo-calibrated": {
+        "delta_rmse": 15.6967,
+        "reduction_pct": 42.06,
+        "contact_ap": 0.973
+      },
+      "mc_unseen_pusht4-calibrated": {
+        "delta_rmse": 14.2288,
+        "reduction_pct": 47.47,
+        "contact_ap": 0.979
+      },
+      "mc_unseen_stacking2-calibrated": {
+        "delta_rmse": 13.9587,
+        "reduction_pct": 48.47,
+        "contact_ap": 0.9762
+      },
+      "cophynet_mc": {
+        "delta_rmse": 27.0893,
+        "reduction_pct": 0.0,
+        "contact_ap": null
+      },
+      "pets_mc": {
+        "delta_rmse": 28.1189,
+        "reduction_pct": -3.8,
+        "contact_ap": null
+      }
+    }
+  },
+  "stacking2": {
+    "test": {
+      "best_mc_baseline": "cophynet_mc",
+      "best_mc_baseline_delta_rmse": 29.758166701646726,
+      "mc_shared3_hop3-calibrated": {
+        "delta_rmse": 15.056,
+        "reduction_pct": 49.41,
+        "contact_ap": 0.9749
+      },
+      "mc_shared5_hop3-calibrated": {
+        "delta_rmse": 12.0011,
+        "reduction_pct": 59.67,
+        "contact_ap": 0.9822
+      },
+      "mc_shared5_noexo-calibrated": {
+        "delta_rmse": 13.0144,
+        "reduction_pct": 56.27,
+        "contact_ap": 0.9751
+      },
+      "mc_unseen_pusht4-calibrated": {
+        "delta_rmse": 11.7795,
+        "reduction_pct": 60.42,
+        "contact_ap": 0.9818
+      },
+      "mc_unseen_stacking2-calibrated": {
+        "delta_rmse": 15.4582,
+        "reduction_pct": 48.05,
+        "contact_ap": 0.9743
+      },
+      "cophynet_mc": {
+        "delta_rmse": 29.7582,
+        "reduction_pct": 0.0,
+        "contact_ap": null
+      },
+      "pets_mc": {
+        "delta_rmse": 30.1079,
+        "reduction_pct": -1.18,
+        "contact_ap": null
+      }
+    },
+    "transfer": {
+      "best_mc_baseline": "cophynet_mc",
+      "best_mc_baseline_delta_rmse": 21.716916771060387,
+      "mc_shared3_hop3-calibrated": {
+        "delta_rmse": 13.0341,
+        "reduction_pct": 39.98,
+        "contact_ap": 0.9769
+      },
+      "mc_shared5_hop3-calibrated": {
+        "delta_rmse": 12.2511,
+        "reduction_pct": 43.59,
+        "contact_ap": 0.983
+      },
+      "mc_shared5_noexo-calibrated": {
+        "delta_rmse": 14.7615,
+        "reduction_pct": 32.03,
+        "contact_ap": 0.9738
+      },
+      "mc_unseen_pusht4-calibrated": {
+        "delta_rmse": 12.4505,
+        "reduction_pct": 42.67,
+        "contact_ap": 0.9813
+      },
+      "mc_unseen_stacking2-calibrated": {
+        "delta_rmse": 13.0618,
+        "reduction_pct": 39.85,
+        "contact_ap": 0.9774
+      },
+      "cophynet_mc": {
+        "delta_rmse": 21.7169,
+        "reduction_pct": 0.0,
+        "contact_ap": null
+      },
+      "pets_mc": {
+        "delta_rmse": 21.9061,
+        "reduction_pct": -0.87,
+        "contact_ap": null
+      }
+    }
+  },
+  "pusht": {
+    "test": {
+      "best_mc_baseline": "cophynet_mc",
+      "best_mc_baseline_delta_rmse": 110.10571666674325,
+      "mc_shared3_hop3-calibrated": {
+        "delta_rmse": 91.4516,
+        "reduction_pct": 16.94,
+        "contact_ap": 0.8215
+      },
+      "mc_shared5_hop3-calibrated": {
+        "delta_rmse": 87.3677,
+        "reduction_pct": 20.65,
+        "contact_ap": 0.8429
+      },
+      "mc_shared5_noexo-calibrated": {
+        "delta_rmse": 94.1389,
+        "reduction_pct": 14.5,
+        "contact_ap": 0.8124
+      },
+      "mc_unseen_pusht4-calibrated": {
+        "delta_rmse": 104.067,
+        "reduction_pct": 5.48,
+        "contact_ap": 0.4622
+      },
+      "mc_unseen_stacking2-calibrated": {
+        "delta_rmse": 86.9097,
+        "reduction_pct": 21.07,
+        "contact_ap": 0.8203
+      },
+      "cophynet_mc": {
+        "delta_rmse": 110.1057,
+        "reduction_pct": 0.0,
+        "contact_ap": null
+      },
+      "pets_mc": {
+        "delta_rmse": 111.8629,
+        "reduction_pct": -1.6,
+        "contact_ap": null
+      }
+    },
+    "cumulativetransfer": {
+      "best_mc_baseline": "cophynet_mc",
+      "best_mc_baseline_delta_rmse": 126.39428250654714,
+      "mc_shared3_hop3-calibrated": {
+        "delta_rmse": 104.896,
+        "reduction_pct": 17.01,
+        "contact_ap": 0.7646
+      },
+      "mc_shared5_hop3-calibrated": {
+        "delta_rmse": 99.2733,
+        "reduction_pct": 21.46,
+        "contact_ap": 0.7714
+      },
+      "mc_shared5_noexo-calibrated": {
+        "delta_rmse": 104.9855,
+        "reduction_pct": 16.94,
+        "contact_ap": 0.7445
+      },
+      "mc_unseen_pusht4-calibrated": {
+        "delta_rmse": 120.7028,
+        "reduction_pct": 4.5,
+        "contact_ap": 0.3589
+      },
+      "mc_unseen_stacking2-calibrated": {
+        "delta_rmse": 98.8942,
+        "reduction_pct": 21.76,
+        "contact_ap": 0.7565
+      },
+      "cophynet_mc": {
+        "delta_rmse": 126.3943,
+        "reduction_pct": 0.0,
+        "contact_ap": null
+      },
+      "pets_mc": {
+        "delta_rmse": 128.0565,
+        "reduction_pct": -1.32,
+        "contact_ap": null
+      }
+    }
+  }
+}

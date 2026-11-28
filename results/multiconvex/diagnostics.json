@@ -1,0 +1,37 @@
+{
+  "mc_shared3_hop3-calibrated": {
+    "pusht_pinch_rmse": 143.9986572265625,
+    "pusht_nopinch_rmse": 42.237281799316406,
+    "pusht_pusher_ap": 0.7871340534382016,
+    "pusht_wall_ap": 0.5763038356094488,
+    "pusht_actor_rmse_end": 18.479455947875977
+  },
+  "mc_shared5_hop3-calibrated": {
+    "pusht_pinch_rmse": 136.1712646484375,
+    "pusht_nopinch_rmse": 40.32290267944336,
+    "pusht_pusher_ap": 0.7954270565773007,
+    "pusht_wall_ap": 0.6173525842009208,
+    "pusht_actor_rmse_end": 8.63930892944336
+  },
+  "mc_shared5_noexo-calibrated": {
+    "pusht_pinch_rmse": 143.70407104492188,
+    "pusht_nopinch_rmse": 43.598876953125,
+    "pusht_pusher_ap": 0.7583965903038797,
+    "pusht_wall_ap": 0.5539656271887496,
+    "pusht_actor_rmse_end": 30.330303192138672
+  },
+  "mc_unseen_pusht4-calibrated": {
+    "pusht_pinch_rmse": 161.66693115234375,
+    "pusht_nopinch_rmse": 60.10143280029297,
+    "pusht_pusher_ap": 0.603034203436634,
+    "pusht_wall_ap": 0.17618624766505842,
+    "pusht_actor_rmse_end": 42.73991775512695
+  },
+  "mc_unseen_stacking2-calibrated": {
+    "pusht_pinch_rmse": 135.16323852539062,
+    "pusht_nopinch_rmse": 41.697715759277344,
+    "pusht_pusher_ap": 0.7809144013401957,
+    "pusht_wall_ap": 0.5924672755956091,
+    "pusht_actor_rmse_end": 18.14056396484375
+  }
+}

@@ -1,0 +1,16 @@
+/opt/anaconda3/lib/python3.13/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.5)
+  from scipy.sparse import csr_matrix, issparse
+mc_shared5_hop3 domains=('cophy', 'ballscf', 'causalworld', 'stacking2', 'pusht') scales={'cophy': 2.060856840319202, 'ballscf': 1.1744422604220457, 'causalworld': 0.59654206673459, 'stacking2': 0.5375441514825648, 'pusht': 1.2884432365482155} batch_sizes={'cophy': 10, 'ballscf': 13, 'causalworld': 20, 'stacking2': 13, 'pusht': 20}
+mc_shared5_hop3 params=1,698,187
+/home/kailais/.local/lib/python3.13/site-packages/torch/nn/modules/rnn.py:1440: UserWarning: RNN module weights are not part of single contiguous chunk of memory. This means they need to be compacted at every call, possibly greatly increasing memory usage. To compact weights again call flatten_parameters(). (Triggered internally at /__w/pytorch/pytorch/aten/src/ATen/native/cudnn/RNN.cpp:1479.)
+  result = _VF.gru(
+mc_shared5_hop3 {'step': 150, 'loss': 1.199, 'val': {'cophy': 1.2114, 'ballscf': 0.7246, 'causalworld': 0.2874, 'stacking2': 0.255, 'pusht': 1.07}, 'crit': 0.5954, 'ema': True, 'sec': 777.8}
+mc_shared5_hop3 {'step': 300, 'loss': 1.139, 'val': {'cophy': 1.1506, 'ballscf': 0.5853, 'causalworld': 0.3013, 'stacking2': 0.2606, 'pusht': 1.317}, 'crit': 0.6068, 'ema': False, 'sec': 1553.1}
+mc_shared5_hop3 {'step': 450, 'loss': 1.071, 'val': {'cophy': 1.0946, 'ballscf': 0.5455, 'causalworld': 0.2606, 'stacking2': 0.2304, 'pusht': 1.0228}, 'crit': 0.5266, 'ema': True, 'sec': 2328.3}
+mc_shared5_hop3 {'step': 600, 'loss': 0.945, 'val': {'cophy': 1.0718, 'ballscf': 0.5267, 'causalworld': 0.2488, 'stacking2': 0.2225, 'pusht': 0.9847}, 'crit': 0.5085, 'ema': True, 'sec': 3103.8}
+mc_shared5_hop3 {'step': 750, 'loss': 0.85, 'val': {'cophy': 1.0477, 'ballscf': 0.5158, 'causalworld': 0.2375, 'stacking2': 0.2163, 'pusht': 0.9836}, 'crit': 0.4978, 'ema': True, 'sec': 3879.9}
+mc_shared5_hop3 {'step': 900, 'loss': 0.944, 'val': {'cophy': 1.0276, 'ballscf': 0.4959, 'causalworld': 0.2315, 'stacking2': 0.2109, 'pusht': 0.9878}, 'crit': 0.4888, 'ema': True, 'sec': 4656.3}
+mc_shared5_hop3 {'step': 1050, 'loss': 0.843, 'val': {'cophy': 1.0121, 'ballscf': 0.4926, 'causalworld': 0.2296, 'stacking2': 0.209, 'pusht': 0.9753}, 'crit': 0.4836, 'ema': True, 'sec': 5432.1}
+mc_shared5_hop3 {'step': 1200, 'loss': 0.913, 'val': {'cophy': 1.003, 'ballscf': 0.4878, 'causalworld': 0.2263, 'stacking2': 0.2082, 'pusht': 1.0002}, 'crit': 0.484, 'ema': True, 'sec': 6205.0}
+mc_shared5_hop3 {'step': 1350, 'loss': 0.962, 'val': {'cophy': 0.9996, 'ballscf': 0.4773, 'causalworld': 0.2251, 'stacking2': 0.2059, 'pusht': 1.0065}, 'crit': 0.4814, 'ema': True, 'sec': 6981.6}
+mc_shared5_hop3 {'step': 1500, 'loss': 0.812, 'val': {'cophy': 1.002, 'ballscf': 0.4695, 'causalworld': 0.2222, 'stacking2': 0.2049, 'pusht': 1.0073}, 'crit': 0.4789, 'ema': True, 'sec': 7756.8}

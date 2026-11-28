@@ -1,0 +1,14 @@
+{
+  "stage": 35,
+  "name": "universal_multiconvex_sat_torque_v1",
+  "seed": 20261127,
+  "protocol_note": "Strictly separate from original 9D benchmarks; universal M=2 convex-part decomposition [b_min, b_max] per rigid body from simulator collision primitives. Baselines retrained on identical flattened 12D parts input (and dual-compared vs Stage 34 *_geo and original 9D).",
+  "max_parts": 2,
+  "domains_5": ["cophy", "ballscf", "causalworld", "stacking2", "pusht"],
+  "domains_3": ["cophy", "causalworld", "pusht"],
+  "baselines_budget": {
+    "cophynet_mc": "upstream CoPhyNet H=32 widened only at input to 21D [xyz(3), rot6(6), parts(12)], 50 epochs, lr=1e-3",
+    "pets_mc": "MBRL-Lib 7-member 4x200 SiLU ensemble, 25 epochs, 20-particle TS-inf with parts(12) in context",
+    "ncii_mc": "PointNet hidden=512, 2400 updates with parts(12) in object_embedding"
+  }
+}

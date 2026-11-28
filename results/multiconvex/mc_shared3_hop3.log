@@ -1,0 +1,42 @@
+/opt/anaconda3/lib/python3.13/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.5)
+  from scipy.sparse import csr_matrix, issparse
+mc_shared3_hop3 domains=('cophy', 'causalworld', 'pusht') scales={'cophy': 1.7679219768689505, 'causalworld': 0.5117482249487814, 'pusht': 1.10530099387638} batch_sizes={'cophy': 10, 'causalworld': 20, 'pusht': 20}
+mc_shared3_hop3 params=1,698,187
+/home/kailais/.local/lib/python3.13/site-packages/torch/nn/modules/rnn.py:1440: UserWarning: RNN module weights are not part of single contiguous chunk of memory. This means they need to be compacted at every call, possibly greatly increasing memory usage. To compact weights again call flatten_parameters(). (Triggered internally at /__w/pytorch/pytorch/aten/src/ATen/native/cudnn/RNN.cpp:1479.)
+  result = _VF.gru(
+mc_shared3_hop3 {'step': 150, 'loss': 1.247, 'val': {'cophy': 1.1506, 'causalworld': 0.2822, 'pusht': 1.0109}, 'crit': 0.699, 'ema': True, 'sec': 448.1}
+mc_shared3_hop3 {'step': 300, 'loss': 1.202, 'val': {'cophy': 1.0805, 'causalworld': 0.2823, 'pusht': 1.0067}, 'crit': 0.6846, 'ema': True, 'sec': 891.2}
+mc_shared3_hop3 {'step': 450, 'loss': 1.139, 'val': {'cophy': 1.0524, 'causalworld': 0.2549, 'pusht': 0.9915}, 'crit': 0.656, 'ema': True, 'sec': 1333.0}
+mc_shared3_hop3 {'step': 600, 'loss': 1.063, 'val': {'cophy': 1.0327, 'causalworld': 0.2406, 'pusht': 0.9475}, 'crit': 0.6299, 'ema': True, 'sec': 1773.6}
+mc_shared3_hop3 {'step': 750, 'loss': 0.985, 'val': {'cophy': 1.0121, 'causalworld': 0.2367, 'pusht': 0.9574}, 'crit': 0.6261, 'ema': True, 'sec': 2214.4}
+mc_shared3_hop3 {'step': 900, 'loss': 1.02, 'val': {'cophy': 1.0148, 'causalworld': 0.2359, 'pusht': 0.9647}, 'crit': 0.6281, 'ema': True, 'sec': 2655.1}
+mc_shared3_hop3 {'step': 1050, 'loss': 0.939, 'val': {'cophy': 1.0043, 'causalworld': 0.2305, 'pusht': 0.9618}, 'crit': 0.6216, 'ema': True, 'sec': 3098.0}
+mc_shared3_hop3 {'step': 1200, 'loss': 0.951, 'val': {'cophy': 1.0101, 'causalworld': 0.2275, 'pusht': 0.9542}, 'crit': 0.6185, 'ema': True, 'sec': 3539.6}
+mc_shared3_hop3 {'step': 1350, 'loss': 1.093, 'val': {'cophy': 1.0016, 'causalworld': 0.2254, 'pusht': 0.9487}, 'crit': 0.6139, 'ema': True, 'sec': 3980.2}
+mc_shared3_hop3 {'step': 1500, 'loss': 0.91, 'val': {'cophy': 0.9927, 'causalworld': 0.2225, 'pusht': 0.956}, 'crit': 0.6123, 'ema': True, 'sec': 4421.5}
+mc_shared3_hop3 {'step': 1650, 'loss': 0.974, 'val': {'cophy': 0.9976, 'causalworld': 0.2179, 'pusht': 0.9367}, 'crit': 0.6046, 'ema': True, 'sec': 4862.6}
+mc_shared3_hop3 {'step': 1800, 'loss': 0.882, 'val': {'cophy': 0.9914, 'causalworld': 0.2154, 'pusht': 0.9525}, 'crit': 0.6061, 'ema': True, 'sec': 5303.2}
+mc_shared3_hop3 {'step': 1950, 'loss': 0.762, 'val': {'cophy': 0.9877, 'causalworld': 0.2129, 'pusht': 0.9433}, 'crit': 0.6011, 'ema': True, 'sec': 5744.0}
+mc_shared3_hop3 {'step': 2100, 'loss': 0.845, 'val': {'cophy': 0.9938, 'causalworld': 0.2114, 'pusht': 0.9403}, 'crit': 0.6003, 'ema': True, 'sec': 6184.9}
+mc_shared3_hop3 {'step': 2250, 'loss': 0.9, 'val': {'cophy': 0.9993, 'causalworld': 0.2083, 'pusht': 0.926}, 'crit': 0.5952, 'ema': True, 'sec': 6630.3}
+mc_shared3_hop3 {'step': 2400, 'loss': 0.987, 'val': {'cophy': 1.0003, 'causalworld': 0.2071, 'pusht': 0.9325}, 'crit': 0.5965, 'ema': True, 'sec': 7075.1}
+mc_shared3_hop3 {'step': 2550, 'loss': 0.764, 'val': {'cophy': 0.9954, 'causalworld': 0.2067, 'pusht': 0.9325}, 'crit': 0.5952, 'ema': True, 'sec': 7520.7}
+mc_shared3_hop3 {'step': 2700, 'loss': 0.907, 'val': {'cophy': 0.9896, 'causalworld': 0.2067, 'pusht': 0.952}, 'crit': 0.5996, 'ema': True, 'sec': 7965.5}
+mc_shared3_hop3 {'step': 2850, 'loss': 0.827, 'val': {'cophy': 0.9862, 'causalworld': 0.2045, 'pusht': 0.9567}, 'crit': 0.5988, 'ema': True, 'sec': 8411.8}
+mc_shared3_hop3 {'step': 3000, 'loss': 1.083, 'val': {'cophy': 0.9843, 'causalworld': 0.2028, 'pusht': 0.9669}, 'crit': 0.6001, 'ema': True, 'sec': 8854.6}
+mc_shared3_hop3 {'step': 3150, 'loss': 0.807, 'val': {'cophy': 0.9991, 'causalworld': 0.202, 'pusht': 0.9663}, 'crit': 0.6022, 'ema': True, 'sec': 9297.3}
+mc_shared3_hop3 {'step': 3300, 'loss': 0.734, 'val': {'cophy': 0.9985, 'causalworld': 0.2013, 'pusht': 0.9809}, 'crit': 0.6058, 'ema': True, 'sec': 9738.2}
+mc_shared3_hop3 {'step': 3450, 'loss': 0.648, 'val': {'cophy': 1.002, 'causalworld': 0.2014, 'pusht': 0.9965}, 'crit': 0.6109, 'ema': True, 'sec': 10178.6}
+mc_shared3_hop3 {'step': 3600, 'loss': 0.715, 'val': {'cophy': 0.9968, 'causalworld': 0.1977, 'pusht': 0.9778}, 'crit': 0.6021, 'ema': False, 'sec': 10619.3}
+mc_shared3_hop3 {'step': 3750, 'loss': 0.632, 'val': {'cophy': 1.0074, 'causalworld': 0.1965, 'pusht': 0.9607}, 'crit': 0.5984, 'ema': False, 'sec': 11066.9}
+mc_shared3_hop3 {'step': 3900, 'loss': 0.628, 'val': {'cophy': 0.9979, 'causalworld': 0.1979, 'pusht': 0.9764}, 'crit': 0.602, 'ema': True, 'sec': 11514.2}
+/opt/anaconda3/lib/python3.13/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.5)
+  from scipy.sparse import csr_matrix, issparse
+mc_shared3_hop3 cal {'step': 150, 'validation': {'cophy': -1.7847695350646973, 'causalworld': -5.660877704620361, 'pusht': -6.243281364440918}, 'value': -4.562976201375325}
+mc_shared3_hop3 cal {'step': 300, 'validation': {'cophy': -1.8171005249023438, 'causalworld': -5.981846809387207, 'pusht': -6.67208194732666}, 'value': -4.823676427205403}
+mc_shared3_hop3 cal {'step': 450, 'validation': {'cophy': -1.9741923809051514, 'causalworld': -6.330589771270752, 'pusht': -7.044566631317139}, 'value': -5.116449594497681}
+mc_shared3_hop3 cal {'step': 600, 'validation': {'cophy': -1.999988079071045, 'causalworld': -6.713855266571045, 'pusht': -7.520694732666016}, 'value': -5.411512692769368}
+mc_shared3_hop3 cal {'step': 750, 'validation': {'cophy': -2.0959200859069824, 'causalworld': -6.820375442504883, 'pusht': -7.549555778503418}, 'value': -5.488617102305095}
+mc_shared3_hop3 cal {'step': 900, 'validation': {'cophy': -2.2060256004333496, 'causalworld': -6.901461601257324, 'pusht': -7.68752908706665}, 'value': -5.598338762919108}
+mc_shared3_hop3 cal {'step': 1050, 'validation': {'cophy': -2.2145047187805176, 'causalworld': -7.158952236175537, 'pusht': -8.044159889221191}, 'value': -5.805872281392415}
+mc_shared3_hop3 cal {'step': 1200, 'validation': {'cophy': -2.2255847454071045, 'causalworld': -7.118124961853027, 'pusht': -8.034090042114258}, 'value': -5.79259991645813}
