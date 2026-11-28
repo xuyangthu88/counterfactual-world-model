@@ -1,0 +1,452 @@
+{
+  "cophy": {
+    "test": {
+      "best_geo_baseline": "cophynet_geo",
+      "best_geo_baseline_delta_rmse": 1.253527527654858,
+      "geo_shared3-calibrated": {
+        "delta_rmse": 0.9726,
+        "reduction_pct": 22.41,
+        "contact_ap": 0.9329
+      },
+      "geo_shared3_hop3-calibrated": {
+        "delta_rmse": 0.9893,
+        "reduction_pct": 21.08,
+        "contact_ap": 0.9306
+      },
+      "geo_shared5-calibrated": {
+        "delta_rmse": 0.9949,
+        "reduction_pct": 20.63,
+        "contact_ap": 0.9335
+      },
+      "geo_shared5_hop3-calibrated": {
+        "delta_rmse": 0.9841,
+        "reduction_pct": 21.5,
+        "contact_ap": 0.9356
+      },
+      "geo_unseen_pusht4-calibrated": {
+        "delta_rmse": 0.9834,
+        "reduction_pct": 21.55,
+        "contact_ap": 0.9321
+      },
+      "geo_unseen_stacking2-calibrated": {
+        "delta_rmse": 0.9915,
+        "reduction_pct": 20.9,
+        "contact_ap": 0.9328
+      },
+      "cophynet_geo": {
+        "delta_rmse": 1.2535,
+        "reduction_pct": 0.0,
+        "contact_ap": null
+      },
+      "pets_geo": {
+        "delta_rmse": 1.4946,
+        "reduction_pct": -19.24,
+        "contact_ap": null
+      }
+    },
+    "cumulativetransfer": {
+      "best_geo_baseline": "cophynet_geo",
+      "best_geo_baseline_delta_rmse": 1.8343018083413842,
+      "geo_shared3-calibrated": {
+        "delta_rmse": 1.6479,
+        "reduction_pct": 10.16,
+        "contact_ap": 0.8554
+      },
+      "geo_shared3_hop3-calibrated": {
+        "delta_rmse": 1.6319,
+        "reduction_pct": 11.04,
+        "contact_ap": 0.8607
+      },
+      "geo_shared5-calibrated": {
+        "delta_rmse": 1.6721,
+        "reduction_pct": 8.84,
+        "contact_ap": 0.864
+      },
+      "geo_shared5_hop3-calibrated": {
+        "delta_rmse": 1.661,
+        "reduction_pct": 9.45,
+        "contact_ap": 0.8657
+      },
+      "geo_unseen_pusht4-calibrated": {
+        "delta_rmse": 1.6396,
+        "reduction_pct": 10.61,
+        "contact_ap": 0.8702
+      },
+      "geo_unseen_stacking2-calibrated": {
+        "delta_rmse": 1.6523,
+        "reduction_pct": 9.92,
+        "contact_ap": 0.8608
+      },
+      "cophynet_geo": {
+        "delta_rmse": 1.8343,
+        "reduction_pct": 0.0,
+        "contact_ap": null
+      },
+      "pets_geo": {
+        "delta_rmse": 2.0527,
+        "reduction_pct": -11.91,
+        "contact_ap": null
+      }
+    }
+  },
+  "ballscf": {
+    "test": {
+      "best_geo_baseline": "cophynet_geo",
+      "best_geo_baseline_delta_rmse": 0.7662012306238347,
+      "geo_shared3-calibrated": {
+        "delta_rmse": 0.816,
+        "reduction_pct": -6.5,
+        "contact_ap": 0.0759
+      },
+      "geo_shared3_hop3-calibrated": {
+        "delta_rmse": 0.823,
+        "reduction_pct": -7.41,
+        "contact_ap": 0.0832
+      },
+      "geo_shared5-calibrated": {
+        "delta_rmse": 0.4364,
+        "reduction_pct": 43.05,
+        "contact_ap": 0.7638
+      },
+      "geo_shared5_hop3-calibrated": {
+        "delta_rmse": 0.4346,
+        "reduction_pct": 43.28,
+        "contact_ap": 0.7611
+      },
+      "geo_unseen_pusht4-calibrated": {
+        "delta_rmse": 0.4485,
+        "reduction_pct": 41.47,
+        "contact_ap": 0.736
+      },
+      "geo_unseen_stacking2-calibrated": {
+        "delta_rmse": 0.434,
+        "reduction_pct": 43.36,
+        "contact_ap": 0.7423
+      },
+      "cophynet_geo": {
+        "delta_rmse": 0.7662,
+        "reduction_pct": 0.0,
+        "contact_ap": null
+      },
+      "pets_geo": {
+        "delta_rmse": 2567.5758,
+        "reduction_pct": -335004.63,
+        "contact_ap": null
+      }
+    },
+    "transfer": {
+      "best_geo_baseline": "cophynet_geo",
+      "best_geo_baseline_delta_rmse": 0.6484149101642736,
+      "geo_shared3-calibrated": {
+        "delta_rmse": 0.6572,
+        "reduction_pct": -1.35,
+        "contact_ap": 0.0428
+      },
+      "geo_shared3_hop3-calibrated": {
+        "delta_rmse": 0.6729,
+        "reduction_pct": -3.78,
+        "contact_ap": 0.0455
+      },
+      "geo_shared5-calibrated": {
+        "delta_rmse": 0.4094,
+        "reduction_pct": 36.87,
+        "contact_ap": 0.6982
+      },
+      "geo_shared5_hop3-calibrated": {
+        "delta_rmse": 0.4061,
+        "reduction_pct": 37.37,
+        "contact_ap": 0.6954
+      },
+      "geo_unseen_pusht4-calibrated": {
+        "delta_rmse": 0.4229,
+        "reduction_pct": 34.79,
+        "contact_ap": 0.6685
+      },
+      "geo_unseen_stacking2-calibrated": {
+        "delta_rmse": 0.4088,
+        "reduction_pct": 36.95,
+        "contact_ap": 0.6914
+      },
+      "cophynet_geo": {
+        "delta_rmse": 0.6484,
+        "reduction_pct": 0.0,
+        "contact_ap": null
+      },
+      "pets_geo": {
+        "delta_rmse": 22633.7122,
+        "reduction_pct": -3490521.8,
+        "contact_ap": null
+      }
+    }
+  },
+  "causalworld": {
+    "test": {
+      "best_geo_baseline": "cophynet_geo",
+      "best_geo_baseline_delta_rmse": 32.02023646536867,
+      "geo_shared3-calibrated": {
+        "delta_rmse": 13.6081,
+        "reduction_pct": 57.5,
+        "contact_ap": 0.9794
+      },
+      "geo_shared3_hop3-calibrated": {
+        "delta_rmse": 13.6234,
+        "reduction_pct": 57.45,
+        "contact_ap": 0.9785
+      },
+      "geo_shared5-calibrated": {
+        "delta_rmse": 13.1231,
+        "reduction_pct": 59.02,
+        "contact_ap": 0.9787
+      },
+      "geo_shared5_hop3-calibrated": {
+        "delta_rmse": 12.9458,
+        "reduction_pct": 59.57,
+        "contact_ap": 0.9786
+      },
+      "geo_unseen_pusht4-calibrated": {
+        "delta_rmse": 12.7238,
+        "reduction_pct": 60.26,
+        "contact_ap": 0.9798
+      },
+      "geo_unseen_stacking2-calibrated": {
+        "delta_rmse": 13.9184,
+        "reduction_pct": 56.53,
+        "contact_ap": 0.9777
+      },
+      "cophynet_geo": {
+        "delta_rmse": 32.0202,
+        "reduction_pct": 0.0,
+        "contact_ap": null
+      },
+      "pets_geo": {
+        "delta_rmse": 32.6575,
+        "reduction_pct": -1.99,
+        "contact_ap": null
+      }
+    },
+    "cumulativetransfer": {
+      "best_geo_baseline": "cophynet_geo",
+      "best_geo_baseline_delta_rmse": 27.089257526174237,
+      "geo_shared3-calibrated": {
+        "delta_rmse": 13.5256,
+        "reduction_pct": 50.07,
+        "contact_ap": 0.9803
+      },
+      "geo_shared3_hop3-calibrated": {
+        "delta_rmse": 14.3056,
+        "reduction_pct": 47.19,
+        "contact_ap": 0.9784
+      },
+      "geo_shared5-calibrated": {
+        "delta_rmse": 13.9564,
+        "reduction_pct": 48.48,
+        "contact_ap": 0.9805
+      },
+      "geo_shared5_hop3-calibrated": {
+        "delta_rmse": 13.2705,
+        "reduction_pct": 51.01,
+        "contact_ap": 0.9808
+      },
+      "geo_unseen_pusht4-calibrated": {
+        "delta_rmse": 13.4942,
+        "reduction_pct": 50.19,
+        "contact_ap": 0.981
+      },
+      "geo_unseen_stacking2-calibrated": {
+        "delta_rmse": 13.9765,
+        "reduction_pct": 48.41,
+        "contact_ap": 0.9791
+      },
+      "cophynet_geo": {
+        "delta_rmse": 27.0893,
+        "reduction_pct": 0.0,
+        "contact_ap": null
+      },
+      "pets_geo": {
+        "delta_rmse": 28.1189,
+        "reduction_pct": -3.8,
+        "contact_ap": null
+      }
+    }
+  },
+  "stacking2": {
+    "test": {
+      "best_geo_baseline": "cophynet_geo",
+      "best_geo_baseline_delta_rmse": 29.758166701646726,
+      "geo_shared3-calibrated": {
+        "delta_rmse": 16.0411,
+        "reduction_pct": 46.1,
+        "contact_ap": 0.9763
+      },
+      "geo_shared3_hop3-calibrated": {
+        "delta_rmse": 16.5157,
+        "reduction_pct": 44.5,
+        "contact_ap": 0.9771
+      },
+      "geo_shared5-calibrated": {
+        "delta_rmse": 11.9869,
+        "reduction_pct": 59.72,
+        "contact_ap": 0.9814
+      },
+      "geo_shared5_hop3-calibrated": {
+        "delta_rmse": 11.8811,
+        "reduction_pct": 60.07,
+        "contact_ap": 0.9818
+      },
+      "geo_unseen_pusht4-calibrated": {
+        "delta_rmse": 11.7762,
+        "reduction_pct": 60.43,
+        "contact_ap": 0.9822
+      },
+      "geo_unseen_stacking2-calibrated": {
+        "delta_rmse": 16.6773,
+        "reduction_pct": 43.96,
+        "contact_ap": 0.9733
+      },
+      "cophynet_geo": {
+        "delta_rmse": 29.7582,
+        "reduction_pct": 0.0,
+        "contact_ap": null
+      },
+      "pets_geo": {
+        "delta_rmse": 30.1079,
+        "reduction_pct": -1.18,
+        "contact_ap": null
+      }
+    },
+    "transfer": {
+      "best_geo_baseline": "cophynet_geo",
+      "best_geo_baseline_delta_rmse": 21.716916771060387,
+      "geo_shared3-calibrated": {
+        "delta_rmse": 13.0371,
+        "reduction_pct": 39.97,
+        "contact_ap": 0.9777
+      },
+      "geo_shared3_hop3-calibrated": {
+        "delta_rmse": 14.3207,
+        "reduction_pct": 34.06,
+        "contact_ap": 0.9761
+      },
+      "geo_shared5-calibrated": {
+        "delta_rmse": 13.0873,
+        "reduction_pct": 39.74,
+        "contact_ap": 0.9827
+      },
+      "geo_shared5_hop3-calibrated": {
+        "delta_rmse": 13.0841,
+        "reduction_pct": 39.75,
+        "contact_ap": 0.9829
+      },
+      "geo_unseen_pusht4-calibrated": {
+        "delta_rmse": 12.6949,
+        "reduction_pct": 41.54,
+        "contact_ap": 0.9829
+      },
+      "geo_unseen_stacking2-calibrated": {
+        "delta_rmse": 13.3937,
+        "reduction_pct": 38.33,
+        "contact_ap": 0.977
+      },
+      "cophynet_geo": {
+        "delta_rmse": 21.7169,
+        "reduction_pct": 0.0,
+        "contact_ap": null
+      },
+      "pets_geo": {
+        "delta_rmse": 21.9061,
+        "reduction_pct": -0.87,
+        "contact_ap": null
+      }
+    }
+  },
+  "pusht": {
+    "test": {
+      "best_geo_baseline": "cophynet_geo",
+      "best_geo_baseline_delta_rmse": 110.66827477202139,
+      "geo_shared3-calibrated": {
+        "delta_rmse": 93.251,
+        "reduction_pct": 15.74,
+        "contact_ap": 0.7674
+      },
+      "geo_shared3_hop3-calibrated": {
+        "delta_rmse": 89.9828,
+        "reduction_pct": 18.69,
+        "contact_ap": 0.7678
+      },
+      "geo_shared5-calibrated": {
+        "delta_rmse": 96.1467,
+        "reduction_pct": 13.12,
+        "contact_ap": 0.7769
+      },
+      "geo_shared5_hop3-calibrated": {
+        "delta_rmse": 90.9902,
+        "reduction_pct": 17.78,
+        "contact_ap": 0.7687
+      },
+      "geo_unseen_pusht4-calibrated": {
+        "delta_rmse": 105.0098,
+        "reduction_pct": 5.11,
+        "contact_ap": 0.4809
+      },
+      "geo_unseen_stacking2-calibrated": {
+        "delta_rmse": 91.5439,
+        "reduction_pct": 17.28,
+        "contact_ap": 0.7639
+      },
+      "cophynet_geo": {
+        "delta_rmse": 110.6683,
+        "reduction_pct": 0.0,
+        "contact_ap": null
+      },
+      "pets_geo": {
+        "delta_rmse": 111.846,
+        "reduction_pct": -1.06,
+        "contact_ap": null
+      }
+    },
+    "cumulativetransfer": {
+      "best_geo_baseline": "cophynet_geo",
+      "best_geo_baseline_delta_rmse": 126.9163812136096,
+      "geo_shared3-calibrated": {
+        "delta_rmse": 106.1544,
+        "reduction_pct": 16.36,
+        "contact_ap": 0.7047
+      },
+      "geo_shared3_hop3-calibrated": {
+        "delta_rmse": 100.6695,
+        "reduction_pct": 20.68,
+        "contact_ap": 0.7159
+      },
+      "geo_shared5-calibrated": {
+        "delta_rmse": 106.0162,
+        "reduction_pct": 16.47,
+        "contact_ap": 0.7118
+      },
+      "geo_shared5_hop3-calibrated": {
+        "delta_rmse": 103.7999,
+        "reduction_pct": 18.21,
+        "contact_ap": 0.7133
+      },
+      "geo_unseen_pusht4-calibrated": {
+        "delta_rmse": 121.4692,
+        "reduction_pct": 4.29,
+        "contact_ap": 0.4049
+      },
+      "geo_unseen_stacking2-calibrated": {
+        "delta_rmse": 102.8633,
+        "reduction_pct": 18.95,
+        "contact_ap": 0.7074
+      },
+      "cophynet_geo": {
+        "delta_rmse": 126.9164,
+        "reduction_pct": 0.0,
+        "contact_ap": null
+      },
+      "pets_geo": {
+        "delta_rmse": 128.0956,
+        "reduction_pct": -0.93,
+        "contact_ap": null
+      }
+    }
+  }
+}

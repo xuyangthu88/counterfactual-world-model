@@ -1,0 +1,12 @@
+{
+  "stage": 34,
+  "protocol_name": "universal_rigid_body_geometry_v1",
+  "note": "STRICTLY SEPARATE observation protocol from original 9D interface (Stages 27-33). Every object across all 5 domains receives its true body-frame orientation (fixing Push-T wall inward normals) and universal 3D body-local bounding box geom=[b_min, b_max] in object units. All baselines (CoPhyNet, PETS, NCII) are retrained on the EXACT same enriched inputs with original architectures/budgets.",
+  "seed": 20261127,
+  "all_domains": ["cophy", "ballscf", "causalworld", "stacking2", "pusht"],
+  "budgets": {
+    "cophynet_epochs": 50,
+    "pets_epochs": 25,
+    "ncii_updates": 2400
+  }
+}

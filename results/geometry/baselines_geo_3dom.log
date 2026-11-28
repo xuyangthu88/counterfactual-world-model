@@ -1,0 +1,123 @@
+pusht cophynet_geo {'epoch': 5, 'validation_pose_batch_rmse': 0.7003256479899088, 'seconds': 54.4}
+pusht cophynet_geo {'epoch': 10, 'validation_pose_batch_rmse': 0.7003256479899088, 'seconds': 108.3}
+pusht cophynet_geo {'epoch': 15, 'validation_pose_batch_rmse': 0.7003955245018005, 'seconds': 162.6}
+pusht cophynet_geo {'epoch': 20, 'validation_pose_batch_rmse': 0.7001212239265442, 'seconds': 216.9}
+pusht cophynet_geo {'epoch': 25, 'validation_pose_batch_rmse': 0.6993142565091451, 'seconds': 271.0}
+pusht cophynet_geo {'epoch': 30, 'validation_pose_batch_rmse': 0.6996404727300009, 'seconds': 321.2}
+pusht cophynet_geo {'epoch': 35, 'validation_pose_batch_rmse': 0.6998825867970785, 'seconds': 360.0}
+pusht cophynet_geo {'epoch': 40, 'validation_pose_batch_rmse': 0.7003645698229471, 'seconds': 397.4}
+pusht cophynet_geo {'epoch': 45, 'validation_pose_batch_rmse': 0.6995720764001211, 'seconds': 436.1}
+pusht cophynet_geo {'epoch': 49, 'validation_pose_batch_rmse': 0.7002366880575815, 'seconds': 468.2}
+pusht pets_geo {'epoch': 1, 'nll': 2.4177833028137683, 'mse': 0.006323313806205988, 'seconds': 6.2}
+pusht pets_geo {'epoch': 2, 'nll': -15.014280062168837, 'mse': 0.00643158657476306, 'seconds': 10.1}
+pusht pets_geo {'epoch': 3, 'nll': -49.56188433965047, 'mse': 0.0063198041170835495, 'seconds': 14.2}
+pusht pets_geo {'epoch': 4, 'nll': -54.59012687206268, 'mse': 0.006309724412858486, 'seconds': 18.4}
+pusht pets_geo {'epoch': 5, 'nll': -55.29929252465566, 'mse': 0.006307702045887709, 'seconds': 22.6}
+pusht pets_geo {'epoch': 6, 'nll': -55.51831437746684, 'mse': 0.006309680175036192, 'seconds': 26.8}
+pusht pets_geo {'epoch': 7, 'nll': -55.62141655286153, 'mse': 0.00631279731169343, 'seconds': 31.0}
+pusht pets_geo {'epoch': 8, 'nll': -55.68699431022008, 'mse': 0.006313182879239321, 'seconds': 36.4}
+pusht pets_geo {'epoch': 9, 'nll': -55.73727961381277, 'mse': 0.006312903948128223, 'seconds': 39.9}
+pusht pets_geo {'epoch': 10, 'nll': -55.78092614809672, 'mse': 0.006311504170298576, 'seconds': 44.0}
+pusht pets_geo {'epoch': 11, 'nll': -55.819227159023285, 'mse': 0.006312787067145109, 'seconds': 48.2}
+pusht pets_geo {'epoch': 12, 'nll': -55.85133793751399, 'mse': 0.006312403362244368, 'seconds': 52.5}
+pusht pets_geo {'epoch': 13, 'nll': -55.87860699892044, 'mse': 0.0063090017065405846, 'seconds': 56.7}
+pusht pets_geo {'epoch': 14, 'nll': -55.901801045735674, 'mse': 0.0063086305744946, 'seconds': 60.8}
+pusht pets_geo {'epoch': 15, 'nll': -55.92108878294627, 'mse': 0.0063077243976294994, 'seconds': 65.0}
+pusht pets_geo {'epoch': 16, 'nll': -55.937765403588614, 'mse': 0.006307205650955439, 'seconds': 70.0}
+pusht pets_geo {'epoch': 17, 'nll': -55.952020370960234, 'mse': 0.006307636387646198, 'seconds': 73.3}
+pusht pets_geo {'epoch': 18, 'nll': -55.96434032917023, 'mse': 0.006305540446192026, 'seconds': 77.4}
+pusht pets_geo {'epoch': 19, 'nll': -55.97507266600927, 'mse': 0.006306461524218321, 'seconds': 82.2}
+pusht pets_geo {'epoch': 20, 'nll': -55.98522627353668, 'mse': 0.00630306638777256, 'seconds': 86.4}
+pusht pets_geo {'epoch': 21, 'nll': -55.99441698392232, 'mse': 0.006305178627371788, 'seconds': 90.5}
+pusht pets_geo {'epoch': 22, 'nll': -56.002172978719074, 'mse': 0.006301273591816425, 'seconds': 98.1}
+pusht pets_geo {'epoch': 23, 'nll': -56.01056607166926, 'mse': 0.006301029585301876, 'seconds': 119.6}
+pusht pets_geo {'epoch': 24, 'nll': -56.017457735538486, 'mse': 0.006299166940152645, 'seconds': 139.0}
+pusht pets_geo {'epoch': 25, 'nll': -56.02437886794408, 'mse': 0.006300610490143299, 'seconds': 157.9}
+pusht ncii_geo {'step': 400, 'loss': -47.93030548095703, 'interaction_loss': 0.6740369200706482, 'seconds': 4.4}
+pusht ncii_geo {'step': 800, 'loss': -49.06464767456055, 'interaction_loss': 0.006231045350432396, 'seconds': 9.6}
+pusht ncii_geo {'step': 1200, 'loss': -50.52220153808594, 'interaction_loss': 0.003361752489581704, 'seconds': 13.5}
+pusht ncii_geo {'step': 1600, 'loss': -49.895442962646484, 'interaction_loss': 0.01185690052807331, 'seconds': 16.9}
+pusht ncii_geo {'step': 2000, 'loss': -49.78510665893555, 'interaction_loss': 0.011484133079648018, 'seconds': 22.1}
+pusht ncii_geo {'step': 2400, 'loss': -50.63275146484375, 'interaction_loss': 0.011865218169987202, 'seconds': 28.0}
+cophy cophynet_geo {'epoch': 5, 'validation_pose_batch_rmse': 1.0584606170654296, 'seconds': 44.4}
+cophy cophynet_geo {'epoch': 10, 'validation_pose_batch_rmse': 0.9895198702812195, 'seconds': 88.6}
+cophy cophynet_geo {'epoch': 15, 'validation_pose_batch_rmse': 0.8734662532806396, 'seconds': 132.1}
+cophy cophynet_geo {'epoch': 20, 'validation_pose_batch_rmse': 0.8630427360534668, 'seconds': 166.5}
+cophy cophynet_geo {'epoch': 25, 'validation_pose_batch_rmse': 0.8496683239936829, 'seconds': 210.2}
+cophy cophynet_geo {'epoch': 30, 'validation_pose_batch_rmse': 0.8589598655700683, 'seconds': 254.3}
+cophy cophynet_geo {'epoch': 35, 'validation_pose_batch_rmse': 0.8464051723480225, 'seconds': 298.1}
+cophy cophynet_geo {'epoch': 40, 'validation_pose_batch_rmse': 0.838100254535675, 'seconds': 342.3}
+cophy cophynet_geo {'epoch': 45, 'validation_pose_batch_rmse': 0.8265735507011414, 'seconds': 377.8}
+cophy cophynet_geo {'epoch': 49, 'validation_pose_batch_rmse': 0.8284280657768249, 'seconds': 411.6}
+cophy pets_geo {'epoch': 1, 'nll': 2.874533714354038, 'mse': 0.04780791699886322, 'seconds': 13.0}
+cophy pets_geo {'epoch': 2, 'nll': 2.6014073461294176, 'mse': 0.044722504913806915, 'seconds': 23.0}
+cophy pets_geo {'epoch': 3, 'nll': -8.186349582672118, 'mse': 0.05634229630231857, 'seconds': 32.1}
+cophy pets_geo {'epoch': 4, 'nll': -24.40375796556473, 'mse': 0.0456324927508831, 'seconds': 42.1}
+cophy pets_geo {'epoch': 5, 'nll': -30.983082393805187, 'mse': 0.044961657375097275, 'seconds': 51.8}
+cophy pets_geo {'epoch': 6, 'nll': -33.63226074377696, 'mse': 0.044235602021217346, 'seconds': 61.5}
+cophy pets_geo {'epoch': 7, 'nll': -34.991550330321, 'mse': 0.04350429028272629, 'seconds': 71.1}
+cophy pets_geo {'epoch': 8, 'nll': -35.85324000120163, 'mse': 0.04285697638988495, 'seconds': 80.8}
+cophy pets_geo {'epoch': 9, 'nll': -36.49931542078654, 'mse': 0.04231870919466019, 'seconds': 90.5}
+cophy pets_geo {'epoch': 10, 'nll': -37.03812665939331, 'mse': 0.04195158928632736, 'seconds': 100.2}
+cophy pets_geo {'epoch': 11, 'nll': -37.52232516606649, 'mse': 0.041736114770174026, 'seconds': 110.1}
+cophy pets_geo {'epoch': 12, 'nll': -37.989569965998335, 'mse': 0.041699666529893875, 'seconds': 119.7}
+cophy pets_geo {'epoch': 13, 'nll': -38.43660966555277, 'mse': 0.041806887835264206, 'seconds': 129.4}
+cophy pets_geo {'epoch': 14, 'nll': -38.883519124984744, 'mse': 0.0420607253909111, 'seconds': 140.1}
+cophy pets_geo {'epoch': 15, 'nll': -39.34125466346741, 'mse': 0.042429231107234955, 'seconds': 149.7}
+cophy pets_geo {'epoch': 16, 'nll': -39.806773074467976, 'mse': 0.04285487160086632, 'seconds': 159.4}
+cophy pets_geo {'epoch': 17, 'nll': -40.25886068344116, 'mse': 0.0432589091360569, 'seconds': 169.0}
+cophy pets_geo {'epoch': 18, 'nll': -40.715758323669434, 'mse': 0.04359273985028267, 'seconds': 179.0}
+cophy pets_geo {'epoch': 19, 'nll': -41.15267752011617, 'mse': 0.04382045567035675, 'seconds': 187.3}
+cophy pets_geo {'epoch': 20, 'nll': -41.56040126482646, 'mse': 0.043908558785915375, 'seconds': 189.8}
+cophy pets_geo {'epoch': 21, 'nll': -41.92569686571757, 'mse': 0.043893057852983475, 'seconds': 191.9}
+cophy pets_geo {'epoch': 22, 'nll': -42.27123707135518, 'mse': 0.043810442090034485, 'seconds': 201.1}
+cophy pets_geo {'epoch': 23, 'nll': -42.57102638880412, 'mse': 0.043715111911296844, 'seconds': 210.8}
+cophy pets_geo {'epoch': 24, 'nll': -42.83536779085795, 'mse': 0.04360935837030411, 'seconds': 220.5}
+cophy pets_geo {'epoch': 25, 'nll': -43.070087909698486, 'mse': 0.04353896901011467, 'seconds': 230.1}
+cophy ncii_geo {'step': 400, 'loss': -14.761497497558594, 'interaction_loss': 0.6791144609451294, 'seconds': 4.0}
+cophy ncii_geo {'step': 800, 'loss': -21.242109298706055, 'interaction_loss': 0.1589915007352829, 'seconds': 9.9}
+cophy ncii_geo {'step': 1200, 'loss': -23.332427978515625, 'interaction_loss': 0.20352062582969666, 'seconds': 16.1}
+cophy ncii_geo {'step': 1600, 'loss': -24.495450973510742, 'interaction_loss': 0.12133398652076721, 'seconds': 22.0}
+cophy ncii_geo {'step': 2000, 'loss': -17.753774642944336, 'interaction_loss': 0.18013308942317963, 'seconds': 27.8}
+cophy ncii_geo {'step': 2400, 'loss': -27.957477569580078, 'interaction_loss': 0.22312642633914948, 'seconds': 33.6}
+causalworld cophynet_geo {'epoch': 5, 'validation_pose_batch_rmse': 0.3945335994164149, 'seconds': 90.3}
+causalworld cophynet_geo {'epoch': 10, 'validation_pose_batch_rmse': 0.3945048451423645, 'seconds': 174.5}
+causalworld cophynet_geo {'epoch': 15, 'validation_pose_batch_rmse': 0.39398779968420666, 'seconds': 265.8}
+causalworld cophynet_geo {'epoch': 20, 'validation_pose_batch_rmse': 0.3943587988615036, 'seconds': 356.0}
+causalworld cophynet_geo {'epoch': 25, 'validation_pose_batch_rmse': 0.3938431789477666, 'seconds': 442.1}
+causalworld cophynet_geo {'epoch': 30, 'validation_pose_batch_rmse': 0.3937268902858098, 'seconds': 536.3}
+causalworld cophynet_geo {'epoch': 35, 'validation_pose_batch_rmse': 0.3952469577391942, 'seconds': 628.5}
+causalworld cophynet_geo {'epoch': 40, 'validation_pose_batch_rmse': 0.39350013931592304, 'seconds': 712.0}
+causalworld cophynet_geo {'epoch': 45, 'validation_pose_batch_rmse': 0.394341101249059, 'seconds': 803.6}
+causalworld cophynet_geo {'epoch': 49, 'validation_pose_batch_rmse': 0.3918184886376063, 'seconds': 876.1}
+causalworld pets_geo {'epoch': 1, 'nll': 2.285497335344553, 'mse': 0.0024122470058500767, 'seconds': 23.3}
+causalworld pets_geo {'epoch': 2, 'nll': -27.62480830103159, 'mse': 0.0023759377654641867, 'seconds': 44.3}
+causalworld pets_geo {'epoch': 3, 'nll': -48.34675670862198, 'mse': 0.00236287503503263, 'seconds': 65.1}
+causalworld pets_geo {'epoch': 4, 'nll': -50.38327029943466, 'mse': 0.002359073143452406, 'seconds': 85.0}
+causalworld pets_geo {'epoch': 5, 'nll': -50.91564044555028, 'mse': 0.0023561317939311266, 'seconds': 107.0}
+causalworld pets_geo {'epoch': 6, 'nll': -51.17299224932989, 'mse': 0.002356025855988264, 'seconds': 127.5}
+causalworld pets_geo {'epoch': 7, 'nll': -51.333600322405495, 'mse': 0.0023503152187913656, 'seconds': 147.9}
+causalworld pets_geo {'epoch': 8, 'nll': -51.44661192099253, 'mse': 0.0023486646823585033, 'seconds': 168.4}
+causalworld pets_geo {'epoch': 9, 'nll': -51.53411057392756, 'mse': 0.0023450213484466076, 'seconds': 189.0}
+causalworld pets_geo {'epoch': 10, 'nll': -51.604674895604454, 'mse': 0.0023444206453859806, 'seconds': 208.2}
+causalworld pets_geo {'epoch': 11, 'nll': -51.66582758029302, 'mse': 0.0023411717265844345, 'seconds': 225.1}
+causalworld pets_geo {'epoch': 12, 'nll': -51.72085050741831, 'mse': 0.0023393696174025536, 'seconds': 230.0}
+causalworld pets_geo {'epoch': 13, 'nll': -51.76962002515793, 'mse': 0.0023388720583170652, 'seconds': 249.6}
+causalworld pets_geo {'epoch': 14, 'nll': -51.813465587298076, 'mse': 0.0023384573869407177, 'seconds': 269.9}
+causalworld pets_geo {'epoch': 15, 'nll': -51.8539683620135, 'mse': 0.002336797071620822, 'seconds': 290.1}
+causalworld pets_geo {'epoch': 16, 'nll': -51.89174455006917, 'mse': 0.0023350552655756474, 'seconds': 310.6}
+causalworld pets_geo {'epoch': 17, 'nll': -51.92681796948115, 'mse': 0.0023333223070949316, 'seconds': 330.9}
+causalworld pets_geo {'epoch': 18, 'nll': -51.959192093213396, 'mse': 0.002331758849322796, 'seconds': 352.4}
+causalworld pets_geo {'epoch': 19, 'nll': -51.989153587818144, 'mse': 0.0023306645452976227, 'seconds': 372.6}
+causalworld pets_geo {'epoch': 20, 'nll': -52.016893529891966, 'mse': 0.0023271469399333, 'seconds': 392.9}
+causalworld pets_geo {'epoch': 21, 'nll': -52.04450356165568, 'mse': 0.0023278766311705112, 'seconds': 413.2}
+causalworld pets_geo {'epoch': 22, 'nll': -52.069658144315085, 'mse': 0.002323879860341549, 'seconds': 432.3}
+causalworld pets_geo {'epoch': 23, 'nll': -52.095200669765475, 'mse': 0.0023235043045133352, 'seconds': 450.6}
+causalworld pets_geo {'epoch': 24, 'nll': -52.11954924265544, 'mse': 0.002320220461115241, 'seconds': 458.8}
+causalworld pets_geo {'epoch': 25, 'nll': -52.142939539750415, 'mse': 0.0023194607347249985, 'seconds': 478.4}
+causalworld ncii_geo {'step': 400, 'loss': -36.045867919921875, 'interaction_loss': 0.6742491126060486, 'seconds': 3.9}
+causalworld ncii_geo {'step': 800, 'loss': -37.017154693603516, 'interaction_loss': 0.0572577565908432, 'seconds': 9.7}
+causalworld ncii_geo {'step': 1200, 'loss': -38.20450210571289, 'interaction_loss': 0.09659910947084427, 'seconds': 14.8}
+causalworld ncii_geo {'step': 1600, 'loss': -38.309600830078125, 'interaction_loss': 0.15589728951454163, 'seconds': 20.5}
+causalworld ncii_geo {'step': 2000, 'loss': -40.06348419189453, 'interaction_loss': 0.11421575397253036, 'seconds': 25.8}
+causalworld ncii_geo {'step': 2400, 'loss': -40.38427734375, 'interaction_loss': 0.07156580686569214, 'seconds': 31.7}

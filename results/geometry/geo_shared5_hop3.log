@@ -1,0 +1,40 @@
+/opt/anaconda3/lib/python3.13/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.5)
+  from scipy.sparse import csr_matrix, issparse
+geo_shared5_hop3 domains=('cophy', 'ballscf', 'causalworld', 'stacking2', 'pusht') scales={'cophy': 2.060856840319202, 'ballscf': 1.1744422604220457, 'causalworld': 0.59654206673459, 'stacking2': 0.5375441514825648, 'pusht': 1.2884432365482155} batch_sizes={'cophy': 10, 'ballscf': 13, 'causalworld': 20, 'stacking2': 13, 'pusht': 20}
+geo_shared5_hop3 params=1,478,723
+/home/kailais/.local/lib/python3.13/site-packages/torch/nn/modules/rnn.py:1440: UserWarning: RNN module weights are not part of single contiguous chunk of memory. This means they need to be compacted at every call, possibly greatly increasing memory usage. To compact weights again call flatten_parameters(). (Triggered internally at /__w/pytorch/pytorch/aten/src/ATen/native/cudnn/RNN.cpp:1479.)
+  result = _VF.gru(
+geo_shared5_hop3 {'step': 150, 'loss': 1.154, 'val': {'cophy': 1.2727, 'ballscf': 0.7392, 'causalworld': 0.2751, 'stacking2': 0.2502, 'pusht': 1.0819}, 'crit': 0.5996, 'ema': True, 'sec': 567.6}
+geo_shared5_hop3 {'step': 300, 'loss': 0.97, 'val': {'cophy': 1.143, 'ballscf': 0.6463, 'causalworld': 0.2507, 'stacking2': 0.232, 'pusht': 1.0297}, 'crit': 0.5476, 'ema': False, 'sec': 1123.7}
+geo_shared5_hop3 {'step': 450, 'loss': 0.942, 'val': {'cophy': 1.0581, 'ballscf': 0.5894, 'causalworld': 0.243, 'stacking2': 0.2211, 'pusht': 0.9986}, 'crit': 0.5179, 'ema': True, 'sec': 1684.1}
+geo_shared5_hop3 {'step': 600, 'loss': 0.92, 'val': {'cophy': 1.0361, 'ballscf': 0.5511, 'causalworld': 0.2385, 'stacking2': 0.2162, 'pusht': 0.9714}, 'crit': 0.5016, 'ema': True, 'sec': 2244.8}
+geo_shared5_hop3 {'step': 750, 'loss': 0.82, 'val': {'cophy': 1.0207, 'ballscf': 0.5218, 'causalworld': 0.2325, 'stacking2': 0.2118, 'pusht': 0.9687}, 'crit': 0.4908, 'ema': True, 'sec': 2806.1}
+geo_shared5_hop3 {'step': 900, 'loss': 0.8, 'val': {'cophy': 1.0156, 'ballscf': 0.4983, 'causalworld': 0.2262, 'stacking2': 0.2077, 'pusht': 0.947}, 'crit': 0.4792, 'ema': True, 'sec': 3367.8}
+geo_shared5_hop3 {'step': 1050, 'loss': 0.774, 'val': {'cophy': 1.0004, 'ballscf': 0.4751, 'causalworld': 0.2204, 'stacking2': 0.2057, 'pusht': 0.9478}, 'crit': 0.4709, 'ema': True, 'sec': 3928.8}
+geo_shared5_hop3 {'step': 1200, 'loss': 0.726, 'val': {'cophy': 1.016, 'ballscf': 0.4617, 'causalworld': 0.2153, 'stacking2': 0.2042, 'pusht': 0.9452}, 'crit': 0.4673, 'ema': True, 'sec': 4490.3}
+geo_shared5_hop3 {'step': 1350, 'loss': 0.648, 'val': {'cophy': 1.0258, 'ballscf': 0.4521, 'causalworld': 0.214, 'stacking2': 0.2009, 'pusht': 0.937}, 'crit': 0.4636, 'ema': True, 'sec': 5051.9}
+geo_shared5_hop3 {'step': 1500, 'loss': 0.716, 'val': {'cophy': 1.0185, 'ballscf': 0.4444, 'causalworld': 0.2117, 'stacking2': 0.199, 'pusht': 0.937}, 'crit': 0.4601, 'ema': True, 'sec': 5613.7}
+geo_shared5_hop3 {'step': 1650, 'loss': 0.693, 'val': {'cophy': 1.0198, 'ballscf': 0.4374, 'causalworld': 0.2078, 'stacking2': 0.1966, 'pusht': 0.9309}, 'crit': 0.4558, 'ema': True, 'sec': 6174.8}
+geo_shared5_hop3 {'step': 1800, 'loss': 0.742, 'val': {'cophy': 1.0147, 'ballscf': 0.4292, 'causalworld': 0.206, 'stacking2': 0.1945, 'pusht': 0.9254}, 'crit': 0.4516, 'ema': True, 'sec': 6735.7}
+geo_shared5_hop3 {'step': 1950, 'loss': 0.667, 'val': {'cophy': 1.0192, 'ballscf': 0.4212, 'causalworld': 0.2026, 'stacking2': 0.1922, 'pusht': 0.9162}, 'crit': 0.4473, 'ema': True, 'sec': 7297.2}
+geo_shared5_hop3 {'step': 2100, 'loss': 0.732, 'val': {'cophy': 1.0266, 'ballscf': 0.4169, 'causalworld': 0.1994, 'stacking2': 0.1902, 'pusht': 0.9069}, 'crit': 0.444, 'ema': True, 'sec': 7857.5}
+geo_shared5_hop3 {'step': 2250, 'loss': 0.665, 'val': {'cophy': 1.0261, 'ballscf': 0.4143, 'causalworld': 0.1967, 'stacking2': 0.1894, 'pusht': 0.908}, 'crit': 0.4425, 'ema': True, 'sec': 8418.5}
+geo_shared5_hop3 {'step': 2400, 'loss': 0.649, 'val': {'cophy': 1.0328, 'ballscf': 0.4131, 'causalworld': 0.1949, 'stacking2': 0.1887, 'pusht': 0.9039}, 'crit': 0.4414, 'ema': True, 'sec': 8979.1}
+geo_shared5_hop3 {'step': 2550, 'loss': 0.677, 'val': {'cophy': 1.0409, 'ballscf': 0.4085, 'causalworld': 0.1931, 'stacking2': 0.1866, 'pusht': 0.896}, 'crit': 0.4388, 'ema': True, 'sec': 9538.4}
+geo_shared5_hop3 {'step': 2700, 'loss': 0.688, 'val': {'cophy': 1.0436, 'ballscf': 0.4067, 'causalworld': 0.1915, 'stacking2': 0.1859, 'pusht': 0.8985}, 'crit': 0.4383, 'ema': True, 'sec': 10098.1}
+geo_shared5_hop3 {'step': 2850, 'loss': 0.624, 'val': {'cophy': 1.0418, 'ballscf': 0.4066, 'causalworld': 0.1904, 'stacking2': 0.1837, 'pusht': 0.902}, 'crit': 0.4374, 'ema': True, 'sec': 10656.8}
+geo_shared5_hop3 {'step': 3000, 'loss': 0.592, 'val': {'cophy': 1.0399, 'ballscf': 0.4054, 'causalworld': 0.1891, 'stacking2': 0.1829, 'pusht': 0.8955}, 'crit': 0.4353, 'ema': True, 'sec': 11241.9}
+geo_shared5_hop3 {'step': 3150, 'loss': 0.648, 'val': {'cophy': 1.0421, 'ballscf': 0.4039, 'causalworld': 0.1887, 'stacking2': 0.1829, 'pusht': 0.8936}, 'crit': 0.4348, 'ema': True, 'sec': 11824.9}
+geo_shared5_hop3 {'step': 3300, 'loss': 0.544, 'val': {'cophy': 1.0446, 'ballscf': 0.4023, 'causalworld': 0.1884, 'stacking2': 0.1824, 'pusht': 0.8904}, 'crit': 0.4341, 'ema': True, 'sec': 12409.1}
+geo_shared5_hop3 {'step': 3450, 'loss': 0.572, 'val': {'cophy': 1.0486, 'ballscf': 0.4018, 'causalworld': 0.1888, 'stacking2': 0.1826, 'pusht': 0.8952}, 'crit': 0.4353, 'ema': True, 'sec': 12991.4}
+geo_shared5_hop3 {'step': 3600, 'loss': 0.604, 'val': {'cophy': 1.0447, 'ballscf': 0.399, 'causalworld': 0.1877, 'stacking2': 0.1821, 'pusht': 0.8872}, 'crit': 0.4327, 'ema': True, 'sec': 13573.5}
+/opt/anaconda3/lib/python3.13/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.5)
+  from scipy.sparse import csr_matrix, issparse
+geo_shared5_hop3 cal {'step': 150, 'validation': {'cophy': -1.589404582977295, 'ballscf': -4.1387858390808105, 'causalworld': -5.949684143066406, 'stacking2': -6.393890380859375, 'pusht': -5.958308219909668}, 'value': -4.806014633178711}
+geo_shared5_hop3 cal {'step': 300, 'validation': {'cophy': -1.5828638076782227, 'ballscf': -4.367644309997559, 'causalworld': -6.413870811462402, 'stacking2': -6.972816467285156, 'pusht': -6.245370864868164}, 'value': -5.116513252258301}
+geo_shared5_hop3 cal {'step': 450, 'validation': {'cophy': -1.63173246383667, 'ballscf': -4.543008804321289, 'causalworld': -6.951129913330078, 'stacking2': -7.68388557434082, 'pusht': -6.79840612411499}, 'value': -5.52163257598877}
+geo_shared5_hop3 cal {'step': 600, 'validation': {'cophy': -1.6382646560668945, 'ballscf': -4.677943229675293, 'causalworld': -6.8991851806640625, 'stacking2': -7.533333778381348, 'pusht': -6.9864091873168945}, 'value': -5.547027206420898}
+geo_shared5_hop3 cal {'step': 750, 'validation': {'cophy': -1.7551337480545044, 'ballscf': -4.638795375823975, 'causalworld': -7.164475917816162, 'stacking2': -7.900171756744385, 'pusht': -7.040706634521484}, 'value': -5.699856686592102}
+geo_shared5_hop3 cal {'step': 900, 'validation': {'cophy': -1.8157458305358887, 'ballscf': -4.690110683441162, 'causalworld': -7.277851104736328, 'stacking2': -8.058661460876465, 'pusht': -7.382761001586914}, 'value': -5.845026016235352}
+geo_shared5_hop3 cal {'step': 1050, 'validation': {'cophy': -1.8851040601730347, 'ballscf': -4.896978855133057, 'causalworld': -7.342449188232422, 'stacking2': -8.195465087890625, 'pusht': -7.418124198913574}, 'value': -5.947624278068543}
+geo_shared5_hop3 cal {'step': 1200, 'validation': {'cophy': -1.8726675510406494, 'ballscf': -4.946255683898926, 'causalworld': -7.3655314445495605, 'stacking2': -8.235576629638672, 'pusht': -7.551438331604004}, 'value': -5.994293928146362}

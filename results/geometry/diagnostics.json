@@ -1,0 +1,44 @@
+{
+  "geo_shared3-calibrated": {
+    "pusht_pinch_rmse": 145.945068359375,
+    "pusht_nopinch_rmse": 42.03093338012695,
+    "pusht_pusher_ap": 0.7069587789810675,
+    "pusht_wall_ap": 0.5290408827959862,
+    "pusht_actor_rmse_end": 7.934181213378906
+  },
+  "geo_shared3_hop3-calibrated": {
+    "pusht_pinch_rmse": 137.41136169433594,
+    "pusht_nopinch_rmse": 42.99015808105469,
+    "pusht_pusher_ap": 0.7166483121490834,
+    "pusht_wall_ap": 0.546421694960101,
+    "pusht_actor_rmse_end": 8.9609375
+  },
+  "geo_shared5-calibrated": {
+    "pusht_pinch_rmse": 145.56027221679688,
+    "pusht_nopinch_rmse": 42.61161804199219,
+    "pusht_pusher_ap": 0.6929107484347531,
+    "pusht_wall_ap": 0.5518950388838066,
+    "pusht_actor_rmse_end": 12.586601257324219
+  },
+  "geo_shared5_hop3-calibrated": {
+    "pusht_pinch_rmse": 142.4485626220703,
+    "pusht_nopinch_rmse": 41.94228744506836,
+    "pusht_pusher_ap": 0.7014942610886946,
+    "pusht_wall_ap": 0.5547218046130518,
+    "pusht_actor_rmse_end": 9.964478492736816
+  },
+  "geo_unseen_pusht4-calibrated": {
+    "pusht_pinch_rmse": 162.77137756347656,
+    "pusht_nopinch_rmse": 60.28382873535156,
+    "pusht_pusher_ap": 0.4681799359634364,
+    "pusht_wall_ap": 0.2476571344331166,
+    "pusht_actor_rmse_end": 42.19160461425781
+  },
+  "geo_unseen_stacking2-calibrated": {
+    "pusht_pinch_rmse": 140.56280517578125,
+    "pusht_nopinch_rmse": 43.44900131225586,
+    "pusht_pusher_ap": 0.6995903297611356,
+    "pusht_wall_ap": 0.5529852589311496,
+    "pusht_actor_rmse_end": 11.103503227233887
+  }
+}

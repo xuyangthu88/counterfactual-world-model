@@ -1,0 +1,131 @@
+ballscf cophynet_geo {'epoch': 5, 'validation_pose_batch_rmse': 0.5056651353836059, 'seconds': 35.8}
+ballscf cophynet_geo {'epoch': 10, 'validation_pose_batch_rmse': 0.4547038495540619, 'seconds': 71.2}
+ballscf cophynet_geo {'epoch': 15, 'validation_pose_batch_rmse': 0.42262734174728395, 'seconds': 103.9}
+ballscf cophynet_geo {'epoch': 20, 'validation_pose_batch_rmse': 0.3995774209499359, 'seconds': 138.0}
+ballscf cophynet_geo {'epoch': 25, 'validation_pose_batch_rmse': 0.38983453512191774, 'seconds': 173.2}
+ballscf cophynet_geo {'epoch': 30, 'validation_pose_batch_rmse': 0.38314581513404844, 'seconds': 208.3}
+ballscf cophynet_geo {'epoch': 35, 'validation_pose_batch_rmse': 0.397517591714859, 'seconds': 240.1}
+ballscf cophynet_geo {'epoch': 40, 'validation_pose_batch_rmse': 0.38150392174720765, 'seconds': 275.2}
+ballscf cophynet_geo {'epoch': 45, 'validation_pose_batch_rmse': 0.3852913975715637, 'seconds': 310.3}
+ballscf cophynet_geo {'epoch': 49, 'validation_pose_batch_rmse': 0.37121414542198183, 'seconds': 335.3}
+ballscf pets_geo {'epoch': 1, 'nll': 2.52300784252584, 'mse': 0.0178944393992424, 'seconds': 6.7}
+ballscf pets_geo {'epoch': 2, 'nll': -4.544042827934026, 'mse': 0.0173836387693882, 'seconds': 12.9}
+ballscf pets_geo {'epoch': 3, 'nll': -30.737854865193366, 'mse': 0.017248567193746567, 'seconds': 19.0}
+ballscf pets_geo {'epoch': 4, 'nll': -37.17749358415604, 'mse': 0.017229700461030006, 'seconds': 25.7}
+ballscf pets_geo {'epoch': 5, 'nll': -38.658733904361725, 'mse': 0.017216477543115616, 'seconds': 32.2}
+ballscf pets_geo {'epoch': 6, 'nll': -39.353654730319974, 'mse': 0.017214227467775345, 'seconds': 38.6}
+ballscf pets_geo {'epoch': 7, 'nll': -39.791193175315854, 'mse': 0.017202099785208702, 'seconds': 45.2}
+ballscf pets_geo {'epoch': 8, 'nll': -40.10922042131424, 'mse': 0.017197325825691223, 'seconds': 51.7}
+ballscf pets_geo {'epoch': 9, 'nll': -40.35631567239761, 'mse': 0.017182674258947372, 'seconds': 58.2}
+ballscf pets_geo {'epoch': 10, 'nll': -40.56588572263718, 'mse': 0.01718289963901043, 'seconds': 64.9}
+ballscf pets_geo {'epoch': 11, 'nll': -40.73785989284515, 'mse': 0.017162786796689034, 'seconds': 71.3}
+ballscf pets_geo {'epoch': 12, 'nll': -40.88778139352799, 'mse': 0.017155585810542107, 'seconds': 77.8}
+ballscf pets_geo {'epoch': 13, 'nll': -41.01742030382157, 'mse': 0.01714364066720009, 'seconds': 84.5}
+ballscf pets_geo {'epoch': 14, 'nll': -41.13751199245453, 'mse': 0.017140820622444153, 'seconds': 91.1}
+ballscf pets_geo {'epoch': 15, 'nll': -41.24155359268188, 'mse': 0.01713571883738041, 'seconds': 95.6}
+ballscf pets_geo {'epoch': 16, 'nll': -41.338307571411136, 'mse': 0.017123142257332802, 'seconds': 98.0}
+ballscf pets_geo {'epoch': 17, 'nll': -41.42775740623474, 'mse': 0.017112767323851585, 'seconds': 101.6}
+ballscf pets_geo {'epoch': 18, 'nll': -41.508762657642365, 'mse': 0.01710381917655468, 'seconds': 108.1}
+ballscf pets_geo {'epoch': 19, 'nll': -41.58082277774811, 'mse': 0.01709924079477787, 'seconds': 114.4}
+ballscf pets_geo {'epoch': 20, 'nll': -41.64926565885544, 'mse': 0.01708604209125042, 'seconds': 120.8}
+ballscf pets_geo {'epoch': 21, 'nll': -41.71454827785492, 'mse': 0.017073793336749077, 'seconds': 127.5}
+ballscf pets_geo {'epoch': 22, 'nll': -41.77446666955948, 'mse': 0.01706552319228649, 'seconds': 133.9}
+ballscf pets_geo {'epoch': 23, 'nll': -41.83212265968323, 'mse': 0.01706031523644924, 'seconds': 140.5}
+ballscf pets_geo {'epoch': 24, 'nll': -41.88396162986756, 'mse': 0.017048679292201996, 'seconds': 147.0}
+ballscf pets_geo {'epoch': 25, 'nll': -41.93572597503662, 'mse': 0.017042307183146477, 'seconds': 153.8}
+ballscf ncii_geo {'step': 400, 'loss': -4.751002788543701, 'interaction_loss': 0.6745797395706177, 'seconds': 3.6}
+ballscf ncii_geo {'step': 800, 'loss': -9.854290962219238, 'interaction_loss': 0.18870307505130768, 'seconds': 9.9}
+ballscf ncii_geo {'step': 1200, 'loss': -13.627401351928711, 'interaction_loss': 0.22205886244773865, 'seconds': 15.9}
+ballscf ncii_geo {'step': 1600, 'loss': -15.089099884033203, 'interaction_loss': 0.20829451084136963, 'seconds': 21.8}
+ballscf ncii_geo {'step': 2000, 'loss': -11.004267692565918, 'interaction_loss': 0.2696213126182556, 'seconds': 27.7}
+ballscf ncii_geo {'step': 2400, 'loss': -15.441377639770508, 'interaction_loss': 0.36664554476737976, 'seconds': 33.7}
+stacking2 cophynet_geo {'epoch': 5, 'validation_pose_batch_rmse': 0.3245384216308594, 'seconds': 41.9}
+stacking2 cophynet_geo {'epoch': 10, 'validation_pose_batch_rmse': 0.3232468247413635, 'seconds': 87.1}
+stacking2 cophynet_geo {'epoch': 15, 'validation_pose_batch_rmse': 0.3218155562877655, 'seconds': 128.6}
+stacking2 cophynet_geo {'epoch': 20, 'validation_pose_batch_rmse': 0.3245323419570923, 'seconds': 173.7}
+stacking2 cophynet_geo {'epoch': 25, 'validation_pose_batch_rmse': 0.32242442965507506, 'seconds': 219.0}
+stacking2 cophynet_geo {'epoch': 30, 'validation_pose_batch_rmse': 0.32046336531639097, 'seconds': 260.3}
+stacking2 cophynet_geo {'epoch': 35, 'validation_pose_batch_rmse': 0.3223326921463013, 'seconds': 305.0}
+stacking2 cophynet_geo {'epoch': 40, 'validation_pose_batch_rmse': 0.3185419201850891, 'seconds': 347.8}
+stacking2 cophynet_geo {'epoch': 45, 'validation_pose_batch_rmse': 0.3229320585727692, 'seconds': 391.0}
+stacking2 cophynet_geo {'epoch': 49, 'validation_pose_batch_rmse': 0.32198944091796877, 'seconds': 427.2}
+stacking2 pets_geo {'epoch': 1, 'nll': 2.453141034394503, 'mse': 0.002626286121085286, 'seconds': 8.9}
+stacking2 pets_geo {'epoch': 2, 'nll': -4.359167110174894, 'mse': 0.0027338871732354164, 'seconds': 15.8}
+stacking2 pets_geo {'epoch': 3, 'nll': -33.57570120692253, 'mse': 0.002592463046312332, 'seconds': 22.7}
+stacking2 pets_geo {'epoch': 4, 'nll': -42.68923559784889, 'mse': 0.0025844101328402758, 'seconds': 25.9}
+stacking2 pets_geo {'epoch': 5, 'nll': -44.922105795145036, 'mse': 0.002577474107965827, 'seconds': 28.3}
+stacking2 pets_geo {'epoch': 6, 'nll': -45.76536968946457, 'mse': 0.002572290599346161, 'seconds': 34.8}
+stacking2 pets_geo {'epoch': 7, 'nll': -46.19913013577461, 'mse': 0.0025698826648294926, 'seconds': 41.7}
+stacking2 pets_geo {'epoch': 8, 'nll': -46.47247968912124, 'mse': 0.002566406037658453, 'seconds': 48.5}
+stacking2 pets_geo {'epoch': 9, 'nll': -46.661945468187334, 'mse': 0.0025612094905227423, 'seconds': 55.4}
+stacking2 pets_geo {'epoch': 10, 'nll': -46.803443825244905, 'mse': 0.0025582248345017433, 'seconds': 62.3}
+stacking2 pets_geo {'epoch': 11, 'nll': -46.910383951663974, 'mse': 0.0025546029210090637, 'seconds': 68.8}
+stacking2 pets_geo {'epoch': 12, 'nll': -46.99526700377464, 'mse': 0.002552300225943327, 'seconds': 75.7}
+stacking2 pets_geo {'epoch': 13, 'nll': -47.063452726602556, 'mse': 0.0025509418919682503, 'seconds': 82.6}
+stacking2 pets_geo {'epoch': 14, 'nll': -47.12106022834778, 'mse': 0.002547056181356311, 'seconds': 89.2}
+stacking2 pets_geo {'epoch': 15, 'nll': -47.17063275575638, 'mse': 0.00254437024705112, 'seconds': 95.9}
+stacking2 pets_geo {'epoch': 16, 'nll': -47.212145268917084, 'mse': 0.0025445048231631517, 'seconds': 101.9}
+stacking2 pets_geo {'epoch': 17, 'nll': -47.249342852830885, 'mse': 0.0025423644110560417, 'seconds': 108.6}
+stacking2 pets_geo {'epoch': 18, 'nll': -47.28023546338081, 'mse': 0.0025400258600711823, 'seconds': 115.5}
+stacking2 pets_geo {'epoch': 19, 'nll': -47.312161463499066, 'mse': 0.0025388875510543585, 'seconds': 122.2}
+stacking2 pets_geo {'epoch': 20, 'nll': -47.33845884203911, 'mse': 0.002537506865337491, 'seconds': 128.8}
+stacking2 pets_geo {'epoch': 21, 'nll': -47.36159783005714, 'mse': 0.002536561107262969, 'seconds': 132.8}
+stacking2 pets_geo {'epoch': 22, 'nll': -47.384761959314346, 'mse': 0.0025348823983222246, 'seconds': 135.1}
+stacking2 pets_geo {'epoch': 23, 'nll': -47.40581324100494, 'mse': 0.002532927319407463, 'seconds': 140.3}
+stacking2 pets_geo {'epoch': 24, 'nll': -47.42404446601868, 'mse': 0.0025327582843601704, 'seconds': 147.0}
+stacking2 pets_geo {'epoch': 25, 'nll': -47.44222028255463, 'mse': 0.00252934149466455, 'seconds': 153.6}
+stacking2 ncii_geo {'step': 400, 'loss': -31.705177307128906, 'interaction_loss': 0.6741653084754944, 'seconds': 4.3}
+stacking2 ncii_geo {'step': 800, 'loss': -32.74409866333008, 'interaction_loss': 0.10118452459573746, 'seconds': 10.5}
+stacking2 ncii_geo {'step': 1200, 'loss': -34.32676696777344, 'interaction_loss': 0.10513908416032791, 'seconds': 16.4}
+stacking2 ncii_geo {'step': 1600, 'loss': -33.63011169433594, 'interaction_loss': 0.1811605542898178, 'seconds': 22.3}
+stacking2 ncii_geo {'step': 2000, 'loss': -36.774993896484375, 'interaction_loss': 0.12095573544502258, 'seconds': 28.2}
+stacking2 ncii_geo {'step': 2400, 'loss': -36.66232681274414, 'interaction_loss': 0.12760472297668457, 'seconds': 34.1}
+/opt/anaconda3/lib/python3.13/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.5)
+  from scipy.sparse import csr_matrix, issparse
+geo_unseen_pusht4 domains=('cophy', 'ballscf', 'causalworld', 'stacking2') scales={'cophy': 2.1956552301129237, 'ballscf': 1.2512612429507255, 'causalworld': 0.6355612302528025, 'stacking2': 0.5727043259523543} batch_sizes={'cophy': 10, 'ballscf': 13, 'causalworld': 20, 'stacking2': 13}
+geo_unseen_pusht4 params=885,619
+/home/kailais/.local/lib/python3.13/site-packages/torch/nn/modules/rnn.py:1440: UserWarning: RNN module weights are not part of single contiguous chunk of memory. This means they need to be compacted at every call, possibly greatly increasing memory usage. To compact weights again call flatten_parameters(). (Triggered internally at /__w/pytorch/pytorch/aten/src/ATen/native/cudnn/RNN.cpp:1479.)
+  result = _VF.gru(
+geo_unseen_pusht4 {'step': 150, 'loss': 1.055, 'val': {'cophy': 1.2665, 'ballscf': 0.7481, 'causalworld': 0.2766, 'stacking2': 0.2502}, 'crit': 0.5128, 'ema': True, 'sec': 331.7}
+geo_unseen_pusht4 {'step': 300, 'loss': 0.982, 'val': {'cophy': 1.1203, 'ballscf': 0.664, 'causalworld': 0.2483, 'stacking2': 0.2326}, 'crit': 0.4603, 'ema': True, 'sec': 661.7}
+geo_unseen_pusht4 {'step': 450, 'loss': 0.858, 'val': {'cophy': 1.0836, 'ballscf': 0.6137, 'causalworld': 0.2364, 'stacking2': 0.2234}, 'crit': 0.4371, 'ema': True, 'sec': 989.7}
+geo_unseen_pusht4 {'step': 600, 'loss': 0.936, 'val': {'cophy': 1.0476, 'ballscf': 0.5738, 'causalworld': 0.2294, 'stacking2': 0.2176}, 'crit': 0.4195, 'ema': True, 'sec': 1318.0}
+geo_unseen_pusht4 {'step': 750, 'loss': 0.821, 'val': {'cophy': 1.029, 'ballscf': 0.554, 'causalworld': 0.2262, 'stacking2': 0.2144}, 'crit': 0.4107, 'ema': True, 'sec': 1646.7}
+geo_unseen_pusht4 {'step': 900, 'loss': 0.734, 'val': {'cophy': 1.0172, 'ballscf': 0.5387, 'causalworld': 0.2221, 'stacking2': 0.2095}, 'crit': 0.4025, 'ema': True, 'sec': 1975.6}
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/NFS/T5/kailais/others/WM/whatif-pushing/whatif/geometry/fit.py", line 188, in <module>
+    fit(args.kind)
+    ~~~^^^^^^^^^^^
+  File "/NFS/T5/kailais/others/WM/whatif-pushing/whatif/geometry/fit.py", line 96, in fit
+    (loss / len(domains)).backward()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/kailais/.local/lib/python3.13/site-packages/torch/_tensor.py", line 623, in backward
+    torch.autograd.backward(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        self, gradient, retain_graph, create_graph, inputs=inputs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/kailais/.local/lib/python3.13/site-packages/torch/autograd/__init__.py", line 395, in backward
+    _engine_run_backward(
+    ~~~~~~~~~~~~~~~~~~~~^
+        tensors,
+        ^^^^^^^^
+    ...<5 lines>...
+        accumulate_grad=True,
+        ^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/kailais/.local/lib/python3.13/site-packages/torch/autograd/graph.py", line 979, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        t_outputs, *args, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )  # Calls into the C++ engine to run the backward pass
+    ^
+torch.AcceleratorError: CUDA error: uncorrectable ECC error encountered
+Search for `cudaErrorECCUncorrectable' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more information.
+For more detailed error information, run with CUDA_LOG_FILE=stderr
+

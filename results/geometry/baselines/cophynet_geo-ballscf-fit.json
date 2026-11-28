@@ -1,0 +1,52 @@
+[
+  {
+    "epoch": 5,
+    "validation_pose_batch_rmse": 0.5056651353836059,
+    "seconds": 35.8
+  },
+  {
+    "epoch": 10,
+    "validation_pose_batch_rmse": 0.4547038495540619,
+    "seconds": 71.2
+  },
+  {
+    "epoch": 15,
+    "validation_pose_batch_rmse": 0.42262734174728395,
+    "seconds": 103.9
+  },
+  {
+    "epoch": 20,
+    "validation_pose_batch_rmse": 0.3995774209499359,
+    "seconds": 138.0
+  },
+  {
+    "epoch": 25,
+    "validation_pose_batch_rmse": 0.38983453512191774,
+    "seconds": 173.2
+  },
+  {
+    "epoch": 30,
+    "validation_pose_batch_rmse": 0.38314581513404844,
+    "seconds": 208.3
+  },
+  {
+    "epoch": 35,
+    "validation_pose_batch_rmse": 0.397517591714859,
+    "seconds": 240.1
+  },
+  {
+    "epoch": 40,
+    "validation_pose_batch_rmse": 0.38150392174720765,
+    "seconds": 275.2
+  },
+  {
+    "epoch": 45,
+    "validation_pose_batch_rmse": 0.3852913975715637,
+    "seconds": 310.3
+  },
+  {
+    "epoch": 49,
+    "validation_pose_batch_rmse": 0.37121414542198183,
+    "seconds": 335.3
+  }
+]

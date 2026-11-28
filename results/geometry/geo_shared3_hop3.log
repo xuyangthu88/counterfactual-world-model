@@ -1,0 +1,40 @@
+/opt/anaconda3/lib/python3.13/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.5)
+  from scipy.sparse import csr_matrix, issparse
+geo_shared3_hop3 domains=('cophy', 'causalworld', 'pusht') scales={'cophy': 1.7679219768689505, 'causalworld': 0.5117482249487814, 'pusht': 1.10530099387638} batch_sizes={'cophy': 10, 'causalworld': 20, 'pusht': 20}
+geo_shared3_hop3 params=1,478,723
+/home/kailais/.local/lib/python3.13/site-packages/torch/nn/modules/rnn.py:1440: UserWarning: RNN module weights are not part of single contiguous chunk of memory. This means they need to be compacted at every call, possibly greatly increasing memory usage. To compact weights again call flatten_parameters(). (Triggered internally at /__w/pytorch/pytorch/aten/src/ATen/native/cudnn/RNN.cpp:1479.)
+  result = _VF.gru(
+geo_shared3_hop3 {'step': 150, 'loss': 1.156, 'val': {'cophy': 1.1983, 'causalworld': 0.274, 'pusht': 1.033}, 'crit': 0.7086, 'ema': True, 'sec': 339.4}
+geo_shared3_hop3 {'step': 300, 'loss': 1.073, 'val': {'cophy': 1.1193, 'causalworld': 0.2556, 'pusht': 1.0005}, 'crit': 0.6717, 'ema': True, 'sec': 676.9}
+geo_shared3_hop3 {'step': 450, 'loss': 1.024, 'val': {'cophy': 1.0668, 'causalworld': 0.2503, 'pusht': 0.9924}, 'crit': 0.6558, 'ema': True, 'sec': 1014.2}
+geo_shared3_hop3 {'step': 600, 'loss': 0.976, 'val': {'cophy': 1.0505, 'causalworld': 0.2393, 'pusht': 0.9846}, 'crit': 0.6429, 'ema': True, 'sec': 1352.1}
+geo_shared3_hop3 {'step': 750, 'loss': 0.977, 'val': {'cophy': 1.0286, 'causalworld': 0.2407, 'pusht': 0.9873}, 'crit': 0.6405, 'ema': True, 'sec': 1690.7}
+geo_shared3_hop3 {'step': 900, 'loss': 0.913, 'val': {'cophy': 1.0172, 'causalworld': 0.2355, 'pusht': 0.9845}, 'crit': 0.634, 'ema': True, 'sec': 2028.4}
+geo_shared3_hop3 {'step': 1050, 'loss': 0.907, 'val': {'cophy': 1.0113, 'causalworld': 0.2301, 'pusht': 0.9827}, 'crit': 0.6286, 'ema': True, 'sec': 2365.0}
+geo_shared3_hop3 {'step': 1200, 'loss': 0.838, 'val': {'cophy': 1.0109, 'causalworld': 0.2262, 'pusht': 0.9752}, 'crit': 0.6237, 'ema': True, 'sec': 2701.9}
+geo_shared3_hop3 {'step': 1350, 'loss': 0.951, 'val': {'cophy': 1.0167, 'causalworld': 0.224, 'pusht': 0.9753}, 'crit': 0.6233, 'ema': True, 'sec': 3036.1}
+geo_shared3_hop3 {'step': 1500, 'loss': 0.797, 'val': {'cophy': 1.0158, 'causalworld': 0.2192, 'pusht': 0.968}, 'crit': 0.6178, 'ema': True, 'sec': 3370.8}
+geo_shared3_hop3 {'step': 1650, 'loss': 1.037, 'val': {'cophy': 1.022, 'causalworld': 0.2153, 'pusht': 0.9658}, 'crit': 0.6156, 'ema': True, 'sec': 3706.7}
+geo_shared3_hop3 {'step': 1800, 'loss': 0.905, 'val': {'cophy': 1.0209, 'causalworld': 0.2124, 'pusht': 0.9626}, 'crit': 0.6125, 'ema': True, 'sec': 4043.0}
+geo_shared3_hop3 {'step': 1950, 'loss': 0.866, 'val': {'cophy': 1.0184, 'causalworld': 0.2105, 'pusht': 0.9497}, 'crit': 0.6071, 'ema': True, 'sec': 4378.6}
+geo_shared3_hop3 {'step': 2100, 'loss': 0.794, 'val': {'cophy': 1.0163, 'causalworld': 0.2079, 'pusht': 0.9431}, 'crit': 0.603, 'ema': True, 'sec': 4717.6}
+geo_shared3_hop3 {'step': 2250, 'loss': 0.74, 'val': {'cophy': 1.0229, 'causalworld': 0.2055, 'pusht': 0.9352}, 'crit': 0.6004, 'ema': True, 'sec': 5053.3}
+geo_shared3_hop3 {'step': 2400, 'loss': 0.775, 'val': {'cophy': 1.0302, 'causalworld': 0.2031, 'pusht': 0.9209}, 'crit': 0.596, 'ema': True, 'sec': 5389.4}
+geo_shared3_hop3 {'step': 2550, 'loss': 0.808, 'val': {'cophy': 1.026, 'causalworld': 0.1996, 'pusht': 0.9233}, 'crit': 0.5936, 'ema': True, 'sec': 5726.4}
+geo_shared3_hop3 {'step': 2700, 'loss': 0.728, 'val': {'cophy': 1.0314, 'causalworld': 0.198, 'pusht': 0.9188}, 'crit': 0.5921, 'ema': True, 'sec': 6064.0}
+geo_shared3_hop3 {'step': 2850, 'loss': 0.729, 'val': {'cophy': 1.0347, 'causalworld': 0.1967, 'pusht': 0.925}, 'crit': 0.5936, 'ema': True, 'sec': 6401.4}
+geo_shared3_hop3 {'step': 3000, 'loss': 0.792, 'val': {'cophy': 1.0309, 'causalworld': 0.1963, 'pusht': 0.9205}, 'crit': 0.5914, 'ema': True, 'sec': 6738.4}
+geo_shared3_hop3 {'step': 3150, 'loss': 0.787, 'val': {'cophy': 1.0142, 'causalworld': 0.1948, 'pusht': 0.907}, 'crit': 0.5833, 'ema': False, 'sec': 7077.8}
+geo_shared3_hop3 {'step': 3300, 'loss': 0.706, 'val': {'cophy': 1.0299, 'causalworld': 0.1934, 'pusht': 0.909}, 'crit': 0.5859, 'ema': True, 'sec': 7424.5}
+geo_shared3_hop3 {'step': 3450, 'loss': 0.716, 'val': {'cophy': 1.0361, 'causalworld': 0.1927, 'pusht': 0.9173}, 'crit': 0.589, 'ema': True, 'sec': 7767.2}
+geo_shared3_hop3 {'step': 3600, 'loss': 0.639, 'val': {'cophy': 1.0384, 'causalworld': 0.1925, 'pusht': 0.9164}, 'crit': 0.589, 'ema': True, 'sec': 8105.4}
+/opt/anaconda3/lib/python3.13/site-packages/sklearn/utils/_param_validation.py:14: UserWarning: A NumPy version >=1.23.5 and <2.5.0 is required for this version of SciPy (detected version 2.5.5)
+  from scipy.sparse import csr_matrix, issparse
+geo_shared3_hop3 cal {'step': 150, 'validation': {'cophy': -1.6711955070495605, 'causalworld': -5.810320854187012, 'pusht': -5.848349571228027}, 'value': -4.443288644154866}
+geo_shared3_hop3 cal {'step': 300, 'validation': {'cophy': -1.8676495552062988, 'causalworld': -6.484482765197754, 'pusht': -6.5670647621154785}, 'value': -4.973065694173177}
+geo_shared3_hop3 cal {'step': 450, 'validation': {'cophy': -1.94881272315979, 'causalworld': -6.65234375, 'pusht': -6.881771087646484}, 'value': -5.160975853602092}
+geo_shared3_hop3 cal {'step': 600, 'validation': {'cophy': -1.994734287261963, 'causalworld': -6.71165132522583, 'pusht': -6.968907833099365}, 'value': -5.22509781519572}
+geo_shared3_hop3 cal {'step': 750, 'validation': {'cophy': -2.025963306427002, 'causalworld': -6.7250776290893555, 'pusht': -7.107845306396484}, 'value': -5.286295413970947}
+geo_shared3_hop3 cal {'step': 900, 'validation': {'cophy': -2.0277435779571533, 'causalworld': -6.719389915466309, 'pusht': -7.331369400024414}, 'value': -5.359500964482625}
+geo_shared3_hop3 cal {'step': 1050, 'validation': {'cophy': -2.1274893283843994, 'causalworld': -6.964353084564209, 'pusht': -7.50528621673584}, 'value': -5.532376209894816}
+geo_shared3_hop3 cal {'step': 1200, 'validation': {'cophy': -2.130131721496582, 'causalworld': -7.008831977844238, 'pusht': -7.59860897064209}, 'value': -5.579190889994304}
